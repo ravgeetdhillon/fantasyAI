@@ -1,6 +1,9 @@
 import json
 import variables
+import os
 
+os.system("venv\\Scripts\\python.exe data_cleaner.py")
+os.system("venv\\Scripts\\python.exe data_maker.py")
 
 next_event = variables.next_event()
 
@@ -44,18 +47,24 @@ def getEstimatedPoints(team):
     return points
 
 
+# gets team's cost
+def getTeamCost(team):
+    cost = 0
+    for player in team:
+        cost += player['seasons'][0]['now_cost']
+    return round(cost, 2)
+
+
 # gets the formation of the team
 def getFormation(team):
-    formation = [0, 0, 0, 0]
+    formation = [0, 0, 0]
     for player in team:
-        if player['position'] == 'Goalkeeper':
-            formation[0] += 1
         if player['position'] == 'Defender':
-            formation[1] += 1
+            formation[0] += 1
         if player['position'] == 'Midfielder':
-            formation[2] += 1
+            formation[1] += 1
         if player['position'] == 'Forward':
-            formation[3] += 1
+            formation[2] += 1
     
     formation = [str(x) for x in formation]
     return '-'.join(formation)
@@ -133,6 +142,8 @@ for formation in formations:
 
 
 with open('final_results.txt', 'w', encoding='UTF-8') as f:
+    f.write(f'Team\'s Budget:\n{variables.budget()}\n\n')
+    f.write(f'Team\'s Cost:\n{getTeamCost(final_team)}\n\n')
     f.write(f'Estimated_points:\n{round(max_points/(next_event-1))}\n\n')
     f.write('Final Team:')
     f.write(f'\n{str(displayTeam(final_team))}')
