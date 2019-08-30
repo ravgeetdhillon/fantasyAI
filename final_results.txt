@@ -1,0 +1,14 @@
+Estimated_points:
+78
+
+Final Team:
+teemu pukki, raheem sterling, ashley barnes, mason mount, sergio agüero, todd cantwell, james maddison, lucas digne, trent alexander-arnold, john lundstram, andrew robertson, john mcginn, erik pieters, rui pedro dos santos patrício, nick pope
+
+Playing Team:
+teemu pukki, raheem sterling, ashley barnes, mason mount, sergio agüero, todd cantwell, james maddison, lucas digne, trent alexander-arnold, john lundstram, rui pedro dos santos patrício
+
+Captain:
+teemu pukki
+
+Formation:
+1-3-4-3

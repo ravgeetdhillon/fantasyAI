@@ -2,6 +2,8 @@ import json
 import variables
 
 
+next_event = variables.next_event()
+
 # files
 with open('data/teams_cleaned.json', 'r') as f:
     teams = json.load(f)
@@ -27,9 +29,11 @@ def get_team_sortedby(sort_method):
 
 
 # gets the team setup
-def displayTeam(team, budget):
+def displayTeam(team):
+    final = []
     for player in team:
-        print(player["full_name"], end=', ')
+        final.append(player['full_name'])
+    return ', '.join(final)
 
 
 # gets estimated total_points based on the previous history of players
@@ -54,7 +58,7 @@ def getFormation(team):
             formation[3] += 1
     
     formation = [str(x) for x in formation]
-    print('-'.join(formation))
+    return '-'.join(formation)
 
 
 # get a team based on a particular sorting method
@@ -121,14 +125,18 @@ for formation in formations:
             formation[player['position']] -= 1
 
     points = getEstimatedPoints(playing_team)
-    print(max_points)
+
     if points > max_points:
         max_points = points
         prefered_formation = formation
         final_playing_team = playing_team
 
-displayTeam(final_team, 0)
 
-print(max_points)
-displayTeam(final_playing_team, 0)
-getFormation(final_playing_team)
+with open('final_results.txt', 'w', encoding='UTF-8') as f:
+    f.write(f'Estimated_points:\n{round(max_points/(next_event-1))}\n\n')
+    f.write('Final Team:')
+    f.write(f'\n{str(displayTeam(final_team))}')
+    f.write('\n\nPlaying Team:')
+    f.write(f'\n{str(displayTeam(final_playing_team))}')
+    f.write(f'\n\nCaptain:\n{final_playing_team[0]["full_name"]}')
+    f.write(f'\n\nFormation:\n{getFormation(final_playing_team)}')
