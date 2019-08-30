@@ -1,0 +1,24 @@
+{
+  "2019-20": {
+    "all_players_value_season": 420.8999999999993,
+    "all_players_bps": 10780,
+    "all_players_threat": 9955,
+    "all_players_creativity": 8890.400000000001,
+    "total_players": 333,
+    "avg_value_season_per_player": 1.263963963963962,
+    "avg_bps_per_player": 32.372372372372375,
+    "avg_threat_per_player": 29.894894894894893,
+    "avg_creativity_per_player": 26.697897897897903
+  },
+  "2018-19": {
+    "all_players_value_season": 3796.3999999999996,
+    "all_players_bps": 94038,
+    "all_players_threat": 86615.0,
+    "all_players_creativity": 77609.40000000001,
+    "total_players": 505,
+    "avg_value_season_per_player": 7.517623762376237,
+    "avg_bps_per_player": 186.2138613861386,
+    "avg_threat_per_player": 171.5148514851485,
+    "avg_creativity_per_player": 153.68198019801983
+  }
+}
