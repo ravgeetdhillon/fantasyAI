@@ -1,20 +1,26 @@
 Team's Budget:
-99.4
+99.6
 
 Team's Cost:
-99.3
+97.5
 
 Estimated_points:
-78
+75
 
 Final Team:
-teemu pukki, raheem sterling, ashley barnes, mason mount, sergio agüero, todd cantwell, james maddison, lucas digne, trent alexander-arnold, john lundstram, andrew robertson, john mcginn, erik pieters, rui pedro dos santos patrício, nick pope
+Goalkeeper: rui pedro dos santos patrício, nick pope
+Defender: lucas digne, trent alexander-arnold, john lundstram, andrew robertson, erik pieters
+Midfielder: raheem sterling, mason mount, todd cantwell, james maddison, john mcginn
+Forward: teemu pukki, ashley barnes, roberto firmino
+
+Formation:
+3-5-2
 
 Playing Team:
-teemu pukki, raheem sterling, ashley barnes, mason mount, sergio agüero, todd cantwell, james maddison, lucas digne, trent alexander-arnold, john lundstram, rui pedro dos santos patrício
+Goalkeeper: rui pedro dos santos patrício
+Defender: lucas digne, trent alexander-arnold, john lundstram
+Midfielder: raheem sterling, mason mount, todd cantwell, james maddison, john mcginn
+Forward: teemu pukki, ashley barnes
 
 Captain:
 teemu pukki
-
-Formation:
-3-4-3
