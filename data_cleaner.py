@@ -2,15 +2,17 @@ import pandas
 import json
 import variables
 
+
 # variables
 next_event = variables.next_event()
 all_seasons = variables.all_seasons()
+
 
 # gets the clean data for the given season
 def get_data(season):
 	df = pandas.read_csv(f'raw_data/{season}/players_raw.csv')
 
-	headers = ['first_name', 'second_name', 'minutes', 'total_points', 'points_per_game', 'team', 'element_type', 'now_cost', 'bps', 'creativity', 'threat', 'value_season']
+	headers = ['first_name', 'second_name', 'minutes', 'total_points', 'points_per_game', 'team', 'element_type', 'now_cost', 'status']
 	data = df[headers]
 	total_players = len(data)
 	players = []
@@ -26,7 +28,7 @@ def get_data(season):
 		player_name = player['first_name'] + ' ' +  player['second_name']
 		player['full_name'] = player_name.lower()
 		
-		stats_headers = ['minutes', 'total_points', 'points_per_game', 'now_cost', 'bps', 'creativity', 'threat', 'value_season']
+		stats_headers = ['minutes', 'total_points', 'points_per_game', 'now_cost']
 		player_season_stats = {"season": season}
 		for header in stats_headers:
 			player_season_stats[header] = player[header]
@@ -45,6 +47,7 @@ def get_data(season):
 # players data for all the seasons
 for season in all_seasons:
 	get_data(season)
+
 
 # update players data for season 2019-20
 with open('data/2019-20_players_cleaned.json', 'r') as f:
@@ -82,6 +85,9 @@ for i in range(total_fixtures):
 			fixture[header] = data[header][i]
 	fixtures.append(fixture)
 
+# only retain the upcoming fixtures
+fixtures = [fixture for fixture in fixtures if fixture['event'] >= next_event]
+
 with open('data/fixtures_cleaned.json', 'w', encoding='utf-8') as f:
     json.dump(fixtures, f, ensure_ascii=True, indent=2)
 
@@ -102,13 +108,3 @@ for i in range(total_teams):
 		except:
 			team[header] = data[header][i]
 	teams.append(team)
-
-for fixture in fixtures:
-	if fixture['event'] == next_event:
-		teams[fixture['team_a'] - 1]['fixture_difficulty'] = fixture['team_a_difficulty']
-		teams[fixture['team_h'] - 1]['fixture_difficulty'] = fixture['team_h_difficulty']
-	elif fixture['event'] > next_event:
-		break
-
-with open('data/teams_cleaned.json', 'w', encoding='utf-8') as f:
-    json.dump(teams, f, ensure_ascii=True, indent=2)

@@ -4,6 +4,7 @@
     "second_name": "Kolasinac",
     "team": 1,
     "element_type": 2,
+    "status": "a",
     "full_name": "sead kolasinac",
     "seasons": [
       {
@@ -11,11 +12,7 @@
         "minutes": 19,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 2,
-        "creativity": 0.3,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -24,6 +21,7 @@
     "second_name": "Maitland-Niles",
     "team": 1,
     "element_type": 2,
+    "status": "a",
     "full_name": "ainsley maitland-niles",
     "seasons": [
       {
@@ -31,11 +29,7 @@
         "minutes": 270,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 51,
-        "bps": 62,
-        "creativity": 41.7,
-        "threat": 7.0,
-        "value_season": 2.9
+        "now_cost": 51
       }
     ]
   },
@@ -44,6 +38,7 @@
     "second_name": "Papastathopoulos",
     "team": 1,
     "element_type": 2,
+    "status": "a",
     "full_name": "sokratis papastathopoulos",
     "seasons": [
       {
@@ -51,11 +46,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 50,
-        "bps": 64,
-        "creativity": 12.1,
-        "threat": 2.0,
-        "value_season": 2.2
+        "now_cost": 50
       }
     ]
   },
@@ -64,6 +55,7 @@
     "second_name": "Monreal",
     "team": 1,
     "element_type": 2,
+    "status": "a",
     "full_name": "nacho monreal",
     "seasons": [
       {
@@ -71,11 +63,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 50,
-        "bps": 54,
-        "creativity": 40.8,
-        "threat": 12.0,
-        "value_season": 2.0
+        "now_cost": 50
       }
     ]
   },
@@ -84,6 +72,7 @@
     "second_name": "Aubameyang",
     "team": 1,
     "element_type": 4,
+    "status": "a",
     "full_name": "pierre-emerick aubameyang",
     "seasons": [
       {
@@ -91,11 +80,7 @@
         "minutes": 270,
         "total_points": 17,
         "points_per_game": 5.7,
-        "now_cost": 110,
-        "bps": 67,
-        "creativity": 50.7,
-        "threat": 162.0,
-        "value_season": 1.5
+        "now_cost": 110
       }
     ]
   },
@@ -104,6 +89,7 @@
     "second_name": "Lacazette",
     "team": 1,
     "element_type": 4,
+    "status": "a",
     "full_name": "alexandre lacazette",
     "seasons": [
       {
@@ -111,11 +97,7 @@
         "minutes": 79,
         "total_points": 9,
         "points_per_game": 4.5,
-        "now_cost": 95,
-        "bps": 27,
-        "creativity": 12.3,
-        "threat": 60.0,
-        "value_season": 0.9
+        "now_cost": 95
       }
     ]
   },
@@ -124,6 +106,7 @@
     "second_name": "Leno",
     "team": 1,
     "element_type": 1,
+    "status": "a",
     "full_name": "bernd leno",
     "seasons": [
       {
@@ -131,11 +114,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 50,
-        "bps": 55,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.2
+        "now_cost": 50
       }
     ]
   },
@@ -144,6 +123,7 @@
     "second_name": "Mkhitaryan",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "henrikh mkhitaryan",
     "seasons": [
       {
@@ -151,11 +131,7 @@
         "minutes": 87,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 69,
-        "bps": 3,
-        "creativity": 20.9,
-        "threat": 22.0,
-        "value_season": 0.4
+        "now_cost": 69
       }
     ]
   },
@@ -164,6 +140,7 @@
     "second_name": "Xhaka",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "granit xhaka",
     "seasons": [
       {
@@ -171,11 +148,7 @@
         "minutes": 180,
         "total_points": 4,
         "points_per_game": 2.0,
-        "now_cost": 54,
-        "bps": 28,
-        "creativity": 26.4,
-        "threat": 5.0,
-        "value_season": 0.7
+        "now_cost": 54
       }
     ]
   },
@@ -184,6 +157,7 @@
     "second_name": "Torreira",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "lucas torreira",
     "seasons": [
       {
@@ -191,11 +165,7 @@
         "minutes": 36,
         "total_points": 7,
         "points_per_game": 3.5,
-        "now_cost": 49,
-        "bps": 23,
-        "creativity": 15.1,
-        "threat": 36.0,
-        "value_season": 1.4
+        "now_cost": 49
       }
     ]
   },
@@ -204,6 +174,7 @@
     "second_name": "Guendouzi",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "matteo guendouzi",
     "seasons": [
       {
@@ -211,11 +182,7 @@
         "minutes": 265,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 45,
-        "bps": 42,
-        "creativity": 19.7,
-        "threat": 17.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -224,6 +191,7 @@
     "second_name": "Luiz Moreira Marinho",
     "team": 1,
     "element_type": 2,
+    "status": "a",
     "full_name": "david luiz moreira marinho",
     "seasons": [
       {
@@ -231,11 +199,7 @@
         "minutes": 180,
         "total_points": 1,
         "points_per_game": 0.5,
-        "now_cost": 59,
-        "bps": 23,
-        "creativity": 4.8,
-        "threat": 1.0,
-        "value_season": 0.2
+        "now_cost": 59
       }
     ]
   },
@@ -244,6 +208,7 @@
     "second_name": "Chambers",
     "team": 1,
     "element_type": 2,
+    "status": "a",
     "full_name": "calum chambers",
     "seasons": [
       {
@@ -251,11 +216,7 @@
         "minutes": 90,
         "total_points": 6,
         "points_per_game": 6.0,
-        "now_cost": 45,
-        "bps": 26,
-        "creativity": 0.2,
-        "threat": 0.0,
-        "value_season": 1.3
+        "now_cost": 45
       }
     ]
   },
@@ -264,6 +225,7 @@
     "second_name": "Ceballos Fern\u00e1ndez",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "daniel ceballos fern\u00e1ndez",
     "seasons": [
       {
@@ -271,11 +233,7 @@
         "minutes": 168,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 57,
-        "bps": 44,
-        "creativity": 52.6,
-        "threat": 20.0,
-        "value_season": 2.5
+        "now_cost": 57
       }
     ]
   },
@@ -284,6 +242,7 @@
     "second_name": "P\u00e9p\u00e9",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "nicolas p\u00e9p\u00e9",
     "seasons": [
       {
@@ -291,11 +250,7 @@
         "minutes": 154,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 94,
-        "bps": 10,
-        "creativity": 45.6,
-        "threat": 48.0,
-        "value_season": 0.4
+        "now_cost": 94
       }
     ]
   },
@@ -304,6 +259,7 @@
     "second_name": "Nelson",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "reiss nelson",
     "seasons": [
       {
@@ -311,11 +267,7 @@
         "minutes": 115,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 55,
-        "bps": 9,
-        "creativity": 41.1,
-        "threat": 41.0,
-        "value_season": 0.5
+        "now_cost": 55
       }
     ]
   },
@@ -324,6 +276,7 @@
     "second_name": "Willock",
     "team": 1,
     "element_type": 3,
+    "status": "a",
     "full_name": "joseph willock",
     "seasons": [
       {
@@ -331,11 +284,7 @@
         "minutes": 233,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 50,
-        "bps": 33,
-        "creativity": 45.9,
-        "threat": 30.0,
-        "value_season": 1.4
+        "now_cost": 50
       }
     ]
   },
@@ -344,6 +293,7 @@
     "second_name": "Martinelli Silva",
     "team": 1,
     "element_type": 4,
+    "status": "a",
     "full_name": "gabriel teodoro martinelli silva",
     "seasons": [
       {
@@ -351,11 +301,7 @@
         "minutes": 6,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 2,
-        "creativity": 0.5,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -364,6 +310,7 @@
     "second_name": "El Mohamady",
     "team": 2,
     "element_type": 2,
+    "status": "a",
     "full_name": "ahmed el mohamady",
     "seasons": [
       {
@@ -371,11 +318,7 @@
         "minutes": 184,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 45,
-        "bps": 47,
-        "creativity": 71.9,
-        "threat": 2.0,
-        "value_season": 1.3
+        "now_cost": 45
       }
     ]
   },
@@ -384,6 +327,7 @@
     "second_name": "Taylor",
     "team": 2,
     "element_type": 2,
+    "status": "a",
     "full_name": "neil taylor",
     "seasons": [
       {
@@ -391,11 +335,7 @@
         "minutes": 270,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 45,
-        "bps": 49,
-        "creativity": 18.8,
-        "threat": 26.0,
-        "value_season": 1.8
+        "now_cost": 45
       }
     ]
   },
@@ -404,6 +344,7 @@
     "second_name": "Kodjia",
     "team": 2,
     "element_type": 4,
+    "status": "d",
     "full_name": "jonathan kodjia",
     "seasons": [
       {
@@ -411,11 +352,7 @@
         "minutes": 16,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 4,
-        "creativity": 0.0,
-        "threat": 2.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -424,6 +361,7 @@
     "second_name": "Hourihane",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "conor hourihane",
     "seasons": [
       {
@@ -431,11 +369,7 @@
         "minutes": 81,
         "total_points": 2,
         "points_per_game": 2.0,
-        "now_cost": 58,
-        "bps": 12,
-        "creativity": 10.8,
-        "threat": 0.0,
-        "value_season": 0.3
+        "now_cost": 58
       }
     ]
   },
@@ -444,6 +378,7 @@
     "second_name": "Grealish",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "jack grealish",
     "seasons": [
       {
@@ -451,11 +386,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 60,
-        "bps": 62,
-        "creativity": 105.6,
-        "threat": 22.0,
-        "value_season": 1.8
+        "now_cost": 60
       }
     ]
   },
@@ -464,6 +395,7 @@
     "second_name": "El Ghazi",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "anwar el ghazi",
     "seasons": [
       {
@@ -471,11 +403,7 @@
         "minutes": 177,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 55,
-        "bps": 23,
-        "creativity": 16.9,
-        "threat": 125.0,
-        "value_season": 1.8
+        "now_cost": 55
       }
     ]
   },
@@ -484,6 +412,7 @@
     "second_name": "McGinn",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "john mcginn",
     "seasons": [
       {
@@ -491,11 +420,7 @@
         "minutes": 270,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 56,
-        "bps": 49,
-        "creativity": 60.6,
-        "threat": 71.0,
-        "value_season": 2.7
+        "now_cost": 56
       }
     ]
   },
@@ -504,6 +429,7 @@
     "second_name": "Davis",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "keinan davis",
     "seasons": [
       {
@@ -511,11 +437,7 @@
         "minutes": 3,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 2,
-        "creativity": 0.3,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -524,6 +446,7 @@
     "second_name": "Peleteiro Romallo",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "jos\u00e9 ignacio peleteiro romallo",
     "seasons": [
       {
@@ -531,11 +454,7 @@
         "minutes": 122,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 59,
-        "bps": 26,
-        "creativity": 40.9,
-        "threat": 9.0,
-        "value_season": 1.4
+        "now_cost": 59
       }
     ]
   },
@@ -544,6 +463,7 @@
     "second_name": "Heaton",
     "team": 2,
     "element_type": 1,
+    "status": "a",
     "full_name": "tom heaton",
     "seasons": [
       {
@@ -551,11 +471,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 45,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -564,6 +480,7 @@
     "second_name": "Moraes",
     "team": 2,
     "element_type": 4,
+    "status": "a",
     "full_name": "wesley moraes",
     "seasons": [
       {
@@ -571,11 +488,7 @@
         "minutes": 253,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 60,
-        "bps": 36,
-        "creativity": 35.3,
-        "threat": 85.0,
-        "value_season": 2.2
+        "now_cost": 60
       }
     ]
   },
@@ -584,6 +497,7 @@
     "second_name": "Mings",
     "team": 2,
     "element_type": 2,
+    "status": "a",
     "full_name": "tyrone mings",
     "seasons": [
       {
@@ -591,11 +505,7 @@
         "minutes": 270,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 45,
-        "bps": 73,
-        "creativity": 24.4,
-        "threat": 6.0,
-        "value_season": 3.1
+        "now_cost": 45
       }
     ]
   },
@@ -604,6 +514,7 @@
     "second_name": "Engels",
     "team": 2,
     "element_type": 2,
+    "status": "a",
     "full_name": "bjorn engels",
     "seasons": [
       {
@@ -611,11 +522,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 45,
-        "bps": 52,
-        "creativity": 0.9,
-        "threat": 11.0,
-        "value_season": 2.4
+        "now_cost": 45
       }
     ]
   },
@@ -624,6 +531,7 @@
     "second_name": "Guilbert",
     "team": 2,
     "element_type": 2,
+    "status": "a",
     "full_name": "fr\u00e9d\u00e9ric guilbert",
     "seasons": [
       {
@@ -631,11 +539,7 @@
         "minutes": 90,
         "total_points": 5,
         "points_per_game": 5.0,
-        "now_cost": 44,
-        "bps": 18,
-        "creativity": 1.1,
-        "threat": 3.0,
-        "value_season": 1.1
+        "now_cost": 44
       }
     ]
   },
@@ -644,6 +548,7 @@
     "second_name": "Ibrahim Hassan",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "mahmoud ahmed ibrahim hassan",
     "seasons": [
       {
@@ -651,11 +556,7 @@
         "minutes": 229,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 54,
-        "bps": 2,
-        "creativity": 33.5,
-        "threat": 100.0,
-        "value_season": 0.9
+        "now_cost": 54
       }
     ]
   },
@@ -664,6 +565,7 @@
     "second_name": "Soares de Paulo",
     "team": 2,
     "element_type": 3,
+    "status": "a",
     "full_name": "douglas luiz soares de paulo",
     "seasons": [
       {
@@ -671,11 +573,7 @@
         "minutes": 188,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 46,
-        "bps": 42,
-        "creativity": 24.2,
-        "threat": 15.0,
-        "value_season": 2.9
+        "now_cost": 46
       }
     ]
   },
@@ -684,6 +582,7 @@
     "second_name": "Cook",
     "team": 3,
     "element_type": 2,
+    "status": "a",
     "full_name": "steve cook",
     "seasons": [
       {
@@ -691,11 +590,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 50,
-        "bps": 36,
-        "creativity": 10.9,
-        "threat": 4.0,
-        "value_season": 1.0
+        "now_cost": 50
       }
     ]
   },
@@ -704,6 +599,7 @@
     "second_name": "Ak\u00e9",
     "team": 3,
     "element_type": 2,
+    "status": "a",
     "full_name": "nathan ak\u00e9",
     "seasons": [
       {
@@ -711,11 +607,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 49,
-        "bps": 42,
-        "creativity": 21.9,
-        "threat": 63.0,
-        "value_season": 0.8
+        "now_cost": 49
       }
     ]
   },
@@ -724,6 +616,7 @@
     "second_name": "Daniels",
     "team": 3,
     "element_type": 2,
+    "status": "i",
     "full_name": "charlie daniels",
     "seasons": [
       {
@@ -731,11 +624,7 @@
         "minutes": 126,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 45,
-        "bps": 18,
-        "creativity": 29.6,
-        "threat": 0.0,
-        "value_season": 0.7
+        "now_cost": 45
       }
     ]
   },
@@ -744,6 +633,7 @@
     "second_name": "Mepham",
     "team": 3,
     "element_type": 2,
+    "status": "a",
     "full_name": "chris mepham",
     "seasons": [
       {
@@ -751,11 +641,7 @@
         "minutes": 180,
         "total_points": 11,
         "points_per_game": 5.5,
-        "now_cost": 45,
-        "bps": 37,
-        "creativity": 2.1,
-        "threat": 70.0,
-        "value_season": 2.4
+        "now_cost": 45
       }
     ]
   },
@@ -764,6 +650,7 @@
     "second_name": "Smith",
     "team": 3,
     "element_type": 2,
+    "status": "a",
     "full_name": "adam smith",
     "seasons": [
       {
@@ -771,11 +658,7 @@
         "minutes": 247,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 45,
-        "bps": 27,
-        "creativity": 8.7,
-        "threat": 41.0,
-        "value_season": 0.9
+        "now_cost": 45
       }
     ]
   },
@@ -784,6 +667,7 @@
     "second_name": "Rico",
     "team": 3,
     "element_type": 2,
+    "status": "a",
     "full_name": "diego rico",
     "seasons": [
       {
@@ -791,11 +675,7 @@
         "minutes": 90,
         "total_points": 2,
         "points_per_game": 2.0,
-        "now_cost": 40,
-        "bps": 13,
-        "creativity": 16.6,
-        "threat": 3.0,
-        "value_season": 0.5
+        "now_cost": 40
       }
     ]
   },
@@ -804,6 +684,7 @@
     "second_name": "Wilson",
     "team": 3,
     "element_type": 4,
+    "status": "a",
     "full_name": "callum wilson",
     "seasons": [
       {
@@ -811,11 +692,7 @@
         "minutes": 247,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 79,
-        "bps": 37,
-        "creativity": 74.9,
-        "threat": 80.0,
-        "value_season": 1.9
+        "now_cost": 79
       }
     ]
   },
@@ -824,6 +701,7 @@
     "second_name": "King",
     "team": 3,
     "element_type": 4,
+    "status": "a",
     "full_name": "joshua king",
     "seasons": [
       {
@@ -831,11 +709,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 64,
-        "bps": 30,
-        "creativity": 29.1,
-        "threat": 65.0,
-        "value_season": 1.6
+        "now_cost": 64
       }
     ]
   },
@@ -844,6 +718,7 @@
     "second_name": "Solanke",
     "team": 3,
     "element_type": 4,
+    "status": "a",
     "full_name": "dominic solanke",
     "seasons": [
       {
@@ -851,11 +726,7 @@
         "minutes": 36,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 9,
-        "creativity": 10.8,
-        "threat": 56.0,
-        "value_season": 0.6
+        "now_cost": 54
       }
     ]
   },
@@ -864,6 +735,7 @@
     "second_name": "Fraser",
     "team": 3,
     "element_type": 3,
+    "status": "a",
     "full_name": "ryan fraser",
     "seasons": [
       {
@@ -871,11 +743,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 73,
-        "bps": 14,
-        "creativity": 58.1,
-        "threat": 40.0,
-        "value_season": 0.7
+        "now_cost": 73
       }
     ]
   },
@@ -884,6 +752,7 @@
     "second_name": "Ibe",
     "team": 3,
     "element_type": 3,
+    "status": "a",
     "full_name": "jordon ibe",
     "seasons": [
       {
@@ -891,11 +760,7 @@
         "minutes": 22,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 49,
-        "bps": 3,
-        "creativity": 0.3,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 49
       }
     ]
   },
@@ -904,6 +769,7 @@
     "second_name": "Surman",
     "team": 3,
     "element_type": 3,
+    "status": "a",
     "full_name": "andrew surman",
     "seasons": [
       {
@@ -911,11 +777,7 @@
         "minutes": 45,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 49,
-        "bps": 3,
-        "creativity": 1.4,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 49
       }
     ]
   },
@@ -924,6 +786,7 @@
     "second_name": "Lerma",
     "team": 3,
     "element_type": 3,
+    "status": "a",
     "full_name": "jefferson lerma",
     "seasons": [
       {
@@ -931,11 +794,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 50,
-        "bps": 31,
-        "creativity": 7.3,
-        "threat": 9.0,
-        "value_season": 1.0
+        "now_cost": 50
       }
     ]
   },
@@ -944,6 +803,7 @@
     "second_name": "Billing",
     "team": 3,
     "element_type": 3,
+    "status": "a",
     "full_name": "philip billing",
     "seasons": [
       {
@@ -951,11 +811,7 @@
         "minutes": 225,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 50,
-        "bps": 28,
-        "creativity": 26.9,
-        "threat": 13.0,
-        "value_season": 0.8
+        "now_cost": 50
       }
     ]
   },
@@ -964,6 +820,7 @@
     "second_name": "Ramsdale",
     "team": 3,
     "element_type": 1,
+    "status": "a",
     "full_name": "aaron ramsdale",
     "seasons": [
       {
@@ -971,11 +828,7 @@
         "minutes": 270,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 45,
-        "bps": 47,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -984,6 +837,7 @@
     "second_name": "Wilson",
     "team": 3,
     "element_type": 3,
+    "status": "a",
     "full_name": "harry wilson",
     "seasons": [
       {
@@ -991,11 +845,7 @@
         "minutes": 128,
         "total_points": 14,
         "points_per_game": 7.0,
-        "now_cost": 60,
-        "bps": 54,
-        "creativity": 32.0,
-        "threat": 65.0,
-        "value_season": 2.3
+        "now_cost": 60
       }
     ]
   },
@@ -1004,6 +854,7 @@
     "second_name": "Duffy",
     "team": 4,
     "element_type": 2,
+    "status": "a",
     "full_name": "shane duffy",
     "seasons": [
       {
@@ -1011,11 +862,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 50,
-        "bps": 52,
-        "creativity": 1.2,
-        "threat": 11.0,
-        "value_season": 1.8
+        "now_cost": 50
       }
     ]
   },
@@ -1024,6 +871,7 @@
     "second_name": "Montoya",
     "team": 4,
     "element_type": 2,
+    "status": "a",
     "full_name": "mart\u00edn montoya",
     "seasons": [
       {
@@ -1031,11 +879,7 @@
         "minutes": 270,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 45,
-        "bps": 40,
-        "creativity": 40.4,
-        "threat": 14.0,
-        "value_season": 1.8
+        "now_cost": 45
       }
     ]
   },
@@ -1044,6 +888,7 @@
     "second_name": "Fernandes da Silva Junior",
     "team": 4,
     "element_type": 2,
+    "status": "a",
     "full_name": "bernardo fernandes da silva junior",
     "seasons": [
       {
@@ -1051,11 +896,7 @@
         "minutes": 1,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 3,
-        "creativity": 0.4,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -1064,6 +905,7 @@
     "second_name": "Dunk",
     "team": 4,
     "element_type": 2,
+    "status": "a",
     "full_name": "lewis dunk",
     "seasons": [
       {
@@ -1071,11 +913,7 @@
         "minutes": 270,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 46,
-        "bps": 76,
-        "creativity": 14.6,
-        "threat": 8.0,
-        "value_season": 3.3
+        "now_cost": 46
       }
     ]
   },
@@ -1084,6 +922,7 @@
     "second_name": "Murray",
     "team": 4,
     "element_type": 4,
+    "status": "a",
     "full_name": "glenn murray",
     "seasons": [
       {
@@ -1091,11 +930,7 @@
         "minutes": 152,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 59,
-        "bps": 9,
-        "creativity": 26.7,
-        "threat": 16.0,
-        "value_season": 0.8
+        "now_cost": 59
       }
     ]
   },
@@ -1104,6 +939,7 @@
     "second_name": "Locadia",
     "team": 4,
     "element_type": 4,
+    "status": "n",
     "full_name": "j\u00fcrgen locadia",
     "seasons": [
       {
@@ -1111,11 +947,7 @@
         "minutes": 85,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 54,
-        "bps": 5,
-        "creativity": 1.3,
-        "threat": 30.0,
-        "value_season": 0.6
+        "now_cost": 54
       }
     ]
   },
@@ -1124,6 +956,7 @@
     "second_name": "Andone",
     "team": 4,
     "element_type": 4,
+    "status": "s",
     "full_name": "florin andone",
     "seasons": [
       {
@@ -1131,11 +964,7 @@
         "minutes": 71,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 50,
-        "bps": 20,
-        "creativity": 11.3,
-        "threat": 21.0,
-        "value_season": 1.0
+        "now_cost": 50
       }
     ]
   },
@@ -1144,6 +973,7 @@
     "second_name": "Ryan",
     "team": 4,
     "element_type": 1,
+    "status": "a",
     "full_name": "mathew ryan",
     "seasons": [
       {
@@ -1151,11 +981,7 @@
         "minutes": 270,
         "total_points": 12,
         "points_per_game": 4.0,
-        "now_cost": 46,
-        "bps": 54,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.6
+        "now_cost": 46
       }
     ]
   },
@@ -1164,6 +990,7 @@
     "second_name": "Gro\u00df",
     "team": 4,
     "element_type": 3,
+    "status": "a",
     "full_name": "pascal gro\u00df",
     "seasons": [
       {
@@ -1171,11 +998,7 @@
         "minutes": 168,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 65,
-        "bps": 41,
-        "creativity": 98.5,
-        "threat": 31.0,
-        "value_season": 1.5
+        "now_cost": 65
       }
     ]
   },
@@ -1184,6 +1007,7 @@
     "second_name": "Pr\u00f6pper",
     "team": 4,
     "element_type": 3,
+    "status": "a",
     "full_name": "davy pr\u00f6pper",
     "seasons": [
       {
@@ -1191,11 +1015,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 50,
-        "bps": 42,
-        "creativity": 32.1,
-        "threat": 28.0,
-        "value_season": 2.0
+        "now_cost": 50
       }
     ]
   },
@@ -1204,6 +1024,7 @@
     "second_name": "March",
     "team": 4,
     "element_type": 3,
+    "status": "a",
     "full_name": "solomon march",
     "seasons": [
       {
@@ -1211,11 +1032,7 @@
         "minutes": 247,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 50,
-        "bps": 41,
-        "creativity": 57.5,
-        "threat": 46.0,
-        "value_season": 1.4
+        "now_cost": 50
       }
     ]
   },
@@ -1224,6 +1041,7 @@
     "second_name": "Stephens",
     "team": 4,
     "element_type": 3,
+    "status": "a",
     "full_name": "dale stephens",
     "seasons": [
       {
@@ -1231,11 +1049,7 @@
         "minutes": 257,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 45,
-        "bps": 45,
-        "creativity": 17.2,
-        "threat": 15.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -1244,6 +1058,7 @@
     "second_name": "Trossard",
     "team": 4,
     "element_type": 3,
+    "status": "a",
     "full_name": "leandro trossard",
     "seasons": [
       {
@@ -1251,11 +1066,7 @@
         "minutes": 174,
         "total_points": 9,
         "points_per_game": 4.5,
-        "now_cost": 60,
-        "bps": 39,
-        "creativity": 83.3,
-        "threat": 52.0,
-        "value_season": 1.5
+        "now_cost": 60
       }
     ]
   },
@@ -1264,6 +1075,7 @@
     "second_name": "Burn",
     "team": 4,
     "element_type": 2,
+    "status": "a",
     "full_name": "dan burn",
     "seasons": [
       {
@@ -1271,11 +1083,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 42,
-        "creativity": 39.2,
-        "threat": 20.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -1284,6 +1092,7 @@
     "second_name": "Maupay",
     "team": 4,
     "element_type": 4,
+    "status": "a",
     "full_name": "neal maupay",
     "seasons": [
       {
@@ -1291,11 +1100,7 @@
         "minutes": 122,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 60,
-        "bps": 25,
-        "creativity": 19.4,
-        "threat": 126.0,
-        "value_season": 1.5
+        "now_cost": 60
       }
     ]
   },
@@ -1304,6 +1109,7 @@
     "second_name": "Mooy",
     "team": 4,
     "element_type": 3,
+    "status": "a",
     "full_name": "aaron mooy",
     "seasons": [
       {
@@ -1311,11 +1117,7 @@
         "minutes": 5,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 3,
-        "creativity": 0.5,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 50
       }
     ]
   },
@@ -1324,6 +1126,7 @@
     "second_name": "Mee",
     "team": 5,
     "element_type": 2,
+    "status": "a",
     "full_name": "ben mee",
     "seasons": [
       {
@@ -1331,11 +1134,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 50,
-        "bps": 48,
-        "creativity": 20.9,
-        "threat": 37.0,
-        "value_season": 1.8
+        "now_cost": 50
       }
     ]
   },
@@ -1344,6 +1143,7 @@
     "second_name": "Tarkowski",
     "team": 5,
     "element_type": 2,
+    "status": "a",
     "full_name": "james tarkowski",
     "seasons": [
       {
@@ -1351,11 +1151,7 @@
         "minutes": 270,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 50,
-        "bps": 45,
-        "creativity": 0.8,
-        "threat": 83.0,
-        "value_season": 1.6
+        "now_cost": 50
       }
     ]
   },
@@ -1364,6 +1160,7 @@
     "second_name": "Lowton",
     "team": 5,
     "element_type": 2,
+    "status": "a",
     "full_name": "matthew lowton",
     "seasons": [
       {
@@ -1371,11 +1168,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 48,
-        "creativity": 60.3,
-        "threat": 3.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -1384,6 +1177,7 @@
     "second_name": "Barnes",
     "team": 5,
     "element_type": 4,
+    "status": "a",
     "full_name": "ashley barnes",
     "seasons": [
       {
@@ -1391,11 +1185,7 @@
         "minutes": 250,
         "total_points": 25,
         "points_per_game": 8.3,
-        "now_cost": 67,
-        "bps": 103,
-        "creativity": 7.5,
-        "threat": 193.0,
-        "value_season": 3.8
+        "now_cost": 67
       }
     ]
   },
@@ -1404,6 +1194,7 @@
     "second_name": "Wood",
     "team": 5,
     "element_type": 4,
+    "status": "a",
     "full_name": "chris wood",
     "seasons": [
       {
@@ -1411,11 +1202,7 @@
         "minutes": 240,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 63,
-        "bps": 9,
-        "creativity": 27.3,
-        "threat": 81.0,
-        "value_season": 1.0
+        "now_cost": 63
       }
     ]
   },
@@ -1424,6 +1211,7 @@
     "second_name": "Pope",
     "team": 5,
     "element_type": 1,
+    "status": "a",
     "full_name": "nick pope",
     "seasons": [
       {
@@ -1431,11 +1219,7 @@
         "minutes": 270,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 45,
-        "bps": 66,
-        "creativity": 20.3,
-        "threat": 2.0,
-        "value_season": 2.9
+        "now_cost": 45
       }
     ]
   },
@@ -1444,6 +1228,7 @@
     "second_name": "Gudmundsson",
     "team": 5,
     "element_type": 3,
+    "status": "d",
     "full_name": "johann berg gudmundsson",
     "seasons": [
       {
@@ -1451,11 +1236,7 @@
         "minutes": 226,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 60,
-        "bps": 51,
-        "creativity": 107.4,
-        "threat": 46.0,
-        "value_season": 2.3
+        "now_cost": 60
       }
     ]
   },
@@ -1464,6 +1245,7 @@
     "second_name": "McNeil",
     "team": 5,
     "element_type": 3,
+    "status": "a",
     "full_name": "dwight mcneil",
     "seasons": [
       {
@@ -1471,11 +1253,7 @@
         "minutes": 258,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 60,
-        "bps": 50,
-        "creativity": 62.5,
-        "threat": 49.0,
-        "value_season": 2.3
+        "now_cost": 60
       }
     ]
   },
@@ -1484,6 +1262,7 @@
     "second_name": "Hendrick",
     "team": 5,
     "element_type": 3,
+    "status": "a",
     "full_name": "jeff hendrick",
     "seasons": [
       {
@@ -1491,11 +1270,7 @@
         "minutes": 4,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 2,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -1504,6 +1279,7 @@
     "second_name": "Westwood",
     "team": 5,
     "element_type": 3,
+    "status": "a",
     "full_name": "ashley westwood",
     "seasons": [
       {
@@ -1511,11 +1287,7 @@
         "minutes": 270,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 54,
-        "bps": 34,
-        "creativity": 64.4,
-        "threat": 5.0,
-        "value_season": 1.3
+        "now_cost": 54
       }
     ]
   },
@@ -1524,6 +1296,7 @@
     "second_name": "Cork",
     "team": 5,
     "element_type": 3,
+    "status": "a",
     "full_name": "jack cork",
     "seasons": [
       {
@@ -1531,11 +1304,7 @@
         "minutes": 270,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 50,
-        "bps": 27,
-        "creativity": 5.7,
-        "threat": 30.0,
-        "value_season": 1.4
+        "now_cost": 50
       }
     ]
   },
@@ -1544,6 +1313,7 @@
     "second_name": "Lennon",
     "team": 5,
     "element_type": 3,
+    "status": "a",
     "full_name": "aaron lennon",
     "seasons": [
       {
@@ -1551,11 +1321,7 @@
         "minutes": 48,
         "total_points": 2,
         "points_per_game": 0.7,
-        "now_cost": 49,
-        "bps": 8,
-        "creativity": 0.6,
-        "threat": 2.0,
-        "value_season": 0.4
+        "now_cost": 49
       }
     ]
   },
@@ -1564,6 +1330,7 @@
     "second_name": "Pieters",
     "team": 5,
     "element_type": 2,
+    "status": "a",
     "full_name": "erik pieters",
     "seasons": [
       {
@@ -1571,11 +1338,7 @@
         "minutes": 270,
         "total_points": 17,
         "points_per_game": 5.7,
-        "now_cost": 46,
-        "bps": 68,
-        "creativity": 41.7,
-        "threat": 3.0,
-        "value_season": 3.7
+        "now_cost": 46
       }
     ]
   },
@@ -1584,6 +1347,7 @@
     "second_name": "Rodriguez",
     "team": 5,
     "element_type": 4,
+    "status": "a",
     "full_name": "jay rodriguez",
     "seasons": [
       {
@@ -1591,11 +1355,7 @@
         "minutes": 47,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 58,
-        "bps": 7,
-        "creativity": 0.1,
-        "threat": 10.0,
-        "value_season": 0.5
+        "now_cost": 58
       }
     ]
   },
@@ -1604,6 +1364,7 @@
     "second_name": "Alonso",
     "team": 6,
     "element_type": 2,
+    "status": "a",
     "full_name": "marcos alonso",
     "seasons": [
       {
@@ -1611,11 +1372,7 @@
         "minutes": 1,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 63,
-        "bps": 2,
-        "creativity": 0.0,
-        "threat": 2.0,
-        "value_season": 0.2
+        "now_cost": 63
       }
     ]
   },
@@ -1624,6 +1381,7 @@
     "second_name": "Azpilicueta",
     "team": 6,
     "element_type": 2,
+    "status": "a",
     "full_name": "c\u00e9sar azpilicueta",
     "seasons": [
       {
@@ -1631,11 +1389,7 @@
         "minutes": 270,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 60,
-        "bps": 47,
-        "creativity": 69.3,
-        "threat": 27.0,
-        "value_season": 1.0
+        "now_cost": 60
       }
     ]
   },
@@ -1644,6 +1398,7 @@
     "second_name": "Palmieri dos Santos",
     "team": 6,
     "element_type": 2,
+    "status": "a",
     "full_name": "emerson palmieri dos santos",
     "seasons": [
       {
@@ -1651,11 +1406,7 @@
         "minutes": 270,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 55,
-        "bps": 56,
-        "creativity": 95.4,
-        "threat": 74.0,
-        "value_season": 0.5
+        "now_cost": 55
       }
     ]
   },
@@ -1664,6 +1415,7 @@
     "second_name": "Christensen",
     "team": 6,
     "element_type": 2,
+    "status": "a",
     "full_name": "andreas christensen",
     "seasons": [
       {
@@ -1671,11 +1423,7 @@
         "minutes": 270,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 44,
-        "creativity": 2.6,
-        "threat": 19.0,
-        "value_season": 0.6
+        "now_cost": 50
       }
     ]
   },
@@ -1684,6 +1432,7 @@
     "second_name": "Giroud",
     "team": 6,
     "element_type": 4,
+    "status": "a",
     "full_name": "olivier giroud",
     "seasons": [
       {
@@ -1691,11 +1440,7 @@
         "minutes": 100,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 69,
-        "bps": 13,
-        "creativity": 46.8,
-        "threat": 21.0,
-        "value_season": 0.6
+        "now_cost": 69
       }
     ]
   },
@@ -1704,6 +1449,7 @@
     "second_name": "Arrizabalaga",
     "team": 6,
     "element_type": 1,
+    "status": "a",
     "full_name": "kepa arrizabalaga",
     "seasons": [
       {
@@ -1711,11 +1457,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 55,
-        "bps": 41,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.7
+        "now_cost": 55
       }
     ]
   },
@@ -1724,6 +1466,7 @@
     "second_name": "Borges Da Silva",
     "team": 6,
     "element_type": 3,
+    "status": "a",
     "full_name": "willian borges da silva",
     "seasons": [
       {
@@ -1731,11 +1474,7 @@
         "minutes": 25,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 70,
-        "bps": 5,
-        "creativity": 1.3,
-        "threat": 8.0,
-        "value_season": 0.3
+        "now_cost": 70
       }
     ]
   },
@@ -1744,6 +1483,7 @@
     "second_name": "Rodr\u00edguez Ledesma",
     "team": 6,
     "element_type": 3,
+    "status": "i",
     "full_name": "pedro rodr\u00edguez ledesma",
     "seasons": [
       {
@@ -1751,11 +1491,7 @@
         "minutes": 180,
         "total_points": 4,
         "points_per_game": 2.0,
-        "now_cost": 70,
-        "bps": 26,
-        "creativity": 82.1,
-        "threat": 29.0,
-        "value_season": 0.6
+        "now_cost": 70
       }
     ]
   },
@@ -1764,6 +1500,7 @@
     "second_name": "Barkley",
     "team": 6,
     "element_type": 3,
+    "status": "a",
     "full_name": "ross barkley",
     "seasons": [
       {
@@ -1771,11 +1508,7 @@
         "minutes": 147,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 58,
-        "bps": 18,
-        "creativity": 74.4,
-        "threat": 69.0,
-        "value_season": 0.5
+        "now_cost": 58
       }
     ]
   },
@@ -1784,6 +1517,7 @@
     "second_name": "Frello Filho",
     "team": 6,
     "element_type": 3,
+    "status": "a",
     "full_name": "jorge luiz frello filho",
     "seasons": [
       {
@@ -1791,11 +1525,7 @@
         "minutes": 232,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 31,
-        "creativity": 22.9,
-        "threat": 19.0,
-        "value_season": 0.6
+        "now_cost": 50
       }
     ]
   },
@@ -1804,6 +1534,7 @@
     "second_name": "Kant\u00e9",
     "team": 6,
     "element_type": 3,
+    "status": "i",
     "full_name": "n'golo kant\u00e9",
     "seasons": [
       {
@@ -1811,11 +1542,7 @@
         "minutes": 107,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 7,
-        "creativity": 19.3,
-        "threat": 18.0,
-        "value_season": 0.4
+        "now_cost": 50
       }
     ]
   },
@@ -1824,6 +1551,7 @@
     "second_name": "Pulisic",
     "team": 6,
     "element_type": 3,
+    "status": "a",
     "full_name": "christian pulisic",
     "seasons": [
       {
@@ -1831,11 +1559,7 @@
         "minutes": 185,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 75,
-        "bps": 30,
-        "creativity": 51.7,
-        "threat": 50.0,
-        "value_season": 1.1
+        "now_cost": 75
       }
     ]
   },
@@ -1844,6 +1568,7 @@
     "second_name": "Kovacic",
     "team": 6,
     "element_type": 3,
+    "status": "a",
     "full_name": "mateo kovacic",
     "seasons": [
       {
@@ -1851,11 +1576,7 @@
         "minutes": 199,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 55,
-        "bps": 57,
-        "creativity": 55.9,
-        "threat": 20.0,
-        "value_season": 1.5
+        "now_cost": 55
       }
     ]
   },
@@ -1864,6 +1585,7 @@
     "second_name": "Zouma",
     "team": 6,
     "element_type": 2,
+    "status": "a",
     "full_name": "kurt zouma",
     "seasons": [
       {
@@ -1871,11 +1593,7 @@
         "minutes": 270,
         "total_points": 2,
         "points_per_game": 0.7,
-        "now_cost": 50,
-        "bps": 29,
-        "creativity": 2.6,
-        "threat": 27.0,
-        "value_season": 0.4
+        "now_cost": 50
       }
     ]
   },
@@ -1884,6 +1602,7 @@
     "second_name": "Abraham",
     "team": 6,
     "element_type": 4,
+    "status": "a",
     "full_name": "tammy abraham",
     "seasons": [
       {
@@ -1891,11 +1610,7 @@
         "minutes": 168,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 71,
-        "bps": 59,
-        "creativity": 24.9,
-        "threat": 77.0,
-        "value_season": 2.1
+        "now_cost": 71
       }
     ]
   },
@@ -1904,6 +1619,7 @@
     "second_name": "Mount",
     "team": 6,
     "element_type": 3,
+    "status": "a",
     "full_name": "mason mount",
     "seasons": [
       {
@@ -1911,11 +1627,7 @@
         "minutes": 270,
         "total_points": 20,
         "points_per_game": 6.7,
-        "now_cost": 63,
-        "bps": 75,
-        "creativity": 105.1,
-        "threat": 150.0,
-        "value_season": 3.2
+        "now_cost": 63
       }
     ]
   },
@@ -1924,6 +1636,7 @@
     "second_name": "van Aanholt",
     "team": 7,
     "element_type": 2,
+    "status": "a",
     "full_name": "patrick van aanholt",
     "seasons": [
       {
@@ -1931,11 +1644,7 @@
         "minutes": 270,
         "total_points": 18,
         "points_per_game": 6.0,
-        "now_cost": 55,
-        "bps": 51,
-        "creativity": 16.0,
-        "threat": 23.0,
-        "value_season": 3.3
+        "now_cost": 55
       }
     ]
   },
@@ -1944,6 +1653,7 @@
     "second_name": "Ward",
     "team": 7,
     "element_type": 2,
+    "status": "a",
     "full_name": "joel ward",
     "seasons": [
       {
@@ -1951,11 +1661,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 45,
-        "bps": 44,
-        "creativity": 5.6,
-        "threat": 0.0,
-        "value_season": 2.2
+        "now_cost": 45
       }
     ]
   },
@@ -1964,6 +1670,7 @@
     "second_name": "Dann",
     "team": 7,
     "element_type": 2,
+    "status": "d",
     "full_name": "scott dann",
     "seasons": [
       {
@@ -1971,11 +1678,7 @@
         "minutes": 180,
         "total_points": 8,
         "points_per_game": 4.0,
-        "now_cost": 45,
-        "bps": 37,
-        "creativity": 0.4,
-        "threat": 69.0,
-        "value_season": 1.8
+        "now_cost": 45
       }
     ]
   },
@@ -1984,6 +1687,7 @@
     "second_name": "Kelly",
     "team": 7,
     "element_type": 2,
+    "status": "a",
     "full_name": "martin kelly",
     "seasons": [
       {
@@ -1991,11 +1695,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 41,
-        "bps": 50,
-        "creativity": 0.8,
-        "threat": 4.0,
-        "value_season": 2.4
+        "now_cost": 41
       }
     ]
   },
@@ -2004,6 +1704,7 @@
     "second_name": "Benteke",
     "team": 7,
     "element_type": 4,
+    "status": "a",
     "full_name": "christian benteke",
     "seasons": [
       {
@@ -2011,11 +1712,7 @@
         "minutes": 187,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 59,
-        "bps": 25,
-        "creativity": 27.6,
-        "threat": 25.0,
-        "value_season": 0.8
+        "now_cost": 59
       }
     ]
   },
@@ -2024,6 +1721,7 @@
     "second_name": "Wickham",
     "team": 7,
     "element_type": 4,
+    "status": "a",
     "full_name": "connor wickham",
     "seasons": [
       {
@@ -2031,11 +1729,7 @@
         "minutes": 15,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 3,
-        "creativity": 0.8,
-        "threat": 2.0,
-        "value_season": 0.4
+        "now_cost": 45
       }
     ]
   },
@@ -2044,6 +1738,7 @@
     "second_name": "Guaita",
     "team": 7,
     "element_type": 1,
+    "status": "a",
     "full_name": "vicente guaita",
     "seasons": [
       {
@@ -2051,11 +1746,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 50,
-        "bps": 50,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 1.8
+        "now_cost": 50
       }
     ]
   },
@@ -2064,6 +1755,7 @@
     "second_name": "Zaha",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "wilfried zaha",
     "seasons": [
       {
@@ -2071,11 +1763,7 @@
         "minutes": 205,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 69,
-        "bps": 6,
-        "creativity": 17.6,
-        "threat": 103.0,
-        "value_season": 0.6
+        "now_cost": 69
       }
     ]
   },
@@ -2084,6 +1772,7 @@
     "second_name": "Milivojevic",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "luka milivojevic",
     "seasons": [
       {
@@ -2091,11 +1780,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 69,
-        "bps": 8,
-        "creativity": 47.5,
-        "threat": 8.0,
-        "value_season": 0.7
+        "now_cost": 69
       }
     ]
   },
@@ -2104,6 +1789,7 @@
     "second_name": "Townsend",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "andros townsend",
     "seasons": [
       {
@@ -2111,11 +1797,7 @@
         "minutes": 169,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 59,
-        "bps": 32,
-        "creativity": 15.3,
-        "threat": 14.0,
-        "value_season": 1.0
+        "now_cost": 59
       }
     ]
   },
@@ -2124,6 +1806,7 @@
     "second_name": "Meyer",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "max meyer",
     "seasons": [
       {
@@ -2131,11 +1814,7 @@
         "minutes": 154,
         "total_points": 4,
         "points_per_game": 2.0,
-        "now_cost": 54,
-        "bps": 13,
-        "creativity": 3.6,
-        "threat": 57.0,
-        "value_season": 0.7
+        "now_cost": 54
       }
     ]
   },
@@ -2144,6 +1823,7 @@
     "second_name": "Schlupp",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "jeffrey schlupp",
     "seasons": [
       {
@@ -2151,11 +1831,7 @@
         "minutes": 104,
         "total_points": 8,
         "points_per_game": 4.0,
-        "now_cost": 55,
-        "bps": 20,
-        "creativity": 11.3,
-        "threat": 15.0,
-        "value_season": 1.5
+        "now_cost": 55
       }
     ]
   },
@@ -2164,6 +1840,7 @@
     "second_name": "McArthur",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "james mcarthur",
     "seasons": [
       {
@@ -2171,11 +1848,7 @@
         "minutes": 261,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 54,
-        "bps": 33,
-        "creativity": 15.5,
-        "threat": 4.0,
-        "value_season": 1.3
+        "now_cost": 54
       }
     ]
   },
@@ -2184,6 +1857,7 @@
     "second_name": "Kouyat\u00e9",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "cheikhou kouyat\u00e9",
     "seasons": [
       {
@@ -2191,11 +1865,7 @@
         "minutes": 82,
         "total_points": 3,
         "points_per_game": 3.0,
-        "now_cost": 49,
-        "bps": 10,
-        "creativity": 1.1,
-        "threat": 0.0,
-        "value_season": 0.6
+        "now_cost": 49
       }
     ]
   },
@@ -2204,6 +1874,7 @@
     "second_name": "McCarthy",
     "team": 7,
     "element_type": 3,
+    "status": "a",
     "full_name": "james mccarthy",
     "seasons": [
       {
@@ -2211,11 +1882,7 @@
         "minutes": 27,
         "total_points": 1,
         "points_per_game": 0.5,
-        "now_cost": 45,
-        "bps": 4,
-        "creativity": 0.8,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -2224,6 +1891,7 @@
     "second_name": "Ayew",
     "team": 7,
     "element_type": 4,
+    "status": "a",
     "full_name": "jordan ayew",
     "seasons": [
       {
@@ -2231,11 +1899,7 @@
         "minutes": 138,
         "total_points": 11,
         "points_per_game": 5.5,
-        "now_cost": 50,
-        "bps": 37,
-        "creativity": 14.9,
-        "threat": 36.0,
-        "value_season": 2.2
+        "now_cost": 50
       }
     ]
   },
@@ -2244,6 +1908,7 @@
     "second_name": "Cahill",
     "team": 7,
     "element_type": 2,
+    "status": "a",
     "full_name": "gary cahill",
     "seasons": [
       {
@@ -2251,11 +1916,7 @@
         "minutes": 90,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 5,
-        "creativity": 0.0,
-        "threat": 18.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -2264,6 +1925,7 @@
     "second_name": "Iwobi",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "alex iwobi",
     "seasons": [
       {
@@ -2271,11 +1933,7 @@
         "minutes": 29,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 59,
-        "bps": 6,
-        "creativity": 6.8,
-        "threat": 21.0,
-        "value_season": 0.2
+        "now_cost": 59
       }
     ]
   },
@@ -2284,6 +1942,7 @@
     "second_name": "Digne",
     "team": 8,
     "element_type": 2,
+    "status": "a",
     "full_name": "lucas digne",
     "seasons": [
       {
@@ -2291,11 +1950,7 @@
         "minutes": 252,
         "total_points": 18,
         "points_per_game": 6.0,
-        "now_cost": 61,
-        "bps": 65,
-        "creativity": 99.6,
-        "threat": 62.0,
-        "value_season": 3.0
+        "now_cost": 61
       }
     ]
   },
@@ -2304,6 +1959,7 @@
     "second_name": "Mina",
     "team": 8,
     "element_type": 2,
+    "status": "a",
     "full_name": "yerry mina",
     "seasons": [
       {
@@ -2311,11 +1967,7 @@
         "minutes": 270,
         "total_points": 17,
         "points_per_game": 5.7,
-        "now_cost": 56,
-        "bps": 73,
-        "creativity": 2.7,
-        "threat": 24.0,
-        "value_season": 3.0
+        "now_cost": 56
       }
     ]
   },
@@ -2324,6 +1976,7 @@
     "second_name": "Keane",
     "team": 8,
     "element_type": 2,
+    "status": "a",
     "full_name": "michael keane",
     "seasons": [
       {
@@ -2331,11 +1984,7 @@
         "minutes": 270,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 55,
-        "bps": 65,
-        "creativity": 11.8,
-        "threat": 6.0,
-        "value_season": 2.7
+        "now_cost": 55
       }
     ]
   },
@@ -2344,6 +1993,7 @@
     "second_name": "Coleman",
     "team": 8,
     "element_type": 2,
+    "status": "a",
     "full_name": "seamus coleman",
     "seasons": [
       {
@@ -2351,11 +2001,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 55,
-        "bps": 50,
-        "creativity": 28.6,
-        "threat": 28.0,
-        "value_season": 2.0
+        "now_cost": 55
       }
     ]
   },
@@ -2364,6 +2010,7 @@
     "second_name": "Calvert-Lewin",
     "team": 8,
     "element_type": 4,
+    "status": "a",
     "full_name": "dominic calvert-lewin",
     "seasons": [
       {
@@ -2371,11 +2018,7 @@
         "minutes": 229,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 59,
-        "bps": 8,
-        "creativity": 14.4,
-        "threat": 26.0,
-        "value_season": 0.8
+        "now_cost": 59
       }
     ]
   },
@@ -2384,6 +2027,7 @@
     "second_name": "Pickford",
     "team": 8,
     "element_type": 1,
+    "status": "a",
     "full_name": "jordan pickford",
     "seasons": [
       {
@@ -2391,11 +2035,7 @@
         "minutes": 270,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 56,
-        "bps": 62,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.5
+        "now_cost": 56
       }
     ]
   },
@@ -2404,6 +2044,7 @@
     "second_name": "de Andrade",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "richarlison de andrade",
     "seasons": [
       {
@@ -2411,11 +2052,7 @@
         "minutes": 229,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 79,
-        "bps": 20,
-        "creativity": 23.7,
-        "threat": 80.0,
-        "value_season": 1.0
+        "now_cost": 79
       }
     ]
   },
@@ -2424,6 +2061,7 @@
     "second_name": "Sigurdsson",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "gylfi sigurdsson",
     "seasons": [
       {
@@ -2431,11 +2069,7 @@
         "minutes": 229,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 78,
-        "bps": 16,
-        "creativity": 61.9,
-        "threat": 51.0,
-        "value_season": 1.0
+        "now_cost": 78
       }
     ]
   },
@@ -2444,6 +2078,7 @@
     "second_name": "An\u00edcio Caldeira Duarte",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "bernard an\u00edcio caldeira duarte",
     "seasons": [
       {
@@ -2451,11 +2086,7 @@
         "minutes": 241,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 65,
-        "bps": 47,
-        "creativity": 55.1,
-        "threat": 55.0,
-        "value_season": 2.3
+        "now_cost": 65
       }
     ]
   },
@@ -2464,6 +2095,7 @@
     "second_name": "Walcott",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "theo walcott",
     "seasons": [
       {
@@ -2471,11 +2103,7 @@
         "minutes": 39,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 64,
-        "bps": 0,
-        "creativity": 2.1,
-        "threat": 6.0,
-        "value_season": 0.3
+        "now_cost": 64
       }
     ]
   },
@@ -2484,6 +2112,7 @@
     "second_name": "Davies",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "tom davies",
     "seasons": [
       {
@@ -2491,11 +2120,7 @@
         "minutes": 11,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 2,
-        "creativity": 0.1,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -2504,6 +2129,7 @@
     "second_name": "Schneiderlin",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "morgan schneiderlin",
     "seasons": [
       {
@@ -2511,11 +2137,7 @@
         "minutes": 165,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 16,
-        "creativity": 18.2,
-        "threat": 1.0,
-        "value_season": 0.4
+        "now_cost": 45
       }
     ]
   },
@@ -2524,6 +2146,7 @@
     "second_name": "Tavares Gomes",
     "team": 8,
     "element_type": 3,
+    "status": "a",
     "full_name": "andr\u00e9 filipe tavares gomes",
     "seasons": [
       {
@@ -2531,11 +2154,7 @@
         "minutes": 225,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 54,
-        "bps": 20,
-        "creativity": 41.6,
-        "threat": 3.0,
-        "value_season": 0.7
+        "now_cost": 54
       }
     ]
   },
@@ -2544,6 +2163,7 @@
     "second_name": "Holgate",
     "team": 8,
     "element_type": 2,
+    "status": "a",
     "full_name": "mason holgate",
     "seasons": [
       {
@@ -2551,11 +2171,7 @@
         "minutes": 17,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 6,
-        "creativity": 0.1,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -2564,6 +2180,7 @@
     "second_name": "Kean",
     "team": 8,
     "element_type": 4,
+    "status": "a",
     "full_name": "moise kean",
     "seasons": [
       {
@@ -2571,11 +2188,7 @@
         "minutes": 67,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 68,
-        "bps": 11,
-        "creativity": 12.7,
-        "threat": 13.0,
-        "value_season": 0.4
+        "now_cost": 68
       }
     ]
   },
@@ -2584,6 +2197,7 @@
     "second_name": "Gbamin",
     "team": 8,
     "element_type": 3,
+    "status": "i",
     "full_name": "jean-philippe gbamin",
     "seasons": [
       {
@@ -2591,11 +2205,7 @@
         "minutes": 135,
         "total_points": 4,
         "points_per_game": 2.0,
-        "now_cost": 50,
-        "bps": 14,
-        "creativity": 6.3,
-        "threat": 0.0,
-        "value_season": 0.8
+        "now_cost": 50
       }
     ]
   },
@@ -2604,6 +2214,7 @@
     "second_name": "Barbosa Pereira",
     "team": 9,
     "element_type": 2,
+    "status": "a",
     "full_name": "ricardo domingos barbosa pereira",
     "seasons": [
       {
@@ -2611,11 +2222,7 @@
         "minutes": 270,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 60,
-        "bps": 57,
-        "creativity": 36.7,
-        "threat": 12.0,
-        "value_season": 2.2
+        "now_cost": 60
       }
     ]
   },
@@ -2624,6 +2231,7 @@
     "second_name": "Chilwell",
     "team": 9,
     "element_type": 2,
+    "status": "a",
     "full_name": "benjamin chilwell",
     "seasons": [
       {
@@ -2631,11 +2239,7 @@
         "minutes": 90,
         "total_points": 6,
         "points_per_game": 6.0,
-        "now_cost": 54,
-        "bps": 23,
-        "creativity": 16.7,
-        "threat": 9.0,
-        "value_season": 1.1
+        "now_cost": 54
       }
     ]
   },
@@ -2644,6 +2248,7 @@
     "second_name": "Evans",
     "team": 9,
     "element_type": 2,
+    "status": "a",
     "full_name": "jonny evans",
     "seasons": [
       {
@@ -2651,11 +2256,7 @@
         "minutes": 270,
         "total_points": 12,
         "points_per_game": 4.0,
-        "now_cost": 50,
-        "bps": 62,
-        "creativity": 1.0,
-        "threat": 29.0,
-        "value_season": 2.4
+        "now_cost": 50
       }
     ]
   },
@@ -2664,6 +2265,7 @@
     "second_name": "Fuchs",
     "team": 9,
     "element_type": 2,
+    "status": "a",
     "full_name": "christian fuchs",
     "seasons": [
       {
@@ -2671,11 +2273,7 @@
         "minutes": 180,
         "total_points": 4,
         "points_per_game": 2.0,
-        "now_cost": 45,
-        "bps": 17,
-        "creativity": 28.2,
-        "threat": 2.0,
-        "value_season": 0.9
+        "now_cost": 45
       }
     ]
   },
@@ -2684,6 +2282,7 @@
     "second_name": "S\u00f6y\u00fcnc\u00fc",
     "team": 9,
     "element_type": 2,
+    "status": "a",
     "full_name": "\u00e7aglar s\u00f6y\u00fcnc\u00fc",
     "seasons": [
       {
@@ -2691,11 +2290,7 @@
         "minutes": 270,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 45,
-        "bps": 66,
-        "creativity": 11.6,
-        "threat": 6.0,
-        "value_season": 2.9
+        "now_cost": 45
       }
     ]
   },
@@ -2704,6 +2299,7 @@
     "second_name": "Morgan",
     "team": 9,
     "element_type": 2,
+    "status": "d",
     "full_name": "wes morgan",
     "seasons": [
       {
@@ -2711,11 +2307,7 @@
         "minutes": 12,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 44,
-        "bps": 5,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 44
       }
     ]
   },
@@ -2724,6 +2316,7 @@
     "second_name": "Vardy",
     "team": 9,
     "element_type": 4,
+    "status": "a",
     "full_name": "jamie vardy",
     "seasons": [
       {
@@ -2731,11 +2324,7 @@
         "minutes": 270,
         "total_points": 12,
         "points_per_game": 4.0,
-        "now_cost": 89,
-        "bps": 27,
-        "creativity": 9.0,
-        "threat": 41.0,
-        "value_season": 1.3
+        "now_cost": 89
       }
     ]
   },
@@ -2744,6 +2333,7 @@
     "second_name": "Schmeichel",
     "team": 9,
     "element_type": 1,
+    "status": "a",
     "full_name": "kasper schmeichel",
     "seasons": [
       {
@@ -2751,11 +2341,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 50,
-        "bps": 55,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.2
+        "now_cost": 50
       }
     ]
   },
@@ -2764,6 +2350,7 @@
     "second_name": "Maddison",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "james maddison",
     "seasons": [
       {
@@ -2771,11 +2358,7 @@
         "minutes": 270,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 71,
-        "bps": 44,
-        "creativity": 138.7,
-        "threat": 75.0,
-        "value_season": 2.0
+        "now_cost": 71
       }
     ]
   },
@@ -2784,6 +2367,7 @@
     "second_name": "Barnes",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "harvey barnes",
     "seasons": [
       {
@@ -2791,11 +2375,7 @@
         "minutes": 55,
         "total_points": 7,
         "points_per_game": 3.5,
-        "now_cost": 59,
-        "bps": 26,
-        "creativity": 7.2,
-        "threat": 32.0,
-        "value_season": 1.2
+        "now_cost": 59
       }
     ]
   },
@@ -2804,6 +2384,7 @@
     "second_name": "Albrighton",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "marc albrighton",
     "seasons": [
       {
@@ -2811,11 +2392,7 @@
         "minutes": 24,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 6,
-        "creativity": 26.0,
-        "threat": 11.0,
-        "value_season": 0.4
+        "now_cost": 54
       }
     ]
   },
@@ -2824,6 +2401,7 @@
     "second_name": "Ndidi",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "wilfred ndidi",
     "seasons": [
       {
@@ -2831,11 +2409,7 @@
         "minutes": 180,
         "total_points": 13,
         "points_per_game": 6.5,
-        "now_cost": 50,
-        "bps": 42,
-        "creativity": 15.6,
-        "threat": 20.0,
-        "value_season": 2.6
+        "now_cost": 50
       }
     ]
   },
@@ -2844,6 +2418,7 @@
     "second_name": "Mendy",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "nampalys mendy",
     "seasons": [
       {
@@ -2851,11 +2426,7 @@
         "minutes": 1,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 2,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -2864,6 +2435,7 @@
     "second_name": "Choudhury",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "hamza choudhury",
     "seasons": [
       {
@@ -2871,11 +2443,7 @@
         "minutes": 222,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 45,
-        "bps": 39,
-        "creativity": 25.9,
-        "threat": 20.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -2884,6 +2452,7 @@
     "second_name": "P\u00e9rez",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "ayoze p\u00e9rez",
     "seasons": [
       {
@@ -2891,11 +2460,7 @@
         "minutes": 231,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 63,
-        "bps": 25,
-        "creativity": 38.4,
-        "threat": 47.0,
-        "value_season": 1.1
+        "now_cost": 63
       }
     ]
   },
@@ -2904,6 +2469,7 @@
     "second_name": "Tielemans",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "youri tielemans",
     "seasons": [
       {
@@ -2911,11 +2477,7 @@
         "minutes": 268,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 64,
-        "bps": 37,
-        "creativity": 70.7,
-        "threat": 61.0,
-        "value_season": 1.1
+        "now_cost": 64
       }
     ]
   },
@@ -2924,6 +2486,7 @@
     "second_name": "Praet",
     "team": 9,
     "element_type": 3,
+    "status": "a",
     "full_name": "dennis praet",
     "seasons": [
       {
@@ -2931,11 +2494,7 @@
         "minutes": 80,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 55,
-        "bps": 16,
-        "creativity": 12.5,
-        "threat": 8.0,
-        "value_season": 0.5
+        "now_cost": 55
       }
     ]
   },
@@ -2944,6 +2503,7 @@
     "second_name": "Robertson",
     "team": 10,
     "element_type": 2,
+    "status": "a",
     "full_name": "andrew robertson",
     "seasons": [
       {
@@ -2951,11 +2511,7 @@
         "minutes": 270,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 69,
-        "bps": 50,
-        "creativity": 92.8,
-        "threat": 65.0,
-        "value_season": 0.9
+        "now_cost": 69
       }
     ]
   },
@@ -2964,6 +2520,7 @@
     "second_name": "Alexander-Arnold",
     "team": 10,
     "element_type": 2,
+    "status": "a",
     "full_name": "trent alexander-arnold",
     "seasons": [
       {
@@ -2971,11 +2528,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 70,
-        "bps": 60,
-        "creativity": 146.1,
-        "threat": 72.0,
-        "value_season": 1.6
+        "now_cost": 70
       }
     ]
   },
@@ -2984,6 +2537,7 @@
     "second_name": "van Dijk",
     "team": 10,
     "element_type": 2,
+    "status": "a",
     "full_name": "virgil van dijk",
     "seasons": [
       {
@@ -2991,11 +2545,7 @@
         "minutes": 270,
         "total_points": 12,
         "points_per_game": 4.0,
-        "now_cost": 65,
-        "bps": 50,
-        "creativity": 2.7,
-        "threat": 43.0,
-        "value_season": 1.8
+        "now_cost": 65
       }
     ]
   },
@@ -3004,6 +2554,7 @@
     "second_name": "Gomez",
     "team": 10,
     "element_type": 2,
+    "status": "a",
     "full_name": "joseph gomez",
     "seasons": [
       {
@@ -3011,11 +2562,7 @@
         "minutes": 90,
         "total_points": 2,
         "points_per_game": 2.0,
-        "now_cost": 54,
-        "bps": 10,
-        "creativity": 11.8,
-        "threat": 0.0,
-        "value_season": 0.4
+        "now_cost": 54
       }
     ]
   },
@@ -3024,6 +2571,7 @@
     "second_name": "Matip",
     "team": 10,
     "element_type": 2,
+    "status": "a",
     "full_name": "joel matip",
     "seasons": [
       {
@@ -3031,11 +2579,7 @@
         "minutes": 180,
         "total_points": 11,
         "points_per_game": 5.5,
-        "now_cost": 54,
-        "bps": 44,
-        "creativity": 12.6,
-        "threat": 23.0,
-        "value_season": 2.0
+        "now_cost": 54
       }
     ]
   },
@@ -3044,6 +2588,7 @@
     "second_name": "Firmino",
     "team": 10,
     "element_type": 4,
+    "status": "a",
     "full_name": "roberto firmino",
     "seasons": [
       {
@@ -3051,11 +2596,7 @@
         "minutes": 260,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 95,
-        "bps": 65,
-        "creativity": 27.8,
-        "threat": 197.0,
-        "value_season": 1.6
+        "now_cost": 95
       }
     ]
   },
@@ -3064,6 +2605,7 @@
     "second_name": "Origi",
     "team": 10,
     "element_type": 4,
+    "status": "a",
     "full_name": "divock origi",
     "seasons": [
       {
@@ -3071,11 +2613,7 @@
         "minutes": 84,
         "total_points": 13,
         "points_per_game": 6.5,
-        "now_cost": 55,
-        "bps": 49,
-        "creativity": 27.0,
-        "threat": 21.0,
-        "value_season": 2.4
+        "now_cost": 55
       }
     ]
   },
@@ -3084,6 +2622,7 @@
     "second_name": "Ramses Becker",
     "team": 10,
     "element_type": 1,
+    "status": "i",
     "full_name": "alisson ramses becker",
     "seasons": [
       {
@@ -3091,11 +2630,7 @@
         "minutes": 38,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 58,
-        "bps": 7,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 58
       }
     ]
   },
@@ -3104,6 +2639,7 @@
     "second_name": "Salah",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "mohamed salah",
     "seasons": [
       {
@@ -3111,11 +2647,7 @@
         "minutes": 258,
         "total_points": 30,
         "points_per_game": 10.0,
-        "now_cost": 125,
-        "bps": 83,
-        "creativity": 68.1,
-        "threat": 135.0,
-        "value_season": 2.4
+        "now_cost": 125
       }
     ]
   },
@@ -3124,6 +2656,7 @@
     "second_name": "Man\u00e9",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "sadio man\u00e9",
     "seasons": [
       {
@@ -3131,11 +2664,7 @@
         "minutes": 182,
         "total_points": 17,
         "points_per_game": 5.7,
-        "now_cost": 115,
-        "bps": 58,
-        "creativity": 108.5,
-        "threat": 74.0,
-        "value_season": 1.5
+        "now_cost": 115
       }
     ]
   },
@@ -3144,6 +2673,7 @@
     "second_name": "Oxlade-Chamberlain",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "alex oxlade-chamberlain",
     "seasons": [
       {
@@ -3151,11 +2681,7 @@
         "minutes": 101,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 64,
-        "bps": 17,
-        "creativity": 13.3,
-        "threat": 12.0,
-        "value_season": 0.5
+        "now_cost": 64
       }
     ]
   },
@@ -3164,6 +2690,7 @@
     "second_name": "Lallana",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "adam lallana",
     "seasons": [
       {
@@ -3171,11 +2698,7 @@
         "minutes": 4,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 59,
-        "bps": 3,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 59
       }
     ]
   },
@@ -3184,6 +2707,7 @@
     "second_name": "Tavares",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "fabio henrique tavares",
     "seasons": [
       {
@@ -3191,11 +2715,7 @@
         "minutes": 196,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 55,
-        "bps": 56,
-        "creativity": 63.1,
-        "threat": 9.0,
-        "value_season": 1.6
+        "now_cost": 55
       }
     ]
   },
@@ -3204,6 +2724,7 @@
     "second_name": "Henderson",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "jordan henderson",
     "seasons": [
       {
@@ -3211,11 +2732,7 @@
         "minutes": 181,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 55,
-        "bps": 30,
-        "creativity": 16.2,
-        "threat": 61.0,
-        "value_season": 0.9
+        "now_cost": 55
       }
     ]
   },
@@ -3224,6 +2741,7 @@
     "second_name": "Wijnaldum",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "georginio wijnaldum",
     "seasons": [
       {
@@ -3231,11 +2749,7 @@
         "minutes": 248,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 55,
-        "bps": 36,
-        "creativity": 15.9,
-        "threat": 18.0,
-        "value_season": 1.3
+        "now_cost": 55
       }
     ]
   },
@@ -3244,6 +2758,7 @@
     "second_name": "Milner",
     "team": 10,
     "element_type": 3,
+    "status": "a",
     "full_name": "james milner",
     "seasons": [
       {
@@ -3251,11 +2766,7 @@
         "minutes": 98,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 55,
-        "bps": 26,
-        "creativity": 25.8,
-        "threat": 17.0,
-        "value_season": 1.5
+        "now_cost": 55
       }
     ]
   },
@@ -3264,6 +2775,7 @@
     "second_name": "San Miguel del Castillo",
     "team": 10,
     "element_type": 1,
+    "status": "a",
     "full_name": "adri\u00e1n san miguel del castillo",
     "seasons": [
       {
@@ -3271,11 +2783,7 @@
         "minutes": 231,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 45,
-        "bps": 29,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 1.3
+        "now_cost": 45
       }
     ]
   },
@@ -3284,6 +2792,7 @@
     "second_name": "Laporte",
     "team": 11,
     "element_type": 2,
+    "status": "a",
     "full_name": "aymeric laporte",
     "seasons": [
       {
@@ -3291,11 +2800,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 65,
-        "bps": 56,
-        "creativity": 26.9,
-        "threat": 19.0,
-        "value_season": 1.4
+        "now_cost": 65
       }
     ]
   },
@@ -3304,6 +2809,7 @@
     "second_name": "Walker",
     "team": 11,
     "element_type": 2,
+    "status": "a",
     "full_name": "kyle walker",
     "seasons": [
       {
@@ -3311,11 +2817,7 @@
         "minutes": 269,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 60,
-        "bps": 59,
-        "creativity": 58.1,
-        "threat": 32.0,
-        "value_season": 1.7
+        "now_cost": 60
       }
     ]
   },
@@ -3324,6 +2826,7 @@
     "second_name": "Zinchenko",
     "team": 11,
     "element_type": 2,
+    "status": "a",
     "full_name": "oleksandr zinchenko",
     "seasons": [
       {
@@ -3331,11 +2834,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 55,
-        "bps": 62,
-        "creativity": 108.1,
-        "threat": 15.0,
-        "value_season": 1.6
+        "now_cost": 55
       }
     ]
   },
@@ -3344,6 +2843,7 @@
     "second_name": "Stones",
     "team": 11,
     "element_type": 2,
+    "status": "d",
     "full_name": "john stones",
     "seasons": [
       {
@@ -3351,11 +2851,7 @@
         "minutes": 90,
         "total_points": 6,
         "points_per_game": 6.0,
-        "now_cost": 54,
-        "bps": 33,
-        "creativity": 0.8,
-        "threat": 0.0,
-        "value_season": 1.1
+        "now_cost": 54
       }
     ]
   },
@@ -3364,6 +2860,7 @@
     "second_name": "Otamendi",
     "team": 11,
     "element_type": 2,
+    "status": "a",
     "full_name": "nicol\u00e1s otamendi",
     "seasons": [
       {
@@ -3371,11 +2868,7 @@
         "minutes": 180,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 19,
-        "creativity": 13.5,
-        "threat": 95.0,
-        "value_season": 0.4
+        "now_cost": 54
       }
     ]
   },
@@ -3384,6 +2877,7 @@
     "second_name": "Ag\u00fcero",
     "team": 11,
     "element_type": 4,
+    "status": "a",
     "full_name": "sergio ag\u00fcero",
     "seasons": [
       {
@@ -3391,11 +2885,7 @@
         "minutes": 176,
         "total_points": 24,
         "points_per_game": 8.0,
-        "now_cost": 120,
-        "bps": 112,
-        "creativity": 45.8,
-        "threat": 136.0,
-        "value_season": 2.0
+        "now_cost": 120
       }
     ]
   },
@@ -3404,6 +2894,7 @@
     "second_name": "de Jesus",
     "team": 11,
     "element_type": 4,
+    "status": "d",
     "full_name": "gabriel fernando de jesus",
     "seasons": [
       {
@@ -3411,11 +2902,7 @@
         "minutes": 92,
         "total_points": 7,
         "points_per_game": 3.5,
-        "now_cost": 95,
-        "bps": 34,
-        "creativity": 5.6,
-        "threat": 90.0,
-        "value_season": 0.7
+        "now_cost": 95
       }
     ]
   },
@@ -3424,6 +2911,7 @@
     "second_name": "Santana de Moraes",
     "team": 11,
     "element_type": 1,
+    "status": "a",
     "full_name": "ederson santana de moraes",
     "seasons": [
       {
@@ -3431,11 +2919,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 61,
-        "bps": 57,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 1.8
+        "now_cost": 61
       }
     ]
   },
@@ -3444,6 +2928,7 @@
     "second_name": "Sterling",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "raheem sterling",
     "seasons": [
       {
@@ -3451,11 +2936,7 @@
         "minutes": 270,
         "total_points": 34,
         "points_per_game": 11.3,
-        "now_cost": 123,
-        "bps": 105,
-        "creativity": 56.1,
-        "threat": 261.0,
-        "value_season": 2.8
+        "now_cost": 123
       }
     ]
   },
@@ -3464,6 +2945,7 @@
     "second_name": "De Bruyne",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "kevin de bruyne",
     "seasons": [
       {
@@ -3471,11 +2953,7 @@
         "minutes": 258,
         "total_points": 23,
         "points_per_game": 7.7,
-        "now_cost": 97,
-        "bps": 103,
-        "creativity": 207.4,
-        "threat": 81.0,
-        "value_season": 2.4
+        "now_cost": 97
       }
     ]
   },
@@ -3484,6 +2962,7 @@
     "second_name": "Mahrez",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "riyad mahrez",
     "seasons": [
       {
@@ -3491,11 +2970,7 @@
         "minutes": 111,
         "total_points": 16,
         "points_per_game": 5.3,
-        "now_cost": 85,
-        "bps": 51,
-        "creativity": 65.8,
-        "threat": 47.0,
-        "value_season": 1.9
+        "now_cost": 85
       }
     ]
   },
@@ -3504,6 +2979,7 @@
     "second_name": "Veiga de Carvalho e Silva",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "bernardo mota veiga de carvalho e silva",
     "seasons": [
       {
@@ -3511,11 +2987,7 @@
         "minutes": 157,
         "total_points": 4,
         "points_per_game": 2.0,
-        "now_cost": 79,
-        "bps": 22,
-        "creativity": 43.2,
-        "threat": 143.0,
-        "value_season": 0.5
+        "now_cost": 79
       }
     ]
   },
@@ -3524,6 +2996,7 @@
     "second_name": "Silva",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "david silva",
     "seasons": [
       {
@@ -3531,11 +3004,7 @@
         "minutes": 181,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 74,
-        "bps": 53,
-        "creativity": 62.3,
-        "threat": 61.0,
-        "value_season": 1.9
+        "now_cost": 74
       }
     ]
   },
@@ -3544,6 +3013,7 @@
     "second_name": "Foden",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "phil foden",
     "seasons": [
       {
@@ -3551,11 +3021,7 @@
         "minutes": 10,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 3,
-        "creativity": 0.4,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -3564,6 +3030,7 @@
     "second_name": "G\u00fcndogan",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "ilkay g\u00fcndogan",
     "seasons": [
       {
@@ -3571,11 +3038,7 @@
         "minutes": 158,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 54,
-        "bps": 37,
-        "creativity": 57.5,
-        "threat": 18.0,
-        "value_season": 0.7
+        "now_cost": 54
       }
     ]
   },
@@ -3584,6 +3047,7 @@
     "second_name": "Hernandez",
     "team": 11,
     "element_type": 3,
+    "status": "a",
     "full_name": "rodrigo hernandez",
     "seasons": [
       {
@@ -3591,11 +3055,7 @@
         "minutes": 199,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 55,
-        "bps": 37,
-        "creativity": 29.3,
-        "threat": 25.0,
-        "value_season": 1.1
+        "now_cost": 55
       }
     ]
   },
@@ -3604,6 +3064,7 @@
     "second_name": "Cancelo",
     "team": 11,
     "element_type": 2,
+    "status": "a",
     "full_name": "jo\u00e3o pedro cavaco cancelo",
     "seasons": [
       {
@@ -3611,11 +3072,7 @@
         "minutes": 1,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 55,
-        "bps": 2,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 55
       }
     ]
   },
@@ -3624,6 +3081,7 @@
     "second_name": "Wan-Bissaka",
     "team": 12,
     "element_type": 2,
+    "status": "a",
     "full_name": "aaron wan-bissaka",
     "seasons": [
       {
@@ -3631,11 +3089,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 56,
-        "bps": 62,
-        "creativity": 48.2,
-        "threat": 9.0,
-        "value_season": 1.6
+        "now_cost": 56
       }
     ]
   },
@@ -3644,6 +3098,7 @@
     "second_name": "Maguire",
     "team": 12,
     "element_type": 2,
+    "status": "a",
     "full_name": "harry maguire",
     "seasons": [
       {
@@ -3651,11 +3106,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 55,
-        "bps": 66,
-        "creativity": 28.7,
-        "threat": 31.0,
-        "value_season": 1.6
+        "now_cost": 55
       }
     ]
   },
@@ -3664,6 +3115,7 @@
     "second_name": "Young",
     "team": 12,
     "element_type": 2,
+    "status": "a",
     "full_name": "ashley young",
     "seasons": [
       {
@@ -3671,11 +3123,7 @@
         "minutes": 56,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 15,
-        "creativity": 82.3,
-        "threat": 7.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -3684,6 +3132,7 @@
     "second_name": "Lindel\u00f6f",
     "team": 12,
     "element_type": 2,
+    "status": "a",
     "full_name": "victor lindel\u00f6f",
     "seasons": [
       {
@@ -3691,11 +3140,7 @@
         "minutes": 270,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 55,
-        "bps": 51,
-        "creativity": 3.8,
-        "threat": 0.0,
-        "value_season": 1.5
+        "now_cost": 55
       }
     ]
   },
@@ -3704,6 +3149,7 @@
     "second_name": "Shaw",
     "team": 12,
     "element_type": 2,
+    "status": "i",
     "full_name": "luke shaw",
     "seasons": [
       {
@@ -3711,11 +3157,7 @@
         "minutes": 213,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 55,
-        "bps": 50,
-        "creativity": 58.4,
-        "threat": 10.0,
-        "value_season": 1.6
+        "now_cost": 55
       }
     ]
   },
@@ -3724,6 +3166,7 @@
     "second_name": "Rashford",
     "team": 12,
     "element_type": 4,
+    "status": "a",
     "full_name": "marcus rashford",
     "seasons": [
       {
@@ -3731,11 +3174,7 @@
         "minutes": 263,
         "total_points": 19,
         "points_per_game": 6.3,
-        "now_cost": 86,
-        "bps": 71,
-        "creativity": 48.4,
-        "threat": 96.0,
-        "value_season": 2.2
+        "now_cost": 86
       }
     ]
   },
@@ -3744,6 +3183,7 @@
     "second_name": "Greenwood",
     "team": 12,
     "element_type": 4,
+    "status": "a",
     "full_name": "mason greenwood",
     "seasons": [
       {
@@ -3751,11 +3191,7 @@
         "minutes": 39,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 11,
-        "creativity": 3.7,
-        "threat": 18.0,
-        "value_season": 0.7
+        "now_cost": 45
       }
     ]
   },
@@ -3764,6 +3200,7 @@
     "second_name": "de Gea",
     "team": 12,
     "element_type": 1,
+    "status": "a",
     "full_name": "david de gea",
     "seasons": [
       {
@@ -3771,11 +3208,7 @@
         "minutes": 270,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 56,
-        "bps": 54,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.3
+        "now_cost": 56
       }
     ]
   },
@@ -3784,6 +3217,7 @@
     "second_name": "Pogba",
     "team": 12,
     "element_type": 3,
+    "status": "a",
     "full_name": "paul pogba",
     "seasons": [
       {
@@ -3791,11 +3225,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 86,
-        "bps": 40,
-        "creativity": 92.7,
-        "threat": 56.0,
-        "value_season": 1.3
+        "now_cost": 86
       }
     ]
   },
@@ -3804,6 +3234,7 @@
     "second_name": "Martial",
     "team": 12,
     "element_type": 3,
+    "status": "i",
     "full_name": "anthony martial",
     "seasons": [
       {
@@ -3811,11 +3242,7 @@
         "minutes": 270,
         "total_points": 19,
         "points_per_game": 6.3,
-        "now_cost": 77,
-        "bps": 49,
-        "creativity": 34.7,
-        "threat": 136.0,
-        "value_season": 2.5
+        "now_cost": 77
       }
     ]
   },
@@ -3824,6 +3251,7 @@
     "second_name": "Lingard",
     "team": 12,
     "element_type": 3,
+    "status": "a",
     "full_name": "jesse lingard",
     "seasons": [
       {
@@ -3831,11 +3259,7 @@
         "minutes": 220,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 65,
-        "bps": 12,
-        "creativity": 31.2,
-        "threat": 4.0,
-        "value_season": 0.8
+        "now_cost": 65
       }
     ]
   },
@@ -3844,6 +3268,7 @@
     "second_name": "Mata",
     "team": 12,
     "element_type": 3,
+    "status": "a",
     "full_name": "juan mata",
     "seasons": [
       {
@@ -3851,11 +3276,7 @@
         "minutes": 18,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 64,
-        "bps": 9,
-        "creativity": 2.3,
-        "threat": 0.0,
-        "value_season": 0.5
+        "now_cost": 64
       }
     ]
   },
@@ -3864,6 +3285,7 @@
     "second_name": "James",
     "team": 12,
     "element_type": 3,
+    "status": "a",
     "full_name": "daniel james",
     "seasons": [
       {
@@ -3871,11 +3293,7 @@
         "minutes": 194,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 60,
-        "bps": 40,
-        "creativity": 11.2,
-        "threat": 103.0,
-        "value_season": 2.2
+        "now_cost": 60
       }
     ]
   },
@@ -3884,6 +3302,7 @@
     "second_name": "Pereira",
     "team": 12,
     "element_type": 3,
+    "status": "a",
     "full_name": "andreas pereira",
     "seasons": [
       {
@@ -3891,11 +3310,7 @@
         "minutes": 74,
         "total_points": 7,
         "points_per_game": 3.5,
-        "now_cost": 50,
-        "bps": 24,
-        "creativity": 20.4,
-        "threat": 4.0,
-        "value_season": 1.4
+        "now_cost": 50
       }
     ]
   },
@@ -3904,6 +3319,7 @@
     "second_name": "McTominay",
     "team": 12,
     "element_type": 3,
+    "status": "a",
     "full_name": "scott mctominay",
     "seasons": [
       {
@@ -3911,11 +3327,7 @@
         "minutes": 264,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 50,
-        "bps": 30,
-        "creativity": 19.7,
-        "threat": 57.0,
-        "value_season": 1.4
+        "now_cost": 50
       }
     ]
   },
@@ -3924,6 +3336,7 @@
     "second_name": "Ritchie",
     "team": 13,
     "element_type": 2,
+    "status": "i",
     "full_name": "matt ritchie",
     "seasons": [
       {
@@ -3931,11 +3344,7 @@
         "minutes": 270,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 55,
-        "bps": 49,
-        "creativity": 98.0,
-        "threat": 12.0,
-        "value_season": 1.5
+        "now_cost": 55
       }
     ]
   },
@@ -3944,6 +3353,7 @@
     "second_name": "Sch\u00e4r",
     "team": 13,
     "element_type": 2,
+    "status": "a",
     "full_name": "fabian sch\u00e4r",
     "seasons": [
       {
@@ -3951,11 +3361,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 50,
-        "bps": 58,
-        "creativity": 2.5,
-        "threat": 26.0,
-        "value_season": 2.2
+        "now_cost": 50
       }
     ]
   },
@@ -3964,6 +3370,7 @@
     "second_name": "Fern\u00e1ndez",
     "team": 13,
     "element_type": 2,
+    "status": "a",
     "full_name": "federico fern\u00e1ndez",
     "seasons": [
       {
@@ -3971,11 +3378,7 @@
         "minutes": 8,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 5,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -3984,6 +3387,7 @@
     "second_name": "Dummett",
     "team": 13,
     "element_type": 2,
+    "status": "a",
     "full_name": "paul dummett",
     "seasons": [
       {
@@ -3991,11 +3395,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 57,
-        "creativity": 2.0,
-        "threat": 33.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -4004,6 +3404,7 @@
     "second_name": "Manquillo",
     "team": 13,
     "element_type": 2,
+    "status": "a",
     "full_name": "javier manquillo",
     "seasons": [
       {
@@ -4011,11 +3412,7 @@
         "minutes": 90,
         "total_points": 2,
         "points_per_game": 2.0,
-        "now_cost": 45,
-        "bps": 10,
-        "creativity": 11.1,
-        "threat": 2.0,
-        "value_season": 0.4
+        "now_cost": 45
       }
     ]
   },
@@ -4024,6 +3421,7 @@
     "second_name": "Lascelles",
     "team": 13,
     "element_type": 2,
+    "status": "a",
     "full_name": "jamaal lascelles",
     "seasons": [
       {
@@ -4031,11 +3429,7 @@
         "minutes": 261,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 46,
-        "creativity": 0.5,
-        "threat": 22.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -4044,6 +3438,7 @@
     "second_name": "Muto",
     "team": 13,
     "element_type": 4,
+    "status": "a",
     "full_name": "yoshinori muto",
     "seasons": [
       {
@@ -4051,11 +3446,7 @@
         "minutes": 25,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 4,
-        "creativity": 1.5,
-        "threat": 2.0,
-        "value_season": 0.4
+        "now_cost": 54
       }
     ]
   },
@@ -4064,6 +3455,7 @@
     "second_name": "Dubravka",
     "team": 13,
     "element_type": 1,
+    "status": "a",
     "full_name": "martin dubravka",
     "seasons": [
       {
@@ -4071,11 +3463,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 50,
-        "bps": 52,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.0
+        "now_cost": 50
       }
     ]
   },
@@ -4084,6 +3472,7 @@
     "second_name": "Almir\u00f3n",
     "team": 13,
     "element_type": 3,
+    "status": "d",
     "full_name": "miguel almir\u00f3n",
     "seasons": [
       {
@@ -4091,11 +3480,7 @@
         "minutes": 270,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 60,
-        "bps": 12,
-        "creativity": 17.8,
-        "threat": 63.0,
-        "value_season": 1.0
+        "now_cost": 60
       }
     ]
   },
@@ -4104,6 +3489,7 @@
     "second_name": "Atsu",
     "team": 13,
     "element_type": 3,
+    "status": "a",
     "full_name": "christian atsu",
     "seasons": [
       {
@@ -4111,11 +3497,7 @@
         "minutes": 73,
         "total_points": 6,
         "points_per_game": 6.0,
-        "now_cost": 54,
-        "bps": 18,
-        "creativity": 31.3,
-        "threat": 2.0,
-        "value_season": 1.1
+        "now_cost": 54
       }
     ]
   },
@@ -4124,6 +3506,7 @@
     "second_name": "Ki",
     "team": 13,
     "element_type": 3,
+    "status": "a",
     "full_name": "sung-yueng ki",
     "seasons": [
       {
@@ -4131,11 +3514,7 @@
         "minutes": 73,
         "total_points": 2,
         "points_per_game": 2.0,
-        "now_cost": 49,
-        "bps": 8,
-        "creativity": 16.1,
-        "threat": 0.0,
-        "value_season": 0.4
+        "now_cost": 49
       }
     ]
   },
@@ -4144,6 +3523,7 @@
     "second_name": "Shelvey",
     "team": 13,
     "element_type": 3,
+    "status": "a",
     "full_name": "jonjo shelvey",
     "seasons": [
       {
@@ -4151,11 +3531,7 @@
         "minutes": 143,
         "total_points": 9,
         "points_per_game": 4.5,
-        "now_cost": 50,
-        "bps": 35,
-        "creativity": 45.3,
-        "threat": 47.0,
-        "value_season": 1.8
+        "now_cost": 50
       }
     ]
   },
@@ -4164,6 +3540,7 @@
     "second_name": "Longstaff",
     "team": 13,
     "element_type": 3,
+    "status": "a",
     "full_name": "sean longstaff",
     "seasons": [
       {
@@ -4171,11 +3548,7 @@
         "minutes": 172,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 50,
-        "bps": 23,
-        "creativity": 13.8,
-        "threat": 17.0,
-        "value_season": 1.6
+        "now_cost": 50
       }
     ]
   },
@@ -4184,6 +3557,7 @@
     "second_name": "Hayden",
     "team": 13,
     "element_type": 3,
+    "status": "a",
     "full_name": "isaac hayden",
     "seasons": [
       {
@@ -4191,11 +3565,7 @@
         "minutes": 270,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 45,
-        "bps": 39,
-        "creativity": 27.2,
-        "threat": 18.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -4204,6 +3574,7 @@
     "second_name": "Apolin\u00e1rio de Lira",
     "team": 13,
     "element_type": 4,
+    "status": "d",
     "full_name": "joelinton c\u00e1ssio apolin\u00e1rio de lira",
     "seasons": [
       {
@@ -4211,11 +3582,7 @@
         "minutes": 243,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 59,
-        "bps": 44,
-        "creativity": 39.1,
-        "threat": 76.0,
-        "value_season": 1.9
+        "now_cost": 59
       }
     ]
   },
@@ -4224,6 +3591,7 @@
     "second_name": "Willems",
     "team": 13,
     "element_type": 2,
+    "status": "d",
     "full_name": "jetro willems",
     "seasons": [
       {
@@ -4231,11 +3599,7 @@
         "minutes": 36,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 6,
-        "creativity": 11.2,
-        "threat": 2.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -4244,6 +3608,7 @@
     "second_name": "Saint-Maximin",
     "team": 13,
     "element_type": 3,
+    "status": "i",
     "full_name": "allan saint-maximin",
     "seasons": [
       {
@@ -4251,11 +3616,7 @@
         "minutes": 39,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 5,
-        "creativity": 2.2,
-        "threat": 15.0,
-        "value_season": 0.4
+        "now_cost": 54
       }
     ]
   },
@@ -4264,6 +3625,7 @@
     "second_name": "Krafth",
     "team": 13,
     "element_type": 2,
+    "status": "d",
     "full_name": "emil krafth",
     "seasons": [
       {
@@ -4271,11 +3633,7 @@
         "minutes": 180,
         "total_points": 7,
         "points_per_game": 3.5,
-        "now_cost": 45,
-        "bps": 32,
-        "creativity": 2.2,
-        "threat": 4.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -4284,6 +3642,7 @@
     "second_name": "Godfrey",
     "team": 14,
     "element_type": 2,
+    "status": "a",
     "full_name": "ben godfrey",
     "seasons": [
       {
@@ -4291,11 +3650,7 @@
         "minutes": 270,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 55,
-        "creativity": 0.8,
-        "threat": 13.0,
-        "value_season": 0.7
+        "now_cost": 45
       }
     ]
   },
@@ -4304,6 +3659,7 @@
     "second_name": "Aarons",
     "team": 14,
     "element_type": 2,
+    "status": "a",
     "full_name": "maximillian aarons",
     "seasons": [
       {
@@ -4311,11 +3667,7 @@
         "minutes": 270,
         "total_points": 2,
         "points_per_game": 0.7,
-        "now_cost": 45,
-        "bps": 29,
-        "creativity": 17.7,
-        "threat": 20.0,
-        "value_season": 0.4
+        "now_cost": 45
       }
     ]
   },
@@ -4324,6 +3676,7 @@
     "second_name": "Lewis",
     "team": 14,
     "element_type": 2,
+    "status": "a",
     "full_name": "jamal lewis",
     "seasons": [
       {
@@ -4331,11 +3684,7 @@
         "minutes": 269,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 45,
-        "bps": 55,
-        "creativity": 38.1,
-        "threat": 6.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -4344,6 +3693,7 @@
     "second_name": "Hanley",
     "team": 14,
     "element_type": 2,
+    "status": "i",
     "full_name": "grant hanley",
     "seasons": [
       {
@@ -4351,11 +3701,7 @@
         "minutes": 270,
         "total_points": 1,
         "points_per_game": 0.3,
-        "now_cost": 40,
-        "bps": 33,
-        "creativity": 0.4,
-        "threat": 21.0,
-        "value_season": 0.2
+        "now_cost": 40
       }
     ]
   },
@@ -4364,6 +3710,7 @@
     "second_name": "Pukki",
     "team": 14,
     "element_type": 4,
+    "status": "a",
     "full_name": "teemu pukki",
     "seasons": [
       {
@@ -4371,11 +3718,7 @@
         "minutes": 262,
         "total_points": 35,
         "points_per_game": 11.7,
-        "now_cost": 70,
-        "bps": 154,
-        "creativity": 44.6,
-        "threat": 193.0,
-        "value_season": 5.0
+        "now_cost": 70
       }
     ]
   },
@@ -4384,6 +3727,7 @@
     "second_name": "Srbeny",
     "team": 14,
     "element_type": 4,
+    "status": "a",
     "full_name": "dennis srbeny",
     "seasons": [
       {
@@ -4391,11 +3735,7 @@
         "minutes": 9,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 3,
-        "creativity": 0.1,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -4404,6 +3744,7 @@
     "second_name": "Krul",
     "team": 14,
     "element_type": 1,
+    "status": "a",
     "full_name": "tim krul",
     "seasons": [
       {
@@ -4411,11 +3752,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 45,
-        "bps": 53,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 1.1
+        "now_cost": 45
       }
     ]
   },
@@ -4424,6 +3761,7 @@
     "second_name": "Vrancic",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "mario vrancic",
     "seasons": [
       {
@@ -4431,11 +3769,7 @@
         "minutes": 15,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 63,
-        "bps": 5,
-        "creativity": 11.0,
-        "threat": 20.0,
-        "value_season": 0.3
+        "now_cost": 63
       }
     ]
   },
@@ -4444,6 +3778,7 @@
     "second_name": "Buend\u00eda",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "emiliano buend\u00eda",
     "seasons": [
       {
@@ -4451,11 +3786,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 60,
-        "bps": 51,
-        "creativity": 145.1,
-        "threat": 41.0,
-        "value_season": 1.8
+        "now_cost": 60
       }
     ]
   },
@@ -4464,6 +3795,7 @@
     "second_name": "Hern\u00e1ndez",
     "team": 14,
     "element_type": 3,
+    "status": "i",
     "full_name": "onel hern\u00e1ndez",
     "seasons": [
       {
@@ -4471,11 +3803,7 @@
         "minutes": 20,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 0,
-        "creativity": 0.6,
-        "threat": 22.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -4484,6 +3812,7 @@
     "second_name": "Stiepermann",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "marco stiepermann",
     "seasons": [
       {
@@ -4491,11 +3820,7 @@
         "minutes": 220,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 55,
-        "bps": 14,
-        "creativity": 20.8,
-        "threat": 42.0,
-        "value_season": 0.9
+        "now_cost": 55
       }
     ]
   },
@@ -4504,6 +3829,7 @@
     "second_name": "McLean",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "kenny mclean",
     "seasons": [
       {
@@ -4511,11 +3837,7 @@
         "minutes": 99,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 50,
-        "bps": 17,
-        "creativity": 2.2,
-        "threat": 0.0,
-        "value_season": 0.6
+        "now_cost": 50
       }
     ]
   },
@@ -4524,6 +3846,7 @@
     "second_name": "Cantwell",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "todd cantwell",
     "seasons": [
       {
@@ -4531,11 +3854,7 @@
         "minutes": 270,
         "total_points": 19,
         "points_per_game": 6.3,
-        "now_cost": 47,
-        "bps": 69,
-        "creativity": 94.4,
-        "threat": 80.0,
-        "value_season": 4.0
+        "now_cost": 47
       }
     ]
   },
@@ -4544,6 +3863,7 @@
     "second_name": "Leitner",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "moritz leitner",
     "seasons": [
       {
@@ -4551,11 +3871,7 @@
         "minutes": 202,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 45,
-        "bps": 35,
-        "creativity": 32.9,
-        "threat": 10.0,
-        "value_season": 0.9
+        "now_cost": 45
       }
     ]
   },
@@ -4564,6 +3880,7 @@
     "second_name": "Tettey",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "alexander tettey",
     "seasons": [
       {
@@ -4571,11 +3888,7 @@
         "minutes": 3,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 3,
-        "creativity": 0.1,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -4584,6 +3897,7 @@
     "second_name": "Trybull",
     "team": 14,
     "element_type": 3,
+    "status": "a",
     "full_name": "tom trybull",
     "seasons": [
       {
@@ -4591,11 +3905,7 @@
         "minutes": 235,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 45,
-        "bps": 43,
-        "creativity": 14.8,
-        "threat": 8.0,
-        "value_season": 1.6
+        "now_cost": 45
       }
     ]
   },
@@ -4604,6 +3914,7 @@
     "second_name": "Drmic",
     "team": 14,
     "element_type": 4,
+    "status": "a",
     "full_name": "josip drmic",
     "seasons": [
       {
@@ -4611,11 +3922,7 @@
         "minutes": 7,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 3,
-        "creativity": 0.3,
-        "threat": 2.0,
-        "value_season": 0.2
+        "now_cost": 54
       }
     ]
   },
@@ -4624,6 +3931,7 @@
     "second_name": "Byram",
     "team": 14,
     "element_type": 2,
+    "status": "a",
     "full_name": "sam byram",
     "seasons": [
       {
@@ -4631,11 +3939,7 @@
         "minutes": 1,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 3,
-        "creativity": 0.1,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -4644,6 +3948,7 @@
     "second_name": "Stevens",
     "team": 15,
     "element_type": 2,
+    "status": "a",
     "full_name": "enda stevens",
     "seasons": [
       {
@@ -4651,11 +3956,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 50,
-        "bps": 52,
-        "creativity": 20.1,
-        "threat": 22.0,
-        "value_season": 2.0
+        "now_cost": 50
       }
     ]
   },
@@ -4664,6 +3965,7 @@
     "second_name": "O'Connell",
     "team": 15,
     "element_type": 2,
+    "status": "a",
     "full_name": "jack o'connell",
     "seasons": [
       {
@@ -4671,11 +3973,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 48,
-        "creativity": 21.7,
-        "threat": 66.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -4684,6 +3982,7 @@
     "second_name": "Baldock",
     "team": 15,
     "element_type": 2,
+    "status": "a",
     "full_name": "george baldock",
     "seasons": [
       {
@@ -4691,11 +3990,7 @@
         "minutes": 270,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 45,
-        "bps": 45,
-        "creativity": 34.9,
-        "threat": 38.0,
-        "value_season": 3.1
+        "now_cost": 45
       }
     ]
   },
@@ -4704,6 +3999,7 @@
     "second_name": "Egan",
     "team": 15,
     "element_type": 2,
+    "status": "a",
     "full_name": "john egan",
     "seasons": [
       {
@@ -4711,11 +4007,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 48,
-        "creativity": 1.0,
-        "threat": 6.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -4724,6 +4016,7 @@
     "second_name": "Lundstram",
     "team": 15,
     "element_type": 2,
+    "status": "a",
     "full_name": "john lundstram",
     "seasons": [
       {
@@ -4731,11 +4024,7 @@
         "minutes": 257,
         "total_points": 17,
         "points_per_game": 5.7,
-        "now_cost": 42,
-        "bps": 65,
-        "creativity": 54.8,
-        "threat": 43.0,
-        "value_season": 4.0
+        "now_cost": 42
       }
     ]
   },
@@ -4744,6 +4033,7 @@
     "second_name": "Sharp",
     "team": 15,
     "element_type": 4,
+    "status": "a",
     "full_name": "billy sharp",
     "seasons": [
       {
@@ -4751,11 +4041,7 @@
         "minutes": 44,
         "total_points": 9,
         "points_per_game": 4.5,
-        "now_cost": 59,
-        "bps": 33,
-        "creativity": 14.3,
-        "threat": 39.0,
-        "value_season": 1.5
+        "now_cost": 59
       }
     ]
   },
@@ -4764,6 +4050,7 @@
     "second_name": "Fleck",
     "team": 15,
     "element_type": 3,
+    "status": "d",
     "full_name": "john fleck",
     "seasons": [
       {
@@ -4771,11 +4058,7 @@
         "minutes": 118,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 49,
-        "bps": 12,
-        "creativity": 44.0,
-        "threat": 1.0,
-        "value_season": 0.4
+        "now_cost": 49
       }
     ]
   },
@@ -4784,6 +4067,7 @@
     "second_name": "Norwood",
     "team": 15,
     "element_type": 3,
+    "status": "a",
     "full_name": "oliver norwood",
     "seasons": [
       {
@@ -4791,11 +4075,7 @@
         "minutes": 270,
         "total_points": 7,
         "points_per_game": 2.3,
-        "now_cost": 50,
-        "bps": 49,
-        "creativity": 114.9,
-        "threat": 16.0,
-        "value_season": 1.4
+        "now_cost": 50
       }
     ]
   },
@@ -4804,6 +4084,7 @@
     "second_name": "McGoldrick",
     "team": 15,
     "element_type": 4,
+    "status": "a",
     "full_name": "david mcgoldrick",
     "seasons": [
       {
@@ -4811,11 +4092,7 @@
         "minutes": 203,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 55,
-        "bps": 12,
-        "creativity": 10.8,
-        "threat": 61.0,
-        "value_season": 0.9
+        "now_cost": 55
       }
     ]
   },
@@ -4824,6 +4101,7 @@
     "second_name": "Basham",
     "team": 15,
     "element_type": 2,
+    "status": "a",
     "full_name": "chris basham",
     "seasons": [
       {
@@ -4831,11 +4109,7 @@
         "minutes": 248,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 41,
-        "creativity": 14.0,
-        "threat": 12.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -4844,6 +4118,7 @@
     "second_name": "Freeman",
     "team": 15,
     "element_type": 3,
+    "status": "a",
     "full_name": "luke freeman",
     "seasons": [
       {
@@ -4851,11 +4126,7 @@
         "minutes": 163,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 54,
-        "bps": 17,
-        "creativity": 39.5,
-        "threat": 14.0,
-        "value_season": 0.9
+        "now_cost": 54
       }
     ]
   },
@@ -4864,6 +4135,7 @@
     "second_name": "Jagielka",
     "team": 15,
     "element_type": 2,
+    "status": "a",
     "full_name": "phil jagielka",
     "seasons": [
       {
@@ -4871,11 +4143,7 @@
         "minutes": 1,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 44,
-        "bps": 4,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 44
       }
     ]
   },
@@ -4884,6 +4152,7 @@
     "second_name": "Robinson",
     "team": 15,
     "element_type": 3,
+    "status": "a",
     "full_name": "callum robinson",
     "seasons": [
       {
@@ -4891,11 +4160,7 @@
         "minutes": 198,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 53,
-        "bps": 0,
-        "creativity": 5.2,
-        "threat": 54.0,
-        "value_season": 0.7
+        "now_cost": 53
       }
     ]
   },
@@ -4904,6 +4169,7 @@
     "second_name": "Morrison",
     "team": 15,
     "element_type": 3,
+    "status": "a",
     "full_name": "ravel morrison",
     "seasons": [
       {
@@ -4911,11 +4177,7 @@
         "minutes": 12,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 49,
-        "bps": 0,
-        "creativity": 0.6,
-        "threat": 4.0,
-        "value_season": 0.2
+        "now_cost": 49
       }
     ]
   },
@@ -4924,6 +4186,7 @@
     "second_name": "Henderson",
     "team": 15,
     "element_type": 1,
+    "status": "a",
     "full_name": "dean henderson",
     "seasons": [
       {
@@ -4931,11 +4194,7 @@
         "minutes": 270,
         "total_points": 12,
         "points_per_game": 4.0,
-        "now_cost": 45,
-        "bps": 48,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.7
+        "now_cost": 45
       }
     ]
   },
@@ -4944,6 +4203,7 @@
     "second_name": "McBurnie",
     "team": 15,
     "element_type": 4,
+    "status": "a",
     "full_name": "oliver mcburnie",
     "seasons": [
       {
@@ -4951,11 +4211,7 @@
         "minutes": 97,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 59,
-        "bps": 28,
-        "creativity": 6.6,
-        "threat": 38.0,
-        "value_season": 1.4
+        "now_cost": 59
       }
     ]
   },
@@ -4964,6 +4220,7 @@
     "second_name": "Vestergaard",
     "team": 16,
     "element_type": 2,
+    "status": "a",
     "full_name": "jannik vestergaard",
     "seasons": [
       {
@@ -4971,11 +4228,7 @@
         "minutes": 270,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 50,
-        "bps": 59,
-        "creativity": 36.3,
-        "threat": 47.0,
-        "value_season": 2.2
+        "now_cost": 50
       }
     ]
   },
@@ -4984,6 +4237,7 @@
     "second_name": "Bertrand",
     "team": 16,
     "element_type": 2,
+    "status": "d",
     "full_name": "ryan bertrand",
     "seasons": [
       {
@@ -4991,11 +4245,7 @@
         "minutes": 166,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 14,
-        "creativity": 7.8,
-        "threat": 9.0,
-        "value_season": 0.4
+        "now_cost": 50
       }
     ]
   },
@@ -5004,6 +4254,7 @@
     "second_name": "Valery",
     "team": 16,
     "element_type": 2,
+    "status": "a",
     "full_name": "yan valery",
     "seasons": [
       {
@@ -5011,11 +4262,7 @@
         "minutes": 232,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 22,
-        "creativity": 32.4,
-        "threat": 28.0,
-        "value_season": 0.6
+        "now_cost": 50
       }
     ]
   },
@@ -5024,6 +4271,7 @@
     "second_name": "Bednarek",
     "team": 16,
     "element_type": 2,
+    "status": "a",
     "full_name": "jan bednarek",
     "seasons": [
       {
@@ -5031,11 +4279,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 45,
-        "bps": 51,
-        "creativity": 11.8,
-        "threat": 10.0,
-        "value_season": 2.0
+        "now_cost": 45
       }
     ]
   },
@@ -5044,6 +4288,7 @@
     "second_name": "Stephens",
     "team": 16,
     "element_type": 2,
+    "status": "a",
     "full_name": "jack stephens",
     "seasons": [
       {
@@ -5051,11 +4296,7 @@
         "minutes": 72,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 10,
-        "creativity": 0.1,
-        "threat": 2.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -5064,6 +4305,7 @@
     "second_name": "Yoshida",
     "team": 16,
     "element_type": 2,
+    "status": "a",
     "full_name": "maya yoshida",
     "seasons": [
       {
@@ -5071,11 +4313,7 @@
         "minutes": 90,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 7,
-        "creativity": 0.3,
-        "threat": 37.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -5084,6 +4322,7 @@
     "second_name": "Ings",
     "team": 16,
     "element_type": 4,
+    "status": "a",
     "full_name": "danny ings",
     "seasons": [
       {
@@ -5091,11 +4330,7 @@
         "minutes": 174,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 60,
-        "bps": 45,
-        "creativity": 43.4,
-        "threat": 72.0,
-        "value_season": 2.2
+        "now_cost": 60
       }
     ]
   },
@@ -5104,6 +4339,7 @@
     "second_name": "Obafemi",
     "team": 16,
     "element_type": 4,
+    "status": "d",
     "full_name": "michael obafemi",
     "seasons": [
       {
@@ -5111,11 +4347,7 @@
         "minutes": 24,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 0,
-        "creativity": 0.4,
-        "threat": 4.0,
-        "value_season": 0.2
+        "now_cost": 50
       }
     ]
   },
@@ -5124,6 +4356,7 @@
     "second_name": "Gunn",
     "team": 16,
     "element_type": 1,
+    "status": "a",
     "full_name": "angus gunn",
     "seasons": [
       {
@@ -5131,11 +4364,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 45,
-        "bps": 52,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 2.2
+        "now_cost": 45
       }
     ]
   },
@@ -5144,6 +4373,7 @@
     "second_name": "Redmond",
     "team": 16,
     "element_type": 3,
+    "status": "i",
     "full_name": "nathan redmond",
     "seasons": [
       {
@@ -5151,11 +4381,7 @@
         "minutes": 270,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 64,
-        "bps": 44,
-        "creativity": 49.5,
-        "threat": 81.0,
-        "value_season": 2.2
+        "now_cost": 64
       }
     ]
   },
@@ -5164,6 +4390,7 @@
     "second_name": "Ward-Prowse",
     "team": 16,
     "element_type": 3,
+    "status": "a",
     "full_name": "james ward-prowse",
     "seasons": [
       {
@@ -5171,11 +4398,7 @@
         "minutes": 270,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 59,
-        "bps": 34,
-        "creativity": 76.5,
-        "threat": 23.0,
-        "value_season": 1.0
+        "now_cost": 59
       }
     ]
   },
@@ -5184,6 +4407,7 @@
     "second_name": "Armstrong",
     "team": 16,
     "element_type": 3,
+    "status": "a",
     "full_name": "stuart armstrong",
     "seasons": [
       {
@@ -5191,11 +4415,7 @@
         "minutes": 28,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 54,
-        "bps": 4,
-        "creativity": 0.7,
-        "threat": 17.0,
-        "value_season": 0.4
+        "now_cost": 54
       }
     ]
   },
@@ -5204,6 +4424,7 @@
     "second_name": "H\u00f8jbjerg",
     "team": 16,
     "element_type": 3,
+    "status": "a",
     "full_name": "pierre-emile h\u00f8jbjerg",
     "seasons": [
       {
@@ -5211,11 +4432,7 @@
         "minutes": 197,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 49,
-        "bps": 15,
-        "creativity": 9.1,
-        "threat": 25.0,
-        "value_season": 1.0
+        "now_cost": 49
       }
     ]
   },
@@ -5224,6 +4441,7 @@
     "second_name": "Romeu Vidal",
     "team": 16,
     "element_type": 3,
+    "status": "a",
     "full_name": "oriol romeu vidal",
     "seasons": [
       {
@@ -5231,11 +4449,7 @@
         "minutes": 243,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 45,
-        "bps": 34,
-        "creativity": 29.9,
-        "threat": 11.0,
-        "value_season": 1.3
+        "now_cost": 45
       }
     ]
   },
@@ -5244,6 +4458,7 @@
     "second_name": "Adams",
     "team": 16,
     "element_type": 4,
+    "status": "a",
     "full_name": "che adams",
     "seasons": [
       {
@@ -5251,11 +4466,7 @@
         "minutes": 218,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 58,
-        "bps": 3,
-        "creativity": 27.0,
-        "threat": 93.0,
-        "value_season": 1.0
+        "now_cost": 58
       }
     ]
   },
@@ -5264,6 +4475,7 @@
     "second_name": "Djenepo",
     "team": 16,
     "element_type": 3,
+    "status": "i",
     "full_name": "moussa djenepo",
     "seasons": [
       {
@@ -5271,11 +4483,7 @@
         "minutes": 50,
         "total_points": 5,
         "points_per_game": 2.5,
-        "now_cost": 54,
-        "bps": 24,
-        "creativity": 1.8,
-        "threat": 31.0,
-        "value_season": 0.9
+        "now_cost": 54
       }
     ]
   },
@@ -5284,6 +4492,7 @@
     "second_name": "Boufal",
     "team": 16,
     "element_type": 3,
+    "status": "a",
     "full_name": "sofiane boufal",
     "seasons": [
       {
@@ -5291,11 +4500,7 @@
         "minutes": 27,
         "total_points": 5,
         "points_per_game": 2.5,
-        "now_cost": 55,
-        "bps": 20,
-        "creativity": 22.6,
-        "threat": 8.0,
-        "value_season": 0.9
+        "now_cost": 55
       }
     ]
   },
@@ -5304,6 +4509,7 @@
     "second_name": "Danso",
     "team": 16,
     "element_type": 2,
+    "status": "a",
     "full_name": "kevin danso",
     "seasons": [
       {
@@ -5311,11 +4517,7 @@
         "minutes": 90,
         "total_points": 6,
         "points_per_game": 6.0,
-        "now_cost": 45,
-        "bps": 24,
-        "creativity": 1.6,
-        "threat": 0.0,
-        "value_season": 1.3
+        "now_cost": 45
       }
     ]
   },
@@ -5324,6 +4526,7 @@
     "second_name": "Davies",
     "team": 17,
     "element_type": 2,
+    "status": "a",
     "full_name": "ben davies",
     "seasons": [
       {
@@ -5331,11 +4534,7 @@
         "minutes": 2,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 55,
-        "bps": 2,
-        "creativity": 1.2,
-        "threat": 4.0,
-        "value_season": 0.2
+        "now_cost": 55
       }
     ]
   },
@@ -5344,6 +4543,7 @@
     "second_name": "Alderweireld",
     "team": 17,
     "element_type": 2,
+    "status": "a",
     "full_name": "toby alderweireld",
     "seasons": [
       {
@@ -5351,11 +4551,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 55,
-        "bps": 47,
-        "creativity": 32.4,
-        "threat": 8.0,
-        "value_season": 0.9
+        "now_cost": 55
       }
     ]
   },
@@ -5364,6 +4560,7 @@
     "second_name": "Rose",
     "team": 17,
     "element_type": 2,
+    "status": "a",
     "full_name": "danny rose",
     "seasons": [
       {
@@ -5371,11 +4568,7 @@
         "minutes": 267,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 55,
-        "bps": 37,
-        "creativity": 80.2,
-        "threat": 6.0,
-        "value_season": 0.7
+        "now_cost": 55
       }
     ]
   },
@@ -5384,6 +4577,7 @@
     "second_name": "S\u00e1nchez",
     "team": 17,
     "element_type": 2,
+    "status": "a",
     "full_name": "davinson s\u00e1nchez",
     "seasons": [
       {
@@ -5391,11 +4585,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 55,
-        "bps": 47,
-        "creativity": 13.4,
-        "threat": 21.0,
-        "value_season": 0.9
+        "now_cost": 55
       }
     ]
   },
@@ -5404,6 +4594,7 @@
     "second_name": "Walker-Peters",
     "team": 17,
     "element_type": 2,
+    "status": "i",
     "full_name": "kyle walker-peters",
     "seasons": [
       {
@@ -5411,11 +4602,7 @@
         "minutes": 241,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 50,
-        "bps": 44,
-        "creativity": 42.5,
-        "threat": 18.0,
-        "value_season": 1.0
+        "now_cost": 50
       }
     ]
   },
@@ -5424,6 +4611,7 @@
     "second_name": "Kane",
     "team": 17,
     "element_type": 4,
+    "status": "a",
     "full_name": "harry kane",
     "seasons": [
       {
@@ -5431,11 +4619,7 @@
         "minutes": 270,
         "total_points": 17,
         "points_per_game": 5.7,
-        "now_cost": 111,
-        "bps": 54,
-        "creativity": 28.7,
-        "threat": 107.0,
-        "value_season": 1.5
+        "now_cost": 111
       }
     ]
   },
@@ -5444,6 +4628,7 @@
     "second_name": "Lloris",
     "team": 17,
     "element_type": 1,
+    "status": "a",
     "full_name": "hugo lloris",
     "seasons": [
       {
@@ -5451,11 +4636,7 @@
         "minutes": 270,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 55,
-        "bps": 53,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 1.5
+        "now_cost": 55
       }
     ]
   },
@@ -5464,6 +4645,7 @@
     "second_name": "Son",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "heung-min son",
     "seasons": [
       {
@@ -5471,11 +4653,7 @@
         "minutes": 90,
         "total_points": 2,
         "points_per_game": 2.0,
-        "now_cost": 95,
-        "bps": 9,
-        "creativity": 35.2,
-        "threat": 75.0,
-        "value_season": 0.2
+        "now_cost": 95
       }
     ]
   },
@@ -5484,6 +4662,7 @@
     "second_name": "Eriksen",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "christian eriksen",
     "seasons": [
       {
@@ -5491,11 +4670,7 @@
         "minutes": 144,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 88,
-        "bps": 30,
-        "creativity": 81.1,
-        "threat": 36.0,
-        "value_season": 0.4
+        "now_cost": 88
       }
     ]
   },
@@ -5504,6 +4679,7 @@
     "second_name": "Rodrigues Moura da Silva",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "lucas rodrigues moura da silva",
     "seasons": [
       {
@@ -5511,11 +4687,7 @@
         "minutes": 214,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 75,
-        "bps": 45,
-        "creativity": 45.3,
-        "threat": 123.0,
-        "value_season": 1.7
+        "now_cost": 75
       }
     ]
   },
@@ -5524,6 +4696,7 @@
     "second_name": "Lamela",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "erik lamela",
     "seasons": [
       {
@@ -5531,11 +4704,7 @@
         "minutes": 232,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 60,
-        "bps": 60,
-        "creativity": 67.9,
-        "threat": 68.0,
-        "value_season": 2.5
+        "now_cost": 60
       }
     ]
   },
@@ -5544,6 +4713,7 @@
     "second_name": "Winks",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "harry winks",
     "seasons": [
       {
@@ -5551,11 +4721,7 @@
         "minutes": 208,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 55,
-        "bps": 36,
-        "creativity": 54.9,
-        "threat": 3.0,
-        "value_season": 0.7
+        "now_cost": 55
       }
     ]
   },
@@ -5564,6 +4730,7 @@
     "second_name": "Sissoko",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "moussa sissoko",
     "seasons": [
       {
@@ -5571,11 +4738,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 50,
-        "bps": 50,
-        "creativity": 72.0,
-        "threat": 57.0,
-        "value_season": 1.8
+        "now_cost": 50
       }
     ]
   },
@@ -5584,6 +4747,7 @@
     "second_name": "Skipp",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "oliver skipp",
     "seasons": [
       {
@@ -5591,11 +4755,7 @@
         "minutes": 2,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 6,
-        "creativity": 0.2,
-        "threat": 0.0,
-        "value_season": 0.4
+        "now_cost": 45
       }
     ]
   },
@@ -5604,6 +4764,7 @@
     "second_name": "Ndombele",
     "team": 17,
     "element_type": 3,
+    "status": "i",
     "full_name": "tanguy ndombele",
     "seasons": [
       {
@@ -5611,11 +4772,7 @@
         "minutes": 180,
         "total_points": 14,
         "points_per_game": 7.0,
-        "now_cost": 60,
-        "bps": 57,
-        "creativity": 31.8,
-        "threat": 14.0,
-        "value_season": 2.3
+        "now_cost": 60
       }
     ]
   },
@@ -5624,6 +4781,7 @@
     "second_name": "Lo Celso",
     "team": 17,
     "element_type": 3,
+    "status": "a",
     "full_name": "giovani lo celso",
     "seasons": [
       {
@@ -5631,11 +4789,7 @@
         "minutes": 33,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 74,
-        "bps": 7,
-        "creativity": 23.9,
-        "threat": 1.0,
-        "value_season": 0.3
+        "now_cost": 74
       }
     ]
   },
@@ -5644,6 +4798,7 @@
     "second_name": "Nkoudou",
     "team": 17,
     "element_type": 3,
+    "status": "u",
     "full_name": "georges-k\u00e9vin nkoudou",
     "seasons": [
       {
@@ -5651,11 +4806,7 @@
         "minutes": 2,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 3,
-        "creativity": 0.0,
-        "threat": 18.0,
-        "value_season": 0.2
+        "now_cost": 50
       }
     ]
   },
@@ -5664,6 +4815,7 @@
     "second_name": "Holebas",
     "team": 18,
     "element_type": 2,
+    "status": "a",
     "full_name": "jos\u00e9 holebas",
     "seasons": [
       {
@@ -5671,11 +4823,7 @@
         "minutes": 270,
         "total_points": 2,
         "points_per_game": 0.7,
-        "now_cost": 49,
-        "bps": 38,
-        "creativity": 76.5,
-        "threat": 0.0,
-        "value_season": 0.4
+        "now_cost": 49
       }
     ]
   },
@@ -5684,6 +4832,7 @@
     "second_name": "Femen\u00eda Far",
     "team": 18,
     "element_type": 2,
+    "status": "a",
     "full_name": "francisco femen\u00eda far",
     "seasons": [
       {
@@ -5691,11 +4840,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 45,
-        "bps": 36,
-        "creativity": 67.3,
-        "threat": 15.0,
-        "value_season": 0.9
+        "now_cost": 45
       }
     ]
   },
@@ -5704,6 +4849,7 @@
     "second_name": "Cathcart",
     "team": 18,
     "element_type": 2,
+    "status": "a",
     "full_name": "craig cathcart",
     "seasons": [
       {
@@ -5711,11 +4857,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 44,
-        "bps": 39,
-        "creativity": 1.5,
-        "threat": 4.0,
-        "value_season": 0.9
+        "now_cost": 44
       }
     ]
   },
@@ -5724,6 +4866,7 @@
     "second_name": "Deeney",
     "team": 18,
     "element_type": 4,
+    "status": "i",
     "full_name": "troy deeney",
     "seasons": [
       {
@@ -5731,11 +4874,7 @@
         "minutes": 180,
         "total_points": 4,
         "points_per_game": 2.0,
-        "now_cost": 63,
-        "bps": 11,
-        "creativity": 27.3,
-        "threat": 46.0,
-        "value_season": 0.6
+        "now_cost": 63
       }
     ]
   },
@@ -5744,6 +4883,7 @@
     "second_name": "Deulofeu",
     "team": 18,
     "element_type": 4,
+    "status": "a",
     "full_name": "gerard deulofeu",
     "seasons": [
       {
@@ -5751,11 +4891,7 @@
         "minutes": 196,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 63,
-        "bps": 20,
-        "creativity": 67.1,
-        "threat": 128.0,
-        "value_season": 0.8
+        "now_cost": 63
       }
     ]
   },
@@ -5764,6 +4900,7 @@
     "second_name": "Gray",
     "team": 18,
     "element_type": 4,
+    "status": "a",
     "full_name": "andre gray",
     "seasons": [
       {
@@ -5771,11 +4908,7 @@
         "minutes": 171,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 59,
-        "bps": 40,
-        "creativity": 47.3,
-        "threat": 58.0,
-        "value_season": 1.9
+        "now_cost": 59
       }
     ]
   },
@@ -5784,6 +4917,7 @@
     "second_name": "Success Ajayi",
     "team": 18,
     "element_type": 4,
+    "status": "a",
     "full_name": "isaac success ajayi",
     "seasons": [
       {
@@ -5791,11 +4925,7 @@
         "minutes": 15,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 49,
-        "bps": 1,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 49
       }
     ]
   },
@@ -5804,6 +4934,7 @@
     "second_name": "Foster",
     "team": 18,
     "element_type": 1,
+    "status": "a",
     "full_name": "ben foster",
     "seasons": [
       {
@@ -5811,11 +4942,7 @@
         "minutes": 270,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 49,
-        "bps": 44,
-        "creativity": 10.0,
-        "threat": 0.0,
-        "value_season": 1.2
+        "now_cost": 49
       }
     ]
   },
@@ -5824,6 +4951,7 @@
     "second_name": "Doucour\u00e9",
     "team": 18,
     "element_type": 3,
+    "status": "a",
     "full_name": "abdoulaye doucour\u00e9",
     "seasons": [
       {
@@ -5831,11 +4959,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 59,
-        "bps": 27,
-        "creativity": 81.8,
-        "threat": 69.0,
-        "value_season": 0.7
+        "now_cost": 59
       }
     ]
   },
@@ -5844,6 +4968,7 @@
     "second_name": "Pereyra",
     "team": 18,
     "element_type": 3,
+    "status": "a",
     "full_name": "roberto pereyra",
     "seasons": [
       {
@@ -5851,11 +4976,7 @@
         "minutes": 135,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 59,
-        "bps": 2,
-        "creativity": 10.6,
-        "threat": 58.0,
-        "value_season": 0.3
+        "now_cost": 59
       }
     ]
   },
@@ -5864,6 +4985,7 @@
     "second_name": "Hughes",
     "team": 18,
     "element_type": 3,
+    "status": "a",
     "full_name": "will hughes",
     "seasons": [
       {
@@ -5871,11 +4993,7 @@
         "minutes": 229,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 55,
-        "bps": 30,
-        "creativity": 44.0,
-        "threat": 29.0,
-        "value_season": 1.6
+        "now_cost": 55
       }
     ]
   },
@@ -5884,6 +5002,7 @@
     "second_name": "Cleverley",
     "team": 18,
     "element_type": 3,
+    "status": "a",
     "full_name": "tom cleverley",
     "seasons": [
       {
@@ -5891,11 +5010,7 @@
         "minutes": 96,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 49,
-        "bps": 15,
-        "creativity": 35.6,
-        "threat": 20.0,
-        "value_season": 0.6
+        "now_cost": 49
       }
     ]
   },
@@ -5904,6 +5019,7 @@
     "second_name": "Capoue",
     "team": 18,
     "element_type": 3,
+    "status": "a",
     "full_name": "etienne capoue",
     "seasons": [
       {
@@ -5911,11 +5027,7 @@
         "minutes": 262,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 49,
-        "bps": 32,
-        "creativity": 7.2,
-        "threat": 12.0,
-        "value_season": 1.0
+        "now_cost": 49
       }
     ]
   },
@@ -5924,6 +5036,7 @@
     "second_name": "Quina",
     "team": 18,
     "element_type": 3,
+    "status": "a",
     "full_name": "domingos quina",
     "seasons": [
       {
@@ -5931,11 +5044,7 @@
         "minutes": 4,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 2,
-        "creativity": 0.2,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 45
       }
     ]
   },
@@ -5944,6 +5053,7 @@
     "second_name": "Dawson",
     "team": 18,
     "element_type": 2,
+    "status": "a",
     "full_name": "craig dawson",
     "seasons": [
       {
@@ -5951,11 +5061,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 50,
-        "bps": 34,
-        "creativity": 1.3,
-        "threat": 64.0,
-        "value_season": 0.8
+        "now_cost": 50
       }
     ]
   },
@@ -5964,6 +5070,7 @@
     "second_name": "Welbeck",
     "team": 18,
     "element_type": 4,
+    "status": "a",
     "full_name": "danny welbeck",
     "seasons": [
       {
@@ -5971,11 +5078,7 @@
         "minutes": 39,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 60,
-        "bps": 5,
-        "creativity": 11.2,
-        "threat": 2.0,
-        "value_season": 0.3
+        "now_cost": 60
       }
     ]
   },
@@ -5984,6 +5087,7 @@
     "second_name": "Sarr",
     "team": 18,
     "element_type": 3,
+    "status": "a",
     "full_name": "isma\u00efla sarr",
     "seasons": [
       {
@@ -5991,11 +5095,7 @@
         "minutes": 16,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 65,
-        "bps": 1,
-        "creativity": 1.2,
-        "threat": 8.0,
-        "value_season": 0.2
+        "now_cost": 65
       }
     ]
   },
@@ -6004,6 +5104,7 @@
     "second_name": "Ogbonna",
     "team": 19,
     "element_type": 2,
+    "status": "a",
     "full_name": "angelo ogbonna",
     "seasons": [
       {
@@ -6011,11 +5112,7 @@
         "minutes": 180,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 45,
-        "bps": 25,
-        "creativity": 0.5,
-        "threat": 21.0,
-        "value_season": 0.7
+        "now_cost": 45
       }
     ]
   },
@@ -6024,6 +5121,7 @@
     "second_name": "Masuaku",
     "team": 19,
     "element_type": 2,
+    "status": "a",
     "full_name": "arthur masuaku",
     "seasons": [
       {
@@ -6031,11 +5129,7 @@
         "minutes": 180,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 45,
-        "bps": 35,
-        "creativity": 18.5,
-        "threat": 1.0,
-        "value_season": 0.7
+        "now_cost": 45
       }
     ]
   },
@@ -6044,6 +5138,7 @@
     "second_name": "Fredericks",
     "team": 19,
     "element_type": 2,
+    "status": "a",
     "full_name": "ryan fredericks",
     "seasons": [
       {
@@ -6051,11 +5146,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 45,
-        "bps": 28,
-        "creativity": 16.3,
-        "threat": 6.0,
-        "value_season": 0.9
+        "now_cost": 45
       }
     ]
   },
@@ -6064,6 +5155,7 @@
     "second_name": "Diop",
     "team": 19,
     "element_type": 2,
+    "status": "a",
     "full_name": "issa diop",
     "seasons": [
       {
@@ -6071,11 +5163,7 @@
         "minutes": 270,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 45,
-        "bps": 29,
-        "creativity": 11.7,
-        "threat": 11.0,
-        "value_season": 0.9
+        "now_cost": 45
       }
     ]
   },
@@ -6084,6 +5172,7 @@
     "second_name": "Hern\u00e1ndez Balc\u00e1zar",
     "team": 19,
     "element_type": 4,
+    "status": "a",
     "full_name": "javier hern\u00e1ndez balc\u00e1zar",
     "seasons": [
       {
@@ -6091,11 +5180,7 @@
         "minutes": 106,
         "total_points": 9,
         "points_per_game": 4.5,
-        "now_cost": 60,
-        "bps": 27,
-        "creativity": 2.2,
-        "threat": 39.0,
-        "value_season": 1.5
+        "now_cost": 60
       }
     ]
   },
@@ -6104,6 +5189,7 @@
     "second_name": "Fabianski",
     "team": 19,
     "element_type": 1,
+    "status": "a",
     "full_name": "lukasz fabianski",
     "seasons": [
       {
@@ -6111,11 +5197,7 @@
         "minutes": 270,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 50,
-        "bps": 49,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 1.2
+        "now_cost": 50
       }
     ]
   },
@@ -6124,6 +5206,7 @@
     "second_name": "Antonio",
     "team": 19,
     "element_type": 3,
+    "status": "d",
     "full_name": "michail antonio",
     "seasons": [
       {
@@ -6131,11 +5214,7 @@
         "minutes": 125,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 70,
-        "bps": 10,
-        "creativity": 28.1,
-        "threat": 112.0,
-        "value_season": 0.9
+        "now_cost": 70
       }
     ]
   },
@@ -6144,6 +5223,7 @@
     "second_name": "Pereira Gomes",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "felipe anderson pereira gomes",
     "seasons": [
       {
@@ -6151,11 +5231,7 @@
         "minutes": 142,
         "total_points": 6,
         "points_per_game": 3.0,
-        "now_cost": 69,
-        "bps": 28,
-        "creativity": 41.9,
-        "threat": 63.0,
-        "value_season": 0.9
+        "now_cost": 69
       }
     ]
   },
@@ -6164,6 +5240,7 @@
     "second_name": "Lanzini",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "manuel lanzini",
     "seasons": [
       {
@@ -6171,11 +5248,7 @@
         "minutes": 267,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 65,
-        "bps": 73,
-        "creativity": 137.7,
-        "threat": 34.0,
-        "value_season": 2.3
+        "now_cost": 65
       }
     ]
   },
@@ -6184,6 +5257,7 @@
     "second_name": "Yarmolenko",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "andriy yarmolenko",
     "seasons": [
       {
@@ -6191,11 +5265,7 @@
         "minutes": 67,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 59,
-        "bps": 11,
-        "creativity": 24.1,
-        "threat": 13.0,
-        "value_season": 0.3
+        "now_cost": 59
       }
     ]
   },
@@ -6204,6 +5274,7 @@
     "second_name": "Snodgrass",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "robert snodgrass",
     "seasons": [
       {
@@ -6211,11 +5282,7 @@
         "minutes": 124,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 54,
-        "bps": 14,
-        "creativity": 21.3,
-        "threat": 21.0,
-        "value_season": 0.6
+        "now_cost": 54
       }
     ]
   },
@@ -6224,6 +5291,7 @@
     "second_name": "Wilshere",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "jack wilshere",
     "seasons": [
       {
@@ -6231,11 +5299,7 @@
         "minutes": 100,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 49,
-        "bps": 4,
-        "creativity": 3.9,
-        "threat": 0.0,
-        "value_season": 0.4
+        "now_cost": 49
       }
     ]
   },
@@ -6244,6 +5308,7 @@
     "second_name": "Rice",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "declan rice",
     "seasons": [
       {
@@ -6251,11 +5316,7 @@
         "minutes": 270,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 49,
-        "bps": 38,
-        "creativity": 15.5,
-        "threat": 1.0,
-        "value_season": 1.0
+        "now_cost": 49
       }
     ]
   },
@@ -6264,6 +5325,7 @@
     "second_name": "Noble",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "mark noble",
     "seasons": [
       {
@@ -6271,11 +5333,7 @@
         "minutes": 90,
         "total_points": 9,
         "points_per_game": 9.0,
-        "now_cost": 50,
-        "bps": 33,
-        "creativity": 12.5,
-        "threat": 21.0,
-        "value_season": 1.8
+        "now_cost": 50
       }
     ]
   },
@@ -6284,6 +5342,7 @@
     "second_name": "S\u00e1nchez",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "carlos s\u00e1nchez",
     "seasons": [
       {
@@ -6291,11 +5350,7 @@
         "minutes": 9,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 45,
-        "bps": 6,
-        "creativity": 0.1,
-        "threat": 0.0,
-        "value_season": 0.4
+        "now_cost": 45
       }
     ]
   },
@@ -6304,6 +5359,7 @@
     "second_name": "Fornals",
     "team": 19,
     "element_type": 3,
+    "status": "a",
     "full_name": "pablo fornals",
     "seasons": [
       {
@@ -6311,11 +5367,7 @@
         "minutes": 133,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 63,
-        "bps": 11,
-        "creativity": 5.3,
-        "threat": 20.0,
-        "value_season": 0.6
+        "now_cost": 63
       }
     ]
   },
@@ -6324,6 +5376,7 @@
     "second_name": "Haller",
     "team": 19,
     "element_type": 4,
+    "status": "a",
     "full_name": "s\u00e9bastien haller",
     "seasons": [
       {
@@ -6331,11 +5384,7 @@
         "minutes": 180,
         "total_points": 15,
         "points_per_game": 7.5,
-        "now_cost": 74,
-        "bps": 69,
-        "creativity": 10.1,
-        "threat": 127.0,
-        "value_season": 2.0
+        "now_cost": 74
       }
     ]
   },
@@ -6344,6 +5393,7 @@
     "second_name": "Doherty",
     "team": 20,
     "element_type": 2,
+    "status": "a",
     "full_name": "matt doherty",
     "seasons": [
       {
@@ -6351,11 +5401,7 @@
         "minutes": 210,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 60,
-        "bps": 31,
-        "creativity": 6.2,
-        "threat": 10.0,
-        "value_season": 1.5
+        "now_cost": 60
       }
     ]
   },
@@ -6364,6 +5410,7 @@
     "second_name": "Castro Otto",
     "team": 20,
     "element_type": 2,
+    "status": "a",
     "full_name": "jonathan castro otto",
     "seasons": [
       {
@@ -6371,11 +5418,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 55,
-        "bps": 39,
-        "creativity": 20.4,
-        "threat": 32.0,
-        "value_season": 1.6
+        "now_cost": 55
       }
     ]
   },
@@ -6384,6 +5427,7 @@
     "second_name": "Coady",
     "team": 20,
     "element_type": 2,
+    "status": "a",
     "full_name": "conor coady",
     "seasons": [
       {
@@ -6391,11 +5435,7 @@
         "minutes": 270,
         "total_points": 10,
         "points_per_game": 3.3,
-        "now_cost": 50,
-        "bps": 41,
-        "creativity": 0.8,
-        "threat": 0.0,
-        "value_season": 2.0
+        "now_cost": 50
       }
     ]
   },
@@ -6404,6 +5444,7 @@
     "second_name": "Bennett",
     "team": 20,
     "element_type": 2,
+    "status": "a",
     "full_name": "ryan bennett",
     "seasons": [
       {
@@ -6411,11 +5452,7 @@
         "minutes": 270,
         "total_points": 9,
         "points_per_game": 3.0,
-        "now_cost": 50,
-        "bps": 47,
-        "creativity": 21.3,
-        "threat": 14.0,
-        "value_season": 1.8
+        "now_cost": 50
       }
     ]
   },
@@ -6424,6 +5461,7 @@
     "second_name": "Boly",
     "team": 20,
     "element_type": 2,
+    "status": "a",
     "full_name": "willy boly",
     "seasons": [
       {
@@ -6431,11 +5469,7 @@
         "minutes": 270,
         "total_points": 15,
         "points_per_game": 5.0,
-        "now_cost": 50,
-        "bps": 67,
-        "creativity": 22.4,
-        "threat": 6.0,
-        "value_season": 3.0
+        "now_cost": 50
       }
     ]
   },
@@ -6444,6 +5478,7 @@
     "second_name": "Sa\u00efss",
     "team": 20,
     "element_type": 2,
+    "status": "a",
     "full_name": "romain sa\u00efss",
     "seasons": [
       {
@@ -6451,11 +5486,7 @@
         "minutes": 9,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 44,
-        "bps": 3,
-        "creativity": 0.1,
-        "threat": 0.0,
-        "value_season": 0.2
+        "now_cost": 44
       }
     ]
   },
@@ -6464,6 +5495,7 @@
     "second_name": "Jim\u00e9nez",
     "team": 20,
     "element_type": 4,
+    "status": "a",
     "full_name": "ra\u00fal jim\u00e9nez",
     "seasons": [
       {
@@ -6471,11 +5503,7 @@
         "minutes": 270,
         "total_points": 13,
         "points_per_game": 4.3,
-        "now_cost": 74,
-        "bps": 47,
-        "creativity": 39.1,
-        "threat": 95.0,
-        "value_season": 1.8
+        "now_cost": 74
       }
     ]
   },
@@ -6484,6 +5512,7 @@
     "second_name": "Jota",
     "team": 20,
     "element_type": 4,
+    "status": "a",
     "full_name": "diogo jota",
     "seasons": [
       {
@@ -6491,11 +5520,7 @@
         "minutes": 250,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 64,
-        "bps": 12,
-        "creativity": 40.1,
-        "threat": 97.0,
-        "value_season": 0.9
+        "now_cost": 64
       }
     ]
   },
@@ -6504,6 +5529,7 @@
     "second_name": "dos Santos Patr\u00edcio",
     "team": 20,
     "element_type": 1,
+    "status": "a",
     "full_name": "rui pedro dos santos patr\u00edcio",
     "seasons": [
       {
@@ -6511,11 +5537,7 @@
         "minutes": 270,
         "total_points": 18,
         "points_per_game": 6.0,
-        "now_cost": 50,
-        "bps": 64,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 3.6
+        "now_cost": 50
       }
     ]
   },
@@ -6524,6 +5546,7 @@
     "second_name": "da Silva Neves",
     "team": 20,
     "element_type": 3,
+    "status": "a",
     "full_name": "r\u00faben diogo da silva neves",
     "seasons": [
       {
@@ -6531,11 +5554,7 @@
         "minutes": 260,
         "total_points": 11,
         "points_per_game": 3.7,
-        "now_cost": 55,
-        "bps": 43,
-        "creativity": 38.5,
-        "threat": 39.0,
-        "value_season": 2.0
+        "now_cost": 55
       }
     ]
   },
@@ -6544,6 +5563,7 @@
     "second_name": "Santos Moutinho",
     "team": 20,
     "element_type": 3,
+    "status": "a",
     "full_name": "jo\u00e3o filipe iria santos moutinho",
     "seasons": [
       {
@@ -6551,11 +5571,7 @@
         "minutes": 238,
         "total_points": 12,
         "points_per_game": 4.0,
-        "now_cost": 55,
-        "bps": 49,
-        "creativity": 104.8,
-        "threat": 0.0,
-        "value_season": 2.2
+        "now_cost": 55
       }
     ]
   },
@@ -6564,6 +5580,7 @@
     "second_name": "Gibbs-White",
     "team": 20,
     "element_type": 3,
+    "status": "a",
     "full_name": "morgan gibbs-white",
     "seasons": [
       {
@@ -6571,11 +5588,7 @@
         "minutes": 66,
         "total_points": 2,
         "points_per_game": 2.0,
-        "now_cost": 49,
-        "bps": 13,
-        "creativity": 25.6,
-        "threat": 8.0,
-        "value_season": 0.4
+        "now_cost": 49
       }
     ]
   },
@@ -6584,6 +5597,7 @@
     "second_name": "Traor\u00e9",
     "team": 20,
     "element_type": 3,
+    "status": "a",
     "full_name": "adama traor\u00e9",
     "seasons": [
       {
@@ -6591,11 +5605,7 @@
         "minutes": 59,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 5,
-        "creativity": 16.7,
-        "threat": 14.0,
-        "value_season": 0.4
+        "now_cost": 50
       }
     ]
   },
@@ -6604,6 +5614,7 @@
     "second_name": "Dendoncker",
     "team": 20,
     "element_type": 3,
+    "status": "d",
     "full_name": "leander dendoncker",
     "seasons": [
       {
@@ -6611,11 +5622,7 @@
         "minutes": 211,
         "total_points": 6,
         "points_per_game": 2.0,
-        "now_cost": 45,
-        "bps": 20,
-        "creativity": 26.3,
-        "threat": 31.0,
-        "value_season": 1.3
+        "now_cost": 45
       }
     ]
   },
@@ -6624,6 +5631,7 @@
     "second_name": "Cutrone",
     "team": 20,
     "element_type": 4,
+    "status": "a",
     "full_name": "patrick cutrone",
     "seasons": [
       {
@@ -6631,11 +5639,7 @@
         "minutes": 15,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 58,
-        "bps": 1,
-        "creativity": 0.0,
-        "threat": 0.0,
-        "value_season": 0.3
+        "now_cost": 58
       }
     ]
   },
@@ -6644,6 +5648,7 @@
     "second_name": "Lomba Neto",
     "team": 20,
     "element_type": 3,
+    "status": "a",
     "full_name": "pedro lomba neto",
     "seasons": [
       {
@@ -6651,11 +5656,7 @@
         "minutes": 27,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 50,
-        "bps": 4,
-        "creativity": 3.0,
-        "threat": 8.0,
-        "value_season": 0.4
+        "now_cost": 50
       }
     ]
   }

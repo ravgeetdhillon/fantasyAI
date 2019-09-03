@@ -23,7 +23,7 @@ def get_team_sortedby(sort_method):
 
     team = []
     for player in players:
-        if player['seasons'][0]['now_cost'] < budget and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3:
+        if player['seasons'][0]['now_cost'] < budget and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and player['status'] == 'a':
             budget -= player['seasons'][0]['now_cost']
             configuration[player['position']]['left'] -= 1
             team_players_selected[player['team_name']] += 1
@@ -95,7 +95,7 @@ team_players_selected = variables.team_players_selected()
 final_team = []
 for player in team_sortedby_value:
     if player in team_sortedby_value_per_cost:
-        if budget > player['seasons'][0]['now_cost'] and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3:
+        if budget > player['seasons'][0]['now_cost'] and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and player['status'] == 'a':
             budget -= player['seasons'][0]['now_cost']
             configuration[player['position']]['left'] -= 1
             team_players_selected[player['team_name']] += 1
@@ -108,7 +108,7 @@ with open(f'data/players_sortedby_value.json', 'r') as f:
 
 position_checked = []
 for player in players_sortedby_value:
-    if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player['position'] not in position_checked:
+    if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player['status'] == 'a' and player['position'] not in position_checked:
         budget -= player['seasons'][0]['now_cost']
         configuration[player['position']]['left'] -= 1
         team_players_selected[player['team_name']] += 1
@@ -121,29 +121,29 @@ with open(f'data/players_sortedby_value_per_cost.json', 'r') as f:
     players_sortedby_value_per_cost = json.load(f)
 
 donot_consider = []
-while len(final_team) < 15:
-    for player in players_sortedby_value_per_cost:
-        if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost']:
+# while len(final_team) < 15:
+for player in players_sortedby_value_per_cost:
+    if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player['status'] == 'a':
+        budget -= player['seasons'][0]['now_cost']
+        configuration[player['position']]['left'] -= 1
+        team_players_selected[player['team_name']] += 1
+        final_team.append(player)
+
+if len(final_team) < 15:
+    final_team = sorted(final_team, key=lambda k: k['value_per_cost'], reverse=False)
+    removed_player = final_team[0]
+    donot_consider.append(removed_player)
+    del final_team[0]
+    budget += removed_player['seasons'][0]['now_cost']
+    configuration[removed_player['position']]['left'] += 1
+    team_players_selected[removed_player['team_name']] -= 1
+    
+    for player in players_sortedby_value:
+        if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player['status'] == 'a' and player not in donot_consider:
             budget -= player['seasons'][0]['now_cost']
             configuration[player['position']]['left'] -= 1
             team_players_selected[player['team_name']] += 1
             final_team.append(player)
-
-    if len(final_team) < 15:
-        final_team = sorted(final_team, key=lambda k: k['value_per_cost'], reverse=False)
-        removed_player = final_team[0]
-        donot_consider.append(removed_player)
-        del final_team[0]
-        budget += removed_player['seasons'][0]['now_cost']
-        configuration[removed_player['position']]['left'] += 1
-        team_players_selected[removed_player['team_name']] -= 1
-        
-        for player in players_sortedby_value:
-            if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player not in donot_consider:
-                budget -= player['seasons'][0]['now_cost']
-                configuration[player['position']]['left'] -= 1
-                team_players_selected[player['team_name']] += 1
-                final_team.append(player)
 
 
 # pick the best 11 member squad from the available players
@@ -170,6 +170,8 @@ for formation in formations:
 with open('final_results.txt', 'w', encoding='UTF-8') as f:
     f.write(f'Team\'s Budget:\n{variables.budget()}\n\n')
     f.write(f'Team\'s Cost:\n{getTeamCost(final_team)}\n\n')
+    f.write(f'Cost in Hand:\n{variables.budget() - getTeamCost(final_team)}\n\n')
+    f.write(f'Team\'s Strength:\n{len(final_team)}\n\n')
     f.write(f'Estimated_points:\n{round(max_points/(next_event-1))}\n\n')
     f.write('Final Team:')
     f.write(f'{displayTeam(final_team)}')

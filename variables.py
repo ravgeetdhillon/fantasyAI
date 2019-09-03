@@ -12,6 +12,11 @@ def next_event():
 def all_seasons():
     return ['2019-20', '2018-19']
 
+# current season
+def current_season():
+    return '2019-20'
+
+# mapping for positions
 def positions():
     return {
         1: 'Goalkeeper',

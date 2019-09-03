@@ -1,102 +1,282 @@
 [
   {
-    "id": 1,
-    "name": "Arsenal",
-    "fixture_difficulty": 4
-  },
-  {
     "id": 2,
     "name": "Aston Villa",
-    "fixture_difficulty": 2
-  },
-  {
-    "id": 3,
-    "name": "Bournemouth",
-    "fixture_difficulty": 3
-  },
-  {
-    "id": 4,
-    "name": "Brighton",
-    "fixture_difficulty": 5
+    "fer": [
+      0.8,
+      0.8,
+      0.6,
+      0.8,
+      0.8
+    ],
+    "mean": 0.76,
+    "var": 0.006400000000000005,
+    "fer_points": 1.0806590289043547
   },
   {
     "id": 5,
     "name": "Burnley",
-    "fixture_difficulty": 4
+    "fer": [
+      0.6,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "mean": 0.76,
+    "var": 0.0064000000000000055,
+    "fer_points": 1.0806590289043547
+  },
+  {
+    "id": 3,
+    "name": "Bournemouth",
+    "fer": [
+      0.7,
+      0.8,
+      0.8,
+      0.8,
+      0.6
+    ],
+    "mean": 0.74,
+    "var": 0.0064000000000000055,
+    "fer_points": 1.0522206334068718
   },
   {
     "id": 6,
     "name": "Chelsea",
-    "fixture_difficulty": 2
-  },
-  {
-    "id": 7,
-    "name": "Crystal Palace",
-    "fixture_difficulty": 2
-  },
-  {
-    "id": 8,
-    "name": "Everton",
-    "fixture_difficulty": 3
-  },
-  {
-    "id": 9,
-    "name": "Leicester",
-    "fixture_difficulty": 2
+    "fer": [
+      0.8,
+      0.7,
+      0.6,
+      0.8,
+      0.8
+    ],
+    "mean": 0.74,
+    "var": 0.0064000000000000055,
+    "fer_points": 1.0522206334068718
   },
   {
     "id": 10,
     "name": "Liverpool",
-    "fixture_difficulty": 2
-  },
-  {
-    "id": 11,
-    "name": "Man City",
-    "fixture_difficulty": 2
-  },
-  {
-    "id": 12,
-    "name": "Man Utd",
-    "fixture_difficulty": 2
-  },
-  {
-    "id": 13,
-    "name": "Newcastle",
-    "fixture_difficulty": 3
+    "fer": [
+      0.8,
+      0.8,
+      0.6,
+      0.8,
+      0.7
+    ],
+    "mean": 0.74,
+    "var": 0.006400000000000005,
+    "fer_points": 1.0522206334068718
   },
   {
     "id": 14,
     "name": "Norwich",
-    "fixture_difficulty": 3
+    "fer": [
+      0.7,
+      0.6,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "mean": 0.7399999999999999,
+    "var": 0.0064000000000000055,
+    "fer_points": 1.0522206334068716
   },
   {
-    "id": 15,
-    "name": "Sheffield Utd",
-    "fixture_difficulty": 4
-  },
-  {
-    "id": 16,
-    "name": "Southampton",
-    "fixture_difficulty": 4
-  },
-  {
-    "id": 17,
-    "name": "Spurs",
-    "fixture_difficulty": 4
-  },
-  {
-    "id": 18,
-    "name": "Watford",
-    "fixture_difficulty": 3
+    "id": 8,
+    "name": "Everton",
+    "fer": [
+      0.7,
+      0.7,
+      0.8,
+      0.6,
+      0.8
+    ],
+    "mean": 0.7200000000000001,
+    "var": 0.005600000000000004,
+    "fer_points": 1.0246065392281565
   },
   {
     "id": 19,
     "name": "West Ham",
-    "fixture_difficulty": 2
+    "fer": [
+      0.8,
+      0.8,
+      0.6,
+      0.7,
+      0.7
+    ],
+    "mean": 0.7200000000000001,
+    "var": 0.005600000000000004,
+    "fer_points": 1.0246065392281565
+  },
+  {
+    "id": 7,
+    "name": "Crystal Palace",
+    "fer": [
+      0.8,
+      0.6,
+      0.7,
+      0.8,
+      0.7
+    ],
+    "mean": 0.72,
+    "var": 0.005600000000000006,
+    "fer_points": 1.0246065392281563
+  },
+  {
+    "id": 11,
+    "name": "Man City",
+    "fer": [
+      0.8,
+      0.8,
+      0.7,
+      0.6,
+      0.7
+    ],
+    "mean": 0.72,
+    "var": 0.005600000000000005,
+    "fer_points": 1.0246065392281563
+  },
+  {
+    "id": 17,
+    "name": "Spurs",
+    "fer": [
+      0.6,
+      0.7,
+      0.7,
+      0.8,
+      0.8
+    ],
+    "mean": 0.72,
+    "var": 0.005600000000000005,
+    "fer_points": 1.0246065392281563
+  },
+  {
+    "id": 12,
+    "name": "Man Utd",
+    "fer": [
+      0.8,
+      0.7,
+      0.7,
+      0.6,
+      0.7
+    ],
+    "mean": 0.7,
+    "var": 0.004000000000000002,
+    "fer_points": 0.9977480545916445
+  },
+  {
+    "id": 1,
+    "name": "Arsenal",
+    "fer": [
+      0.6,
+      0.7,
+      0.8,
+      0.6,
+      0.8
+    ],
+    "mean": 0.7,
+    "var": 0.008000000000000004,
+    "fer_points": 0.9937410342920796
+  },
+  {
+    "id": 16,
+    "name": "Southampton",
+    "fer": [
+      0.6,
+      0.8,
+      0.8,
+      0.6,
+      0.6
+    ],
+    "mean": 0.68,
+    "var": 0.009600000000000006,
+    "fer_points": 0.9637914197101893
+  },
+  {
+    "id": 15,
+    "name": "Sheffield Utd",
+    "fer": [
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.7
+    ],
+    "mean": 0.6599999999999999,
+    "var": 0.006400000000000003,
+    "fer_points": 0.9384670514169395
+  },
+  {
+    "id": 13,
+    "name": "Newcastle",
+    "fer": [
+      0.7,
+      0.5,
+      0.8,
+      0.7,
+      0.6
+    ],
+    "mean": 0.66,
+    "var": 0.010400000000000003,
+    "fer_points": 0.9346890037059215
+  },
+  {
+    "id": 18,
+    "name": "Watford",
+    "fer": [
+      0.7,
+      0.6,
+      0.5,
+      0.7,
+      0.8
+    ],
+    "mean": 0.6599999999999999,
+    "var": 0.010400000000000001,
+    "fer_points": 0.9346890037059212
+  },
+  {
+    "id": 9,
+    "name": "Leicester",
+    "fer": [
+      0.8,
+      0.6,
+      0.6,
+      0.8,
+      0.5
+    ],
+    "mean": 0.6599999999999999,
+    "var": 0.014400000000000005,
+    "fer_points": 0.930910955994903
+  },
+  {
+    "id": 4,
+    "name": "Brighton",
+    "fer": [
+      0.5,
+      0.8,
+      0.7,
+      0.6,
+      0.6
+    ],
+    "mean": 0.64,
+    "var": 0.010400000000000003,
+    "fer_points": 0.9063650945027116
   },
   {
     "id": 20,
     "name": "Wolves",
-    "fixture_difficulty": 4
+    "fer": [
+      0.6,
+      0.6,
+      0.8,
+      0.7,
+      0.5
+    ],
+    "mean": 0.64,
+    "var": 0.010400000000000003,
+    "fer_points": 0.9063650945027116
   }
 ]
