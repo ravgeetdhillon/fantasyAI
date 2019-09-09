@@ -1,6 +1,8 @@
 import pandas
 import json
 import variables
+import os
+import shutil
 
 
 # variables
@@ -8,10 +10,9 @@ next_event = variables.next_event()
 all_seasons = variables.all_seasons()
 
 
-# gets the clean data for the given season
+# gets the data for the given season for each player
 def get_data(season):
 	df = pandas.read_csv(f'raw_data/{season}/players_raw.csv')
-
 	headers = ['first_name', 'second_name', 'minutes', 'total_points', 'points_per_game', 'team', 'element_type', 'now_cost', 'status']
 	data = df[headers]
 	total_players = len(data)
@@ -27,13 +28,12 @@ def get_data(season):
 
 		player_name = player['first_name'] + ' ' +  player['second_name']
 		player['full_name'] = player_name.lower()
-		
+
 		stats_headers = ['minutes', 'total_points', 'points_per_game', 'now_cost']
 		player_season_stats = {"season": season}
 		for header in stats_headers:
 			player_season_stats[header] = player[header]
 			del player[header]
-
 		player['seasons'] = [player_season_stats]
 		players.append(player)
 
@@ -42,6 +42,25 @@ def get_data(season):
 	
 	with open(f'data/{season}_players_cleaned.json', 'w', encoding='utf-8') as f:
 		json.dump(players, f, ensure_ascii=True, indent=2)
+
+
+# change the folder names of players gameweek data to the player's name and copy the data to `data` folder
+print('Collecting player data')
+for season in all_seasons:
+	if len(os.listdir(f'raw_data/{season}/players')) > 0:
+		try:
+			shutil.rmtree(f'data/players{season}')
+		except:
+			pass
+		finally:
+			os.mkdir(f'data/players{season}')
+		for filename in os.listdir(f'raw_data/{season}/players'):
+			new = filename.split('_')
+			new = f'{new[0].lower()} {new[1].lower()}'
+			try:
+				os.rename(f'raw_data/{season}/players/{filename}', f'data/players{season}/{new}')
+			except:
+				os.rename(f'raw_data/{season}/players/{filename}', f'data/players{season}/{new}{new[-1]}')
 
 
 # players data for all the seasons
@@ -64,11 +83,29 @@ for cur_player in players1920:
 			cur_player['seasons'].append(for_player['seasons'][0])
 			break
 
-with open(f'data/players_cleaned.json', 'w', encoding='utf-8') as f:
+
+# get the gameweek history of each player for each season
+for player in players1920:
+	for season in player['seasons']:
+		df = pandas.read_csv(f'data/players{season["season"]}/{player["full_name"]}/gw.csv')
+		headers = ['total_points', 'minutes']
+		data = df[headers]
+		player_gw_history = []
+		for i in range(len(data)):
+			if data['minutes'][i] >= 60:
+				player_gw_history.append(data['total_points'][i].item() - 2)
+			elif 0 < data['minutes'][i] < 60:
+				player_gw_history.append(data['total_points'][i].item() - 1)
+			else:
+				player_gw_history.append(data['total_points'][i].item())
+		season['gw_history'] = player_gw_history
+
+with open(f'data/players.json', 'w', encoding='utf-8') as f:
     json.dump(players1920, f, ensure_ascii=True, indent=2)
 
 
 # get the cleaned data for fixtures
+print('Collecting fixtures data')
 df = pandas.read_csv('raw_data/2019-20/fixtures.csv')
 
 headers = ['event', 'finished', 'team_a', 'team_a_difficulty', 'team_h', 'team_h_difficulty']
@@ -93,6 +130,7 @@ with open('data/fixtures_cleaned.json', 'w', encoding='utf-8') as f:
 
 
 # get the cleaned data for teams
+print('Collecting teams data')
 df = pandas.read_csv('raw_data/2019-20/teams.csv')
 
 headers = ['id', 'name']
@@ -108,3 +146,6 @@ for i in range(total_teams):
 		except:
 			team[header] = data[header][i]
 	teams.append(team)
+
+with open('data/teams.json', 'w', encoding='utf-8') as f:
+    json.dump(teams, f, ensure_ascii=True, indent=2)

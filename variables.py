@@ -2,11 +2,11 @@ import json
 
 # team's budget
 def budget():
-    return 99.6
+    return 100
 
 # next gameweek id
 def next_event():
-    return 4
+    return 5
 
 # all the seasons whose data is to be considered
 def all_seasons():

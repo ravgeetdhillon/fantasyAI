@@ -1,16 +1,16 @@
 {
   "2019-20": {
-    "all_players_effective_points": 1090,
-    "all_players_minutes": 59000,
-    "total_players": 333,
-    "avg_effective_points_per_player": 3.2732732732732734,
-    "avg_minutes_per_player": 59.05905905905906
+    "all_players_effective_total_points": 1233,
+    "all_players_minutes": 78421,
+    "total_players": 354,
+    "avg_effective_total_points_per_player": 3.483050847457627,
+    "avg_minutes_per_player": 55.38206214689266
   },
   "2018-19": {
-    "all_players_effective_points": 10486,
-    "all_players_minutes": 489485,
+    "all_players_effective_total_points": 9871,
+    "all_players_minutes": 510696,
     "total_players": 505,
-    "avg_effective_points_per_player": 20.764356435643563,
-    "avg_minutes_per_player": 25.507295466388744
+    "avg_effective_total_points_per_player": 19.546534653465347,
+    "avg_minutes_per_player": 26.612610734757684
   }
 }

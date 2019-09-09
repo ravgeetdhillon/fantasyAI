@@ -7,20 +7,19 @@ import numpy as np
 # global variables
 all_seasons = variables.all_seasons()
 positions = variables.positions()
-
 league_data = {}
 for season in all_seasons:
     league_data[season] = {
-        'all_players_effective_points': 0,
+        'all_players_effective_total_points': 0,
         'all_players_minutes': 0
     }
     
 
 # read files for getting the data about players, teams and fixtures
-with open('data/players_cleaned.json', 'r') as f:
+with open('data/players.json', 'r') as f:
     players = json.load(f)
 
-with open('data/teams_cleaned.json', 'r') as f:
+with open('data/teams.json', 'r') as f:
     teams = json.load(f)
 
 with open('data/fixtures_cleaned.json', 'r') as f:
@@ -44,19 +43,29 @@ for team in teams:
 
 avg_fer_points /= len(teams)
 for team in teams:
-	team['fer_points'] /= avg_fer_points
+	team['fer_points'] = round(team['fer_points'] / avg_fer_points, 3)
 
 teams = sorted(teams, key=lambda k: k['fer_points'], reverse=True)
 with open('data/teams_cleaned.json', 'w', encoding='utf-8') as f:
     json.dump(teams, f, ensure_ascii=True, indent=2)
 
 
+def findForm(arr):
+    var = []
+    for i in range(len(arr)):
+        var.append(np.var(arr[:i]))
+    print(var, len(var))
+
 # generate the desired data for each player for each season
+max_consistency = {
+    '2019-20': 0,
+    '2018-19': 0
+}
 for player in players:    
     # get player's position
     player['position'] = positions[player['element_type']]
     player['value_points'] = 0
-    
+
     # get player's team and next fixture difficulty rating
     for team in teams:
         if team['id'] == player['team']:
@@ -69,10 +78,16 @@ for player in players:
     # get player's data for each season
     total_career_games = 0
     for season in player['seasons']:
+        season['effective_total_points'] = np.sum(season['gw_history']).item()
+        season['gw_avg_points'] = np.mean(season['gw_history']).item()
+        season['variance'] = np.var(season['gw_history']).item()
+        season['consistency_factor'] = season['gw_avg_points'] * (100 - season['variance'])
+        if season['consistency_factor'] > max_consistency[season['season']]:
+            max_consistency[season['season']] = season['consistency_factor']
+        del season['gw_history']
+
         season['total_games'] = round(season['total_points'] / season['points_per_game'])
         total_career_games += season['total_games']
-        app_points = season['effective_points'] = round(season['minutes'] / 90) * 2
-        season['effective_points'] = season['total_points'] - app_points
 
         # rectify the player cost
         season['now_cost'] /= 10
@@ -80,10 +95,25 @@ for player in players:
     # assign season factor weightage for each season
     for season in player['seasons']:
         if season['season'] == variables.current_season():
-            # season['season_factor'] = season['total_games'] / total_career_games
             season['season_factor'] = ((season['total_games'] / total_career_games) + 1.2) / 2
         else:
             season['season_factor'] = ((season['total_games'] / total_career_games) - 0.2) / 2
+
+
+# normalize the season consistency factor and award the value points
+for index, player in enumerate(players):
+    for season in player['seasons']:
+        season['consistency_factor'] /= max_consistency[season['season']]
+        if season['consistency_factor'] >= 0.8:
+            player['value_points'] += 5 * season['season_factor']
+        elif 0.8 > season['consistency_factor'] >= 0.6:
+            player['value_points'] += 4 * season['season_factor']
+        elif 0.6 > season['consistency_factor'] >= 0.4:
+            player['value_points'] += 3 * season['season_factor']
+        elif 0.4 > season['consistency_factor'] >= 0.2:
+            player['value_points'] += 2 * season['season_factor']
+        elif 0.2 > season['consistency_factor'] > 0:
+            player['value_points'] += 1 * season['season_factor']
 
 
 # get total number of players in each season from the cleaned data
@@ -95,13 +125,13 @@ for season in all_seasons:
 # get some important league data for each season
 for player in players:
     for season in player['seasons']:
-        league_data[season['season']]['all_players_effective_points'] += season['effective_points']
+        league_data[season['season']]['all_players_effective_total_points'] += season['effective_total_points']
         league_data[season['season']]['all_players_minutes'] += season['minutes']
 
 
 # calculate all the required season stats for player comparison
 for season in all_seasons:
-    league_data[season]['avg_effective_points_per_player'] = league_data[season]['all_players_effective_points'] / league_data[season]['total_players']
+    league_data[season]['avg_effective_total_points_per_player'] = league_data[season]['all_players_effective_total_points'] / league_data[season]['total_players']
     league_data[season]['avg_minutes_per_player'] = league_data[season]['all_players_minutes'] / league_data[season]['total_players']
     if season == variables.current_season():
         league_data[season]['avg_minutes_per_player'] /= (variables.next_event() - 1)
@@ -112,21 +142,28 @@ for season in all_seasons:
 # calculate value points for each player in terms of amount of time they played, upcoming fixtures
 for player in players:
     for season in player['seasons']:
-        if season['minutes'] / season['total_games'] >= league_data[season['season']]['avg_minutes_per_player']:
-            player['value_points'] += 1
-    if len(player['seasons']) == 1:
-            player['value_points'] += 1
+        minutes_per_game = season['minutes'] / season['total_games']
+        if minutes_per_game >= 60:
+            player['value_points'] += 3 * season['season_factor']
+        elif 60 > minutes_per_game >= league_data[season['season']]['avg_minutes_per_player']:
+            player['value_points'] += 2 * season['season_factor']
+        elif 0 < minutes_per_game < league_data[season['season']]['avg_minutes_per_player']:
+            player['value_points'] += 1 * season['season_factor']
 
 
-# calculate value for each player for each season
+# calculate value for each player for each season and then the overall value
 for player in players:
+    player['value_points'] = round(player['value_points'], 3)
     value_overall = 0
     for season in player['seasons']:
-        season['value'] = season['effective_points'] / league_data[season['season']]['avg_effective_points_per_player']
+        season['value'] = season['effective_total_points'] / league_data[season['season']]['avg_effective_total_points_per_player']
         value_overall += season['value'] * season['season_factor']
 
     player['value_overall'] = value_overall
     player['value_per_cost'] = player['value_overall'] / player['seasons'][0]['now_cost']
+    
+    player['final_value'] = player['value_per_cost'] * player['fer'] * player['value_points']
+    player['final_value_per_cost'] = player['final_value'] / player['seasons'][0]['now_cost']
 
 
 # store the entire data to the json files
@@ -138,8 +175,10 @@ with open('data/league_stats.json', 'w', encoding='utf-8') as f:
 
 
 # sort the players according to their value
-players_sortedby_value = sorted(players, key=lambda k: (-k['value_points'], -k['value_overall']))
-players_sortedby_value_per_cost = sorted(players, key=lambda k: (-k['value_points'], -k['value_per_cost']))
+players_sortedby_value = sorted(players, key=lambda k: (-k['value_points'], -k['final_value']))
+players_sortedby_value_per_cost = sorted(players, key=lambda k: (-k['value_points'], -k['final_value_per_cost']))
+# final_players_sorted = sorted(players, key=lambda k: (-k['value_points'], -k['value_overall'], -k['value_per_cost']))
+final_players_sorted = sorted(players, key=lambda k: (-k['final_value']))
 
 
 with open('data/players_sortedby_value.json', 'w', encoding='utf-8') as f:
@@ -147,3 +186,6 @@ with open('data/players_sortedby_value.json', 'w', encoding='utf-8') as f:
 
 with open('data/players_sortedby_value_per_cost.json', 'w', encoding='utf-8') as f:
     json.dump(players_sortedby_value_per_cost, f, ensure_ascii=True, indent=2)
+
+with open('data/final_players_sorted.json', 'w', encoding='utf-8') as f:
+    json.dump(final_players_sorted, f, ensure_ascii=True, indent=2)

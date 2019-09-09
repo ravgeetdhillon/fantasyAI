@@ -1,17 +1,7 @@
 import json
 import variables
-import os
-
-os.system("venv\\Scripts\\python.exe data_cleaner.py")
-os.system("venv\\Scripts\\python.exe data_maker.py")
 
 next_event = variables.next_event()
-
-# files
-with open('data/teams_cleaned.json', 'r') as f:
-    teams = json.load(f)
-
-
 # get a team based on a particular sorting method
 def get_team_sortedby(sort_method):
     with open(f'data/players_sortedby_{sort_method}.json', 'r') as f:
@@ -78,75 +68,174 @@ def getFormation(team):
     formation = [str(x) for x in formation]
     return '-'.join(formation)
 
+def show(players):
+    for player in players:
+        print(player['full_name'], player['ranking_points'])
 
-# get a team based on a particular sorting method
-team_sortedby_value = get_team_sortedby('value')
+# -----------------------
 
-# get a team based on a particular sorting method
-team_sortedby_value_per_cost = get_team_sortedby('value_per_cost')
+def valueInRange(player1, player2):
+    a = max(player1['final_value'], player2['final_value'])
+    b = min(player1['final_value'], player2['final_value'])
+    ans = (a - b) * 100 / a
+    if ans <= 5:
+        return True
+    else:
+        return False
 
+def valuePerCostInRange(player1, player2):
+    a = max(player1['final_value_per_cost'], player2['final_value_per_cost'])
+    b = min(player1['final_value_per_cost'], player2['final_value_per_cost'])
+    ans = (a - b) * 100 / a
+    if ans <= 5:
+        return True
+    else:
+        return False
 
-# start building the final team
+def valueAndValuePointsInRange(player1, player2):
+    a = max(player1['final_value'] * player1['value_points'], player2['final_value'] * player2['value_points'])
+    b = min(player1['final_value'] * player1['value_points'], player2['final_value'] * player2['value_points'])
+    ans = (a - b) * 100 / a
+    if ans <= 5:
+        return True
+    else:
+        return False
+
+def playerWithEasyFixtures(player1, player2):
+    if player1['fer'] >= player2['fer']:
+        return player1
+    else:
+        return player2
+
+with open(f'data/final_players_sorted.json', 'r') as f:
+    players = json.load(f)
+
+# trend = []
+
 configuration = variables.configuration()
 budget = variables.budget()
 team_players_selected = variables.team_players_selected()
-
-# pick up the players which have both high value as well as high value for cost
 final_team = []
-for player in team_sortedby_value:
-    if player in team_sortedby_value_per_cost:
-        if budget > player['seasons'][0]['now_cost'] and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and player['status'] == 'a':
-            budget -= player['seasons'][0]['now_cost']
-            configuration[player['position']]['left'] -= 1
-            team_players_selected[player['team_name']] += 1
-            final_team.append(player)
+
+def addPlayerToFinalTeam(player, configuration=configuration, team_players_selected=team_players_selected, final_team=final_team):
+    global budget
+    budget -= player['seasons'][0]['now_cost']
+    configuration[player['position']]['left'] -= 1
+    team_players_selected[player['team_name']] += 1
+    final_team.append(player)
 
 
-# get the highest value player for each of the position irrespective of the cost
-with open(f'data/players_sortedby_value.json', 'r') as f:
-    players_sortedby_value = json.load(f)
-
-position_checked = []
-for player in players_sortedby_value:
-    if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player['status'] == 'a' and player['position'] not in position_checked:
-        budget -= player['seasons'][0]['now_cost']
-        configuration[player['position']]['left'] -= 1
-        team_players_selected[player['team_name']] += 1
-        final_team.append(player)
-        position_checked.append(player['position'])
+goalkeepers = [player for player in players if player['position'] == 'Goalkeeper']
+forwards = [player for player in players if player['position'] == 'Forward']
+midfielders = [player for player in players if player['position'] == 'Midfielder']
+defenders = [player for player in players if player['position'] == 'Defender']
 
 
-# fill the remaining positions by getting the players with highest value for cost
-with open(f'data/players_sortedby_value_per_cost.json', 'r') as f:
-    players_sortedby_value_per_cost = json.load(f)
+# goalkeepers = sorted(goalkeepers, key=lambda k: -k['final_value'])
+# selected_goalkeepers = [goalkeepers[i] for i in range(2)]
+# if valueInRange( selected_goalkeepers[1], selected_goalkeepers[0] ):
+#     if valueAndValuePointsInRange( selected_goalkeepers[1], selected_goalkeepers[0] ):
+        
+#         final_team.append( playerWithEasyFixtures(selected_goalkeepers[1], selected_goalkeepers[0]) )
+#     else:
+#         final_team.append(selected_goalkeepers[0])
+# else:
+#     final_team.append(selected_goalkeepers[0])
 
-donot_consider = []
-# while len(final_team) < 15:
-for player in players_sortedby_value_per_cost:
-    if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player['status'] == 'a':
-        budget -= player['seasons'][0]['now_cost']
-        configuration[player['position']]['left'] -= 1
-        team_players_selected[player['team_name']] += 1
-        final_team.append(player)
-
-if len(final_team) < 15:
-    final_team = sorted(final_team, key=lambda k: k['value_per_cost'], reverse=False)
-    removed_player = final_team[0]
-    donot_consider.append(removed_player)
-    del final_team[0]
-    budget += removed_player['seasons'][0]['now_cost']
-    configuration[removed_player['position']]['left'] += 1
-    team_players_selected[removed_player['team_name']] -= 1
-    
-    for player in players_sortedby_value:
-        if player not in final_team and configuration[player['position']]['left'] > 0 and team_players_selected[player['team_name']] < 3 and budget > player['seasons'][0]['now_cost'] and player['status'] == 'a' and player not in donot_consider:
-            budget -= player['seasons'][0]['now_cost']
-            configuration[player['position']]['left'] -= 1
-            team_players_selected[player['team_name']] += 1
-            final_team.append(player)
+# forwards = sorted(forwards, key=lambda k: -k['final_value'])
+def selectPlayersBasedOnValue(position, picks=0):
+    for _ in range(picks):
+        selected_players = []
+        i = 0
+        while len(selected_players) < 2:
+            if position[i] not in final_team and budget > position[i]['seasons'][0]['now_cost'] and configuration[position[i]['position']]['left'] > 0 and team_players_selected[position[i]['team_name']] < 3 and position[i]['status'] == 'a':
+                selected_players.append(position[i])
+            i += 1
+        if valueInRange( selected_players[0], selected_players[1] ):
+            if valueAndValuePointsInRange( selected_players[0], selected_players[1] ):
+                addPlayerToFinalTeam( playerWithEasyFixtures(selected_players[0], selected_players[1]) )
+            else:
+                addPlayerToFinalTeam(selected_players[0])
+        else:
+            addPlayerToFinalTeam(selected_players[0])
+    print(displayTeam(final_team))
 
 
-# pick the best 11 member squad from the available players
+
+def selectPlayersBasedOnValuePerCost(position, picks=0):
+    position = sorted(position, key=lambda k: -k['final_value_per_cost'])
+    for _ in range(picks):
+        selected_players = []
+        i = 0
+        while len(selected_players) < 3 and i < len(position):
+            if position[i] not in final_team and budget > position[i]['seasons'][0]['now_cost'] and configuration[position[i]['position']]['left'] > 0 and team_players_selected[position[i]['team_name']] < 3 and position[i]['status'] == 'a':
+                if len(selected_players) == 0:
+                    min_value_points = position[i]['value_points']
+                    selected_players.append(position[i])
+                if position[i]['value_points'] > min_value_points:
+                    selected_players.append(position[i])
+            i += 1
+
+        print('\n----',position[0]['position'], displayTeam(selected_players))
+        i = 0
+        while i < len(selected_players) - 1:
+            if not(valuePerCostInRange( selected_players[i], selected_players[i + 1] )):
+                for _ in range(i + 1, len(selected_players)):
+                    del selected_players[i + 1]
+                break
+            i +=1
+
+        i = 0
+        while i < len(selected_players) - 1:
+            if not(valueAndValuePointsInRange( selected_players[i], selected_players[i + 1] )):
+                for _ in range(i + 1, len(selected_players)):
+                    del selected_players[i + 1]
+                break
+            i +=1
+        if len(selected_players) == 1:
+            addPlayerToFinalTeam(selected_players[0])
+        else:
+            addPlayerToFinalTeam( playerWithEasyFixtures(selected_players[0], selected_players[1]) )
+        print(displayTeam(final_team))
+
+# round 1
+print('\n------round1---------')
+selectPlayersBasedOnValue(goalkeepers, 1)
+selectPlayersBasedOnValue(forwards, 2)
+selectPlayersBasedOnValue(defenders, 2)
+selectPlayersBasedOnValue(midfielders, 2)
+
+
+# round 2
+print('\n------round2---------')
+selectPlayersBasedOnValuePerCost(goalkeepers, 1)
+selectPlayersBasedOnValuePerCost(defenders, 2)
+selectPlayersBasedOnValuePerCost(midfielders, 2)
+
+# round 3
+# print('\n------round3---------')
+selectPlayersBasedOnValue(defenders, 1)
+selectPlayersBasedOnValue(forwards, 1)
+selectPlayersBasedOnValue(midfielders, 1)
+
+
+print(f'\n{configuration}')
+print(budget)
+
+print(getEstimatedPoints(final_team))
+
+# points = 0
+# rank_basis = ['final_value', 'final_value_per_cost', 'value_points']
+# for basis in rank_basis:
+#     selected_goalkeepers = sorted(selected_goalkeepers, key=lambda k: -k[basis])
+#     for rank, goalkeeper in enumerate(selected_goalkeepers):
+#         if 'ranking_points' in goalkeeper:
+#             goalkeeper['ranking_points'] += rank + 1
+#         else:
+#             goalkeeper['ranking_points'] = rank + 1
+#         print(rank, basis, goalkeeper['full_name'], goalkeeper['ranking_points'])
+# show(selected_goalkeepers)
+
 final_team = sorted(final_team, key=lambda k: k['value_overall'], reverse=True)
 formations = variables.formations()
 
@@ -172,7 +261,7 @@ with open('final_results.txt', 'w', encoding='UTF-8') as f:
     f.write(f'Team\'s Cost:\n{getTeamCost(final_team)}\n\n')
     f.write(f'Cost in Hand:\n{variables.budget() - getTeamCost(final_team)}\n\n')
     f.write(f'Team\'s Strength:\n{len(final_team)}\n\n')
-    f.write(f'Estimated_points:\n{round(max_points/(next_event-1))}\n\n')
+    f.write(f'Estimated_points:\n{round(max_points * 38 / (next_event-1))}\n\n')
     f.write('Final Team:')
     f.write(f'{displayTeam(final_team)}')
     f.write(f'\n\nFormation:\n{getFormation(final_playing_team)}')
