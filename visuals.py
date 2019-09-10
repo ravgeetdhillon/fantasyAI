@@ -4,57 +4,77 @@ import pandas as pd
 import plotly.express as px
 
 
+# load players for data visualisation
 with open(f'data/final_players_sorted.json', 'r') as f:
     players = json.load(f)
 
 
-forward = np.mean([player['final_value_per_cost'] for player in players if player
-['position'] == 'Forward'])
+# calculate some entities to compare
+forward_value_per_cost = np.mean([player['final_value_per_cost'] for player in players if player['position'] == 'Forward'])
+forward_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Forward'])
 
-midfielder = np.mean([player['final_value_per_cost'] for player in players if player['position'] == 'Midfielder'])
+midfielder_value_per_cost = np.mean([player['final_value_per_cost'] for player in players if player['position'] == 'Midfielder'])
+midfielder_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Midfielder'])
 
-defender = np.mean([player['final_value_per_cost'] for player in players if player['position'] == 'Defender'])
+defender_value_per_cost = np.mean([player['final_value_per_cost'] for player in players if player['position'] == 'Defender'])
+defender_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Defender'])
 
-goalkeeper = np.mean([player['final_value_per_cost'] for player in players if player['position'] == 'Goalkeeper'])
+goalkeeper_value_per_cost = np.mean([player['final_value_per_cost'] for player in players if player['position'] == 'Goalkeeper'])
+goalkeeper_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Goalkeeper'])
+
+
+# load players into a dataframe
+players = pd.DataFrame(players)
+
+
+# players based on value for each team
+fig = px.scatter(players, y="team_name", x="final_value", color="position", hover_data=['full_name'], size = "value_points", labels={'team_name':'Teams', 'final_value':'Value', 'position':'Position'})
+fig.show()
+
+
+# players based on value_per_cost for each team
+fig = px.scatter(players, y="team_name", x="final_value_per_cost", color="position", hover_data=['full_name'], size = "value_points", labels={'team_name':'Teams', 'final_value_per_cost':'Value per Cost', 'position':'Position'})
+fig.show()
+
+
+# which type of players are better based on `final_value`
+fig = px.scatter(players, y="final_value", x="position", color="team_name", hover_data=['full_name'], size = "value_points", labels={'final_value':'Value', 'position':'Position'})
+fig.show()
+
+
+# which type of players are better based on `final_value_per_cost`
+fig = px.scatter(players, y="final_value_per_cost", x="position", color="team_name", hover_data=['full_name'], size = "value_points", labels={'final_value_per_cost':'Value per Cost', 'position':'Position'})
+fig.show()
+
 
 positions = [
     {
-        'type': 'Forwards',
-        'mean': forward,
+        'type': 'Forward',
+        'mean_value_per_cost': forward_value_per_cost,
+        'mean_cost': forward_cost,
     },
     {
-        'type': 'Midfielders',
-        'mean': midfielder,
+        'type': 'Midfielder',
+        'mean_value_per_cost': midfielder_value_per_cost,
+        'mean_cost': midfielder_cost,
     },
     {
-        'type': 'Defenders',
-        'mean': defender,
+        'type': 'Defender',
+        'mean_value_per_cost': defender_value_per_cost,
+        'mean_cost': defender_cost,
     },
     {
-        'type': 'Goalkeepers',
-        'mean': goalkeeper
+        'type': 'Goalkeeper',
+        'mean_value_per_cost': goalkeeper_value_per_cost,
+        'mean_cost': goalkeeper_cost,
     }
 ]
 
-players = pd.DataFrame(players)
-
-# players that are most reliable on most of the factors
-fig = px.scatter(players, y="team_name", x="final_value", color="position", hover_data=['full_name'], size = "value_points", labels={'team_name':'Teams', 'final_value':'Value'})
+# compare positions based on value per cost
+positions = pd.DataFrame(positions)
+fig = px.bar(positions, x='type', y='mean_value_per_cost', color='type', labels={'mean_value_per_cost':'Avg. Value per Cost', 'type':'Position'}, height=500)
 fig.show()
 
-# players that are most reliable on value_per_cost
-fig = px.scatter(players, y="team_name", x="final_value_per_cost", color="position", hover_data=['full_name'], size = "value_points", labels={'team_name':'Teams', 'final_value':'Value'})
+# compare positions based on cost
+fig = px.bar(positions, x='type', y='mean_cost', color='type', labels={'mean_cost':'Avg. Cost', 'type':'Position'}, height=500)
 fig.show()
-
-# players according value points
-fig = px.scatter(players, y="team_name", x="value_points", color="position", hover_data=['full_name'], size = "value_points", labels={'team_name':'Teams', 'value_points':'Value Points'})
-fig.show()
-
-# which type of players are better
-# fig = px.scatter(players, y="final_value_per_cost", x="position", color="position", hover_data=['full_name'], size = "value_points", labels={'final_value_per_cost':'Value per cost', 'position':'Positions'})
-# fig.show()
-
-# which type has more value per cost
-# positions = pd.DataFrame(positions)
-# fig = px.bar(positions, x='type', y='mean', color='type', labels={'mean':'Avg. Value per cost'}, height=500)
-# fig.show()

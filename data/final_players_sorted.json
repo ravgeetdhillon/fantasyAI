@@ -592,52 +592,6 @@
     "final_value_per_cost": 0.5900025421765579
   },
   {
-    "first_name": "Trent",
-    "second_name": "Alexander-Arnold",
-    "team": 10,
-    "element_type": 2,
-    "status": "a",
-    "full_name": "trent alexander-arnold",
-    "seasons": [
-      {
-        "season": "2019-20",
-        "minutes": 360,
-        "total_points": 22,
-        "points_per_game": 5.5,
-        "now_cost": 7.0,
-        "effective_total_points": 14,
-        "gw_avg_points": 3.5,
-        "variance": 12.75,
-        "consistency_factor": 0.45803745107689425,
-        "total_games": 4,
-        "season_factor": 0.6606060606060606,
-        "value": 4.019464720194647
-      },
-      {
-        "season": "2018-19",
-        "minutes": 2460,
-        "total_points": 185,
-        "points_per_game": 6.4,
-        "now_cost": 5.8,
-        "effective_total_points": 129,
-        "gw_avg_points": 3.3947368421052633,
-        "variance": 19.817867036011073,
-        "consistency_factor": 0.737891345056328,
-        "total_games": 29,
-        "season_factor": 0.33939393939393936,
-        "value": 6.5996352953094926
-      }
-    ],
-    "position": "Defender",
-    "value_points": 6.339,
-    "team_name": "Liverpool",
-    "fer": 0.99,
-    "value_overall": 4.895158975991201,
-    "value_per_cost": 0.6993084251416002,
-    "final_value": 4.388586945902878,
-    "final_value_per_cost": 0.6269409922718397
-  },
-  {
     "first_name": "Patrick",
     "second_name": "van Aanholt",
     "team": 7,
@@ -682,6 +636,52 @@
     "value_per_cost": 0.7538216423387596,
     "final_value": 4.360104379287385,
     "final_value_per_cost": 0.7785900677298903
+  },
+  {
+    "first_name": "Trent",
+    "second_name": "Alexander-Arnold",
+    "team": 10,
+    "element_type": 2,
+    "status": "a",
+    "full_name": "trent alexander-arnold",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 360,
+        "total_points": 22,
+        "points_per_game": 5.5,
+        "now_cost": 7.1,
+        "effective_total_points": 14,
+        "gw_avg_points": 3.5,
+        "variance": 12.75,
+        "consistency_factor": 0.45803745107689425,
+        "total_games": 4,
+        "season_factor": 0.6606060606060606,
+        "value": 4.019464720194647
+      },
+      {
+        "season": "2018-19",
+        "minutes": 2460,
+        "total_points": 185,
+        "points_per_game": 6.4,
+        "now_cost": 5.8,
+        "effective_total_points": 129,
+        "gw_avg_points": 3.3947368421052633,
+        "variance": 19.817867036011073,
+        "consistency_factor": 0.737891345056328,
+        "total_games": 29,
+        "season_factor": 0.33939393939393936,
+        "value": 6.5996352953094926
+      }
+    ],
+    "position": "Defender",
+    "value_points": 6.339,
+    "team_name": "Liverpool",
+    "fer": 0.99,
+    "value_overall": 4.895158975991201,
+    "value_per_cost": 0.6894590107029861,
+    "final_value": 4.326775862157767,
+    "final_value_per_cost": 0.6094050510081362
   },
   {
     "first_name": "Callum",
@@ -1570,7 +1570,7 @@
     "second_name": "Robinson",
     "team": 15,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "callum robinson",
     "seasons": [
       {
@@ -1694,7 +1694,7 @@
     "second_name": "Sch\u00e4r",
     "team": 13,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "fabian sch\u00e4r",
     "seasons": [
       {
@@ -2416,6 +2416,98 @@
     "final_value_per_cost": 0.30441390621509573
   },
   {
+    "first_name": "Nathan",
+    "second_name": "Redmond",
+    "team": 16,
+    "element_type": 3,
+    "status": "i",
+    "full_name": "nathan redmond",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 270,
+        "total_points": 14,
+        "points_per_game": 4.7,
+        "now_cost": 6.3,
+        "effective_total_points": 8,
+        "gw_avg_points": 2.0,
+        "variance": 12.0,
+        "consistency_factor": 0.2639855632895076,
+        "total_games": 3,
+        "season_factor": 0.6365853658536585,
+        "value": 2.2968369829683697
+      },
+      {
+        "season": "2018-19",
+        "minutes": 3272,
+        "total_points": 137,
+        "points_per_game": 3.6,
+        "now_cost": 5.5,
+        "effective_total_points": 63,
+        "gw_avg_points": 1.6578947368421053,
+        "variance": 10.856648199445981,
+        "consistency_factor": 0.4006402795211731,
+        "total_games": 38,
+        "season_factor": 0.36341463414634145,
+        "value": 3.2230777023604498
+      }
+    ],
+    "position": "Midfielder",
+    "value_points": 5.363,
+    "team_name": "Southampton",
+    "fer": 0.99,
+    "value_overall": 2.6334464151376866,
+    "value_per_cost": 0.4180073674821725,
+    "final_value": 2.2193557766888223,
+    "final_value_per_cost": 0.3522786947125115
+  },
+  {
+    "first_name": "Aymeric",
+    "second_name": "Laporte",
+    "team": 11,
+    "element_type": 2,
+    "status": "i",
+    "full_name": "aymeric laporte",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 306,
+        "total_points": 9,
+        "points_per_game": 2.2,
+        "now_cost": 6.4,
+        "effective_total_points": 2,
+        "gw_avg_points": 0.5,
+        "variance": 4.25,
+        "consistency_factor": 0.07180857296866577,
+        "total_games": 4,
+        "season_factor": 0.6512820512820513,
+        "value": 0.5742092457420924
+      },
+      {
+        "season": "2018-19",
+        "minutes": 3056,
+        "total_points": 177,
+        "points_per_game": 5.1,
+        "now_cost": 6.3,
+        "effective_total_points": 108,
+        "gw_avg_points": 2.8421052631578947,
+        "variance": 11.764542936288086,
+        "consistency_factor": 0.6798169619284605,
+        "total_games": 35,
+        "season_factor": 0.3487179487179487,
+        "value": 5.525276061189342
+      }
+    ],
+    "position": "Defender",
+    "value_points": 6.046,
+    "team_name": "Man City",
+    "fer": 1.021,
+    "value_overall": 2.3007351095903643,
+    "value_per_cost": 0.3594898608734944,
+    "final_value": 2.219118688516811,
+    "final_value_per_cost": 0.3467372950807517
+  },
+  {
     "first_name": "Ricardo Domingos",
     "second_name": "Barbosa Pereira",
     "team": 9,
@@ -2552,98 +2644,6 @@
     "value_per_cost": 0.383774580233714,
     "final_value": 2.1908378276478335,
     "final_value_per_cost": 0.23306785400508867
-  },
-  {
-    "first_name": "Aymeric",
-    "second_name": "Laporte",
-    "team": 11,
-    "element_type": 2,
-    "status": "i",
-    "full_name": "aymeric laporte",
-    "seasons": [
-      {
-        "season": "2019-20",
-        "minutes": 306,
-        "total_points": 9,
-        "points_per_game": 2.2,
-        "now_cost": 6.5,
-        "effective_total_points": 2,
-        "gw_avg_points": 0.5,
-        "variance": 4.25,
-        "consistency_factor": 0.07180857296866577,
-        "total_games": 4,
-        "season_factor": 0.6512820512820513,
-        "value": 0.5742092457420924
-      },
-      {
-        "season": "2018-19",
-        "minutes": 3056,
-        "total_points": 177,
-        "points_per_game": 5.1,
-        "now_cost": 6.3,
-        "effective_total_points": 108,
-        "gw_avg_points": 2.8421052631578947,
-        "variance": 11.764542936288086,
-        "consistency_factor": 0.6798169619284605,
-        "total_games": 35,
-        "season_factor": 0.3487179487179487,
-        "value": 5.525276061189342
-      }
-    ],
-    "position": "Defender",
-    "value_points": 6.046,
-    "team_name": "Man City",
-    "fer": 1.021,
-    "value_overall": 2.3007351095903643,
-    "value_per_cost": 0.3539592476292868,
-    "final_value": 2.1849784010011684,
-    "final_value_per_cost": 0.33615052323094896
-  },
-  {
-    "first_name": "Nathan",
-    "second_name": "Redmond",
-    "team": 16,
-    "element_type": 3,
-    "status": "i",
-    "full_name": "nathan redmond",
-    "seasons": [
-      {
-        "season": "2019-20",
-        "minutes": 270,
-        "total_points": 14,
-        "points_per_game": 4.7,
-        "now_cost": 6.4,
-        "effective_total_points": 8,
-        "gw_avg_points": 2.0,
-        "variance": 12.0,
-        "consistency_factor": 0.2639855632895076,
-        "total_games": 3,
-        "season_factor": 0.6365853658536585,
-        "value": 2.2968369829683697
-      },
-      {
-        "season": "2018-19",
-        "minutes": 3272,
-        "total_points": 137,
-        "points_per_game": 3.6,
-        "now_cost": 5.5,
-        "effective_total_points": 63,
-        "gw_avg_points": 1.6578947368421053,
-        "variance": 10.856648199445981,
-        "consistency_factor": 0.4006402795211731,
-        "total_games": 38,
-        "season_factor": 0.36341463414634145,
-        "value": 3.2230777023604498
-      }
-    ],
-    "position": "Midfielder",
-    "value_points": 5.363,
-    "team_name": "Southampton",
-    "fer": 0.99,
-    "value_overall": 2.6334464151376866,
-    "value_per_cost": 0.4114760023652635,
-    "final_value": 2.184678342678059,
-    "final_value_per_cost": 0.3413559910434467
   },
   {
     "first_name": "Mark",
@@ -5110,6 +5110,52 @@
     "final_value_per_cost": 0.2169994012914384
   },
   {
+    "first_name": "C\u00e9sar",
+    "second_name": "Azpilicueta",
+    "team": 6,
+    "element_type": 2,
+    "status": "a",
+    "full_name": "c\u00e9sar azpilicueta",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 360,
+        "total_points": 7,
+        "points_per_game": 1.8,
+        "now_cost": 5.9,
+        "effective_total_points": -1,
+        "gw_avg_points": -0.25,
+        "variance": 2.1875,
+        "consistency_factor": -0.03667768168928262,
+        "total_games": 4,
+        "season_factor": 0.6476190476190475,
+        "value": -0.2871046228710462
+      },
+      {
+        "season": "2018-19",
+        "minutes": 3402,
+        "total_points": 158,
+        "points_per_game": 4.2,
+        "now_cost": 6.4,
+        "effective_total_points": 82,
+        "gw_avg_points": 2.1578947368421053,
+        "variance": 8.659279778393351,
+        "consistency_factor": 0.5343224050108608,
+        "total_games": 38,
+        "season_factor": 0.35238095238095235,
+        "value": 4.195117009421538
+      }
+    ],
+    "position": "Defender",
+    "value_points": 5.057,
+    "team_name": "Chelsea",
+    "fer": 1.049,
+    "value_overall": 1.2923449046987214,
+    "value_per_cost": 0.21904150927096971,
+    "final_value": 1.1619698650900752,
+    "final_value_per_cost": 0.1969440449305212
+  },
+  {
     "first_name": "Billy",
     "second_name": "Sharp",
     "team": 15,
@@ -5146,7 +5192,7 @@
     "second_name": "Trossard",
     "team": 4,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "leandro trossard",
     "seasons": [
       {
@@ -5172,52 +5218,6 @@
     "value_per_cost": 0.2631792376317924,
     "final_value": 1.1464087591240877,
     "final_value_per_cost": 0.19106812652068128
-  },
-  {
-    "first_name": "C\u00e9sar",
-    "second_name": "Azpilicueta",
-    "team": 6,
-    "element_type": 2,
-    "status": "a",
-    "full_name": "c\u00e9sar azpilicueta",
-    "seasons": [
-      {
-        "season": "2019-20",
-        "minutes": 360,
-        "total_points": 7,
-        "points_per_game": 1.8,
-        "now_cost": 6.0,
-        "effective_total_points": -1,
-        "gw_avg_points": -0.25,
-        "variance": 2.1875,
-        "consistency_factor": -0.03667768168928262,
-        "total_games": 4,
-        "season_factor": 0.6476190476190475,
-        "value": -0.2871046228710462
-      },
-      {
-        "season": "2018-19",
-        "minutes": 3402,
-        "total_points": 158,
-        "points_per_game": 4.2,
-        "now_cost": 6.4,
-        "effective_total_points": 82,
-        "gw_avg_points": 2.1578947368421053,
-        "variance": 8.659279778393351,
-        "consistency_factor": 0.5343224050108608,
-        "total_games": 38,
-        "season_factor": 0.35238095238095235,
-        "value": 4.195117009421538
-      }
-    ],
-    "position": "Defender",
-    "value_points": 5.057,
-    "team_name": "Chelsea",
-    "fer": 1.049,
-    "value_overall": 1.2923449046987214,
-    "value_per_cost": 0.21539081744978691,
-    "final_value": 1.1426037006719074,
-    "final_value_per_cost": 0.19043395011198458
   },
   {
     "first_name": "Alisson",
@@ -5500,7 +5500,7 @@
     "second_name": "Torreira",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "lucas torreira",
     "seasons": [
       {
@@ -5988,6 +5988,52 @@
     "final_value_per_cost": 0.160664447954593
   },
   {
+    "first_name": "Diogo",
+    "second_name": "Jota",
+    "team": 20,
+    "element_type": 4,
+    "status": "a",
+    "full_name": "diogo jota",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 272,
+        "total_points": 7,
+        "points_per_game": 1.8,
+        "now_cost": 6.3,
+        "effective_total_points": 0,
+        "gw_avg_points": 0.0,
+        "variance": 0.0,
+        "consistency_factor": 0.0,
+        "total_games": 4,
+        "season_factor": 0.654054054054054,
+        "value": 0.0
+      },
+      {
+        "season": "2018-19",
+        "minutes": 2352,
+        "total_points": 139,
+        "points_per_game": 4.2,
+        "now_cost": 6.3,
+        "effective_total_points": 81,
+        "gw_avg_points": 2.1315789473684212,
+        "variance": 15.061634349030468,
+        "consistency_factor": 0.4908106979571446,
+        "total_games": 33,
+        "season_factor": 0.34594594594594597,
+        "value": 4.143957045892007
+      }
+    ],
+    "position": "Forward",
+    "value_points": 4.038,
+    "team_name": "Wolves",
+    "fer": 0.957,
+    "value_overall": 1.4335851402004782,
+    "value_per_cost": 0.22755319685721878,
+    "final_value": 0.8793488371263432,
+    "final_value_per_cost": 0.13957918049624496
+  },
+  {
     "first_name": "Georginio",
     "second_name": "Wijnaldum",
     "team": 10,
@@ -6126,50 +6172,50 @@
     "final_value_per_cost": 0.17418119631389906
   },
   {
-    "first_name": "Diogo",
-    "second_name": "Jota",
-    "team": 20,
-    "element_type": 4,
+    "first_name": "James",
+    "second_name": "Milner",
+    "team": 10,
+    "element_type": 3,
     "status": "a",
-    "full_name": "diogo jota",
+    "full_name": "james milner",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 272,
-        "total_points": 7,
-        "points_per_game": 1.8,
-        "now_cost": 6.4,
-        "effective_total_points": 0,
-        "gw_avg_points": 0.0,
-        "variance": 0.0,
-        "consistency_factor": 0.0,
-        "total_games": 4,
-        "season_factor": 0.654054054054054,
-        "value": 0.0
+        "minutes": 98,
+        "total_points": 8,
+        "points_per_game": 2.7,
+        "now_cost": 5.4,
+        "effective_total_points": 4,
+        "gw_avg_points": 1.0,
+        "variance": 3.0,
+        "consistency_factor": 0.14549204340387636,
+        "total_games": 3,
+        "season_factor": 0.6441176470588235,
+        "value": 1.1484184914841848
       },
       {
         "season": "2018-19",
-        "minutes": 2352,
-        "total_points": 139,
-        "points_per_game": 4.2,
-        "now_cost": 6.3,
-        "effective_total_points": 81,
-        "gw_avg_points": 2.1315789473684212,
-        "variance": 15.061634349030468,
-        "consistency_factor": 0.4908106979571446,
-        "total_games": 33,
-        "season_factor": 0.34594594594594597,
-        "value": 4.143957045892007
+        "minutes": 1778,
+        "total_points": 101,
+        "points_per_game": 3.3,
+        "now_cost": 5.6,
+        "effective_total_points": 53,
+        "gw_avg_points": 1.394736842105263,
+        "variance": 6.712603878116345,
+        "consistency_factor": 0.35271501005460465,
+        "total_games": 31,
+        "season_factor": 0.3558823529411764,
+        "value": 2.71147806706514
       }
     ],
-    "position": "Forward",
-    "value_points": 4.038,
-    "team_name": "Wolves",
-    "fer": 0.957,
-    "value_overall": 1.4335851402004782,
-    "value_per_cost": 0.2239976781563247,
-    "final_value": 0.8656090115462439,
-    "final_value_per_cost": 0.1352514080541006
+    "position": "Midfielder",
+    "value_points": 2.712,
+    "team_name": "Liverpool",
+    "fer": 0.99,
+    "value_overall": 1.7046838110291715,
+    "value_per_cost": 0.31568218722762437,
+    "final_value": 0.8475687908437042,
+    "final_value_per_cost": 0.15695718348957483
   },
   {
     "first_name": "Calum",
@@ -6326,52 +6372,6 @@
     "value_per_cost": 0.1435523114355231,
     "final_value": 0.8348715328467153,
     "final_value_per_cost": 0.18974353019243528
-  },
-  {
-    "first_name": "James",
-    "second_name": "Milner",
-    "team": 10,
-    "element_type": 3,
-    "status": "a",
-    "full_name": "james milner",
-    "seasons": [
-      {
-        "season": "2019-20",
-        "minutes": 98,
-        "total_points": 8,
-        "points_per_game": 2.7,
-        "now_cost": 5.5,
-        "effective_total_points": 4,
-        "gw_avg_points": 1.0,
-        "variance": 3.0,
-        "consistency_factor": 0.14549204340387636,
-        "total_games": 3,
-        "season_factor": 0.6441176470588235,
-        "value": 1.1484184914841848
-      },
-      {
-        "season": "2018-19",
-        "minutes": 1778,
-        "total_points": 101,
-        "points_per_game": 3.3,
-        "now_cost": 5.6,
-        "effective_total_points": 53,
-        "gw_avg_points": 1.394736842105263,
-        "variance": 6.712603878116345,
-        "consistency_factor": 0.35271501005460465,
-        "total_games": 31,
-        "season_factor": 0.3558823529411764,
-        "value": 2.71147806706514
-      }
-    ],
-    "position": "Midfielder",
-    "value_points": 2.712,
-    "team_name": "Liverpool",
-    "fer": 0.99,
-    "value_overall": 1.7046838110291715,
-    "value_per_cost": 0.309942511096213,
-    "final_value": 0.8321584491920004,
-    "final_value_per_cost": 0.15130153621672734
   },
   {
     "first_name": "Michail",
@@ -6870,7 +6870,7 @@
     "second_name": "Sa\u00efss",
     "team": 20,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "romain sa\u00efss",
     "seasons": [
       {
@@ -7234,6 +7234,52 @@
     "final_value_per_cost": 0.1350983283641562
   },
   {
+    "first_name": "Ilkay",
+    "second_name": "G\u00fcndogan",
+    "team": 11,
+    "element_type": 3,
+    "status": "d",
+    "full_name": "ilkay g\u00fcndogan",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 179,
+        "total_points": 5,
+        "points_per_game": 1.2,
+        "now_cost": 5.3,
+        "effective_total_points": 0,
+        "gw_avg_points": 0.0,
+        "variance": 0.0,
+        "consistency_factor": 0.0,
+        "total_games": 4,
+        "season_factor": 0.6571428571428571,
+        "value": 0.0
+      },
+      {
+        "season": "2018-19",
+        "minutes": 2129,
+        "total_points": 113,
+        "points_per_game": 3.6,
+        "now_cost": 5.4,
+        "effective_total_points": 59,
+        "gw_avg_points": 1.5526315789473684,
+        "variance": 7.3524930747922435,
+        "consistency_factor": 0.38995172880707485,
+        "total_games": 31,
+        "season_factor": 0.34285714285714286,
+        "value": 3.0184378482423257
+      }
+    ],
+    "position": "Midfielder",
+    "value_points": 3.371,
+    "team_name": "Man City",
+    "fer": 1.021,
+    "value_overall": 1.034892976540226,
+    "value_per_cost": 0.19526282576230677,
+    "final_value": 0.6720538363432755,
+    "final_value_per_cost": 0.12680261063080672
+  },
+  {
     "first_name": "Kepa",
     "second_name": "Arrizabalaga",
     "team": 6,
@@ -7278,52 +7324,6 @@
     "value_per_cost": 0.1261027439772669,
     "final_value": 0.6680229810823725,
     "final_value_per_cost": 0.12145872383315863
-  },
-  {
-    "first_name": "Ilkay",
-    "second_name": "G\u00fcndogan",
-    "team": 11,
-    "element_type": 3,
-    "status": "a",
-    "full_name": "ilkay g\u00fcndogan",
-    "seasons": [
-      {
-        "season": "2019-20",
-        "minutes": 179,
-        "total_points": 5,
-        "points_per_game": 1.2,
-        "now_cost": 5.4,
-        "effective_total_points": 0,
-        "gw_avg_points": 0.0,
-        "variance": 0.0,
-        "consistency_factor": 0.0,
-        "total_games": 4,
-        "season_factor": 0.6571428571428571,
-        "value": 0.0
-      },
-      {
-        "season": "2018-19",
-        "minutes": 2129,
-        "total_points": 113,
-        "points_per_game": 3.6,
-        "now_cost": 5.4,
-        "effective_total_points": 59,
-        "gw_avg_points": 1.5526315789473684,
-        "variance": 7.3524930747922435,
-        "consistency_factor": 0.38995172880707485,
-        "total_games": 31,
-        "season_factor": 0.34285714285714286,
-        "value": 3.0184378482423257
-      }
-    ],
-    "position": "Midfielder",
-    "value_points": 3.371,
-    "team_name": "Man City",
-    "fer": 1.021,
-    "value_overall": 1.034892976540226,
-    "value_per_cost": 0.19164684750744923,
-    "final_value": 0.6596083949295111,
-    "final_value_per_cost": 0.12214970276472427
   },
   {
     "first_name": "Rodrigo",
@@ -7404,6 +7404,52 @@
     "final_value_per_cost": 0.06486365205555575
   },
   {
+    "first_name": "Victor",
+    "second_name": "Lindel\u00f6f",
+    "team": 12,
+    "element_type": 2,
+    "status": "a",
+    "full_name": "victor lindel\u00f6f",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 360,
+        "total_points": 10,
+        "points_per_game": 2.5,
+        "now_cost": 5.4,
+        "effective_total_points": 2,
+        "gw_avg_points": 0.5,
+        "variance": 2.25,
+        "consistency_factor": 0.07330849094190162,
+        "total_games": 4,
+        "season_factor": 0.6588235294117647,
+        "value": 0.5742092457420924
+      },
+      {
+        "season": "2018-19",
+        "minutes": 2600,
+        "total_points": 85,
+        "points_per_game": 2.8,
+        "now_cost": 4.9,
+        "effective_total_points": 27,
+        "gw_avg_points": 0.7105263157894737,
+        "variance": 5.626731301939057,
+        "consistency_factor": 0.18177655261435532,
+        "total_games": 30,
+        "season_factor": 0.3411764705882353,
+        "value": 1.3813190152973356
+      }
+    ],
+    "position": "Defender",
+    "value_points": 4.0,
+    "team_name": "Man Utd",
+    "fer": 0.939,
+    "value_overall": 0.8495761082962342,
+    "value_per_cost": 0.15732890894374707,
+    "final_value": 0.590927381992714,
+    "final_value_per_cost": 0.1094309966653174
+  },
+  {
     "first_name": "Paul",
     "second_name": "Dummett",
     "team": 13,
@@ -7448,52 +7494,6 @@
     "value_per_cost": 0.160860574968504,
     "final_value": 0.5810283967862365,
     "final_value_per_cost": 0.12911742150805255
-  },
-  {
-    "first_name": "Victor",
-    "second_name": "Lindel\u00f6f",
-    "team": 12,
-    "element_type": 2,
-    "status": "a",
-    "full_name": "victor lindel\u00f6f",
-    "seasons": [
-      {
-        "season": "2019-20",
-        "minutes": 360,
-        "total_points": 10,
-        "points_per_game": 2.5,
-        "now_cost": 5.5,
-        "effective_total_points": 2,
-        "gw_avg_points": 0.5,
-        "variance": 2.25,
-        "consistency_factor": 0.07330849094190162,
-        "total_games": 4,
-        "season_factor": 0.6588235294117647,
-        "value": 0.5742092457420924
-      },
-      {
-        "season": "2018-19",
-        "minutes": 2600,
-        "total_points": 85,
-        "points_per_game": 2.8,
-        "now_cost": 4.9,
-        "effective_total_points": 27,
-        "gw_avg_points": 0.7105263157894737,
-        "variance": 5.626731301939057,
-        "consistency_factor": 0.18177655261435532,
-        "total_games": 30,
-        "season_factor": 0.3411764705882353,
-        "value": 1.3813190152973356
-      }
-    ],
-    "position": "Defender",
-    "value_points": 4.0,
-    "team_name": "Man Utd",
-    "fer": 0.939,
-    "value_overall": 0.8495761082962342,
-    "value_per_cost": 0.15446838332658805,
-    "final_value": 0.5801832477746647,
-    "final_value_per_cost": 0.10548786323175721
   },
   {
     "first_name": "Troy",
@@ -8220,7 +8220,7 @@
         "minutes": 225,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 5.9,
+        "now_cost": 5.8,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -8249,9 +8249,9 @@
     "team_name": "Watford",
     "fer": 0.903,
     "value_overall": 0.8790491090131634,
-    "value_per_cost": 0.14899137440901072,
-    "final_value": 0.5000822476264984,
-    "final_value_per_cost": 0.08475970298754211
+    "value_per_cost": 0.1515601912091661,
+    "final_value": 0.5087043553441968,
+    "final_value_per_cost": 0.08770764747313738
   },
   {
     "first_name": "James",
@@ -8786,7 +8786,7 @@
     "second_name": "Xhaka",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "granit xhaka",
     "seasons": [
       {
@@ -9480,7 +9480,7 @@
     "second_name": "Lingard",
     "team": 12,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "jesse lingard",
     "seasons": [
       {
@@ -9742,7 +9742,7 @@
     "second_name": "Willock",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "joseph willock",
     "seasons": [
       {
@@ -10380,7 +10380,7 @@
         "minutes": 102,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -10409,9 +10409,9 @@
     "team_name": "Newcastle",
     "fer": 0.903,
     "value_overall": 0.42974369364806,
-    "value_per_cost": 0.09549859858845777,
-    "final_value": 0.1767822307770236,
-    "final_value_per_cost": 0.03928494017267191
+    "value_per_cost": 0.09766902128364999,
+    "final_value": 0.18080000874922866,
+    "final_value_per_cost": 0.04109091107937015
   },
   {
     "first_name": "Juan",
@@ -12906,7 +12906,7 @@
         "minutes": 111,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 5.0,
+        "now_cost": 4.9,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -13218,7 +13218,7 @@
     "second_name": "Lo Celso",
     "team": 17,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "giovani lo celso",
     "seasons": [
       {
@@ -13400,7 +13400,7 @@
         "minutes": 103,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -13429,9 +13429,9 @@
     "team_name": "Southampton",
     "fer": 0.99,
     "value_overall": -0.009659985823785855,
-    "value_per_cost": -0.0021466635163968567,
-    "final_value": -0.004339652031477557,
-    "final_value_per_cost": -0.0009643671181061238
+    "value_per_cost": -0.002195451323587694,
+    "final_value": -0.004438280486738411,
+    "final_value_per_cost": -0.001008700110622366
   },
   {
     "first_name": "Kyle",
@@ -13446,7 +13446,7 @@
         "minutes": 241,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 5.0,
+        "now_cost": 4.9,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -13475,9 +13475,9 @@
     "team_name": "Spurs",
     "fer": 1.053,
     "value_overall": -0.005241697377105448,
-    "value_per_cost": -0.0010483394754210896,
-    "final_value": -0.004672814912428718,
-    "final_value_per_cost": -0.0009345629824857435
+    "value_per_cost": -0.0010697341585929484,
+    "final_value": -0.00476817848207012,
+    "final_value_per_cost": -0.0009730976494020651
   },
   {
     "first_name": "Christian",
@@ -14168,7 +14168,7 @@
         "minutes": 67,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -14197,9 +14197,9 @@
     "team_name": "Brighton",
     "fer": 0.99,
     "value_overall": -0.2208901068717518,
-    "value_per_cost": -0.04908669041594485,
-    "final_value": -0.08343902896973554,
-    "final_value_per_cost": -0.01854200643771901
+    "value_per_cost": -0.050202297016307226,
+    "final_value": -0.08533537053722952,
+    "final_value_per_cost": -0.01939440239482489
   },
   {
     "first_name": "Yan",
@@ -14826,7 +14826,7 @@
     "second_name": "Palmieri dos Santos",
     "team": 6,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "emerson palmieri dos santos",
     "seasons": [
       {
@@ -14968,7 +14968,7 @@
     "second_name": "Aarons",
     "team": 14,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "maximillian aarons",
     "seasons": [
       {

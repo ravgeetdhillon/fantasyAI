@@ -175,17 +175,6 @@ with open('data/league_stats.json', 'w', encoding='utf-8') as f:
 
 
 # sort the players according to their value
-players_sortedby_value = sorted(players, key=lambda k: (-k['value_points'], -k['final_value']))
-players_sortedby_value_per_cost = sorted(players, key=lambda k: (-k['value_points'], -k['final_value_per_cost']))
-# final_players_sorted = sorted(players, key=lambda k: (-k['value_points'], -k['value_overall'], -k['value_per_cost']))
 final_players_sorted = sorted(players, key=lambda k: (-k['final_value']))
-
-
-with open('data/players_sortedby_value.json', 'w', encoding='utf-8') as f:
-    json.dump(players_sortedby_value, f, ensure_ascii=True, indent=2)
-
-with open('data/players_sortedby_value_per_cost.json', 'w', encoding='utf-8') as f:
-    json.dump(players_sortedby_value_per_cost, f, ensure_ascii=True, indent=2)
-
 with open('data/final_players_sorted.json', 'w', encoding='utf-8') as f:
     json.dump(final_players_sorted, f, ensure_ascii=True, indent=2)

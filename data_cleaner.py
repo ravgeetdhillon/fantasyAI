@@ -106,7 +106,7 @@ with open(f'data/players.json', 'w', encoding='utf-8') as f:
 
 # get the cleaned data for fixtures
 print('Collecting fixtures data')
-df = pandas.read_csv('raw_data/2019-20/fixtures.csv')
+df = pandas.read_csv('raw_data/fixtures.csv')
 
 headers = ['event', 'finished', 'team_a', 'team_a_difficulty', 'team_h', 'team_h_difficulty']
 data = df[headers]
@@ -131,7 +131,7 @@ with open('data/fixtures_cleaned.json', 'w', encoding='utf-8') as f:
 
 # get the cleaned data for teams
 print('Collecting teams data')
-df = pandas.read_csv('raw_data/2019-20/teams.csv')
+df = pandas.read_csv('raw_data/teams.csv')
 
 headers = ['id', 'name']
 data = df[headers]

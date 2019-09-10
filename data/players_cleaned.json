@@ -372,7 +372,7 @@
     "second_name": "Xhaka",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "granit xhaka",
     "seasons": [
       {
@@ -418,7 +418,7 @@
     "second_name": "Torreira",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "lucas torreira",
     "seasons": [
       {
@@ -698,7 +698,7 @@
     "second_name": "Willock",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "joseph willock",
     "seasons": [
       {
@@ -2156,7 +2156,7 @@
         "minutes": 67,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -2185,9 +2185,9 @@
     "team_name": "Brighton",
     "fer": 0.99,
     "value_overall": -0.2208901068717518,
-    "value_per_cost": -0.04908669041594485,
-    "final_value": -0.08343902896973554,
-    "final_value_per_cost": -0.01854200643771901
+    "value_per_cost": -0.050202297016307226,
+    "final_value": -0.08533537053722952,
+    "final_value_per_cost": -0.01939440239482489
   },
   {
     "first_name": "Lewis",
@@ -2608,7 +2608,7 @@
     "second_name": "Trossard",
     "team": 4,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "leandro trossard",
     "seasons": [
       {
@@ -3438,7 +3438,7 @@
         "minutes": 360,
         "total_points": 7,
         "points_per_game": 1.8,
-        "now_cost": 6.0,
+        "now_cost": 5.9,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 2.1875,
@@ -3467,16 +3467,16 @@
     "team_name": "Chelsea",
     "fer": 1.049,
     "value_overall": 1.2923449046987214,
-    "value_per_cost": 0.21539081744978691,
-    "final_value": 1.1426037006719074,
-    "final_value_per_cost": 0.19043395011198458
+    "value_per_cost": 0.21904150927096971,
+    "final_value": 1.1619698650900752,
+    "final_value_per_cost": 0.1969440449305212
   },
   {
     "first_name": "Emerson",
     "second_name": "Palmieri dos Santos",
     "team": 6,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "emerson palmieri dos santos",
     "seasons": [
       {
@@ -6638,7 +6638,7 @@
         "minutes": 360,
         "total_points": 22,
         "points_per_game": 5.5,
-        "now_cost": 7.0,
+        "now_cost": 7.1,
         "effective_total_points": 14,
         "gw_avg_points": 3.5,
         "variance": 12.75,
@@ -6667,9 +6667,9 @@
     "team_name": "Liverpool",
     "fer": 0.99,
     "value_overall": 4.895158975991201,
-    "value_per_cost": 0.6993084251416002,
-    "final_value": 4.388586945902878,
-    "final_value_per_cost": 0.6269409922718397
+    "value_per_cost": 0.6894590107029861,
+    "final_value": 4.326775862157767,
+    "final_value_per_cost": 0.6094050510081362
   },
   {
     "first_name": "Virgil",
@@ -7328,7 +7328,7 @@
         "minutes": 98,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 5.5,
+        "now_cost": 5.4,
         "effective_total_points": 4,
         "gw_avg_points": 1.0,
         "variance": 3.0,
@@ -7357,9 +7357,9 @@
     "team_name": "Liverpool",
     "fer": 0.99,
     "value_overall": 1.7046838110291715,
-    "value_per_cost": 0.309942511096213,
-    "final_value": 0.8321584491920004,
-    "final_value_per_cost": 0.15130153621672734
+    "value_per_cost": 0.31568218722762437,
+    "final_value": 0.8475687908437042,
+    "final_value_per_cost": 0.15695718348957483
   },
   {
     "first_name": "Adri\u00e1n",
@@ -7406,7 +7406,7 @@
         "minutes": 306,
         "total_points": 9,
         "points_per_game": 2.2,
-        "now_cost": 6.5,
+        "now_cost": 6.4,
         "effective_total_points": 2,
         "gw_avg_points": 0.5,
         "variance": 4.25,
@@ -7435,9 +7435,9 @@
     "team_name": "Man City",
     "fer": 1.021,
     "value_overall": 2.3007351095903643,
-    "value_per_cost": 0.3539592476292868,
-    "final_value": 2.1849784010011684,
-    "final_value_per_cost": 0.33615052323094896
+    "value_per_cost": 0.3594898608734944,
+    "final_value": 2.219118688516811,
+    "final_value_per_cost": 0.3467372950807517
   },
   {
     "first_name": "Kyle",
@@ -8088,7 +8088,7 @@
     "second_name": "G\u00fcndogan",
     "team": 11,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "ilkay g\u00fcndogan",
     "seasons": [
       {
@@ -8096,7 +8096,7 @@
         "minutes": 179,
         "total_points": 5,
         "points_per_game": 1.2,
-        "now_cost": 5.4,
+        "now_cost": 5.3,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -8125,9 +8125,9 @@
     "team_name": "Man City",
     "fer": 1.021,
     "value_overall": 1.034892976540226,
-    "value_per_cost": 0.19164684750744923,
-    "final_value": 0.6596083949295111,
-    "final_value_per_cost": 0.12214970276472427
+    "value_per_cost": 0.19526282576230677,
+    "final_value": 0.6720538363432755,
+    "final_value_per_cost": 0.12680261063080672
   },
   {
     "first_name": "Rodrigo",
@@ -8344,7 +8344,7 @@
         "minutes": 360,
         "total_points": 10,
         "points_per_game": 2.5,
-        "now_cost": 5.5,
+        "now_cost": 5.4,
         "effective_total_points": 2,
         "gw_avg_points": 0.5,
         "variance": 2.25,
@@ -8373,9 +8373,9 @@
     "team_name": "Man Utd",
     "fer": 0.939,
     "value_overall": 0.8495761082962342,
-    "value_per_cost": 0.15446838332658805,
-    "final_value": 0.5801832477746647,
-    "final_value_per_cost": 0.10548786323175721
+    "value_per_cost": 0.15732890894374707,
+    "final_value": 0.590927381992714,
+    "final_value_per_cost": 0.1094309966653174
   },
   {
     "first_name": "Luke",
@@ -8658,7 +8658,7 @@
     "second_name": "Lingard",
     "team": 12,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "jesse lingard",
     "seasons": [
       {
@@ -8966,7 +8966,7 @@
     "second_name": "Sch\u00e4r",
     "team": 13,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "fabian sch\u00e4r",
     "seasons": [
       {
@@ -9112,7 +9112,7 @@
         "minutes": 102,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -9141,9 +9141,9 @@
     "team_name": "Newcastle",
     "fer": 0.903,
     "value_overall": 0.42974369364806,
-    "value_per_cost": 0.09549859858845777,
-    "final_value": 0.1767822307770236,
-    "final_value_per_cost": 0.03928494017267191
+    "value_per_cost": 0.09766902128364999,
+    "final_value": 0.18080000874922866,
+    "final_value_per_cost": 0.04109091107937015
   },
   {
     "first_name": "Jamaal",
@@ -9724,7 +9724,7 @@
     "second_name": "Aarons",
     "team": 14,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "maximillian aarons",
     "seasons": [
       {
@@ -10084,7 +10084,7 @@
         "minutes": 111,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 5.0,
+        "now_cost": 4.9,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -10776,7 +10776,7 @@
     "second_name": "Robinson",
     "team": 15,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "callum robinson",
     "seasons": [
       {
@@ -11174,7 +11174,7 @@
         "minutes": 103,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -11203,9 +11203,9 @@
     "team_name": "Southampton",
     "fer": 0.99,
     "value_overall": -0.009659985823785855,
-    "value_per_cost": -0.0021466635163968567,
-    "final_value": -0.004339652031477557,
-    "final_value_per_cost": -0.0009643671181061238
+    "value_per_cost": -0.002195451323587694,
+    "final_value": -0.004438280486738411,
+    "final_value_per_cost": -0.001008700110622366
   },
   {
     "first_name": "Danny",
@@ -11404,7 +11404,7 @@
         "minutes": 270,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 6.4,
+        "now_cost": 6.3,
         "effective_total_points": 8,
         "gw_avg_points": 2.0,
         "variance": 12.0,
@@ -11433,9 +11433,9 @@
     "team_name": "Southampton",
     "fer": 0.99,
     "value_overall": 2.6334464151376866,
-    "value_per_cost": 0.4114760023652635,
-    "final_value": 2.184678342678059,
-    "final_value_per_cost": 0.3413559910434467
+    "value_per_cost": 0.4180073674821725,
+    "final_value": 2.2193557766888223,
+    "final_value_per_cost": 0.3522786947125115
   },
   {
     "first_name": "James",
@@ -12038,7 +12038,7 @@
         "minutes": 241,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 5.0,
+        "now_cost": 4.9,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -12067,9 +12067,9 @@
     "team_name": "Spurs",
     "fer": 1.053,
     "value_overall": -0.005241697377105448,
-    "value_per_cost": -0.0010483394754210896,
-    "final_value": -0.004672814912428718,
-    "final_value_per_cost": -0.0009345629824857435
+    "value_per_cost": -0.0010697341585929484,
+    "final_value": -0.00476817848207012,
+    "final_value_per_cost": -0.0009730976494020651
   },
   {
     "first_name": "Harry",
@@ -12568,7 +12568,7 @@
     "second_name": "Lo Celso",
     "team": 17,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "giovani lo celso",
     "seasons": [
       {
@@ -13160,7 +13160,7 @@
         "minutes": 225,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 5.9,
+        "now_cost": 5.8,
         "effective_total_points": -1,
         "gw_avg_points": -0.25,
         "variance": 0.1875,
@@ -13189,9 +13189,9 @@
     "team_name": "Watford",
     "fer": 0.903,
     "value_overall": 0.8790491090131634,
-    "value_per_cost": 0.14899137440901072,
-    "final_value": 0.5000822476264984,
-    "final_value_per_cost": 0.08475970298754211
+    "value_per_cost": 0.1515601912091661,
+    "final_value": 0.5087043553441968,
+    "final_value_per_cost": 0.08770764747313738
   },
   {
     "first_name": "Will",
@@ -14522,7 +14522,7 @@
     "second_name": "Sa\u00efss",
     "team": 20,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "romain sa\u00efss",
     "seasons": [
       {
@@ -14622,7 +14622,7 @@
         "minutes": 272,
         "total_points": 7,
         "points_per_game": 1.8,
-        "now_cost": 6.4,
+        "now_cost": 6.3,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -14651,9 +14651,9 @@
     "team_name": "Wolves",
     "fer": 0.957,
     "value_overall": 1.4335851402004782,
-    "value_per_cost": 0.2239976781563247,
-    "final_value": 0.8656090115462439,
-    "final_value_per_cost": 0.1352514080541006
+    "value_per_cost": 0.22755319685721878,
+    "final_value": 0.8793488371263432,
+    "final_value_per_cost": 0.13957918049624496
   },
   {
     "first_name": "Rui Pedro",

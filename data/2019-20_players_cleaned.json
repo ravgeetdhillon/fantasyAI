@@ -140,7 +140,7 @@
     "second_name": "Xhaka",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "granit xhaka",
     "seasons": [
       {
@@ -157,7 +157,7 @@
     "second_name": "Torreira",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "lucas torreira",
     "seasons": [
       {
@@ -276,7 +276,7 @@
     "second_name": "Willock",
     "team": 1,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "joseph willock",
     "seasons": [
       {
@@ -913,7 +913,7 @@
         "minutes": 67,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 45
+        "now_cost": 44
       }
     ]
   },
@@ -1075,7 +1075,7 @@
     "second_name": "Trossard",
     "team": 4,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "leandro trossard",
     "seasons": [
       {
@@ -1423,7 +1423,7 @@
         "minutes": 360,
         "total_points": 7,
         "points_per_game": 1.8,
-        "now_cost": 60
+        "now_cost": 59
       }
     ]
   },
@@ -1432,7 +1432,7 @@
     "second_name": "Palmieri dos Santos",
     "team": 6,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "emerson palmieri dos santos",
     "seasons": [
       {
@@ -2647,7 +2647,7 @@
         "minutes": 360,
         "total_points": 22,
         "points_per_game": 5.5,
-        "now_cost": 70
+        "now_cost": 71
       }
     ]
   },
@@ -2902,7 +2902,7 @@
         "minutes": 98,
         "total_points": 8,
         "points_per_game": 2.7,
-        "now_cost": 55
+        "now_cost": 54
       }
     ]
   },
@@ -2936,7 +2936,7 @@
         "minutes": 306,
         "total_points": 9,
         "points_per_game": 2.2,
-        "now_cost": 65
+        "now_cost": 64
       }
     ]
   },
@@ -3183,7 +3183,7 @@
     "second_name": "G\u00fcndogan",
     "team": 11,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "ilkay g\u00fcndogan",
     "seasons": [
       {
@@ -3191,7 +3191,7 @@
         "minutes": 179,
         "total_points": 5,
         "points_per_game": 1.2,
-        "now_cost": 54
+        "now_cost": 53
       }
     ]
   },
@@ -3293,7 +3293,7 @@
         "minutes": 360,
         "total_points": 10,
         "points_per_game": 2.5,
-        "now_cost": 55
+        "now_cost": 54
       }
     ]
   },
@@ -3404,7 +3404,7 @@
     "second_name": "Lingard",
     "team": 12,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "jesse lingard",
     "seasons": [
       {
@@ -3523,7 +3523,7 @@
     "second_name": "Sch\u00e4r",
     "team": 13,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "fabian sch\u00e4r",
     "seasons": [
       {
@@ -3582,7 +3582,7 @@
         "minutes": 102,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 45
+        "now_cost": 44
       }
     ]
   },
@@ -3829,7 +3829,7 @@
     "second_name": "Aarons",
     "team": 14,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "maximillian aarons",
     "seasons": [
       {
@@ -4024,7 +4024,7 @@
         "minutes": 111,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 50
+        "now_cost": 49
       }
     ]
   },
@@ -4373,7 +4373,7 @@
     "second_name": "Robinson",
     "team": 15,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "callum robinson",
     "seasons": [
       {
@@ -4551,7 +4551,7 @@
         "minutes": 103,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 45
+        "now_cost": 44
       }
     ]
   },
@@ -4636,7 +4636,7 @@
         "minutes": 270,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 64
+        "now_cost": 63
       }
     ]
   },
@@ -4891,7 +4891,7 @@
         "minutes": 241,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 50
+        "now_cost": 49
       }
     ]
   },
@@ -5087,7 +5087,7 @@
     "second_name": "Lo Celso",
     "team": 17,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "giovani lo celso",
     "seasons": [
       {
@@ -5316,7 +5316,7 @@
         "minutes": 225,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 59
+        "now_cost": 58
       }
     ]
   },
@@ -5835,7 +5835,7 @@
     "second_name": "Sa\u00efss",
     "team": 20,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "romain sa\u00efss",
     "seasons": [
       {
@@ -5877,7 +5877,7 @@
         "minutes": 272,
         "total_points": 7,
         "points_per_game": 1.8,
-        "now_cost": 64
+        "now_cost": 63
       }
     ]
   },

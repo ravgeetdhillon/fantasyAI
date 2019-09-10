@@ -2,10 +2,10 @@ Team's Budget:
 100
 
 Team's Cost:
-98.7
+98.8
 
 Cost in Hand:
-1.2999999999999972
+1.2000000000000028
 
 Team's Strength:
 15
