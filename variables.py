@@ -2,7 +2,7 @@ import json
 
 # team's budget
 def budget():
-    return 100
+    return 100.1
 
 # next gameweek id
 def next_event():
