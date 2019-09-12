@@ -1,20 +1,25 @@
 import json
 
+
 # team's budget
 def budget():
     return 100.1
+
 
 # next gameweek id
 def next_event():
     return 5
 
+
 # all the seasons whose data is to be considered
 def all_seasons():
     return ['2019-20', '2018-19']
 
+
 # current season
 def current_season():
     return '2019-20'
+
 
 # mapping for positions
 def positions():
@@ -24,6 +29,7 @@ def positions():
         3: 'Midfielder',
         4: 'Forward'
     }
+
 
 # possible formations to choose the best team from
 def formations():
@@ -72,6 +78,7 @@ def formations():
         }
     ]
 
+
 # 15 member sqaud formation for each position
 def configuration():
     return {
@@ -89,6 +96,7 @@ def configuration():
         },
     }
 
+
 # players selected for each team
 def team_players_selected():
     with open('data/teams_cleaned.json', 'r') as f:
@@ -98,3 +106,24 @@ def team_players_selected():
         team_players_selected[team['name']] = 0
     
     return team_players_selected
+
+# progress for data visualisation
+def progress():
+    gameweek = [f'gw{i}' for i in range(1, next_event())]
+    return [
+        {    
+            'type': 'Mine',
+            'points': [63,95,149,199],
+            'gameweek': gameweek
+        },
+        {
+            'type': 'Highest',
+            'points' : [142,224,286,358],
+            'gameweek': gameweek
+        },
+        {    
+            'type': 'Average',
+            'points': [65,106,150,207],
+            'gameweek': gameweek
+        }
+    ]
