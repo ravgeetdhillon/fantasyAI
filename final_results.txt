@@ -17,7 +17,7 @@ Final Team:
 Goalkeeper: ederson santana de moraes, nick pope
 Defender: trent alexander-arnold, lucas digne, virgil van dijk, erik pieters, john lundstram
 Midfielder: raheem sterling, mohamed salah, todd cantwell, douglas luiz soares de paulo
-Forward: teemu pukki, sergio agüero, tammy abraham
+Forward: sergio agüero, teemu pukki, tammy abraham
 
 Formation:
 4-3-3
@@ -26,7 +26,7 @@ Playing Team:
 Goalkeeper: ederson santana de moraes
 Defender: trent alexander-arnold, lucas digne, virgil van dijk, erik pieters
 Midfielder: raheem sterling, mohamed salah, todd cantwell
-Forward: teemu pukki, sergio agüero, tammy abraham
+Forward: sergio agüero, teemu pukki, tammy abraham
 
 Captain:
-teemu pukki
+sergio agüero
