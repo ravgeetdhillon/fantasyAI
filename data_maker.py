@@ -50,12 +50,6 @@ with open('data/teams_cleaned.json', 'w', encoding='utf-8') as f:
     json.dump(teams, f, ensure_ascii=True, indent=2)
 
 
-def findForm(arr):
-    var = []
-    for i in range(len(arr)):
-        var.append(np.var(arr[:i]))
-    print(var, len(var))
-
 # generate the desired data for each player for each season
 max_consistency = {
     '2019-20': 0,
@@ -72,7 +66,9 @@ for player in players:
             player['team_name'] = team['name']
             player['fer'] = team['fer_points']
             if team['fer_points'] >= 1:
-                player['value_points'] += 1
+                player['value_points'] += 10
+            else:
+                player['value_points'] += 8
             break
 
     # get player's data for each season
@@ -95,25 +91,27 @@ for player in players:
     # assign season factor weightage for each season
     for season in player['seasons']:
         if season['season'] == variables.current_season():
-            season['season_factor'] = ((season['total_games'] / total_career_games) + 1.2) / 2
+            season['season_factor'] = ((season['total_games'] / total_career_games) + 1) / 2
         else:
-            season['season_factor'] = ((season['total_games'] / total_career_games) - 0.2) / 2
+            season['season_factor'] = (season['total_games'] / total_career_games) / 2
 
 
 # normalize the season consistency factor and award the value points
 for index, player in enumerate(players):
+    player['consistency_overall'] = 0
     for season in player['seasons']:
         season['consistency_factor'] /= max_consistency[season['season']]
+        player['consistency_overall'] += season['consistency_factor'] * season['season_factor']
         if season['consistency_factor'] >= 0.8:
-            player['value_points'] += 5 * season['season_factor']
+            player['value_points'] += 8 * season['season_factor']
         elif 0.8 > season['consistency_factor'] >= 0.6:
-            player['value_points'] += 4 * season['season_factor']
+            player['value_points'] += 7 * season['season_factor']
         elif 0.6 > season['consistency_factor'] >= 0.4:
-            player['value_points'] += 3 * season['season_factor']
+            player['value_points'] += 6 * season['season_factor']
         elif 0.4 > season['consistency_factor'] >= 0.2:
-            player['value_points'] += 2 * season['season_factor']
+            player['value_points'] += 5 * season['season_factor']
         elif 0.2 > season['consistency_factor'] > 0:
-            player['value_points'] += 1 * season['season_factor']
+            player['value_points'] += 4 * season['season_factor']
 
 
 # get total number of players in each season from the cleaned data
@@ -144,11 +142,11 @@ for player in players:
     for season in player['seasons']:
         minutes_per_game = season['minutes'] / season['total_games']
         if minutes_per_game >= 60:
-            player['value_points'] += 3 * season['season_factor']
+            player['value_points'] += 4 * season['season_factor']
         elif 60 > minutes_per_game >= league_data[season['season']]['avg_minutes_per_player']:
-            player['value_points'] += 2 * season['season_factor']
+            player['value_points'] += 3 * season['season_factor']
         elif 0 < minutes_per_game < league_data[season['season']]['avg_minutes_per_player']:
-            player['value_points'] += 1 * season['season_factor']
+            player['value_points'] += 2 * season['season_factor']
 
 
 # calculate value for each player for each season and then the overall value
@@ -159,10 +157,7 @@ for player in players:
         season['value'] = season['effective_total_points'] / league_data[season['season']]['avg_effective_total_points_per_player']
         value_overall += season['value'] * season['season_factor']
 
-    player['value_overall'] = value_overall
-    player['value_per_cost'] = player['value_overall'] / player['seasons'][0]['now_cost']
-    
-    player['final_value'] = player['value_per_cost'] * player['fer'] * player['value_points']
+    player['final_value'] = 53 * value_overall + 27 * player['fer'] + 13.5 * player['consistency_overall'] + 9.5 * player['value_points']
     player['final_value_per_cost'] = player['final_value'] / player['seasons'][0]['now_cost']
 
 

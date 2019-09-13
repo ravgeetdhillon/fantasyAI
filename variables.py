@@ -107,6 +107,7 @@ def team_players_selected():
     
     return team_players_selected
 
+
 # progress for data visualisation
 def progress():
     gameweek = [f'gw{i}' for i in range(1, next_event())]
@@ -125,5 +126,10 @@ def progress():
             'type': 'Average',
             'points': [65,106,150,207],
             'gameweek': gameweek
-        }
+        },
+        # {    
+        #     'type': 'Samreet',
+        #     'points': [73,136,192,257],
+        #     'gameweek': gameweek
+        # }
     ]

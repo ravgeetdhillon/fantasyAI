@@ -2,30 +2,30 @@ Team's Budget:
 100.1
 
 Team's Cost:
-98.8
+99.7
 
 Cost in Hand:
-1.2999999999999972
+0.3999999999999915
 
 Team's Strength:
-15
+14
 
 Estimated_points:
-2774
+2831
 
 Final Team:
 Goalkeeper: ederson santana de moraes, nick pope
-Defender: trent alexander-arnold, lucas digne, patrick van aanholt, erik pieters, john lundstram
-Midfielder: raheem sterling, mason mount, daniel james, todd cantwell, douglas luiz soares de paulo
+Defender: trent alexander-arnold, lucas digne, virgil van dijk, erik pieters, john lundstram
+Midfielder: raheem sterling, mohamed salah, todd cantwell, douglas luiz soares de paulo
 Forward: teemu pukki, sergio agüero, tammy abraham
 
 Formation:
-3-4-3
+4-3-3
 
 Playing Team:
 Goalkeeper: ederson santana de moraes
-Defender: trent alexander-arnold, lucas digne, patrick van aanholt
-Midfielder: raheem sterling, mason mount, daniel james, todd cantwell
+Defender: trent alexander-arnold, lucas digne, virgil van dijk, erik pieters
+Midfielder: raheem sterling, mohamed salah, todd cantwell
 Forward: teemu pukki, sergio agüero, tammy abraham
 
 Captain:

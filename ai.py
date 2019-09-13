@@ -189,11 +189,12 @@ selectPlayersBasedOnValuePerCost(midfielders, 2)
 # round 3
 selectPlayersBasedOnValue(defenders, 1)
 selectPlayersBasedOnValue(forwards, 1)
-selectPlayersBasedOnValue(midfielders, 1)
+# selectPlayersBasedOnValue(midfielders, 1)
 
+print(displayTeam(final_team))
 
 # select the best playing eleven with the most suitable formation
-final_team = sorted(final_team, key=lambda k: k['value_overall'], reverse=True)
+final_team = sorted(final_team, key=lambda k: k['final_value'], reverse=True)
 formations = variables.formations()
 
 max_points = 0
