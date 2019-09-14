@@ -354,7 +354,7 @@
     "second_name": "Lacazette",
     "team": 1,
     "element_type": 4,
-    "status": "d",
+    "status": "i",
     "full_name": "alexandre lacazette",
     "seasons": [
       {
@@ -564,7 +564,7 @@
     "second_name": "Xhaka",
     "team": 1,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "granit xhaka",
     "seasons": [
       {
@@ -634,7 +634,7 @@
     "second_name": "Torreira",
     "team": 1,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "lucas torreira",
     "seasons": [
       {
@@ -712,7 +712,7 @@
         "minutes": 355,
         "total_points": 14,
         "points_per_game": 3.5,
-        "now_cost": 45,
+        "now_cost": 46,
         "gw_history": [
           1,
           0,
@@ -1104,7 +1104,7 @@
     "second_name": "Kodjia",
     "team": 2,
     "element_type": 4,
-    "status": "d",
+    "status": "i",
     "full_name": "jonathan kodjia",
     "seasons": [
       {
@@ -1505,7 +1505,7 @@
         "minutes": 282,
         "total_points": 3,
         "points_per_game": 0.8,
-        "now_cost": 54,
+        "now_cost": 53,
         "gw_history": [
           0,
           0,
@@ -1691,7 +1691,7 @@
         "minutes": 126,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 45,
+        "now_cost": 44,
         "gw_history": [
           0,
           0,
@@ -1753,7 +1753,7 @@
     "second_name": "Mepham",
     "team": 3,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "chris mepham",
     "seasons": [
       {
@@ -3386,7 +3386,7 @@
     "second_name": "Trossard",
     "team": 4,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "full_name": "leandro trossard",
     "seasons": [
       {
@@ -3755,7 +3755,7 @@
     "second_name": "Barnes",
     "team": 5,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "full_name": "ashley barnes",
     "seasons": [
       {
@@ -4871,7 +4871,7 @@
     "second_name": "Rodr\u00edguez Ledesma",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "pedro rodr\u00edguez ledesma",
     "seasons": [
       {
@@ -5081,7 +5081,7 @@
     "second_name": "Kant\u00e9",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "full_name": "n'golo kant\u00e9",
     "seasons": [
       {
@@ -5174,7 +5174,7 @@
     "second_name": "Kovacic",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "mateo kovacic",
     "seasons": [
       {
@@ -5728,7 +5728,7 @@
     "second_name": "Kelly",
     "team": 7,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "full_name": "martin kelly",
     "seasons": [
       {
@@ -5868,7 +5868,7 @@
     "second_name": "Wickham",
     "team": 7,
     "element_type": 4,
-    "status": "a",
+    "status": "i",
     "full_name": "connor wickham",
     "seasons": [
       {
@@ -6016,7 +6016,7 @@
         "minutes": 295,
         "total_points": 7,
         "points_per_game": 1.8,
-        "now_cost": 69,
+        "now_cost": 68,
         "gw_history": [
           0,
           0,
@@ -6358,7 +6358,7 @@
     "second_name": "McArthur",
     "team": 7,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "james mcarthur",
     "seasons": [
       {
@@ -7696,7 +7696,7 @@
         "minutes": 17,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 45,
+        "now_cost": 44,
         "gw_history": [
           0,
           0,
@@ -8154,7 +8154,7 @@
     "second_name": "Morgan",
     "team": 9,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "wes morgan",
     "seasons": [
       {
@@ -8162,7 +8162,7 @@
         "minutes": 12,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           0,
           0,
@@ -9399,7 +9399,7 @@
         "minutes": 89,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 55,
+        "now_cost": 54,
         "gw_history": [
           10,
           0,
@@ -9671,7 +9671,7 @@
         "minutes": 120,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 64,
+        "now_cost": 63,
         "gw_history": [
           0,
           0,
@@ -10386,7 +10386,7 @@
     "second_name": "Stones",
     "team": 11,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "john stones",
     "seasons": [
       {
@@ -10596,7 +10596,7 @@
     "second_name": "de Jesus",
     "team": 11,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "full_name": "gabriel fernando de jesus",
     "seasons": [
       {
@@ -11226,7 +11226,7 @@
     "second_name": "G\u00fcndogan",
     "team": 11,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "ilkay g\u00fcndogan",
     "seasons": [
       {
@@ -13202,7 +13202,7 @@
     "second_name": "Longstaff",
     "team": 13,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "full_name": "sean longstaff",
     "seasons": [
       {
@@ -13432,7 +13432,7 @@
     "second_name": "Godfrey",
     "team": 14,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "ben godfrey",
     "seasons": [
       {
@@ -13455,7 +13455,7 @@
     "second_name": "Aarons",
     "team": 14,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "full_name": "maximillian aarons",
     "seasons": [
       {
@@ -13478,7 +13478,7 @@
     "second_name": "Zimmermann",
     "team": 14,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "full_name": "christoph zimmermann",
     "seasons": [
       {
@@ -13578,7 +13578,7 @@
         "minutes": 9,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 54,
+        "now_cost": 53,
         "gw_history": [
           0,
           0,
@@ -13593,7 +13593,7 @@
     "second_name": "Krul",
     "team": 14,
     "element_type": 1,
-    "status": "a",
+    "status": "d",
     "full_name": "tim krul",
     "seasons": [
       {
@@ -13616,7 +13616,7 @@
     "second_name": "Vrancic",
     "team": 14,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "full_name": "mario vrancic",
     "seasons": [
       {
@@ -13754,7 +13754,7 @@
     "second_name": "Leitner",
     "team": 14,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "full_name": "moritz leitner",
     "seasons": [
       {
@@ -14146,7 +14146,7 @@
     "second_name": "McGoldrick",
     "team": 15,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "full_name": "david mcgoldrick",
     "seasons": [
       {
@@ -14408,7 +14408,7 @@
         "minutes": 360,
         "total_points": 22,
         "points_per_game": 5.5,
-        "now_cost": 50,
+        "now_cost": 51,
         "gw_history": [
           -1,
           -1,
@@ -14470,7 +14470,7 @@
     "second_name": "Bertrand",
     "team": 16,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "ryan bertrand",
     "seasons": [
       {
@@ -14877,7 +14877,7 @@
     "second_name": "Obafemi",
     "team": 16,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "full_name": "michael obafemi",
     "seasons": [
       {
@@ -15450,7 +15450,7 @@
     "second_name": "Djenepo",
     "team": 16,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "full_name": "moussa djenepo",
     "seasons": [
       {
@@ -15868,7 +15868,7 @@
     "second_name": "S\u00e1nchez",
     "team": 17,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "davinson s\u00e1nchez",
     "seasons": [
       {
@@ -15938,7 +15938,7 @@
     "second_name": "Walker-Peters",
     "team": 17,
     "element_type": 2,
-    "status": "i",
+    "status": "d",
     "full_name": "kyle walker-peters",
     "seasons": [
       {
@@ -16701,7 +16701,7 @@
     "second_name": "Ndombele",
     "team": 17,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "full_name": "tanguy ndombele",
     "seasons": [
       {
@@ -16724,7 +16724,7 @@
     "second_name": "Lo Celso",
     "team": 17,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "full_name": "giovani lo celso",
     "seasons": [
       {
@@ -17027,7 +17027,7 @@
     "second_name": "Cathcart",
     "team": 18,
     "element_type": 2,
-    "status": "a",
+    "status": "i",
     "full_name": "craig cathcart",
     "seasons": [
       {
@@ -17245,7 +17245,7 @@
         "minutes": 204,
         "total_points": 6,
         "points_per_game": 1.5,
-        "now_cost": 63,
+        "now_cost": 62,
         "gw_history": [
           0,
           0,
@@ -18691,7 +18691,7 @@
         "minutes": 357,
         "total_points": 18,
         "points_per_game": 4.5,
-        "now_cost": 65,
+        "now_cost": 66,
         "gw_history": [
           0,
           6,
@@ -19181,7 +19181,7 @@
         "minutes": 135,
         "total_points": 5,
         "points_per_game": 1.2,
-        "now_cost": 63,
+        "now_cost": 62,
         "gw_history": [
           0,
           0,

@@ -162,8 +162,8 @@ for player in players:
 
 
 # store the entire data to the json files
-with open('data/players_cleaned.json', 'w', encoding='utf-8') as f:
-    json.dump(players, f, ensure_ascii=True, indent=2)
+# with open('data/players_cleaned.json', 'w', encoding='utf-8') as f:
+#     json.dump(players, f, ensure_ascii=True, indent=2)
 
 with open('data/league_stats.json', 'w', encoding='utf-8') as f:
     json.dump(league_data, f, ensure_ascii=True, indent=2)

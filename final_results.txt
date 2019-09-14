@@ -2,31 +2,31 @@ Team's Budget:
 100.1
 
 Team's Cost:
-99.7
+101.9
 
 Cost in Hand:
-0.3999999999999915
+-1.8
 
 Team's Strength:
-14
+15
 
-Estimated_points:
-2831
+Estimated Points:
+2850
 
 Final Team:
-Goalkeeper: ederson santana de moraes, nick pope
-Defender: trent alexander-arnold, lucas digne, virgil van dijk, erik pieters, john lundstram
-Midfielder: raheem sterling, mohamed salah, todd cantwell, douglas luiz soares de paulo
-Forward: sergio agüero, teemu pukki, tammy abraham
+Goalkeeper: [['ederson santana de moraes', 6.1], ['nick pope', 4.6]]
+Defender: [['trent alexander-arnold', 7.1], ['lucas digne', 6.1], ['erik pieters', 4.6], ['john lundstram', 4.2], ['joel ward', 4.5]]
+Midfielder: [['raheem sterling', 12.3], ['kevin de bruyne', 9.8], ['mason mount', 6.4], ['todd cantwell', 4.8], ['john mcginn', 5.6]]
+Forward: [['sergio agüero', 12.1], ['teemu pukki', 7.0], ['ashley barnes', 6.7]]
 
 Formation:
-4-3-3
+3-4-3
 
 Playing Team:
-Goalkeeper: ederson santana de moraes
-Defender: trent alexander-arnold, lucas digne, virgil van dijk, erik pieters
-Midfielder: raheem sterling, mohamed salah, todd cantwell
-Forward: sergio agüero, teemu pukki, tammy abraham
+Goalkeeper: [['ederson santana de moraes', 6.1]]
+Defender: [['trent alexander-arnold', 7.1], ['lucas digne', 6.1], ['erik pieters', 4.6]]
+Midfielder: [['raheem sterling', 12.3], ['kevin de bruyne', 9.8], ['mason mount', 6.4], ['todd cantwell', 4.8]]
+Forward: [['sergio agüero', 12.1], ['teemu pukki', 7.0], ['ashley barnes', 6.7]]
 
 Captain:
 sergio agüero

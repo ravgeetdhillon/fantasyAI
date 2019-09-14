@@ -133,3 +133,22 @@ def progress():
         #     'gameweek': gameweek
         # }
     ]
+
+def main_players():
+    return [
+        'ederson santana de moraes',
+        'nick pope',
+        'joel ward',
+        'trent alexander-arnold',
+        'john lundstram',
+        'lucas digne',
+        'erik pieters',
+        'kevin de bruyne',
+        'todd cantwell',
+        'mason mount',
+        'raheem sterling',
+        'john mcginn',
+        'sergio ag\u00fcero',
+        'ashley barnes',
+        'teemu pukki',
+    ]

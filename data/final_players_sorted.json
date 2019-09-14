@@ -772,7 +772,7 @@
     "second_name": "Barnes",
     "team": 5,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "full_name": "ashley barnes",
     "seasons": [
       {
@@ -924,7 +924,7 @@
     "second_name": "Lacazette",
     "team": 1,
     "element_type": 4,
-    "status": "d",
+    "status": "i",
     "full_name": "alexandre lacazette",
     "seasons": [
       {
@@ -1692,7 +1692,7 @@
     "second_name": "Ndombele",
     "team": 17,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "full_name": "tanguy ndombele",
     "seasons": [
       {
@@ -2772,7 +2772,7 @@
         "minutes": 360,
         "total_points": 22,
         "points_per_game": 5.5,
-        "now_cost": 5.0,
+        "now_cost": 5.1,
         "effective_total_points": 14,
         "gw_avg_points": 3.5,
         "variance": 20.75,
@@ -2802,7 +2802,7 @@
     "fer": 0.99,
     "consistency_overall": 0.2507690885014949,
     "final_value": 319.93687375865534,
-    "final_value_per_cost": 63.98737475173107
+    "final_value_per_cost": 62.732720344834384
   },
   {
     "first_name": "Wesley",
@@ -3554,7 +3554,7 @@
         "minutes": 357,
         "total_points": 18,
         "points_per_game": 4.5,
-        "now_cost": 6.5,
+        "now_cost": 6.6,
         "effective_total_points": 10,
         "gw_avg_points": 2.5,
         "variance": 5.25,
@@ -3584,7 +3584,7 @@
     "fer": 0.964,
     "consistency_overall": 0.2634446056994816,
     "final_value": 299.07103901904657,
-    "final_value_per_cost": 46.01092907985332
+    "final_value_per_cost": 45.313793790764635
   },
   {
     "first_name": "Enda",
@@ -3833,7 +3833,7 @@
     "second_name": "Stones",
     "team": 11,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "john stones",
     "seasons": [
       {
@@ -4201,7 +4201,7 @@
         "minutes": 89,
         "total_points": 14,
         "points_per_game": 4.7,
-        "now_cost": 5.5,
+        "now_cost": 5.4,
         "effective_total_points": 10,
         "gw_avg_points": 2.5,
         "variance": 18.75,
@@ -4231,7 +4231,7 @@
     "fer": 0.99,
     "consistency_overall": 0.2395265951021623,
     "final_value": 281.1163387360888,
-    "final_value_per_cost": 51.11206158837978
+    "final_value_per_cost": 52.058581247423845
   },
   {
     "first_name": "Dean",
@@ -4390,7 +4390,7 @@
     "second_name": "de Jesus",
     "team": 11,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "full_name": "gabriel fernando de jesus",
     "seasons": [
       {
@@ -5113,7 +5113,7 @@
     "second_name": "Rodr\u00edguez Ledesma",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "pedro rodr\u00edguez ledesma",
     "seasons": [
       {
@@ -5324,7 +5324,7 @@
     "second_name": "Kelly",
     "team": 7,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "full_name": "martin kelly",
     "seasons": [
       {
@@ -5369,7 +5369,7 @@
     "second_name": "Mepham",
     "team": 3,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "chris mepham",
     "seasons": [
       {
@@ -5414,7 +5414,7 @@
     "second_name": "Torreira",
     "team": 1,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "lucas torreira",
     "seasons": [
       {
@@ -5602,7 +5602,7 @@
         "minutes": 295,
         "total_points": 7,
         "points_per_game": 1.8,
-        "now_cost": 6.9,
+        "now_cost": 6.8,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.5,
@@ -5632,14 +5632,14 @@
     "fer": 0.964,
     "consistency_overall": 0.21952003059024452,
     "final_value": 259.46674503160125,
-    "final_value_per_cost": 37.603876091536414
+    "final_value_per_cost": 38.156874269353125
   },
   {
     "first_name": "James",
     "second_name": "McArthur",
     "team": 7,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "full_name": "james mcarthur",
     "seasons": [
       {
@@ -5805,7 +5805,7 @@
     "second_name": "Trossard",
     "team": 4,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "full_name": "leandro trossard",
     "seasons": [
       {
@@ -6010,7 +6010,7 @@
         "minutes": 204,
         "total_points": 6,
         "points_per_game": 1.5,
-        "now_cost": 6.3,
+        "now_cost": 6.2,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -6040,7 +6040,7 @@
     "fer": 0.903,
     "consistency_overall": 0.20432428356524082,
     "final_value": 252.56034404825266,
-    "final_value_per_cost": 40.088943499722646
+    "final_value_per_cost": 40.735539362621395
   },
   {
     "first_name": "Moussa",
@@ -6528,7 +6528,7 @@
     "second_name": "G\u00fcndogan",
     "team": 11,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "ilkay g\u00fcndogan",
     "seasons": [
       {
@@ -6950,7 +6950,7 @@
     "second_name": "Kovacic",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "mateo kovacic",
     "seasons": [
       {
@@ -7259,7 +7259,7 @@
         "minutes": 355,
         "total_points": 14,
         "points_per_game": 3.5,
-        "now_cost": 4.5,
+        "now_cost": 4.6,
         "effective_total_points": 6,
         "gw_avg_points": 1.5,
         "variance": 4.25,
@@ -7289,7 +7289,7 @@
     "fer": 1.049,
     "consistency_overall": 0.09994786784856971,
     "final_value": 232.09747802364524,
-    "final_value_per_cost": 51.57721733858783
+    "final_value_per_cost": 50.455973483401145
   },
   {
     "first_name": "Romain",
@@ -7569,7 +7569,7 @@
     "second_name": "Kant\u00e9",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "full_name": "n'golo kant\u00e9",
     "seasons": [
       {
@@ -8171,7 +8171,7 @@
     "second_name": "Xhaka",
     "team": 1,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "full_name": "granit xhaka",
     "seasons": [
       {
@@ -8306,7 +8306,7 @@
     "second_name": "Longstaff",
     "team": 13,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "full_name": "sean longstaff",
     "seasons": [
       {
@@ -8914,7 +8914,7 @@
     "second_name": "Djenepo",
     "team": 16,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "full_name": "moussa djenepo",
     "seasons": [
       {
@@ -9665,7 +9665,7 @@
     "second_name": "Morgan",
     "team": 9,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "wes morgan",
     "seasons": [
       {
@@ -9673,7 +9673,7 @@
         "minutes": 12,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 4.4,
+        "now_cost": 4.3,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -9703,7 +9703,7 @@
     "fer": 0.928,
     "consistency_overall": 0.09886313131514478,
     "final_value": 194.69405573392532,
-    "final_value_per_cost": 44.24864903043757
+    "final_value_per_cost": 45.27768737998264
   },
   {
     "first_name": "Dan",
@@ -9741,7 +9741,7 @@
     "second_name": "S\u00e1nchez",
     "team": 17,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "davinson s\u00e1nchez",
     "seasons": [
       {
@@ -10230,7 +10230,7 @@
         "minutes": 126,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -10260,7 +10260,7 @@
     "fer": 1.077,
     "consistency_overall": 0.018887258448569266,
     "final_value": 187.10807008579934,
-    "final_value_per_cost": 41.579571130177634
+    "final_value_per_cost": 42.52456138313621
   },
   {
     "first_name": "C\u00e9dric",
@@ -10492,7 +10492,7 @@
     "second_name": "Walker-Peters",
     "team": 17,
     "element_type": 2,
-    "status": "i",
+    "status": "d",
     "full_name": "kyle walker-peters",
     "seasons": [
       {
@@ -11800,7 +11800,7 @@
     "second_name": "Cathcart",
     "team": 18,
     "element_type": 2,
-    "status": "a",
+    "status": "i",
     "full_name": "craig cathcart",
     "seasons": [
       {
@@ -12281,7 +12281,7 @@
     "second_name": "Bertrand",
     "team": 16,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "full_name": "ryan bertrand",
     "seasons": [
       {
@@ -12717,7 +12717,7 @@
     "second_name": "Krul",
     "team": 14,
     "element_type": 1,
-    "status": "a",
+    "status": "d",
     "full_name": "tim krul",
     "seasons": [
       {
@@ -12748,7 +12748,7 @@
     "second_name": "Leitner",
     "team": 14,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "full_name": "moritz leitner",
     "seasons": [
       {
@@ -12832,7 +12832,7 @@
         "minutes": 17,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -12862,14 +12862,14 @@
     "fer": 1.049,
     "consistency_overall": -0.011878582743389413,
     "final_value": 145.557009021189,
-    "final_value_per_cost": 32.346002004708666
+    "final_value_per_cost": 33.08113841390659
   },
   {
     "first_name": "Michael",
     "second_name": "Obafemi",
     "team": 16,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "full_name": "michael obafemi",
     "seasons": [
       {
@@ -12990,7 +12990,7 @@
     "second_name": "Kodjia",
     "team": 2,
     "element_type": 4,
-    "status": "d",
+    "status": "i",
     "full_name": "jonathan kodjia",
     "seasons": [
       {
@@ -13159,7 +13159,7 @@
     "second_name": "Lo Celso",
     "team": 17,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "full_name": "giovani lo celso",
     "seasons": [
       {
@@ -13252,7 +13252,7 @@
     "second_name": "Zimmermann",
     "team": 14,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "full_name": "christoph zimmermann",
     "seasons": [
       {
@@ -13291,7 +13291,7 @@
         "minutes": 9,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 5.4,
+        "now_cost": 5.3,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -13307,14 +13307,14 @@
     "fer": 1.049,
     "consistency_overall": 0.0,
     "final_value": 142.323,
-    "final_value_per_cost": 26.35611111111111
+    "final_value_per_cost": 26.853396226415096
   },
   {
     "first_name": "Mario",
     "second_name": "Vrancic",
     "team": 14,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "full_name": "mario vrancic",
     "seasons": [
       {
@@ -13669,7 +13669,7 @@
     "second_name": "Wickham",
     "team": 7,
     "element_type": 4,
-    "status": "a",
+    "status": "i",
     "full_name": "connor wickham",
     "seasons": [
       {
@@ -13880,7 +13880,7 @@
     "second_name": "McGoldrick",
     "team": 15,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "full_name": "david mcgoldrick",
     "seasons": [
       {
@@ -14040,7 +14040,7 @@
         "minutes": 120,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 6.4,
+        "now_cost": 6.3,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -14070,7 +14070,7 @@
     "fer": 0.99,
     "consistency_overall": 0.0,
     "final_value": 121.73,
-    "final_value_per_cost": 19.0203125
+    "final_value_per_cost": 19.322222222222223
   },
   {
     "first_name": "Nathaniel",
@@ -14130,7 +14130,7 @@
         "minutes": 135,
         "total_points": 5,
         "points_per_game": 1.2,
-        "now_cost": 6.3,
+        "now_cost": 6.2,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.0,
@@ -14146,7 +14146,7 @@
     "fer": 0.964,
     "consistency_overall": 0.0,
     "final_value": 121.02799999999999,
-    "final_value_per_cost": 19.21079365079365
+    "final_value_per_cost": 19.52064516129032
   },
   {
     "first_name": "Patrick",
@@ -14392,7 +14392,7 @@
         "minutes": 282,
         "total_points": 3,
         "points_per_game": 0.8,
-        "now_cost": 5.4,
+        "now_cost": 5.3,
         "effective_total_points": -3,
         "gw_avg_points": -0.75,
         "variance": 1.6875,
@@ -14408,7 +14408,7 @@
     "fer": 1.077,
     "consistency_overall": -0.1105955143078113,
     "final_value": 114.93632552034819,
-    "final_value_per_cost": 21.284504725990406
+    "final_value_per_cost": 21.686099154782678
   },
   {
     "first_name": "John",
@@ -14522,7 +14522,7 @@
     "second_name": "Godfrey",
     "team": 14,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "full_name": "ben godfrey",
     "seasons": [
       {
@@ -14615,7 +14615,7 @@
     "second_name": "Aarons",
     "team": 14,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "full_name": "maximillian aarons",
     "seasons": [
       {
