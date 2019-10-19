@@ -5,9 +5,9 @@ import random
 
 
 # initialize the global variables
-next_event = variables.next_event()
+next_event = variables.NEXT_EVENT
 configuration = variables.configuration()
-budget = variables.budget()
+budget = variables.BUDGET
 team_players_selected = variables.team_players_selected()
 final_team = []
 donot_consider = []
@@ -351,9 +351,9 @@ for formation in formations:
 
 # write the final results onto a file
 with open('final_results.txt', 'w', encoding='UTF-8') as f:
-    f.write(f'Team\'s Budget:\n{variables.budget()}\n\n')
+    f.write(f'Team\'s Budget:\n{variables.BUDGET}\n\n')
     f.write(f'Team\'s Cost:\n{get_team_cost(final_team)}\n\n')
-    f.write(f'Cost in Hand:\n{round(variables.budget() - get_team_cost(final_team),1)}\n\n')
+    f.write(f'Cost in Hand:\n{round(variables.BUDGET - get_team_cost(final_team),1)}\n\n')
     f.write(f'Team\'s Strength:\n{len(final_team)}\n\n')
     f.write(f'Estimated Points:\n{round(max_points * 38 / (next_event-1))}\n\n')
     f.write('Final Team:')

@@ -1,5 +1,6 @@
 venv
 .vscode
 *.sh
+*.cmd
 __pycache__
-.ipynb_checkpoints
+

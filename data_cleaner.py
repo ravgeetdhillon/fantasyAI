@@ -3,15 +3,19 @@ import json
 import variables
 import os
 import shutil
-
+import sys
 
 # variables
-next_event = variables.next_event()
-all_seasons = variables.all_seasons()
+next_event = variables.NEXT_EVENT
+all_seasons = variables.ALL_SEASONS
 
 
-# gets the data for the given season for each player
+
 def get_data(season):
+	'''
+	Gets the data for the given season for each player.
+	'''
+	
 	df = pandas.read_csv(f'raw_data/{season}/players_raw.csv')
 	headers = ['first_name', 'second_name', 'minutes', 'total_points', 'points_per_game', 'team', 'element_type', 'now_cost', 'status']
 	data = df[headers]
@@ -72,16 +76,16 @@ for season in all_seasons:
 with open('data/2019-20_players_cleaned.json', 'r') as f:
     players1920 = json.load(f)
 
-with open('data/2018-19_players_cleaned.json', 'r') as f:
-    players1819 = json.load(f)
+# with open('data/2018-19_players_cleaned.json', 'r') as f:
+#     players1819 = json.load(f)
 
 
-# add the data from previous seasons if available
-for cur_player in players1920:
-	for for_player in players1819:
-		if cur_player['full_name'] == for_player['full_name']:
-			cur_player['seasons'].append(for_player['seasons'][0])
-			break
+# # add the data from previous seasons if available
+# for cur_player in players1920:
+# 	for for_player in players1819:
+# 		if cur_player['full_name'] == for_player['full_name']:
+# 			cur_player['seasons'].append(for_player['seasons'][0])
+# 			break
 
 
 # get the gameweek history of each player for each season
@@ -146,6 +150,7 @@ for i in range(total_teams):
 		except:
 			team[header] = data[header][i]
 	teams.append(team)
+
 
 with open('data/teams.json', 'w', encoding='utf-8') as f:
     json.dump(teams, f, ensure_ascii=True, indent=2)

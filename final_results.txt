@@ -1,32 +1,32 @@
 Team's Budget:
-100.1
+101.2
 
 Team's Cost:
-101.9
+164.8
 
 Cost in Hand:
--1.8
+-63.6
 
 Team's Strength:
-15
+30
 
 Estimated Points:
-2850
+2437
 
 Final Team:
-Goalkeeper: [['ederson santana de moraes', 6.1], ['nick pope', 4.6]]
-Defender: [['trent alexander-arnold', 7.1], ['lucas digne', 6.1], ['erik pieters', 4.6], ['john lundstram', 4.2], ['joel ward', 4.5]]
-Midfielder: [['raheem sterling', 12.3], ['kevin de bruyne', 9.8], ['mason mount', 6.4], ['todd cantwell', 4.8], ['john mcginn', 5.6]]
-Forward: [['sergio agüero', 12.1], ['teemu pukki', 7.0], ['ashley barnes', 6.7]]
+Goalkeeper: [['nick pope', 4.7], ['tom heaton', 4.5], ['michael mcgovern', 4.0], ['roberto jimenez gago', 4.4]]
+Defender: [['trent alexander-arnold', 7.2], ['john lundstram', 4.5], ['erik pieters', 4.8], ['martin kelly', 4.1], ['joel ward', 4.6], ['fikayo tomori', 4.7], ['diego rico', 4.2], ['sebastian prödl', 4.0], ['charlie taylor', 4.2], ['grant hanley', 4.0]]
+Midfielder: [['kevin de bruyne', 10.0], ['sadio mané', 11.8], ['mason mount', 6.8], ['todd cantwell', 4.9], ['mark noble', 5.0], ['leander dendoncker', 4.4], ['marvelous nakamba', 4.4], ['nampalys mendy', 4.4], ['tahith chong', 4.4], ['carlos sánchez', 4.4]]
+Forward: [['sergio agüero', 12.2], ['tammy abraham', 7.7], ['teemu pukki', 7.1], ['aaron connolly', 4.5], ['mason greenwood', 4.4], ['leon clarke', 4.5]]
 
 Formation:
 3-4-3
 
 Playing Team:
-Goalkeeper: [['ederson santana de moraes', 6.1]]
-Defender: [['trent alexander-arnold', 7.1], ['lucas digne', 6.1], ['erik pieters', 4.6]]
-Midfielder: [['raheem sterling', 12.3], ['kevin de bruyne', 9.8], ['mason mount', 6.4], ['todd cantwell', 4.8]]
-Forward: [['sergio agüero', 12.1], ['teemu pukki', 7.0], ['ashley barnes', 6.7]]
+Goalkeeper: [['nick pope', 4.7]]
+Defender: [['trent alexander-arnold', 7.2], ['john lundstram', 4.5], ['erik pieters', 4.8]]
+Midfielder: [['kevin de bruyne', 10.0], ['sadio mané', 11.8], ['mason mount', 6.8], ['todd cantwell', 4.9]]
+Forward: [['sergio agüero', 12.2], ['tammy abraham', 7.7], ['teemu pukki', 7.1]]
 
 Captain:
-sergio agüero
+kevin de bruyne
