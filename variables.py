@@ -32,7 +32,7 @@ def progress():
     Track progress for data visualisation.
     '''
 
-    gameweek = [f'gw{i}' for i in range(1, next_event())]
+    gameweek = [f'gw{i}' for i in range(1, NEXT_EVENT)]
     return [
         {    
             'type': 'Mine',
