@@ -1,28 +1,83 @@
 import json
 
 
-# team's budget
-def budget():
-    return 100.1
+BUDGET = 101.2
+NEXT_EVENT = 9
+ALL_SEASONS = ['2019-20']
+CURRENT_SEASON = '2019-20'
+INTERESTED = [
+    'tom heaton',
+    'nick pope',
+    'fikayo tomori',
+    'joel ward',
+    'trent alexander-arnold',
+    'john lundstram',
+    'erik pieters',
+    'kevin de bruyne',
+    'todd cantwell',
+    'mason mount',
+    'sadio man\u00e9',
+    'mark noble',
+    'sergio ag\u00fcero',
+    'tammy abraham',
+    'teemu pukki',
+]
+NOT_INTERESTED = [
+
+]
 
 
-# next gameweek id
-def next_event():
-    return 5
+def progress():
+    '''
+    Track progress for data visualisation.
+    '''
+
+    gameweek = [f'gw{i}' for i in range(1, next_event())]
+    return [
+        {    
+            'type': 'Mine',
+            'points': [63,95,149,199,242,308,363,405],
+            'gameweek': gameweek
+        },
+        {    
+            'type': 'Best',
+            'points': [65,106,171,240,301,393,455,504],
+            'gameweek': gameweek
+        },
+        {
+            'type': 'Highest',
+            'points' : [142,224,286,358,421,489,530,587],
+            'gameweek': gameweek
+        },
+        {    
+            'type': 'Average',
+            'points': [65,106,150,207,259,311,362,398],
+            'gameweek': gameweek
+        },
+    ]
 
 
-# all the seasons whose data is to be considered
-def all_seasons():
-    return ['2019-20', '2018-19']
+def main_players():
+    '''
+    Add players to the final team that a manager is interested in.
+    '''
+
+    return INTERESTED
 
 
-# current season
-def current_season():
-    return '2019-20'
+def not_interested():
+    '''
+    Doesn't considers the players that a manager is not interested in.
+    '''
+
+    return NOT_INTERESTED
 
 
-# mapping for positions
 def positions():
+    '''
+    Mapping for positions.
+    '''
+
     return {
         1: 'Goalkeeper',
         2: 'Defender',
@@ -31,8 +86,11 @@ def positions():
     }
 
 
-# possible formations to choose the best team from
 def formations():
+    '''
+    Possible formations to choose the best team from
+    '''
+
     return [
         {
             'Goalkeeper': 1,
@@ -79,8 +137,12 @@ def formations():
     ]
 
 
-# 15 member sqaud formation for each position
+
 def configuration():
+    '''
+    15 member sqaud formation for each position.
+    '''
+    
     return {
         'Goalkeeper': {
             'left': 2
@@ -97,58 +159,18 @@ def configuration():
     }
 
 
-# players selected for each team
 def team_players_selected():
+    '''
+    Players selected for each team.
+    '''
+
     with open('data/teams_cleaned.json', 'r') as f:
         teams = json.load(f)
+
     team_players_selected = {}
+
+
     for team in teams:
         team_players_selected[team['name']] = 0
     
     return team_players_selected
-
-
-# progress for data visualisation
-def progress():
-    gameweek = [f'gw{i}' for i in range(1, next_event())]
-    return [
-        {    
-            'type': 'Mine',
-            'points': [63,95,149,199],
-            'gameweek': gameweek
-        },
-        {
-            'type': 'Highest',
-            'points' : [142,224,286,358],
-            'gameweek': gameweek
-        },
-        {    
-            'type': 'Average',
-            'points': [65,106,150,207],
-            'gameweek': gameweek
-        },
-        # {    
-        #     'type': 'Samreet',
-        #     'points': [73,136,192,257],
-        #     'gameweek': gameweek
-        # }
-    ]
-
-def main_players():
-    return [
-        'ederson santana de moraes',
-        'nick pope',
-        'joel ward',
-        'trent alexander-arnold',
-        'john lundstram',
-        'lucas digne',
-        'erik pieters',
-        'kevin de bruyne',
-        'todd cantwell',
-        'mason mount',
-        'raheem sterling',
-        'john mcginn',
-        'sergio ag\u00fcero',
-        'ashley barnes',
-        'teemu pukki',
-    ]
