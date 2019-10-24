@@ -1,16 +1,16 @@
+from random import shuffle
 import json
 import variables
 import numpy as np
-import random
+from time import time
 
-
-# initialize the global variables
+# # initialize the global variables
 next_event = variables.NEXT_EVENT
-configuration = variables.configuration()
-budget = variables.BUDGET
-team_players_selected = variables.team_players_selected()
-final_team = []
-donot_consider = []
+# configuration = variables.configuration()
+# budget = variables.BUDGET
+# team_players_selected = variables.team_players_selected()
+# final_team = []
+# donot_consider = []
 
 
 def display_team(team):
@@ -36,7 +36,6 @@ def display_team(team):
     return result
 
 
-
 def get_estimated_points(team):
     '''
     Gets estimated total points based on the previous history of players.
@@ -46,10 +45,9 @@ def get_estimated_points(team):
     for player in team:
         points += player['seasons'][0]['total_points']
     
-    return points
+    return round(points * 38 / (next_event-1))
 
 
-# gets team's cost
 def get_team_cost(team):
     '''
     Gets the team's cost.
@@ -159,19 +157,20 @@ def player_with_easy_fixtures(player1, player2):
         return player2
 
 
-def add_player_to_final_team(player, configuration=configuration, team_players_selected=team_players_selected, final_team=final_team):
-    '''
-    Adds a player to the final team.
-    '''
+# def add_player_to_final_team(player, configuration=configuration, team_players_selected=team_players_selected, final_team=final_team):
+# def add_player_to_final_team(player):
+#     '''
+#     Adds a player to the final team.
+#     '''
 
-    global budget
-    budget -= player['seasons'][0]['now_cost']
-    configuration[player['position']]['left'] -= 1
-    team_players_selected[player['team_name']] += 1
-    final_team.append(player)
+#     global budget
+#     budget -= player['seasons'][0]['now_cost']
+#     configuration[player['position']]['left'] -= 1
+#     team_players_selected[player['team_name']] += 1
+#     final_team.append(player)
 
 
-def get_cover(player_type, new_player=''):
+def get_cover(player_type, final_team, configuration, new_player=''):
     '''
     Checks whether a whole team can be bought in the budget if a buy is made that is bit costly but valuable to the team.
     '''
@@ -203,7 +202,7 @@ def get_cover(player_type, new_player=''):
     return cover
 
 
-def select_player_from(position, picks=0):
+def select_player_from(position, final_team, configuration, budget, team_players_selected, donot_consider, picks=0):
     '''
     Selects the players from a given lot based on the `final_value`.
     '''
@@ -228,7 +227,7 @@ def select_player_from(position, picks=0):
         i = 0
         while len(selected_players) < 2 and i < len(position):
         
-            cover = get_cover(position[0]['position'])
+            cover = get_cover(position[0]['position'], final_team, configuration)
             b = budget - position[i]['seasons'][0]['now_cost']
 
             if budget_in_range(cover, budget - position[i]['seasons'][0]['now_cost']):
@@ -242,7 +241,8 @@ def select_player_from(position, picks=0):
             i += 1
         
         if len(selected_players) == 1:
-            add_player_to_final_team( selected_players[0] )
+            return selected_players[0]
+            # add_player_to_final_team( selected_players[0] )
         
         elif len(selected_players) == 0:
             
@@ -252,19 +252,28 @@ def select_player_from(position, picks=0):
             while position[i] in final_team:
                 i += 1
             
-            add_player_to_final_team( position[i] )
+            return selected_players[i]
+            # add_player_to_final_team( position[i] )
         
         else:
             if value_in_range(selected_players[0], selected_players[1])[0]:
                 if value_points_in_range( selected_players[0], selected_players[1] ):
                     if consistency_in_range( selected_players[0], selected_players[1] ):
-                        add_player_to_final_team( player_with_easy_fixtures(selected_players[0], selected_players[1]) )
+
+                        return player_with_easy_fixtures(selected_players[0], selected_players[1])
+                        # add_player_to_final_team( player_with_easy_fixtures(selected_players[0], selected_players[1])
                     else:
-                        add_player_to_final_team(consistency_in_range(selected_players[0], selected_players[1])[1])
+
+                        return consistency_in_range(selected_players[0], selected_players[1])[1]
+                        # add_player_to_final_team(consistency_in_range(selected_players[0], selected_players[1])[1])
                 else:
-                    add_player_to_final_team(value_points_in_range(selected_players[0], selected_players[1])[1])
+
+                    return value_points_in_range(selected_players[0], selected_players[1])[1]
+                    # add_player_to_final_team(value_points_in_range(selected_players[0], selected_players[1])[1])
             else:
-                add_player_to_final_team(value_in_range(selected_players[0], selected_players[1])[1])
+
+                return value_in_range(selected_players[0], selected_players[1])[1]
+                # add_player_to_final_team(value_in_range(selected_players[0], selected_players[1])[1])
 
 
 # load the all the players for team selection
@@ -281,21 +290,6 @@ limit = {
     'variance_points_limit': np.var([player['fer'] for player in players]) * 100,
 }
 
-
-# add players to the final_team that are user's favorite
-main_players = variables.main_players()
-for player in players:
-    if player['full_name'] in main_players:
-        add_player_to_final_team(player)
-
-
-# add players, which user is not interesed in, to donot consider
-not_interested = variables.not_interested()
-for player in players:
-    if player['full_name'] in not_interested:
-        donot_consider.append(player)
-
-
 # select players according to their playing positions
 goalkeepers = [player for player in players if player['position'] == 'Goalkeeper']
 forwards = [player for player in players if player['position'] == 'Forward']
@@ -303,62 +297,138 @@ midfielders = [player for player in players if player['position'] == 'Midfielder
 defenders = [player for player in players if player['position'] == 'Defender']
 
 
-select_player_from(forwards, 1)
-select_player_from(midfielders, 1)
-select_player_from(forwards, 1)
+def get_best_playing_11_points(final_team):
+    '''
+    Select the best playing eleven with the most suitable formation and returns the estimated points of the team at the end of the season.
+    '''
 
-select_player_from(midfielders, 1)
-select_player_from(goalkeepers, 1)
-select_player_from(defenders, 1)
+    final_team = sorted(final_team, key=lambda k: k['final_value'], reverse=True)
+    formations = variables.formations()
 
-select_player_from(midfielders, 1)
-select_player_from(midfielders, 1)
-select_player_from(defenders, 1)
+    max_points = 0
+    final_playing_team = []
 
-select_player_from(forwards, 1)
-select_player_from(defenders, 1)
-select_player_from(defenders, 1)
-
-select_player_from(midfielders, 1)
-select_player_from(defenders, 1)
-select_player_from(goalkeepers, 1)
-
-
-# select the best playing eleven with the most suitable formation
-final_team = sorted(final_team, key=lambda k: k['final_value'], reverse=True)
-formations = variables.formations()
-
-max_points = 0
-final_playing_team = []
-
-for formation in formations:
-    
-    playing_team = []
-    
-    for player in final_team:
+    for formation in formations:
         
-        if formation[player['position']] > 0:
-            playing_team.append(player)
-            formation[player['position']] -= 1
+        playing_team = []
+        for player in final_team:
+            
+            if formation[player['position']] > 0:
+                playing_team.append(player)
+                formation[player['position']] -= 1
 
-    points = get_estimated_points(playing_team)
+        points = get_estimated_points(playing_team)
 
-    if points > max_points:
-        max_points = points
-        prefered_formation = formation
-        final_playing_team = playing_team
+        if points > max_points:
+            max_points = points
+
+    return max_points
 
 
-# write the final results onto a file
-with open('final_results.txt', 'w', encoding='UTF-8') as f:
-    f.write(f'Team\'s Budget:\n{variables.BUDGET}\n\n')
-    f.write(f'Team\'s Cost:\n{get_team_cost(final_team)}\n\n')
-    f.write(f'Cost in Hand:\n{round(variables.BUDGET - get_team_cost(final_team),1)}\n\n')
-    f.write(f'Team\'s Strength:\n{len(final_team)}\n\n')
-    f.write(f'Estimated Points:\n{round(max_points * 38 / (next_event-1))}\n\n')
-    f.write('Final Team:')
-    f.write(f'{display_team(final_team)}')
-    f.write(f'\n\nFormation:\n{get_formation(final_playing_team)}')
-    f.write('\n\nPlaying Team:')
-    f.write(f'{display_team(final_playing_team)}')
-    f.write(f'\n\nCaptain:\n{final_playing_team[0]["full_name"]}')
+def save(final_team, max_points):
+    '''
+    Write the final results onto a file.
+    '''
+    
+    with open('final_results.txt', 'w', encoding='UTF-8') as f:
+        f.write(f'Team\'s Budget:\n{variables.BUDGET}\n\n')
+        f.write(f'Team\'s Cost:\n{get_team_cost(final_team)}\n\n')
+        f.write(f'Cost in Hand:\n{round(variables.BUDGET - get_team_cost(final_team),1)}\n\n')
+        f.write(f'Team\'s Strength:\n{len(final_team)}\n\n')
+        f.write(f'Estimated Points:\n{max_points}\n\n')
+        f.write('Final Team:')
+        f.write(f'{display_team(final_team)}')
+
+
+def create_team(omit_player=None, iterations = variables.ITERATIONS, display=True):
+    '''
+    Creates the final squad of 15 players and gives an estimated points at the end of the season.
+    '''
+    
+    positions = ['Forward','Forward','Forward','Midfielder','Midfielder','Midfielder','Midfielder','Midfielder','Defender','Defender','Defender','Defender','Defender','Goalkeeper','Goalkeeper']
+    
+    main_players = variables.main_players()
+
+    for player in players:
+        if player['full_name'] in main_players and player['full_name'] != omit_player:
+            positions.remove(player['position'])
+
+    best_team = []
+    max_points = -1
+    
+    last = time()
+
+    for x in range(iterations):
+        
+        configuration = variables.configuration()
+        budget = variables.BUDGET
+        team_players_selected = variables.team_players_selected()
+        final_team = []
+        donot_consider = []
+
+        # add players to the final_team that are user's favorite
+        main_players = variables.main_players()
+        for player in players:
+            if player['full_name'] in main_players and player['full_name'] != omit_player:
+                budget -= player['seasons'][0]['now_cost']
+                configuration[player['position']]['left'] -= 1
+                team_players_selected[player['team_name']] += 1
+                final_team.append(player)
+
+        # add players, which user is not interesed in, to donot consider
+        not_interested = variables.not_interested()
+        for player in players:
+            if player['full_name'] in not_interested:
+                donot_consider.append(player)
+
+        shuffle(positions)
+
+        for p in positions:
+            player = select_player_from(p, final_team, configuration, budget, team_players_selected, donot_consider, 1)
+            budget -= player['seasons'][0]['now_cost']
+            configuration[player['position']]['left'] -= 1
+            team_players_selected[player['team_name']] += 1
+            final_team.append(player)
+
+        points = get_best_playing_11_points(final_team)
+
+        if points > max_points:
+            max_points = points
+            best_team = final_team
+            print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
+
+        if display:
+            print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
+    
+    return (best_team, max_points)
+
+
+def transfers():
+    '''
+    Get's the best single transfer.
+    '''
+
+    main_players = variables.main_players()
+    
+    max_points = -1
+    best_transfer = []
+    
+    for y in range(15):
+        omit_player = main_players[y]
+        best_team, points = create_team(omit_player, iterations=1, display=False)
+    
+        if points > max_points:
+            max_points = points
+            best_transfer = [omit_player, display_team(best_team)]
+
+        for player in best_team:
+            if player['full_name'] not in main_players:
+                print(f'{omit_player} -> {player["full_name"]}')
+                break
+
+
+best_team, max_points = create_team(iterations=1000)
+
+save(best_team, max_points)
+
+transfers()
