@@ -1,10 +1,12 @@
 import json
 
 
-BUDGET = 101.2
-NEXT_EVENT = 9
+BUDGET = 101.5
+NEXT_EVENT = 10
 ALL_SEASONS = ['2019-20']
 CURRENT_SEASON = '2019-20'
+ITERATIONS = 1000
+CURRENT_POINTS = 438
 INTERESTED = [
     'tom heaton',
     'nick pope',
@@ -36,22 +38,22 @@ def progress():
     return [
         {    
             'type': 'Mine',
-            'points': [63,95,149,199,242,308,363,405],
+            'points': [63,95,149,199,242,308,363,405,438],
             'gameweek': gameweek
         },
         {    
             'type': 'Best',
-            'points': [65,106,171,240,301,393,455,504],
+            'points': [65,106,171,240,301,393,455,504,542],
             'gameweek': gameweek
         },
         {
             'type': 'Highest',
-            'points' : [142,224,286,358,421,489,530,587],
+            'points' : [142,224,286,358,421,489,530,587,633],
             'gameweek': gameweek
         },
         {    
             'type': 'Average',
-            'points': [65,106,150,207,259,311,362,398],
+            'points': [65,106,150,207,259,311,362,398,435],
             'gameweek': gameweek
         },
     ]

@@ -45,7 +45,7 @@ def get_estimated_points(team):
     for player in team:
         points += player['seasons'][0]['total_points']
     
-    return round(points * 38 / (next_event-1))
+    return variables.CURRENT_POINTS + round(points * (38 - (next_event-1)) / (next_event-1))
 
 
 def get_team_cost(team):
