@@ -4,13 +4,9 @@ import variables
 import numpy as np
 from time import time
 
-# # initialize the global variables
+
+# initialize the global variables
 next_event = variables.NEXT_EVENT
-# configuration = variables.configuration()
-# budget = variables.BUDGET
-# team_players_selected = variables.team_players_selected()
-# final_team = []
-# donot_consider = []
 
 
 def display_team(team):
@@ -157,19 +153,6 @@ def player_with_easy_fixtures(player1, player2):
         return player2
 
 
-# def add_player_to_final_team(player, configuration=configuration, team_players_selected=team_players_selected, final_team=final_team):
-# def add_player_to_final_team(player):
-#     '''
-#     Adds a player to the final team.
-#     '''
-
-#     global budget
-#     budget -= player['seasons'][0]['now_cost']
-#     configuration[player['position']]['left'] -= 1
-#     team_players_selected[player['team_name']] += 1
-#     final_team.append(player)
-
-
 def get_cover(player_type, final_team, configuration, new_player=''):
     '''
     Checks whether a whole team can be bought in the budget if a buy is made that is bit costly but valuable to the team.
@@ -242,7 +225,6 @@ def select_player_from(position, final_team, configuration, budget, team_players
         
         if len(selected_players) == 1:
             return selected_players[0]
-            # add_player_to_final_team( selected_players[0] )
         
         elif len(selected_players) == 0:
             
@@ -253,27 +235,22 @@ def select_player_from(position, final_team, configuration, budget, team_players
                 i += 1
             
             return selected_players[i]
-            # add_player_to_final_team( position[i] )
         
         else:
             if value_in_range(selected_players[0], selected_players[1])[0]:
                 if value_points_in_range( selected_players[0], selected_players[1] ):
+                    
                     if consistency_in_range( selected_players[0], selected_players[1] ):
-
                         return player_with_easy_fixtures(selected_players[0], selected_players[1])
-                        # add_player_to_final_team( player_with_easy_fixtures(selected_players[0], selected_players[1])
+                    
                     else:
-
                         return consistency_in_range(selected_players[0], selected_players[1])[1]
-                        # add_player_to_final_team(consistency_in_range(selected_players[0], selected_players[1])[1])
+                
                 else:
-
                     return value_points_in_range(selected_players[0], selected_players[1])[1]
-                    # add_player_to_final_team(value_points_in_range(selected_players[0], selected_players[1])[1])
+            
             else:
-
                 return value_in_range(selected_players[0], selected_players[1])[1]
-                # add_player_to_final_team(value_in_range(selected_players[0], selected_players[1])[1])
 
 
 # load the all the players for team selection
@@ -289,6 +266,7 @@ limit = {
     'value_points_limit': np.var([player['value_points'] for player in players]) * 100,
     'variance_points_limit': np.var([player['fer'] for player in players]) * 100,
 }
+
 
 # select players according to their playing positions
 goalkeepers = [player for player in players if player['position'] == 'Goalkeeper']

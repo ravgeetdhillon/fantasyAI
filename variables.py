@@ -1,14 +1,14 @@
 import json
 
 
-BUDGET = 101.5
-NEXT_EVENT = 10
+BUDGET = 101.6
+NEXT_EVENT = 11
 ALL_SEASONS = ['2019-20']
 CURRENT_SEASON = '2019-20'
 ITERATIONS = 1000
-CURRENT_POINTS = 438
+CURRENT_POINTS = 475
 INTERESTED = [
-    'tom heaton',
+    'rui pedro dos santos patr\u00edcio',
     'nick pope',
     'fikayo tomori',
     'joel ward',
@@ -20,7 +20,7 @@ INTERESTED = [
     'mason mount',
     'sadio man\u00e9',
     'mark noble',
-    'sergio ag\u00fcero',
+    'jamie vardy',
     'tammy abraham',
     'teemu pukki',
 ]
@@ -38,22 +38,22 @@ def progress():
     return [
         {    
             'type': 'Mine',
-            'points': [63,95,149,199,242,308,363,405,438],
+            'points': [63,95,149,199,242,308,363,405,438,475],
             'gameweek': gameweek
         },
         {    
-            'type': 'Best',
-            'points': [65,106,171,240,301,393,455,504,542],
+            'type': 'FantasyAI',
+            'points': [65,106,171,240,301,393,455,504,542,580],
             'gameweek': gameweek
         },
         {
             'type': 'Highest',
-            'points' : [142,224,286,358,421,489,530,587,633],
+            'points' : [142,224,286,358,421,489,530,587,633,699],
             'gameweek': gameweek
         },
         {    
             'type': 'Average',
-            'points': [65,106,150,207,259,311,362,398,435],
+            'points': [65,106,150,207,259,311,362,398,435,484],
             'gameweek': gameweek
         },
     ]
