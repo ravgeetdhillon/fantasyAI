@@ -1,20 +1,20 @@
 Team's Budget:
-101.6
+101.8
 
 Team's Cost:
-100.6
+101.8
 
 Cost in Hand:
-1.0
+0.0
 
 Team's Strength:
 15
 
 Estimated Points:
-2197
+2232
 
 Final Team:
-Goalkeeper: [['rui pedro dos santos patrício', 5.2], ['nick pope', 4.7]]
-Defender: [['john lundstram', 4.8], ['ricardo domingos barbosa pereira', 6.3], ['trent alexander-arnold', 7.2], ['erik pieters', 4.7], ['fikayo tomori', 4.8]]
-Midfielder: [['sadio mané', 12.0], ['kevin de bruyne', 10.2], ['mason mount', 6.9], ['todd cantwell', 4.7], ['mark noble', 5.0]]
-Forward: [['jamie vardy', 9.4], ['tammy abraham', 7.9], ['teemu pukki', 6.8]]
+Goalkeeper: [['mathew ryan', 4.7], ['aaron ramsdale', 4.7]]
+Defender: [['john lundstram', 4.9], ['ricardo domingos barbosa pereira', 6.4], ['george baldock', 4.6], ['jetro willems', 4.6], ["jack o'connell", 4.6]]
+Midfielder: [['sadio mané', 12.1], ['kevin de bruyne', 10.2], ['james maddison', 7.5], ['christian pulisic', 7.4], ['john mcginn', 5.8]]
+Forward: [['jamie vardy', 9.6], ['tammy abraham', 8.0], ['teemu pukki', 6.7]]
