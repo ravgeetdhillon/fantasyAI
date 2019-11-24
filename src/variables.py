@@ -1,32 +1,5 @@
 import json
 
-BUDGET = 101.8
-NEXT_EVENT = 13
-ALL_SEASONS = ['2019-20']
-CURRENT_SEASON = '2019-20'
-ITERATIONS = 1000
-CURRENT_POINTS = 614
-INTERESTED = [
-    'rui pedro dos santos patr\u00edcio',
-    'nick pope',
-    'fikayo tomori',
-    'ricardo domingos barbosa pereira',
-    'trent alexander-arnold',
-    'john lundstram',
-    'erik pieters',
-    'kevin de bruyne',
-    'todd cantwell',
-    'mason mount',
-    'sadio man\u00e9',
-    'mark noble',
-    'jamie vardy',
-    'tammy abraham',
-    'ra\u00fal jim\u00e9nez',
-]
-NOT_INTERESTED = [
-    
-]
-
 
 def progress():
     '''
@@ -175,3 +148,48 @@ def team_players_selected():
         team_players_selected[team['name']] = 0
     
     return team_players_selected
+
+
+def get_team():
+    '''
+    Get the team's players.
+    '''
+
+    with open('raw_data/my_team.json', 'r') as f:
+        team = json.load(f)[-1]
+
+    with open('data/final_players_sorted.json', 'r') as f:
+        players = json.load(f)
+
+    player_names = []
+
+    picks = team['picks']
+    for pick in picks:
+        for player in players:
+            if player['id'] == pick['element']:
+                player_names.append(player['full_name'])
+
+    return player_names
+
+
+def get_stats():
+    '''
+    Get the important attributes about the team and gameweeks.
+    '''
+
+    with open('raw_data/my_team.json', 'r') as f:
+        team = json.load(f)[-1]
+
+    budget = team['entry_history']['value'] / 10
+    next_event = team['entry_history']['event'] + 1
+    total_points = team['entry_history']['total_points']
+    
+    return budget, next_event, total_points
+
+
+BUDGET, NEXT_EVENT, CURRENT_POINTS = get_stats()
+ALL_SEASONS = ['2019-20']
+CURRENT_SEASON = '2019-20'
+ITERATIONS = 1000
+INTERESTED = get_team()
+NOT_INTERESTED = []
