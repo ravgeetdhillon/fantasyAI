@@ -1,13 +1,19 @@
-# fpl-team-ai
-AI for my Fantasy Premier League team.
+# Fantasy AI
 
-## Background
-2018-19 was my first season with Fantasy Premier League. I got [good score at the end](https://fantasy.premierleague.com/entry/4914864/history) because I was targetting for the Manager of the Week title and paid no respect to the transfers. Despite having considerable knowledge about the English Premier League I feel that being a manager in such a fickle game is bit hard. So for the season 2019-20, I decided to combine my programming skills and league data to form a team that could perform well overall.
+AI for [my Fantasy Premier League team](https://fantasy.premierleague.com/entry/4914864/history).
+
+![Fantasy AI Art Cover by Ravgeet Dhillon](assets/fantasy-ai.png)
+
+## About
+
+I am a huge football fan, especially the English Premier League. Also, it comes with its Fantasy Premier League which allows individuals around the world to play as managers and have fun for more than 10 months. It is so intriguing and unpredictable at times that it pushes you to the edge and tests your managing skills, patience, and your ability to foresee the future. So for this season, I decided to write an AI that can coordinate with a human manager and give him insights on what steps to take, to maximize the team points. Its been fun writing this program and I got to learn a lot. The major selling points of this AI are its **cost managing function**, ability to make **decisions based on upcoming fixtures**, **player’s form**, and give **transfer advice**.
 
 ## When my AI would be a winner
-Last year, the manager who finished at the top got `2659 points` (70 points/gameweek) and I got `1849 points` (49 points/gameweek). So taking these parameters in mind, if my AI could get close to **2300 points** or get in atleast `top 10000`, I would consider it a victory.
 
-## Links
-Blog Coming Soon
+I'm not so sure about the performance of the AI and don't want to be over ambitious. So a **top 1%** finish would be awesome. Let's see how to goes. Fingers crossed
 
-[My FPL Team](https://fantasy.premierleague.com/entry/4914864/history)
+## Blog Posts
+
+Checkout my [first 10 gameweeks progress](https://ravgeetdhillon.github.io/blog/fantasy-premier-league-with-data-science-and-ai-first-ten-gameweeks-review/) on my blog.
+
+You can follow me on [Twitter](https://twitter.com/ravgeetdhillon) for more updates about my progress. I tweet about my team selection and result every single gameweek.
