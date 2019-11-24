@@ -1,6 +1,4 @@
 venv
 .vscode
-*.sh
 *.cmd
 __pycache__
-
