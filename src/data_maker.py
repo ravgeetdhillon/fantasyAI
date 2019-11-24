@@ -8,6 +8,7 @@ import numpy as np
 all_seasons = variables.ALL_SEASONS
 positions = variables.positions()
 
+
 league_data = {}
 for season in all_seasons:
     league_data[season] = {

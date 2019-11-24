@@ -5,10 +5,10 @@ import os
 import shutil
 import sys
 
+
 # variables
 next_event = variables.NEXT_EVENT
 all_seasons = variables.ALL_SEASONS
-
 
 
 def get_data(season):
@@ -17,7 +17,7 @@ def get_data(season):
 	'''
 	
 	df = pandas.read_csv(f'raw_data/{season}/players_raw.csv')
-	headers = ['first_name', 'second_name', 'minutes', 'total_points', 'points_per_game', 'team', 'element_type', 'now_cost', 'status']
+	headers = ['first_name', 'second_name', 'minutes', 'total_points', 'points_per_game', 'team', 'element_type', 'now_cost', 'status', 'id']
 	data = df[headers]
 	total_players = len(data)
 	players = []
@@ -49,6 +49,9 @@ def get_data(season):
 
 
 # change the folder names of players gameweek data to the player's name and copy the data to `data` folder
+if not os.path.exists('data'):
+	os.mkdir('data')
+
 print('Collecting player data')
 for season in all_seasons:
 	if len(os.listdir(f'raw_data/{season}/players')) > 0:
@@ -58,6 +61,7 @@ for season in all_seasons:
 			pass
 		finally:
 			os.mkdir(f'data/players{season}')
+			
 		for filename in os.listdir(f'raw_data/{season}/players'):
 			new = filename.split('_')
 			new = f'{new[0].lower()} {new[1].lower()}'
