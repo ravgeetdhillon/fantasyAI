@@ -111,6 +111,8 @@ for player in players1920:
 with open(f'data/players.json', 'w', encoding='utf-8') as f:
     json.dump(players1920, f, ensure_ascii=True, indent=2)
 
+# move gameweeks.json to `data` folder from `raw_data` folder
+os.rename('raw_data/gameweeks.json', 'data/gameweeks.json')
 
 # get the cleaned data for fixtures
 print('Collecting fixtures data')

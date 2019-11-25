@@ -168,6 +168,7 @@ def get_team():
         for player in players:
             if player['id'] == pick['element']:
                 player_names.append(player['full_name'])
+                break
 
     return player_names
 
@@ -182,14 +183,19 @@ def get_stats():
 
     budget = team['entry_history']['value'] / 10
     next_event = team['entry_history']['event'] + 1
-    total_points = team['entry_history']['total_points']
+    current_points = team['entry_history']['total_points']
+    rank = team['entry_history']['overall_rank']
+    bank = team['entry_history']['bank'] / 10
     
-    return budget, next_event, total_points
+    return budget, next_event, current_points, rank, bank
 
 
-BUDGET, NEXT_EVENT, CURRENT_POINTS = get_stats()
+BUDGET, NEXT_EVENT, CURRENT_POINTS, RANK, BANK = get_stats()
 ALL_SEASONS = ['2019-20']
 CURRENT_SEASON = '2019-20'
 ITERATIONS = 1000
 INTERESTED = get_team()
 NOT_INTERESTED = []
+SENDER_EMAIL = os.environ.get('GMAIL_SENDER')
+RECEIVER_EMAIL = os.environ.get('GMAIL_RECEIVER')
+PASSWORD = os.environ.get('GMAIL_PASS')

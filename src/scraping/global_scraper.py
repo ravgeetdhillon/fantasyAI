@@ -5,6 +5,7 @@ from parsers import *
 from cleaners import *
 from getters import *
 from collector import collect_gw, merge_gw
+import os
 
 
 def parse_data():
@@ -14,6 +15,12 @@ def parse_data():
 
     print("Getting data")
     data = get_data()
+
+    if not os.path.exists('data'):
+        os.mkdir('data')
+
+    with open(f'data/gameweeks.json', 'w', encoding='utf-8') as f:
+        json.dump(data['events'], f, ensure_ascii=True, indent=2)
 
     season = '2019-20'
     base_filename = 'data/' + season + '/'

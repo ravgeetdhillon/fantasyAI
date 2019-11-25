@@ -1,8 +1,9 @@
 from random import shuffle
+from time import time
+from notify import send_email, html_response
 import json
 import variables
 import numpy as np
-from time import time
 
 
 # initialize the global variables
@@ -373,23 +374,24 @@ def create_team(omit_player=None, iterations = variables.ITERATIONS, display=Tru
         if points > max_points:
             max_points = points
             best_team = final_team
-            print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
+            # print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
 
-        if display:
-            print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
+        # if display:
+            # print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
     
     return (best_team, max_points)
 
 
-def transfers():
+def get_transfers():
     '''
     Get's the best single transfer.
     '''
 
+    current_team_expected_points = create_team(iterations=1)[1]
     main_players = variables.main_players()
     
     max_points = -1
-    best_transfer = []
+    best_transfers = []
     
     for y in range(15):
         omit_player = main_players[y]
@@ -397,16 +399,40 @@ def transfers():
     
         if points > max_points:
             max_points = points
-            best_transfer = [omit_player, display_team(best_team)]
 
         for player in best_team:
             if player['full_name'] not in main_players:
-                print(f'{omit_player} -> {player["full_name"]}')
+                best_transfers.append(
+                    {
+                        'out': omit_player,
+                        'in': player['full_name'],
+                        'points': points,
+                        'g/l': points - current_team_expected_points, 
+                    }
+                )
                 break
+    
+    best_transfers = sorted(best_transfers, key=lambda k: (-k['points']))
+
+    return best_transfers
 
 
-best_team, max_points = create_team(iterations=1000)
+def main():
+    '''
+    Main function of ai.py
+    '''
 
-save(best_team, max_points)
+    # get transfers
+    transfers = get_transfers()
+    print(f'Evaluated {len(transfers)} transfers.')
+    
+    # generate response to be sent
+    response = html_response(transfers)
+    
+    # send email
+    send_email(response)
+    print(f'Email sent.')
 
-transfers()
+
+if __name__ == '__main__':
+    main()
