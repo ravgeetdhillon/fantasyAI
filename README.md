@@ -10,7 +10,7 @@ I am a huge football fan, especially the English Premier League. Also, it comes 
 
 ## When my AI would be a winner
 
-I'm not so sure about the performance of the AI and don't want to be over ambitious. So a **top 1%** finish would be awesome. Let's see how to goes. Fingers crossed
+I'm not so sure about the performance of the AI and don't want to be over ambitious. So a **top 1%** finish would be awesome. Let's see how it goes.🤞
 
 ## Blog Posts
 
