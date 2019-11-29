@@ -3,9 +3,11 @@
 
 from getters import *
 from parsers import *
-import variables
 import sys
 import os
+
+sys.path.append('../')
+import variables
 
 
 def main():
