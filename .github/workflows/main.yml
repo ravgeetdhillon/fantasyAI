@@ -1,13 +1,13 @@
 name: Run AI and Notify
 
-# on:
-#   schedule:
-#   - '30 7 30 * *'
-
 on:
-  push:
-    branches:
-      - master
+  schedule:
+  - cron: '30 7 30 * *'
+
+# on:
+#   push:
+#     branches:
+#       - master
 
 jobs:
   fetchDataAndRunAI:
