@@ -67,12 +67,13 @@ def get_notify_time(gameweeks=gameweeks):
 
 def get_gameweek(gameweeks=gameweeks):
     '''
-    Get's the next gameweek name.
+    Get's the next gameweek's ID.
     '''
 
     for gameweek in gameweeks['events']:
         if gameweek['finished'] == False:
-            return gameweek['name']
+            gameweek_id = gameweek['name'].split(' ')[-1]
+            return gameweek_id
 
 
 def html_response(transfers):
@@ -89,13 +90,28 @@ def html_response(transfers):
                 border-collapse: collapse;
                 width: 100%;
             }
+            .header {
+                background: #37003c88;
+                color: #ffffff;
+            }
             td, th {
-                border: 1px solid #ddd;
+                border: 1px solid #dddddd;
                 text-align: left;
                 padding: 8px;
             }
             tr:nth-child(even) {
-                background: #eee;
+                background: #eeeeee;
+            }
+            .btn {
+                font-family: Arial, sans-serif;
+                background: #37003c;
+                border: none;
+                color: #ffffff;
+                padding: 8px 16px;
+                text-decoration: none;
+                display: inline-block;
+                cursor: pointer;
+                border-radius: 4px;
             }
         </style>
     '''
@@ -112,12 +128,15 @@ def html_response(transfers):
         '''
     
     response = f'''
+        <!DOCTYPE html>
         <html>
         <head>
             {style}
         </head>
         <body>
-            <h2>Potential Transfers</h2>
+            <p>Hi Ravgeet, </p>
+            <p>This is Fantasy AI. Hope you had a great last gameweek and ready to fire again this time. After running through the data, I have done the following analysis for gameweek {get_gameweek()}</p>
+            <h3>Potential Transfers</h3>
             <table>
                 <tr>
                     <th>Out</th>
@@ -128,12 +147,14 @@ def html_response(transfers):
                 {html}
             </table>
             <br>
-            <h2>Important Stats</h2>
+            <h3>Important Stats</h3>
             <p>Next <b>deadline</b> is <b>{get_deadline()}</b></p>
             <p>Your <b>team value</b> is <b>£{variables.BUDGET}m</b></p>
             <p>You have <b>£{variables.BANK}m</b> in your <b>bank</b></p>
             <p>Your overall <b>rank</b> is <b>{variables.RANK}</b></p>
             <p>Your current <b>points</b> are <b>{variables.CURRENT_POINTS}</b></p>
+            <br>
+            <a href="https://fantasy.premierleague.com/entry/{variables.TEAM_ID}/event/{get_gameweek()-1}" class="btn">Manage your team</a>
         </body>
         </html>
     '''
@@ -151,7 +172,7 @@ def send_email(content):
     password = variables.PASSWORD
 
     message = MIMEMultipart('alternative')
-    message['Subject'] = f'Fantasy AI - {get_gameweek()}'
+    message['Subject'] = f'Fantasy AI - Gameweek {get_gameweek()}'
     message['From'] = sender_email
     message['To'] = receiver_email
     
@@ -174,7 +195,7 @@ def update_workflow():
     '''
 
     last_notify_at, next_notify_at = get_notify_time()
-
+    
     filename = '../.github/workflows/main.yml'
     with fileinput.FileInput(filename, inplace=True) as file:
         for line in file:
