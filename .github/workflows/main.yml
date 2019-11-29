@@ -13,7 +13,6 @@ jobs:
   fetchDataAndRunAI:
     
     env:
-      TEAM_ID: 4914864
       REMOTE_BRANCH: master
 
     runs-on: ubuntu-latest
@@ -37,7 +36,7 @@ jobs:
       run: |
         cd src/scraping
         python global_scraper.py
-        python teams_scraper.py ${TEAM_ID}
+        python teams_scraper.py
         cd ..
         rm -rf raw_data/2019-20/players
         mv scraping/data/2019-20/players raw_data/2019-20/ -f
@@ -52,11 +51,10 @@ jobs:
     - name: Run the AI
       run: |
         python ai.py
-        gameweek=`python notify.py`
+        gameweek_id=`python notify.py`
         
     - name: Configure Git
       run: |
-        git checkout -f ${REMOTE_BRANCH}
         git config --global user.email ${GITHUB_ACTOR}@gmail.com
         git config --global user.name ${GITHUB_ACTOR}
     
@@ -65,5 +63,5 @@ jobs:
         git add .github/workflow/main.yml
         git commit -m "gh-actions updated workflow"
         git add .
-        git commit -m "gh-actions added ${gameweek} data"
+        git commit -m "gh-actions added gw${gameweek_id} data"
         git push --force https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git HEAD:${REMOTE_BRANCH}

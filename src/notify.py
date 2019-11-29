@@ -135,7 +135,7 @@ def html_response(transfers):
         </head>
         <body>
             <p>Hi Ravgeet, </p>
-            <p>This is Fantasy AI. Hope you had a great last gameweek and ready to fire again this time. After running through the data, I have done the following analysis for gameweek {get_gameweek()}</p>
+            <p>This is <b>Fantasy AI</b>. Hope you had a great last gameweek and ready to fire again this time. After running through the data, I have done the following analysis for gameweek {get_gameweek()}.</p>
             <h3>Potential Transfers</h3>
             <table>
                 <tr>
@@ -195,7 +195,7 @@ def update_workflow():
     '''
 
     last_notify_at, next_notify_at = get_notify_time()
-    
+
     filename = '../.github/workflows/main.yml'
     with fileinput.FileInput(filename, inplace=True) as file:
         for line in file:
