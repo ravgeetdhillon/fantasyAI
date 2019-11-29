@@ -31,7 +31,7 @@ def get_deadline(gameweeks=gameweeks):
     Get's the next gameweek's deadline and time to notify.
     '''
 
-    for gameweek in gameweeks['events']:
+    for gameweek in gameweeks:
         if gameweek['finished'] == False:
             next_deadline = gameweek['deadline_time']
             break
@@ -48,10 +48,10 @@ def get_notify_time(gameweeks=gameweeks):
     Get's the email notification time in cron syntax.
     '''
     
-    for index, gameweek in enumerate(gameweeks['events']):
+    for index, gameweek in enumerate(gameweeks):
         if gameweek['finished'] == False:
             next_deadline = gameweek['deadline_time']
-            last_deadline = gameweeks['events'][index - 1]['deadline_time']
+            last_deadline = gameweeks[index - 1]['deadline_time']
             break
     
     last_notify_at = datetime.strptime(last_deadline, '%Y-%m-%dT%H:%M:%SZ')
@@ -70,9 +70,9 @@ def get_gameweek(gameweeks=gameweeks):
     Get's the next gameweek's ID.
     '''
 
-    for gameweek in gameweeks['events']:
+    for gameweek in gameweeks:
         if gameweek['finished'] == False:
-            gameweek_id = gameweek['name'].split(' ')[-1]
+            gameweek_id = gameweek['id']
             return gameweek_id
 
 

@@ -1,6 +1,6 @@
 from random import shuffle
 from time import time
-from notify import send_email, html_response
+from notify import send_email, html_response, update_workflow
 import json
 import variables
 import numpy as np

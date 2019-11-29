@@ -6,19 +6,15 @@ from parsers import *
 import sys
 import os
 
-sys.path.append('../')
-import variables
-
 
 def main():
-    # if len(sys.argv) != 2:
-        # print("Usage: python teams_scraper.py <team_id>. Eg: python teams_scraper.py 5000")
-        # sys.exit(1)
+    if len(sys.argv) != 2:
+        print("Usage: python teams_scraper.py <team_id>. Eg: python teams_scraper.py 5000")
+        sys.exit(1)
     
     season = "19_20"
     output_folder = "data/team_data"
-    # team_id = int(sys.argv[1])
-    team_id = variables.TEAM_ID
+    team_id = int(sys.argv[1])
     
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
