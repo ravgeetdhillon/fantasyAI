@@ -433,6 +433,10 @@ def main():
     send_email(response)
     print(f'Email sent.')
 
+    # update the workflow file for scheduling the next run
+    update_workflow()
+    print(f'Workflow updated.')
+
 
 if __name__ == '__main__':
     main()

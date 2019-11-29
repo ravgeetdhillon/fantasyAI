@@ -200,3 +200,4 @@ NOT_INTERESTED = []
 SENDER_EMAIL = os.environ.get('GMAIL_SENDER')
 RECEIVER_EMAIL = os.environ.get('GMAIL_RECEIVER')
 PASSWORD = os.environ.get('GMAIL_PASS')
+NOTIFY_BEFORE = 4

@@ -1,6 +1,7 @@
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from datetime import datetime
+from datetime import datetime, timedelta
+import fileinput
 import variables
 import smtplib, ssl
 import os
@@ -11,16 +12,57 @@ with open(f'data/gameweeks.json', 'r') as f:
     gameweeks = json.load(f)
 
 
+def get_cron_date(date):
+    '''
+    Converts to the given date to cron job format.
+    '''
+
+    day = date.day
+    month = date.month
+    hour = date.hour
+    minute = date.minute
+    cron = f'{minute} {hour} {day} * *'
+
+    return cron
+
+
 def get_deadline(gameweeks=gameweeks):
     '''
-    Get's the next gameweek's deadline.
+    Get's the next gameweek's deadline and time to notify.
     '''
 
     for gameweek in gameweeks['events']:
         if gameweek['finished'] == False:
-            date = gameweek['deadline_time'].strip('Z')
-            date = datetime.fromisoformat(date).strftime('%d %b, %Y %H:%M')
-            return date
+            next_deadline = gameweek['deadline_time']
+            break
+
+    # parse the deadline date into string for email notification
+    deadline_date = next_deadline.strip('Z')
+    deadline_date = datetime.fromisoformat(deadline_date).strftime('%d %b, %Y %H:%M')
+
+    return deadline_date
+
+
+def get_notify_time(gameweeks=gameweeks):
+    '''
+    Get's the email notification time in cron syntax.
+    '''
+    
+    for index, gameweek in enumerate(gameweeks['events']):
+        if gameweek['finished'] == False:
+            next_deadline = gameweek['deadline_time']
+            last_deadline = gameweeks['events'][index - 1]['deadline_time']
+            break
+    
+    last_notify_at = datetime.strptime(last_deadline, '%Y-%m-%dT%H:%M:%SZ')
+    last_notify_at = last_notify_at - timedelta(hours=variables.NOTIFY_BEFORE)
+    last_notify_at = get_cron_date(last_notify_at)
+
+    next_notify_at = datetime.strptime(next_deadline, '%Y-%m-%dT%H:%M:%SZ')
+    next_notify_at = next_notify_at - timedelta(hours=variables.NOTIFY_BEFORE)
+    next_notify_at = get_cron_date(next_notify_at)
+
+    return last_notify_at, next_notify_at
 
 
 def get_gameweek(gameweeks=gameweeks):
@@ -113,15 +155,31 @@ def send_email(content):
     message['From'] = sender_email
     message['To'] = receiver_email
     
-    # Turn these into html MIMEText objects
+    # turn these into html MIMEText objects
     part = MIMEText(content, 'html')
 
-    # Add HTML/plain-text parts to MIMEMultipart message
-    # The email client will try to render the last part first
+    # add HTML part to MIMEMultipart message
     message.attach(part)
 
-    # Create secure connection with server and send email
+    # create secure connection with server and send email
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message.as_string())
+
+
+def update_workflow():
+    '''
+    Update the workflow file to new cron date.
+    '''
+
+    last_notify_at, next_notify_at = get_notify_time()
+
+    filename = '../.github/workflows/main.yml'
+    with fileinput.FileInput(filename, inplace=True) as file:
+        for line in file:
+            print(line.replace(last_notify_at, next_notify_at), end='')
+
+
+if __name__ == '__main__':
+    print(get_gameweek())
