@@ -374,11 +374,7 @@ def create_team(omit_player=None, iterations = variables.ITERATIONS, display=Tru
         if points > max_points:
             max_points = points
             best_team = final_team
-            # print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
 
-        # if display:
-            # print(f'Teams analysed: {x + 1} | Points: {max_points} | Time: {round(time() - last, 2)}')
-    
     return (best_team, max_points)
 
 
@@ -404,8 +400,12 @@ def get_transfers():
             if player['full_name'] not in main_players:
                 best_transfers.append(
                     {
-                        'out': omit_player,
-                        'in': player['full_name'],
+                        'out': {
+                            'name': omit_player,
+                        },
+                        'in': {
+                            'name': player['full_name'],
+                        },
                         'points': points,
                         'g/l': points - current_team_expected_points, 
                     }
@@ -432,10 +432,6 @@ def main():
     # send email
     send_email(response)
     print(f'Email sent.')
-
-    # update the workflow file for scheduling the next run
-    # update_workflow()
-    # print(f'Workflow updated.')
 
 
 if __name__ == '__main__':

@@ -37,7 +37,9 @@ def get_deadline(gameweeks=gameweeks):
             break
 
     # parse the deadline date into string for email notification
-    deadline_date = next_deadline.strip('Z')
+    deadline_date = datetime.strptime(next_deadline, '%Y-%m-%dT%H:%M:%SZ')
+    deadline_date = deadline_date + timedelta(hours=5, minutes=30)
+    deadline_date = deadline_date.isoformat()
     deadline_date = datetime.fromisoformat(deadline_date).strftime('%d %b, %Y %H:%M')
 
     return deadline_date
@@ -120,8 +122,8 @@ def html_response(transfers):
     for transfer in transfers:
         html += f'''
             <tr>
-                <td>{transfer['out'].title()}</td>
-                <td>{transfer['in'].title()}</td>
+                <td>{transfer['out']['name'].title()}</td>
+                <td>{transfer['in']['name'].title()}</td>
                 <td>{transfer['points']}</td>
                 <td>{transfer['g/l']}</td>
             </tr>
@@ -187,19 +189,6 @@ def send_email(content):
     with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message.as_string())
-
-
-def update_workflow():
-    '''
-    Update the workflow file to new cron date.
-    '''
-
-    last_notify_at, next_notify_at = get_notify_time()
-
-    filename = '../.github/workflows/main.yml'
-    with fileinput.FileInput(filename, inplace=True) as file:
-        for line in file:
-            print(line.replace(last_notify_at, next_notify_at), end='')
 
 
 if __name__ == '__main__':
