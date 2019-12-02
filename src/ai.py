@@ -434,8 +434,8 @@ def main():
     print(f'Email sent.')
 
     # update the workflow file for scheduling the next run
-    update_workflow()
-    print(f'Workflow updated.')
+    # update_workflow()
+    # print(f'Workflow updated.')
 
 
 if __name__ == '__main__':

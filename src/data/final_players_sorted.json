@@ -13,7 +13,7 @@
         "minutes": 1170,
         "total_points": 104,
         "points_per_game": 8.0,
-        "now_cost": 9.7,
+        "now_cost": 9.8,
         "effective_total_points": 78,
         "gw_avg_points": 6.0,
         "variance": 33.84615384615385,
@@ -29,7 +29,7 @@
     "fer": 0.9366071428571427,
     "consistency_overall": 0.9679847083191804,
     "final_value": 475.4082597077836,
-    "final_value_per_cost": 49.01116079461687
+    "final_value_per_cost": 48.5110469089575
   },
   {
     "first_name": "Sadio",
@@ -109,7 +109,7 @@
         "minutes": 959,
         "total_points": 83,
         "points_per_game": 6.4,
-        "now_cost": 8.0,
+        "now_cost": 7.9,
         "effective_total_points": 58,
         "gw_avg_points": 4.461538461538462,
         "variance": 23.786982248520708,
@@ -125,7 +125,7 @@
     "fer": 0.9437499999999999,
     "consistency_overall": 0.8292317972831069,
     "final_value": 364.0992158110558,
-    "final_value_per_cost": 45.51240197638197
+    "final_value_per_cost": 46.08850833051339
   },
   {
     "first_name": "Sergio",
@@ -141,7 +141,7 @@
         "minutes": 810,
         "total_points": 72,
         "points_per_game": 6.0,
-        "now_cost": 11.9,
+        "now_cost": 11.8,
         "effective_total_points": 51,
         "gw_avg_points": 3.923076923076923,
         "variance": 18.378698224852066,
@@ -157,7 +157,7 @@
     "fer": 0.8196428571428571,
     "consistency_overall": 0.7808947231712919,
     "final_value": 320.43026004873957,
-    "final_value_per_cost": 26.926912609137776
+    "final_value_per_cost": 27.15510678379149
   },
   {
     "first_name": "Mohamed",
@@ -237,7 +237,7 @@
         "minutes": 1126,
         "total_points": 74,
         "points_per_game": 5.7,
-        "now_cost": 8.6,
+        "now_cost": 8.7,
         "effective_total_points": 48,
         "gw_avg_points": 3.6923076923076925,
         "variance": 15.751479289940828,
@@ -253,7 +253,7 @@
     "fer": 0.8848214285714284,
     "consistency_overall": 0.7586165557753399,
     "final_value": 305.445015706376,
-    "final_value_per_cost": 35.516862291439075
+    "final_value_per_cost": 35.10862249498575
   },
   {
     "first_name": "John",
@@ -429,7 +429,7 @@
         "minutes": 1122,
         "total_points": 68,
         "points_per_game": 5.2,
-        "now_cost": 7.5,
+        "now_cost": 7.6,
         "effective_total_points": 42,
         "gw_avg_points": 3.230769230769231,
         "variance": 10.331360946745564,
@@ -445,7 +445,7 @@
     "fer": 0.9196428571428571,
     "consistency_overall": 0.7064943022504611,
     "final_value": 273.6565591966757,
-    "final_value_per_cost": 36.48754122622343
+    "final_value_per_cost": 36.007441999562595
   },
   {
     "first_name": "Riyad",
@@ -557,7 +557,7 @@
         "minutes": 990,
         "total_points": 62,
         "points_per_game": 5.6,
-        "now_cost": 5.8,
+        "now_cost": 5.9,
         "effective_total_points": 40,
         "gw_avg_points": 3.076923076923077,
         "variance": 21.301775147928993,
@@ -573,7 +573,7 @@
     "fer": 0.9366071428571427,
     "consistency_overall": 0.5905323893695288,
     "final_value": 261.1544172311909,
-    "final_value_per_cost": 45.02662366055016
+    "final_value_per_cost": 44.26346054765947
   },
   {
     "first_name": "Christian",
@@ -1069,7 +1069,7 @@
         "minutes": 1130,
         "total_points": 56,
         "points_per_game": 4.3,
-        "now_cost": 7.7,
+        "now_cost": 7.6,
         "effective_total_points": 30,
         "gw_avg_points": 2.3076923076923075,
         "variance": 10.059171597633137,
@@ -1085,7 +1085,7 @@
     "fer": 0.8651785714285714,
     "consistency_overall": 0.5061706194595961,
     "final_value": 202.40895717490008,
-    "final_value_per_cost": 26.286877555181828
+    "final_value_per_cost": 26.63275752301317
   },
   {
     "first_name": "James",
@@ -1284,7 +1284,7 @@
     "second_name": "Evans",
     "team": 9,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 162,
     "full_name": "jonny evans",
     "seasons": [
@@ -2125,7 +2125,7 @@
         "minutes": 1104,
         "total_points": 49,
         "points_per_game": 3.8,
-        "now_cost": 6.0,
+        "now_cost": 5.9,
         "effective_total_points": 23,
         "gw_avg_points": 1.7692307692307692,
         "variance": 13.715976331360945,
@@ -2141,7 +2141,7 @@
     "fer": 0.8419642857142856,
     "consistency_overall": 0.37228627056595637,
     "final_value": 161.1728567095228,
-    "final_value_per_cost": 26.862142784920465
+    "final_value_per_cost": 27.31743334059708
   },
   {
     "first_name": "Ederson",
@@ -3053,7 +3053,7 @@
         "minutes": 602,
         "total_points": 32,
         "points_per_game": 3.6,
-        "now_cost": 5.8,
+        "now_cost": 5.7,
         "effective_total_points": 17,
         "gw_avg_points": 1.3076923076923077,
         "variance": 9.136094674556212,
@@ -3069,7 +3069,7 @@
     "fer": 0.8919642857142857,
     "consistency_overall": 0.28977379945431253,
     "final_value": 128.52031732733622,
-    "final_value_per_cost": 22.158675401264865
+    "final_value_per_cost": 22.547424092515126
   },
   {
     "first_name": "Ryan",
@@ -3629,7 +3629,7 @@
         "minutes": 1152,
         "total_points": 41,
         "points_per_game": 3.2,
-        "now_cost": 5.9,
+        "now_cost": 5.8,
         "effective_total_points": 15,
         "gw_avg_points": 1.1538461538461537,
         "variance": 10.59171597633136,
@@ -3645,7 +3645,7 @@
     "fer": 0.7437499999999999,
     "consistency_overall": 0.25158677829060844,
     "final_value": 113.04013315328072,
-    "final_value_per_cost": 19.159344602250968
+    "final_value_per_cost": 19.489678129875987
   },
   {
     "first_name": "Jonjo",
@@ -4237,7 +4237,7 @@
         "minutes": 1170,
         "total_points": 39,
         "points_per_game": 3.0,
-        "now_cost": 5.5,
+        "now_cost": 5.4,
         "effective_total_points": 13,
         "gw_avg_points": 1.0,
         "variance": 5.230769230769231,
@@ -4253,7 +4253,7 @@
     "fer": 0.7437499999999999,
     "consistency_overall": 0.23111572880799033,
     "final_value": 101.80090031120558,
-    "final_value_per_cost": 18.509254602037377
+    "final_value_per_cost": 18.85201857614918
   },
   {
     "first_name": "Callum",
@@ -4333,7 +4333,7 @@
         "minutes": 846,
         "total_points": 33,
         "points_per_game": 2.8,
-        "now_cost": 6.8,
+        "now_cost": 6.7,
         "effective_total_points": 12,
         "gw_avg_points": 0.9230769230769231,
         "variance": 2.0710059171597637,
@@ -4349,7 +4349,7 @@
     "fer": 0.8919642857142857,
     "consistency_overall": 0.22045062505411359,
     "final_value": 100.17727028778407,
-    "final_value_per_cost": 14.731951512909422
+    "final_value_per_cost": 14.951831386236428
   },
   {
     "first_name": "Angelo",
@@ -5325,7 +5325,7 @@
         "minutes": 1170,
         "total_points": 35,
         "points_per_game": 2.7,
-        "now_cost": 4.6,
+        "now_cost": 4.5,
         "effective_total_points": 9,
         "gw_avg_points": 0.6923076923076923,
         "variance": 5.289940828402367,
@@ -5341,7 +5341,7 @@
     "fer": 0.8419642857142856,
     "consistency_overall": 0.15990329477112425,
     "final_value": 81.13375263605585,
-    "final_value_per_cost": 17.637772312186055
+    "final_value_per_cost": 18.02972280801241
   },
   {
     "first_name": "Bjorn",
@@ -5773,7 +5773,7 @@
         "minutes": 297,
         "total_points": 15,
         "points_per_game": 3.8,
-        "now_cost": 5.8,
+        "now_cost": 5.7,
         "effective_total_points": 8,
         "gw_avg_points": 0.6153846153846154,
         "variance": 2.08284023668639,
@@ -5789,7 +5789,7 @@
     "fer": 0.8196428571428571,
     "consistency_overall": 0.14694932299679644,
     "final_value": 74.87475860864396,
-    "final_value_per_cost": 12.909441139421373
+    "final_value_per_cost": 13.135922562919992
   },
   {
     "first_name": "Tom",
@@ -8269,7 +8269,7 @@
         "minutes": 180,
         "total_points": 6,
         "points_per_game": 3.0,
-        "now_cost": 4.4,
+        "now_cost": 4.3,
         "effective_total_points": 2,
         "gw_avg_points": 0.15384615384615385,
         "variance": 0.2840236686390533,
@@ -8285,7 +8285,7 @@
     "fer": 0.9732142857142857,
     "consistency_overall": 0.03741222490847857,
     "final_value": 45.517451697337236,
-    "final_value_per_cost": 10.344875385758462
+    "final_value_per_cost": 10.585453883101684
   },
   {
     "first_name": "Stuart",
@@ -8356,7 +8356,7 @@
     "second_name": "Kolasinac",
     "team": 1,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 3,
     "full_name": "sead kolasinac",
     "seasons": [
@@ -8420,7 +8420,7 @@
     "second_name": "Coleman",
     "team": 8,
     "element_type": 2,
-    "status": "a",
+    "status": "i",
     "id": 144,
     "full_name": "seamus coleman",
     "seasons": [
@@ -8589,7 +8589,7 @@
         "minutes": 287,
         "total_points": 14,
         "points_per_game": 1.6,
-        "now_cost": 6.5,
+        "now_cost": 6.4,
         "effective_total_points": 3,
         "gw_avg_points": 0.23076923076923078,
         "variance": 0.6390532544378699,
@@ -8605,14 +8605,14 @@
     "fer": 0.7437499999999999,
     "consistency_overall": 0.055918533170825915,
     "final_value": 43.32591525435038,
-    "final_value_per_cost": 6.665525423746212
+    "final_value_per_cost": 6.7696742584922465
   },
   {
     "first_name": "Theo",
     "second_name": "Walcott",
     "team": 8,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 153,
     "full_name": "theo walcott",
     "seasons": [
@@ -12036,7 +12036,7 @@
     "second_name": "Holding",
     "team": 1,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 10,
     "full_name": "rob holding",
     "seasons": [
@@ -13444,7 +13444,7 @@
     "second_name": "Schneiderlin",
     "team": 8,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 158,
     "full_name": "morgan schneiderlin",
     "seasons": [

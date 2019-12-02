@@ -22,7 +22,7 @@
     "second_name": "Kolasinac",
     "team": 1,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 3,
     "full_name": "sead kolasinac",
     "seasons": [
@@ -94,7 +94,7 @@
     "second_name": "Holding",
     "team": 1,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 10,
     "full_name": "rob holding",
     "seasons": [
@@ -661,7 +661,7 @@
         "minutes": 1104,
         "total_points": 49,
         "points_per_game": 3.8,
-        "now_cost": 60
+        "now_cost": 59
       }
     ]
   },
@@ -697,7 +697,7 @@
         "minutes": 1170,
         "total_points": 35,
         "points_per_game": 2.7,
-        "now_cost": 46
+        "now_cost": 45
       }
     ]
   },
@@ -931,7 +931,7 @@
         "minutes": 1130,
         "total_points": 56,
         "points_per_game": 4.3,
-        "now_cost": 77
+        "now_cost": 76
       }
     ]
   },
@@ -2191,7 +2191,7 @@
         "minutes": 959,
         "total_points": 83,
         "points_per_game": 6.4,
-        "now_cost": 80
+        "now_cost": 79
       }
     ]
   },
@@ -2461,7 +2461,7 @@
         "minutes": 180,
         "total_points": 6,
         "points_per_game": 3.0,
-        "now_cost": 44
+        "now_cost": 43
       }
     ]
   },
@@ -2695,7 +2695,7 @@
         "minutes": 1152,
         "total_points": 41,
         "points_per_game": 3.2,
-        "now_cost": 59
+        "now_cost": 58
       }
     ]
   },
@@ -2740,7 +2740,7 @@
     "second_name": "Coleman",
     "team": 8,
     "element_type": 2,
-    "status": "a",
+    "status": "i",
     "id": 144,
     "full_name": "seamus coleman",
     "seasons": [
@@ -2803,7 +2803,7 @@
         "minutes": 1170,
         "total_points": 39,
         "points_per_game": 3.0,
-        "now_cost": 55
+        "now_cost": 54
       }
     ]
   },
@@ -2866,7 +2866,7 @@
     "second_name": "Walcott",
     "team": 8,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 153,
     "full_name": "theo walcott",
     "seasons": [
@@ -2902,7 +2902,7 @@
     "second_name": "Schneiderlin",
     "team": 8,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 158,
     "full_name": "morgan schneiderlin",
     "seasons": [
@@ -2983,7 +2983,7 @@
         "minutes": 287,
         "total_points": 14,
         "points_per_game": 1.6,
-        "now_cost": 65
+        "now_cost": 64
       }
     ]
   },
@@ -3055,7 +3055,7 @@
         "minutes": 990,
         "total_points": 62,
         "points_per_game": 5.6,
-        "now_cost": 58
+        "now_cost": 59
       }
     ]
   },
@@ -3064,7 +3064,7 @@
     "second_name": "Evans",
     "team": 9,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 162,
     "full_name": "jonny evans",
     "seasons": [
@@ -3145,7 +3145,7 @@
         "minutes": 1170,
         "total_points": 104,
         "points_per_game": 8.0,
-        "now_cost": 97
+        "now_cost": 98
       }
     ]
   },
@@ -3757,7 +3757,7 @@
         "minutes": 297,
         "total_points": 15,
         "points_per_game": 3.8,
-        "now_cost": 58
+        "now_cost": 57
       }
     ]
   },
@@ -3829,7 +3829,7 @@
         "minutes": 810,
         "total_points": 72,
         "points_per_game": 6.0,
-        "now_cost": 119
+        "now_cost": 118
       }
     ]
   },
@@ -4261,7 +4261,7 @@
         "minutes": 1126,
         "total_points": 74,
         "points_per_game": 5.7,
-        "now_cost": 86
+        "now_cost": 87
       }
     ]
   },
@@ -6421,7 +6421,7 @@
         "minutes": 602,
         "total_points": 32,
         "points_per_game": 3.6,
-        "now_cost": 58
+        "now_cost": 57
       }
     ]
   },
@@ -7195,7 +7195,7 @@
         "minutes": 846,
         "total_points": 33,
         "points_per_game": 2.8,
-        "now_cost": 68
+        "now_cost": 67
       }
     ]
   },
@@ -7537,7 +7537,7 @@
         "minutes": 1122,
         "total_points": 68,
         "points_per_game": 5.2,
-        "now_cost": 75
+        "now_cost": 76
       }
     ]
   },
