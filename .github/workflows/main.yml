@@ -1,8 +1,31 @@
 name: Run AI and Notify
 
-# on:
-#   schedule:
-#   - cron: '30 7 30 * *'
+on:
+  schedule:
+  - cron: '30 14 3 12 *'
+  - cron: '30 7 7 12 *'
+  - cron: '30 7 14 12 *'
+  - cron: '30 7 21 12 *'
+  - cron: '30 7 26 12 *'
+  - cron: '30 7 28 12 *'
+  - cron: '30 7 1 1 *'
+  - cron: '0 15 10 1 *'
+  - cron: '30 7 18 1 *'
+  - cron: '30 14 21 1 *'
+  - cron: '0 10 1 2 *'
+  - cron: '0 10 8 2 *'
+  - cron: '0 10 22 2 *'
+  - cron: '0 10 29 2 *'
+  - cron: '0 10 7 3 *'
+  - cron: '0 10 14 3 *'
+  - cron: '0 10 21 3 *'
+  - cron: '0 9 4 4 *'
+  - cron: '0 9 11 4 *'
+  - cron: '0 9 18 4 *'
+  - cron: '0 9 25 4 *'
+  - cron: '0 9 2 5 *'
+  - cron: '0 9 9 5 *'
+  - cron: '0 9 17 5 *'
 
 on:
   push:
@@ -56,7 +79,6 @@ jobs:
       run: |
         cd src
         python ai.py
-        gameweek_id=`python notify.py`
         
     - name: Configure Git
       run: |
@@ -65,8 +87,7 @@ jobs:
     
     - name: Commit and Push
       run: |
-        # git add .github/workflow/main.yml
-        # git commit -m "gh-actions updated workflow"
+        gameweek_id=`python notify.py`
         git add .
         git commit -m "gh-actions added gw${gameweek_id} data"
         git push --force https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git HEAD:${REMOTE_BRANCH}

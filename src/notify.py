@@ -21,7 +21,7 @@ def get_cron_date(date):
     month = date.month
     hour = date.hour
     minute = date.minute
-    cron = f'{minute} {hour} {day} * *'
+    cron = f'{minute} {hour} {day} {month} *'
 
     return cron
 
