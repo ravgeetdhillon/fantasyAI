@@ -2,7 +2,7 @@ name: Run AI and Notify
 
 on:
   schedule:
-  - cron: '30 14 3 12 *'
+  - cron: '30 15 3 12 *'
   - cron: '30 7 7 12 *'
   - cron: '30 7 14 12 *'
   - cron: '30 7 21 12 *'
@@ -82,7 +82,9 @@ jobs:
     
     - name: Commit and Push
       run: |
+        cd src
         gameweek_id=`python notify.py`
+        cd ..
         git add .
         git commit -m "gh-actions added gw${gameweek_id} data"
         git push --force https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git HEAD:${REMOTE_BRANCH}
