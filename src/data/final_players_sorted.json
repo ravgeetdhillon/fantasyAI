@@ -1348,7 +1348,7 @@
     "second_name": "El Ghazi",
     "team": 2,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 30,
     "full_name": "anwar el ghazi",
     "seasons": [
@@ -2125,7 +2125,7 @@
         "minutes": 695,
         "total_points": 42,
         "points_per_game": 4.7,
-        "now_cost": 7.8,
+        "now_cost": 7.7,
         "effective_total_points": 25,
         "gw_avg_points": 1.7857142857142858,
         "variance": 6.7397959183673475,
@@ -2141,7 +2141,7 @@
     "fer": 0.8838248436103664,
     "consistency_overall": 0.41625828007607835,
     "final_value": 167.47514062833568,
-    "final_value_per_cost": 21.47117187542765
+    "final_value_per_cost": 21.750018263420216
   },
   {
     "first_name": "Jordan",
@@ -2381,7 +2381,7 @@
         "minutes": 974,
         "total_points": 47,
         "points_per_game": 3.4,
-        "now_cost": 5.9,
+        "now_cost": 5.8,
         "effective_total_points": 22,
         "gw_avg_points": 1.5714285714285714,
         "variance": 7.244897959183675,
@@ -2397,7 +2397,7 @@
     "fer": 0.8677390527256479,
     "consistency_overall": 0.36432334744620226,
     "final_value": 150.2815258064746,
-    "final_value_per_cost": 25.471445051944848
+    "final_value_per_cost": 25.910607897668037
   },
   {
     "first_name": "Jack",
@@ -2605,7 +2605,7 @@
         "minutes": 1195,
         "total_points": 47,
         "points_per_game": 3.4,
-        "now_cost": 6.6,
+        "now_cost": 6.7,
         "effective_total_points": 20,
         "gw_avg_points": 1.4285714285714286,
         "variance": 7.530612244897959,
@@ -2621,7 +2621,7 @@
     "fer": 1.0,
     "consistency_overall": 0.3301828357393225,
     "final_value": 143.83773837470747,
-    "final_value_per_cost": 21.793596723440526
+    "final_value_per_cost": 21.4683191604041
   },
   {
     "first_name": "Ben",
@@ -2669,7 +2669,7 @@
         "minutes": 606,
         "total_points": 36,
         "points_per_game": 4.5,
-        "now_cost": 4.4,
+        "now_cost": 4.3,
         "effective_total_points": 21,
         "gw_avg_points": 1.5,
         "variance": 12.25,
@@ -2685,7 +2685,7 @@
     "fer": 0.7917783735478106,
     "consistency_overall": 0.3289977555437341,
     "final_value": 142.5449057461056,
-    "final_value_per_cost": 32.39656948775127
+    "final_value_per_cost": 33.149978080489674
   },
   {
     "first_name": "Bernd",
@@ -3309,7 +3309,7 @@
         "minutes": 959,
         "total_points": 40,
         "points_per_game": 3.1,
-        "now_cost": 7.0,
+        "now_cost": 6.9,
         "effective_total_points": 17,
         "gw_avg_points": 1.2142857142857142,
         "variance": 3.739795918367346,
@@ -3325,7 +3325,7 @@
     "fer": 0.8641644325290437,
     "consistency_overall": 0.29216098143951263,
     "final_value": 123.16688796065566,
-    "final_value_per_cost": 17.595269708665093
+    "final_value_per_cost": 17.850273617486327
   },
   {
     "first_name": "Chris",
@@ -3597,7 +3597,7 @@
         "minutes": 1000,
         "total_points": 38,
         "points_per_game": 3.2,
-        "now_cost": 4.4,
+        "now_cost": 4.3,
         "effective_total_points": 15,
         "gw_avg_points": 1.0714285714285714,
         "variance": 7.3520408163265305,
@@ -3613,7 +3613,7 @@
     "fer": 0.8945487042001786,
     "consistency_overall": 0.24811534902023652,
     "final_value": 113.83871115798432,
-    "final_value_per_cost": 25.872434354087343
+    "final_value_per_cost": 26.474118873949845
   },
   {
     "first_name": "Mark",
@@ -4260,7 +4260,7 @@
     "second_name": "Pieters",
     "team": 5,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 447,
     "full_name": "erik pieters",
     "seasons": [
@@ -4365,7 +4365,7 @@
         "minutes": 618,
         "total_points": 32,
         "points_per_game": 2.7,
-        "now_cost": 5.8,
+        "now_cost": 5.7,
         "effective_total_points": 13,
         "gw_avg_points": 0.9285714285714286,
         "variance": 4.066326530612245,
@@ -4381,7 +4381,7 @@
     "fer": 0.7882037533512064,
     "consistency_overall": 0.22265935275128074,
     "final_value": 98.91071452620852,
-    "final_value_per_cost": 17.05357147003595
+    "final_value_per_cost": 17.352756934422548
   },
   {
     "first_name": "Nicolas",
@@ -5316,7 +5316,7 @@
     "second_name": "Boufal",
     "team": 16,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 508,
     "full_name": "sofiane boufal",
     "seasons": [
@@ -5421,7 +5421,7 @@
         "minutes": 703,
         "total_points": 27,
         "points_per_game": 2.5,
-        "now_cost": 8.7,
+        "now_cost": 8.6,
         "effective_total_points": 9,
         "gw_avg_points": 0.6428571428571429,
         "variance": 3.372448979591836,
@@ -5437,7 +5437,7 @@
     "fer": 0.8909740840035746,
     "consistency_overall": 0.15526372361124272,
     "final_value": 79.94052753289571,
-    "final_value_per_cost": 9.188566383091462
+    "final_value_per_cost": 9.295410178243689
   },
   {
     "first_name": "Bjorn",
@@ -6468,7 +6468,7 @@
     "second_name": "March",
     "team": 4,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 55,
     "full_name": "solomon march",
     "seasons": [
@@ -7268,7 +7268,7 @@
     "second_name": "Pogba",
     "team": 12,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 238,
     "full_name": "paul pogba",
     "seasons": [
@@ -7300,7 +7300,7 @@
     "second_name": "Peleteiro Romallo",
     "team": 2,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 36,
     "full_name": "jos\u00e9 ignacio peleteiro romallo",
     "seasons": [
@@ -8548,7 +8548,7 @@
     "second_name": "Walcott",
     "team": 8,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 153,
     "full_name": "theo walcott",
     "seasons": [
@@ -9348,7 +9348,7 @@
     "second_name": "Barkley",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 117,
     "full_name": "ross barkley",
     "seasons": [
@@ -9380,7 +9380,7 @@
     "second_name": "Tettey",
     "team": 14,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 289,
     "full_name": "alexander tettey",
     "seasons": [
@@ -10061,7 +10061,7 @@
         "minutes": 683,
         "total_points": 16,
         "points_per_game": 1.8,
-        "now_cost": 4.5,
+        "now_cost": 4.4,
         "effective_total_points": 0,
         "gw_avg_points": 0.0,
         "variance": 0.14285714285714285,
@@ -10077,7 +10077,7 @@
     "fer": 0.9186773905272565,
     "consistency_overall": 0.0,
     "final_value": 30.849744089690468,
-    "final_value_per_cost": 6.8554986865978815
+    "final_value_per_cost": 7.011305474929651
   },
   {
     "first_name": "Ibrahim",
@@ -12644,7 +12644,7 @@
     "second_name": "Fernandes da Silva Junior",
     "team": 4,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 39,
     "full_name": "bernardo fernandes da silva junior",
     "seasons": [

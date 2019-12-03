@@ -544,7 +544,7 @@
     "second_name": "El Ghazi",
     "team": 2,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 30,
     "full_name": "anwar el ghazi",
     "seasons": [
@@ -616,7 +616,7 @@
     "second_name": "Peleteiro Romallo",
     "team": 2,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 36,
     "full_name": "jos\u00e9 ignacio peleteiro romallo",
     "seasons": [
@@ -1003,7 +1003,7 @@
         "minutes": 959,
         "total_points": 40,
         "points_per_game": 3.1,
-        "now_cost": 70
+        "now_cost": 69
       }
     ]
   },
@@ -1228,7 +1228,7 @@
     "second_name": "Fernandes da Silva Junior",
     "team": 4,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 39,
     "full_name": "bernardo fernandes da silva junior",
     "seasons": [
@@ -1408,7 +1408,7 @@
     "second_name": "March",
     "team": 4,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 55,
     "full_name": "solomon march",
     "seasons": [
@@ -1507,7 +1507,7 @@
         "minutes": 974,
         "total_points": 47,
         "points_per_game": 3.4,
-        "now_cost": 59
+        "now_cost": 58
       }
     ]
   },
@@ -1876,7 +1876,7 @@
     "second_name": "Pieters",
     "team": 5,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 447,
     "full_name": "erik pieters",
     "seasons": [
@@ -2092,7 +2092,7 @@
     "second_name": "Barkley",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 117,
     "full_name": "ross barkley",
     "seasons": [
@@ -2497,7 +2497,7 @@
         "minutes": 1195,
         "total_points": 47,
         "points_per_game": 3.4,
-        "now_cost": 66
+        "now_cost": 67
       }
     ]
   },
@@ -2803,7 +2803,7 @@
         "minutes": 618,
         "total_points": 32,
         "points_per_game": 2.7,
-        "now_cost": 58
+        "now_cost": 57
       }
     ]
   },
@@ -2884,7 +2884,7 @@
     "second_name": "Walcott",
     "team": 8,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 153,
     "full_name": "theo walcott",
     "seasons": [
@@ -4342,7 +4342,7 @@
     "second_name": "Pogba",
     "team": 12,
     "element_type": 3,
-    "status": "d",
+    "status": "i",
     "id": 238,
     "full_name": "paul pogba",
     "seasons": [
@@ -4369,7 +4369,7 @@
         "minutes": 695,
         "total_points": 42,
         "points_per_game": 4.7,
-        "now_cost": 78
+        "now_cost": 77
       }
     ]
   },
@@ -4711,7 +4711,7 @@
         "minutes": 1000,
         "total_points": 38,
         "points_per_game": 3.2,
-        "now_cost": 44
+        "now_cost": 43
       }
     ]
   },
@@ -5287,7 +5287,7 @@
         "minutes": 683,
         "total_points": 16,
         "points_per_game": 1.8,
-        "now_cost": 45
+        "now_cost": 44
       }
     ]
   },
@@ -5296,7 +5296,7 @@
     "second_name": "Tettey",
     "team": 14,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 289,
     "full_name": "alexander tettey",
     "seasons": [
@@ -6142,7 +6142,7 @@
     "second_name": "Boufal",
     "team": 16,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 508,
     "full_name": "sofiane boufal",
     "seasons": [
@@ -6403,7 +6403,7 @@
         "minutes": 703,
         "total_points": 27,
         "points_per_game": 2.5,
-        "now_cost": 87
+        "now_cost": 86
       }
     ]
   },
@@ -6745,7 +6745,7 @@
         "minutes": 606,
         "total_points": 36,
         "points_per_game": 4.5,
-        "now_cost": 44
+        "now_cost": 43
       }
     ]
   },
