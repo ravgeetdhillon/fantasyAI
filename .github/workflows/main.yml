@@ -27,11 +27,6 @@ on:
   - cron: '0 9 9 5 *'
   - cron: '0 9 17 5 *'
 
-on:
-  push:
-    branches:
-      - master
-
 jobs:
   fetchDataAndRunAI:
     
