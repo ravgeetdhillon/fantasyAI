@@ -66,9 +66,9 @@ def get_formation(team):
     for player in team:
         if player['position'] == 'Defender':
             formation[0] += 1
-        if player['position'] == 'Midfielder':
+        elif player['position'] == 'Midfielder':
             formation[1] += 1
-        if player['position'] == 'Forward':
+        elif player['position'] == 'Forward':
             formation[2] += 1
     
     formation = [str(x) for x in formation]
