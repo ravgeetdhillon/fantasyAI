@@ -122,8 +122,8 @@ def html_response(transfers):
     for transfer in transfers:
         html += f'''
             <tr>
-                <td>{transfer['out']['name'].title()}</td>
-                <td>{transfer['in']['name'].title()}</td>
+                <td>{transfer['out']['name'].title()}<small>[£{transfer['out']['cost']}]</small></td>
+                <td>{transfer['in']['name'].title()}<small>[£{transfer['in']['cost']}]</small></td>
                 <td>{transfer['points']}</td>
                 <td>{transfer['g/l']}</td>
             </tr>

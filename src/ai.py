@@ -319,12 +319,23 @@ def save(final_team, max_points):
         f.write(f'{display_team(final_team)}')
 
 
+def get_player_cost(player_name):
+    '''
+    Gets the player's cost.
+    '''
+
+    for player in players:
+        if player['full_name'] == player_name:
+            return player['seasons'][0]['now_cost']
+    return 0
+
+
 def create_team(omit_player=None, iterations = variables.ITERATIONS, display=True):
     '''
     Creates the final squad of 15 players and gives an estimated points at the end of the season.
     '''
     
-    positions = ['Forward','Forward','Forward','Midfielder','Midfielder','Midfielder','Midfielder','Midfielder','Defender','Defender','Defender','Defender','Defender','Goalkeeper','Goalkeeper']
+    positions = ['Forward']*3 + ['Midfielder']*5 + ['Defender']*5 + ['Goalkeeper']*2
     
     main_players = variables.main_players()
 
@@ -402,9 +413,11 @@ def get_transfers():
                     {
                         'out': {
                             'name': omit_player,
+                            'cost': get_player_cost(omit_player),
                         },
                         'in': {
                             'name': player['full_name'],
+                            'cost': get_player_cost(player['full_name']),
                         },
                         'points': points,
                         'g/l': points - current_team_expected_points, 
@@ -421,14 +434,14 @@ def main():
     '''
     Main function of ai.py
     '''
-
+    
     # get transfers
     transfers = get_transfers()
     print(f'Evaluated {len(transfers)} transfers.')
     
     # generate response to be sent
     response = html_response(transfers)
-    
+
     # send email
     send_email(response)
     print(f'Email sent.')
