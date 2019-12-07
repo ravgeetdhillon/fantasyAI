@@ -24,7 +24,7 @@ def main():
     num_gws = len(summary["current"])
     gws = get_entry_gws_data(team_id, num_gws)
     parse_entry_history(summary, output_folder)
-    parse_entry_leagues(personal_data, output_folder)
+    # parse_entry_leagues(personal_data, output_folder)
     parse_gw_entry_history(gws, output_folder)
 
 
