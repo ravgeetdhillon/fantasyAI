@@ -604,7 +604,7 @@
     "deadline_time_epoch": 1575397800,
     "deadline_time_game_offset": 0,
     "highest_score": 117,
-    "is_previous": true,
+    "is_previous": false,
     "is_current": false,
     "is_next": false,
     "chip_plays": [
@@ -647,8 +647,8 @@
     "deadline_time_epoch": 1575718200,
     "deadline_time_game_offset": 0,
     "highest_score": 127,
-    "is_previous": false,
-    "is_current": true,
+    "is_previous": true,
+    "is_current": false,
     "is_next": false,
     "chip_plays": [
       {
@@ -683,24 +683,44 @@
     "id": 17,
     "name": "Gameweek 17",
     "deadline_time": "2019-12-14T11:30:00Z",
-    "average_entry_score": 0,
-    "finished": false,
-    "data_checked": false,
-    "highest_scoring_entry": null,
+    "average_entry_score": 56,
+    "finished": true,
+    "data_checked": true,
+    "highest_scoring_entry": 2261247,
     "deadline_time_epoch": 1576323000,
     "deadline_time_game_offset": 0,
-    "highest_score": null,
+    "highest_score": 131,
     "is_previous": false,
-    "is_current": false,
-    "is_next": true,
-    "chip_plays": [],
-    "most_selected": null,
-    "most_transferred_in": null,
-    "top_element": null,
-    "top_element_info": null,
-    "transfers_made": 0,
-    "most_captained": null,
-    "most_vice_captained": null
+    "is_current": true,
+    "is_next": false,
+    "chip_plays": [
+      {
+        "chip_name": "bboost",
+        "num_played": 83986
+      },
+      {
+        "chip_name": "freehit",
+        "num_played": 43283
+      },
+      {
+        "chip_name": "wildcard",
+        "num_played": 82312
+      },
+      {
+        "chip_name": "3xc",
+        "num_played": 161733
+      }
+    ],
+    "most_selected": 166,
+    "most_transferred_in": 233,
+    "top_element": 215,
+    "top_element_info": {
+      "id": 215,
+      "points": 19
+    },
+    "transfers_made": 6301130,
+    "most_captained": 166,
+    "most_vice_captained": 192
   },
   {
     "id": 18,
@@ -715,7 +735,7 @@
     "highest_score": null,
     "is_previous": false,
     "is_current": false,
-    "is_next": false,
+    "is_next": true,
     "chip_plays": [],
     "most_selected": null,
     "most_transferred_in": null,
@@ -866,12 +886,12 @@
   {
     "id": 25,
     "name": "Gameweek 25",
-    "deadline_time": "2020-02-01T14:00:00Z",
+    "deadline_time": "2020-02-01T11:30:00Z",
     "average_entry_score": 0,
     "finished": false,
     "data_checked": false,
     "highest_scoring_entry": null,
-    "deadline_time_epoch": 1580565600,
+    "deadline_time_epoch": 1580556600,
     "deadline_time_game_offset": 0,
     "highest_score": null,
     "is_previous": false,
@@ -889,12 +909,12 @@
   {
     "id": 26,
     "name": "Gameweek 26",
-    "deadline_time": "2020-02-08T14:00:00Z",
+    "deadline_time": "2020-02-08T11:30:00Z",
     "average_entry_score": 0,
     "finished": false,
     "data_checked": false,
     "highest_scoring_entry": null,
-    "deadline_time_epoch": 1581170400,
+    "deadline_time_epoch": 1581161400,
     "deadline_time_game_offset": 0,
     "highest_score": null,
     "is_previous": false,
@@ -912,12 +932,12 @@
   {
     "id": 27,
     "name": "Gameweek 27",
-    "deadline_time": "2020-02-22T14:00:00Z",
+    "deadline_time": "2020-02-22T11:30:00Z",
     "average_entry_score": 0,
     "finished": false,
     "data_checked": false,
     "highest_scoring_entry": null,
-    "deadline_time_epoch": 1582380000,
+    "deadline_time_epoch": 1582371000,
     "deadline_time_game_offset": 0,
     "highest_score": null,
     "is_previous": false,
@@ -935,12 +955,12 @@
   {
     "id": 28,
     "name": "Gameweek 28",
-    "deadline_time": "2020-02-29T14:00:00Z",
+    "deadline_time": "2020-02-28T19:00:00Z",
     "average_entry_score": 0,
     "finished": false,
     "data_checked": false,
     "highest_scoring_entry": null,
-    "deadline_time_epoch": 1582984800,
+    "deadline_time_epoch": 1582916400,
     "deadline_time_game_offset": 0,
     "highest_score": null,
     "is_previous": false,
