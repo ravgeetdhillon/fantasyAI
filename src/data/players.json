@@ -31,6 +31,7 @@
           2,
           0,
           0,
+          0,
           0
         ]
       }
@@ -67,6 +68,7 @@
           -1,
           0,
           -2,
+          0,
           0,
           0
         ]
@@ -105,7 +107,8 @@
           -1,
           0,
           3,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -121,9 +124,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 670,
-        "total_points": 20,
-        "points_per_game": 2.5,
+        "minutes": 760,
+        "total_points": 26,
+        "points_per_game": 2.9,
         "now_cost": 46,
         "gw_history": [
           10,
@@ -142,7 +145,8 @@
           0,
           0,
           0,
-          -1
+          -1,
+          4
         ]
       }
     ]
@@ -152,7 +156,7 @@
     "second_name": "Papastathopoulos",
     "team": 1,
     "element_type": 2,
-    "status": "s",
+    "status": "a",
     "id": 5,
     "full_name": "sokratis papastathopoulos",
     "seasons": [
@@ -179,7 +183,8 @@
           0,
           -2,
           0,
-          -2
+          -2,
+          0
         ]
       }
     ]
@@ -203,6 +208,7 @@
           5,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -253,6 +259,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -269,9 +276,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 103,
-        "points_per_game": 6.1,
+        "minutes": 1607,
+        "total_points": 105,
+        "points_per_game": 5.8,
         "now_cost": 108,
         "gw_history": [
           4,
@@ -290,6 +297,7 @@
           11,
           0,
           10,
+          0,
           0
         ]
       }
@@ -306,9 +314,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 661,
-        "total_points": 47,
-        "points_per_game": 4.7,
+        "minutes": 673,
+        "total_points": 48,
+        "points_per_game": 4.4,
         "now_cost": 93,
         "gw_history": [
           0,
@@ -327,6 +335,7 @@
           0,
           5,
           0,
+          0,
           0
         ]
       }
@@ -343,9 +352,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 56,
-        "points_per_game": 3.3,
+        "minutes": 1620,
+        "total_points": 62,
+        "points_per_game": 3.4,
         "now_cost": 50,
         "gw_history": [
           5,
@@ -364,7 +373,8 @@
           1,
           1,
           1,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -374,7 +384,7 @@
     "second_name": "\u00d6zil",
     "team": 1,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 15,
     "full_name": "mesut \u00f6zil",
     "seasons": [
@@ -400,6 +410,7 @@
           0,
           4,
           3,
+          0,
           0,
           0
         ]
@@ -438,6 +449,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -454,9 +466,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1004,
-        "total_points": 25,
-        "points_per_game": 2.1,
+        "minutes": 1094,
+        "total_points": 28,
+        "points_per_game": 2.2,
         "now_cost": 51,
         "gw_history": [
           0,
@@ -475,7 +487,8 @@
           0,
           0,
           0,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -491,8 +504,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 713,
-        "total_points": 26,
+        "minutes": 803,
+        "total_points": 29,
         "points_per_game": 1.9,
         "now_cost": 47,
         "gw_history": [
@@ -512,7 +525,8 @@
           0,
           0,
           0,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -549,6 +563,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -565,9 +580,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1260,
-        "total_points": 35,
-        "points_per_game": 2.5,
+        "minutes": 1350,
+        "total_points": 44,
+        "points_per_game": 2.9,
         "now_cost": 57,
         "gw_history": [
           0,
@@ -586,7 +601,8 @@
           -1,
           -2,
           0,
-          0
+          0,
+          7
         ]
       }
     ]
@@ -596,15 +612,15 @@
     "second_name": "Chambers",
     "team": 1,
     "element_type": 2,
-    "status": "a",
+    "status": "s",
     "id": 467,
     "full_name": "calum chambers",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 990,
-        "total_points": 30,
-        "points_per_game": 2.5,
+        "minutes": 1080,
+        "total_points": 38,
+        "points_per_game": 2.9,
         "now_cost": 44,
         "gw_history": [
           4,
@@ -623,7 +639,8 @@
           -2,
           0,
           0,
-          -1
+          -1,
+          6
         ]
       }
     ]
@@ -633,7 +650,7 @@
     "second_name": "Ceballos Fern\u00e1ndez",
     "team": 1,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "id": 469,
     "full_name": "daniel ceballos fern\u00e1ndez",
     "seasons": [
@@ -652,6 +669,7 @@
           0,
           0,
           1,
+          0,
           0,
           0,
           0,
@@ -697,6 +715,7 @@
           0,
           0,
           10,
+          0,
           0
         ]
       }
@@ -713,9 +732,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 152,
-        "total_points": 6,
-        "points_per_game": 1.2,
+        "minutes": 242,
+        "total_points": 9,
+        "points_per_game": 1.5,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -734,7 +753,8 @@
           0,
           0,
           0,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -750,9 +770,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 491,
+        "minutes": 515,
         "total_points": 18,
-        "points_per_game": 1.4,
+        "points_per_game": 1.3,
         "now_cost": 48,
         "gw_history": [
           1,
@@ -771,7 +791,8 @@
           0,
           0,
           0,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -781,14 +802,14 @@
     "second_name": "Martinelli Silva",
     "team": 1,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "id": 504,
     "full_name": "gabriel teodoro martinelli silva",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 276,
-        "total_points": 18,
+        "minutes": 366,
+        "total_points": 20,
         "points_per_game": 2.0,
         "now_cost": 45,
         "gw_history": [
@@ -808,6 +829,7 @@
           0,
           0,
           5,
+          0,
           0
         ]
       }
@@ -845,6 +867,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -861,8 +884,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 404,
-        "total_points": 14,
+        "minutes": 494,
+        "total_points": 16,
         "points_per_game": 1.8,
         "now_cost": 45,
         "gw_history": [
@@ -871,6 +894,7 @@
           3,
           1,
           -1,
+          0,
           0,
           0,
           0,
@@ -894,12 +918,13 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 31,
-        "total_points": 1,
-        "points_per_game": 1.0,
+        "minutes": 96,
+        "total_points": 4,
+        "points_per_game": 2.0,
         "now_cost": 45,
         "gw_history": [
-          0
+          0,
+          1
         ]
       }
     ]
@@ -936,6 +961,7 @@
           0,
           4,
           -2,
+          0,
           0
         ]
       }
@@ -955,7 +981,7 @@
         "minutes": 613,
         "total_points": 17,
         "points_per_game": 2.1,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           -1,
           -1,
@@ -973,7 +999,46 @@
           0,
           0,
           0,
+          0,
           0
+        ]
+      }
+    ]
+  },
+  {
+    "first_name": "Kortney",
+    "second_name": "Hause",
+    "team": 2,
+    "element_type": 2,
+    "status": "a",
+    "id": 25,
+    "full_name": "kortney hause",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 180,
+        "total_points": 1,
+        "points_per_game": 0.5,
+        "now_cost": 44,
+        "gw_history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -2,
+          -1
         ]
       }
     ]
@@ -989,9 +1054,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 41,
+        "minutes": 75,
         "total_points": 3,
-        "points_per_game": 1.0,
+        "points_per_game": 0.8,
         "now_cost": 54,
         "gw_history": [
           0,
@@ -1010,7 +1075,8 @@
           0,
           0,
           0,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -1047,6 +1113,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -1063,9 +1130,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 578,
-        "total_points": 36,
-        "points_per_game": 3.6,
+        "minutes": 633,
+        "total_points": 37,
+        "points_per_game": 3.4,
         "now_cost": 57,
         "gw_history": [
           0,
@@ -1081,6 +1148,7 @@
           0,
           0,
           12,
+          0,
           0,
           0,
           0,
@@ -1100,10 +1168,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1343,
-        "total_points": 66,
-        "points_per_game": 4.4,
-        "now_cost": 62,
+        "minutes": 1433,
+        "total_points": 74,
+        "points_per_game": 4.6,
+        "now_cost": 63,
         "gw_history": [
           0,
           4,
@@ -1121,7 +1189,8 @@
           7,
           0,
           4,
-          -2
+          -2,
+          6
         ]
       }
     ]
@@ -1137,9 +1206,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1021,
-        "total_points": 56,
-        "points_per_game": 3.7,
+        "minutes": 1088,
+        "total_points": 57,
+        "points_per_game": 3.6,
         "now_cost": 55,
         "gw_history": [
           0,
@@ -1158,7 +1227,8 @@
           3,
           0,
           0,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -1168,16 +1238,16 @@
     "second_name": "McGinn",
     "team": 2,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "id": 31,
     "full_name": "john mcginn",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 60,
-        "points_per_game": 3.5,
-        "now_cost": 57,
+        "minutes": 1537,
+        "total_points": 61,
+        "points_per_game": 3.4,
+        "now_cost": 56,
         "gw_history": [
           5,
           0,
@@ -1195,6 +1265,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -1216,6 +1287,7 @@
         "points_per_game": 1.0,
         "now_cost": 43,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -1269,6 +1341,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -1306,6 +1379,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -1322,9 +1396,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1440,
-        "total_points": 43,
-        "points_per_game": 2.7,
+        "minutes": 1530,
+        "total_points": 45,
+        "points_per_game": 2.6,
         "now_cost": 45,
         "gw_history": [
           0,
@@ -1343,7 +1417,8 @@
           -2,
           1,
           -1,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -1359,9 +1434,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 903,
-        "total_points": 40,
-        "points_per_game": 3.6,
+        "minutes": 993,
+        "total_points": 41,
+        "points_per_game": 3.4,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -1380,7 +1455,8 @@
           5,
           -2,
           -3,
-          -2
+          -2,
+          -1
         ]
       }
     ]
@@ -1396,9 +1472,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1442,
-        "total_points": 56,
-        "points_per_game": 3.3,
+        "minutes": 1532,
+        "total_points": 58,
+        "points_per_game": 3.2,
         "now_cost": 57,
         "gw_history": [
           0,
@@ -1417,6 +1493,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -1454,6 +1531,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -1464,7 +1542,7 @@
     "second_name": "Mings",
     "team": 2,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "id": 445,
     "full_name": "tyrone mings",
     "seasons": [
@@ -1491,6 +1569,7 @@
           5,
           -1,
           -1,
+          0,
           0
         ]
       }
@@ -1528,6 +1607,7 @@
           -1,
           -1,
           1,
+          0,
           0
         ]
       }
@@ -1544,9 +1624,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1131,
-        "total_points": 33,
-        "points_per_game": 2.5,
+        "minutes": 1221,
+        "total_points": 34,
+        "points_per_game": 2.4,
         "now_cost": 45,
         "gw_history": [
           -1,
@@ -1565,6 +1645,7 @@
           0,
           0,
           -1,
+          -1,
           -1
         ]
       }
@@ -1581,9 +1662,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1154,
-        "total_points": 40,
-        "points_per_game": 2.9,
+        "minutes": 1244,
+        "total_points": 41,
+        "points_per_game": 2.7,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -1602,6 +1683,7 @@
           -2,
           0,
           0,
+          -1,
           -1
         ]
       }
@@ -1618,9 +1700,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 880,
-        "total_points": 39,
-        "points_per_game": 2.6,
+        "minutes": 902,
+        "total_points": 40,
+        "points_per_game": 2.5,
         "now_cost": 52,
         "gw_history": [
           0,
@@ -1639,6 +1721,7 @@
           0,
           6,
           0,
+          0,
           0
         ]
       }
@@ -1655,8 +1738,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 871,
-        "total_points": 39,
+        "minutes": 961,
+        "total_points": 41,
         "points_per_game": 2.6,
         "now_cost": 44,
         "gw_history": [
@@ -1673,6 +1756,7 @@
           1,
           0,
           1,
+          0,
           0,
           0,
           0,
@@ -1692,8 +1776,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 920,
-        "total_points": 20,
+        "minutes": 1002,
+        "total_points": 22,
         "points_per_game": 1.8,
         "now_cost": 44,
         "gw_history": [
@@ -1713,6 +1797,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -1723,7 +1808,7 @@
     "second_name": "Cook",
     "team": 3,
     "element_type": 2,
-    "status": "i",
+    "status": "d",
     "id": 58,
     "full_name": "steve cook",
     "seasons": [
@@ -1748,6 +1833,7 @@
           -1,
           7,
           -1,
+          0,
           0,
           0,
           0
@@ -1787,6 +1873,7 @@
           -1,
           0,
           0,
+          0,
           0
         ]
       }
@@ -1824,6 +1911,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -1840,9 +1928,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 541,
-        "total_points": 22,
-        "points_per_game": 3.1,
+        "minutes": 631,
+        "total_points": 24,
+        "points_per_game": 3.0,
         "now_cost": 43,
         "gw_history": [
           8,
@@ -1861,7 +1949,8 @@
           0,
           0,
           -1,
-          4
+          4,
+          0
         ]
       }
     ]
@@ -1877,9 +1966,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 278,
-        "total_points": 9,
-        "points_per_game": 1.3,
+        "minutes": 368,
+        "total_points": 10,
+        "points_per_game": 1.2,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -1898,7 +1987,8 @@
           0,
           0,
           -1,
-          5
+          5,
+          -1
         ]
       }
     ]
@@ -1935,6 +2025,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -1945,15 +2036,15 @@
     "second_name": "Rico",
     "team": 3,
     "element_type": 2,
-    "status": "a",
+    "status": "s",
     "id": 65,
     "full_name": "diego rico",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1208,
-        "total_points": 50,
-        "points_per_game": 3.6,
+        "minutes": 1298,
+        "total_points": 51,
+        "points_per_game": 3.4,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -1972,7 +2063,8 @@
           -2,
           7,
           -1,
-          4
+          4,
+          -1
         ]
       }
     ]
@@ -1982,15 +2074,15 @@
     "second_name": "Wilson",
     "team": 3,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "id": 67,
     "full_name": "callum wilson",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1373,
-        "total_points": 62,
-        "points_per_game": 3.9,
+        "minutes": 1418,
+        "total_points": 63,
+        "points_per_game": 3.7,
         "now_cost": 74,
         "gw_history": [
           3,
@@ -2009,6 +2101,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2019,15 +2112,15 @@
     "second_name": "King",
     "team": 3,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "id": 68,
     "full_name": "joshua king",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1080,
-        "total_points": 52,
-        "points_per_game": 4.0,
+        "minutes": 1170,
+        "total_points": 54,
+        "points_per_game": 3.9,
         "now_cost": 61,
         "gw_history": [
           0,
@@ -2041,6 +2134,7 @@
           0,
           0,
           5,
+          0,
           0,
           0,
           0,
@@ -2062,9 +2156,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 766,
-        "total_points": 22,
-        "points_per_game": 1.5,
+        "minutes": 770,
+        "total_points": 23,
+        "points_per_game": 1.4,
         "now_cost": 52,
         "gw_history": [
           0,
@@ -2083,6 +2177,7 @@
           0,
           -1,
           0,
+          0,
           0
         ]
       }
@@ -2099,9 +2194,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1165,
-        "total_points": 46,
-        "points_per_game": 2.9,
+        "minutes": 1255,
+        "total_points": 48,
+        "points_per_game": 2.8,
         "now_cost": 69,
         "gw_history": [
           -1,
@@ -2120,7 +2215,8 @@
           0,
           0,
           0,
-          1
+          1,
+          0
         ]
       }
     ]
@@ -2157,6 +2253,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2173,9 +2270,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 552,
-        "total_points": 21,
-        "points_per_game": 1.9,
+        "minutes": 597,
+        "total_points": 22,
+        "points_per_game": 1.8,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -2194,6 +2291,7 @@
           3,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2204,7 +2302,7 @@
     "second_name": "Surman",
     "team": 3,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 80,
     "full_name": "andrew surman",
     "seasons": [
@@ -2215,6 +2313,7 @@
         "points_per_game": 1.0,
         "now_cost": 47,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -2247,9 +2346,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 146,
-        "total_points": 10,
-        "points_per_game": 2.5,
+        "minutes": 236,
+        "total_points": 12,
+        "points_per_game": 2.4,
         "now_cost": 49,
         "gw_history": [
           0,
@@ -2268,7 +2367,8 @@
           0,
           0,
           0,
-          5
+          5,
+          0
         ]
       }
     ]
@@ -2284,8 +2384,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1228,
-        "total_points": 29,
+        "minutes": 1318,
+        "total_points": 31,
         "points_per_game": 1.9,
         "now_cost": 48,
         "gw_history": [
@@ -2305,7 +2405,8 @@
           -1,
           -1,
           0,
-          6
+          6,
+          0
         ]
       }
     ]
@@ -2321,8 +2422,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 526,
-        "total_points": 12,
+        "minutes": 616,
+        "total_points": 14,
         "points_per_game": 2.0,
         "now_cost": 43,
         "gw_history": [
@@ -2342,7 +2443,8 @@
           -1,
           0,
           0,
-          4
+          4,
+          0
         ]
       }
     ]
@@ -2358,9 +2460,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1306,
-        "total_points": 30,
-        "points_per_game": 1.9,
+        "minutes": 1391,
+        "total_points": 35,
+        "points_per_game": 2.1,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -2379,7 +2481,8 @@
           0,
           -1,
           0,
-          1
+          1,
+          3
         ]
       }
     ]
@@ -2416,6 +2519,7 @@
           3,
           1,
           0,
+          0,
           0
         ]
       }
@@ -2432,9 +2536,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 70,
-        "points_per_game": 4.1,
+        "minutes": 1620,
+        "total_points": 72,
+        "points_per_game": 4.0,
         "now_cost": 46,
         "gw_history": [
           0,
@@ -2453,7 +2557,8 @@
           -1,
           0,
           1,
-          8
+          8,
+          0
         ]
       }
     ]
@@ -2463,7 +2568,7 @@
     "second_name": "Wilson",
     "team": 3,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "id": 505,
     "full_name": "harry wilson",
     "seasons": [
@@ -2472,7 +2577,7 @@
         "minutes": 873,
         "total_points": 59,
         "points_per_game": 4.2,
-        "now_cost": 60,
+        "now_cost": 59,
         "gw_history": [
           0,
           6,
@@ -2488,6 +2593,7 @@
           8,
           0,
           11,
+          0,
           0,
           0,
           0
@@ -2527,6 +2633,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2543,9 +2650,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1147,
-        "total_points": 41,
-        "points_per_game": 2.7,
+        "minutes": 1202,
+        "total_points": 42,
+        "points_per_game": 2.6,
         "now_cost": 45,
         "gw_history": [
           4,
@@ -2562,6 +2669,7 @@
           -2,
           0,
           -1,
+          0,
           0,
           0,
           0
@@ -2589,6 +2697,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -2638,6 +2747,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2654,9 +2764,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1440,
-        "total_points": 60,
-        "points_per_game": 3.8,
+        "minutes": 1530,
+        "total_points": 62,
+        "points_per_game": 3.6,
         "now_cost": 47,
         "gw_history": [
           9,
@@ -2675,6 +2785,7 @@
           6,
           0,
           -2,
+          0,
           0
         ]
       }
@@ -2691,11 +2802,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 350,
-        "total_points": 14,
-        "points_per_game": 1.3,
+        "minutes": 395,
+        "total_points": 15,
+        "points_per_game": 1.2,
         "now_cost": 55,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -2749,6 +2861,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2786,6 +2899,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2802,9 +2916,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 68,
-        "points_per_game": 4.0,
+        "minutes": 1620,
+        "total_points": 70,
+        "points_per_game": 3.9,
         "now_cost": 48,
         "gw_history": [
           7,
@@ -2823,7 +2937,8 @@
           0,
           1,
           0,
-          1
+          1,
+          0
         ]
       }
     ]
@@ -2839,9 +2954,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1104,
-        "total_points": 52,
-        "points_per_game": 3.2,
+        "minutes": 1149,
+        "total_points": 53,
+        "points_per_game": 3.1,
         "now_cost": 64,
         "gw_history": [
           4,
@@ -2860,7 +2975,8 @@
           0,
           -1,
           0,
-          6
+          6,
+          0
         ]
       }
     ]
@@ -2897,6 +3013,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -2913,9 +3030,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 228,
+        "minutes": 262,
         "total_points": 8,
-        "points_per_game": 1.3,
+        "points_per_game": 1.1,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -2934,7 +3051,8 @@
           0,
           0,
           0,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -2950,8 +3068,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1350,
-        "total_points": 36,
+        "minutes": 1440,
+        "total_points": 38,
         "points_per_game": 2.4,
         "now_cost": 49,
         "gw_history": [
@@ -2971,7 +3089,8 @@
           0,
           0,
           5,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -3008,6 +3127,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -3024,8 +3144,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1412,
-        "total_points": 35,
+        "minutes": 1502,
+        "total_points": 37,
         "points_per_game": 2.2,
         "now_cost": 44,
         "gw_history": [
@@ -3045,6 +3165,7 @@
           0,
           0,
           3,
+          0,
           0
         ]
       }
@@ -3061,9 +3182,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 633,
-        "total_points": 41,
-        "points_per_game": 3.7,
+        "minutes": 678,
+        "total_points": 42,
+        "points_per_game": 3.5,
         "now_cost": 58,
         "gw_history": [
           0,
@@ -3082,6 +3203,7 @@
           3,
           0,
           3,
+          0,
           0
         ]
       }
@@ -3098,8 +3220,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 38,
+        "minutes": 1620,
+        "total_points": 40,
         "points_per_game": 2.2,
         "now_cost": 45,
         "gw_history": [
@@ -3119,6 +3241,7 @@
           -1,
           0,
           -2,
+          0,
           0
         ]
       }
@@ -3135,9 +3258,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1115,
-        "total_points": 35,
-        "points_per_game": 2.7,
+        "minutes": 1205,
+        "total_points": 37,
+        "points_per_game": 2.6,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -3156,6 +3279,7 @@
           -1,
           6,
           -1,
+          0,
           0
         ]
       }
@@ -3172,9 +3296,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1244,
-        "total_points": 70,
-        "points_per_game": 4.1,
+        "minutes": 1334,
+        "total_points": 72,
+        "points_per_game": 4.0,
         "now_cost": 58,
         "gw_history": [
           5,
@@ -3193,7 +3317,8 @@
           0,
           7,
           6,
-          4
+          4,
+          0
         ]
       }
     ]
@@ -3209,8 +3334,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 722,
-        "total_points": 24,
+        "minutes": 812,
+        "total_points": 26,
         "points_per_game": 2.2,
         "now_cost": 48,
         "gw_history": [
@@ -3230,6 +3355,7 @@
           0,
           6,
           0,
+          0,
           0
         ]
       }
@@ -3246,9 +3372,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 558,
-        "total_points": 33,
-        "points_per_game": 3.0,
+        "minutes": 603,
+        "total_points": 34,
+        "points_per_game": 2.8,
         "now_cost": 46,
         "gw_history": [
           0,
@@ -3258,6 +3384,7 @@
           11,
           0,
           6,
+          0,
           0,
           0,
           0,
@@ -3297,6 +3424,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -3328,6 +3456,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -3344,9 +3473,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 44,
-        "points_per_game": 2.6,
+        "minutes": 1620,
+        "total_points": 50,
+        "points_per_game": 2.8,
         "now_cost": 50,
         "gw_history": [
           4,
@@ -3365,6 +3494,7 @@
           -1,
           -2,
           -2,
+          4,
           4
         ]
       }
@@ -3381,9 +3511,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 63,
-        "points_per_game": 3.7,
+        "minutes": 1620,
+        "total_points": 69,
+        "points_per_game": 3.8,
         "now_cost": 51,
         "gw_history": [
           4,
@@ -3402,6 +3532,7 @@
           -1,
           -2,
           -2,
+          4,
           4
         ]
       }
@@ -3421,7 +3552,7 @@
         "minutes": 1080,
         "total_points": 28,
         "points_per_game": 2.3,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           4,
           -1,
@@ -3439,6 +3570,7 @@
           0,
           0,
           -3,
+          0,
           0
         ]
       }
@@ -3455,9 +3587,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 450,
-        "total_points": 18,
-        "points_per_game": 3.6,
+        "minutes": 540,
+        "total_points": 24,
+        "points_per_game": 4.0,
         "now_cost": 43,
         "gw_history": [
           0,
@@ -3476,6 +3608,7 @@
           -2,
           -2,
           0,
+          4,
           4
         ]
       }
@@ -3486,15 +3619,15 @@
     "second_name": "Taylor",
     "team": 5,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 87,
     "full_name": "charlie taylor",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 295,
-        "total_points": 15,
-        "points_per_game": 3.0,
+        "minutes": 385,
+        "total_points": 22,
+        "points_per_game": 3.7,
         "now_cost": 42,
         "gw_history": [
           0,
@@ -3513,7 +3646,8 @@
           0,
           0,
           0,
-          0
+          0,
+          5
         ]
       }
     ]
@@ -3529,9 +3663,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1148,
-        "total_points": 56,
-        "points_per_game": 3.7,
+        "minutes": 1222,
+        "total_points": 57,
+        "points_per_game": 3.6,
         "now_cost": 62,
         "gw_history": [
           11,
@@ -3550,7 +3684,8 @@
           0,
           0,
           0,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -3560,15 +3695,15 @@
     "second_name": "Wood",
     "team": 5,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "id": 91,
     "full_name": "chris wood",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1215,
-        "total_points": 62,
-        "points_per_game": 4.1,
+        "minutes": 1305,
+        "total_points": 64,
+        "points_per_game": 4.0,
         "now_cost": 62,
         "gw_history": [
           0,
@@ -3587,7 +3722,8 @@
           0,
           0,
           0,
-          7
+          7,
+          0
         ]
       }
     ]
@@ -3624,6 +3760,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -3640,9 +3777,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 62,
-        "points_per_game": 3.6,
+        "minutes": 1620,
+        "total_points": 69,
+        "points_per_game": 3.8,
         "now_cost": 47,
         "gw_history": [
           6,
@@ -3661,7 +3798,8 @@
           -1,
           -1,
           -2,
-          4
+          4,
+          5
         ]
       }
     ]
@@ -3671,7 +3809,7 @@
     "second_name": "Gudmundsson",
     "team": 5,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 96,
     "full_name": "johann berg gudmundsson",
     "seasons": [
@@ -3698,6 +3836,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -3714,9 +3853,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1458,
-        "total_points": 60,
-        "points_per_game": 3.5,
+        "minutes": 1539,
+        "total_points": 62,
+        "points_per_game": 3.4,
         "now_cost": 60,
         "gw_history": [
           1,
@@ -3735,7 +3874,8 @@
           -1,
           0,
           0,
-          1
+          1,
+          0
         ]
       }
     ]
@@ -3751,9 +3891,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 271,
-        "total_points": 22,
-        "points_per_game": 2.4,
+        "minutes": 279,
+        "total_points": 23,
+        "points_per_game": 2.3,
         "now_cost": 55,
         "gw_history": [
           0,
@@ -3772,6 +3912,7 @@
           0,
           5,
           0,
+          0,
           0
         ]
       }
@@ -3782,14 +3923,14 @@
     "second_name": "Hendrick",
     "team": 5,
     "element_type": 3,
-    "status": "a",
+    "status": "s",
     "id": 100,
     "full_name": "jeff hendrick",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1108,
-        "total_points": 44,
+        "minutes": 1172,
+        "total_points": 46,
         "points_per_game": 3.1,
         "now_cost": 54,
         "gw_history": [
@@ -3809,7 +3950,8 @@
           0,
           2,
           0,
-          1
+          1,
+          0
         ]
       }
     ]
@@ -3819,15 +3961,15 @@
     "second_name": "Westwood",
     "team": 5,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 101,
     "full_name": "ashley westwood",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1260,
-        "total_points": 45,
-        "points_per_game": 3.2,
+        "minutes": 1350,
+        "total_points": 50,
+        "points_per_game": 3.3,
         "now_cost": 54,
         "gw_history": [
           1,
@@ -3846,7 +3988,8 @@
           0,
           0,
           0,
-          6
+          6,
+          3
         ]
       }
     ]
@@ -3862,8 +4005,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1292,
-        "total_points": 34,
+        "minutes": 1382,
+        "total_points": 37,
         "points_per_game": 2.3,
         "now_cost": 49,
         "gw_history": [
@@ -3883,6 +4026,7 @@
           0,
           0,
           0,
+          1,
           1
         ]
       }
@@ -3920,6 +4064,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -3930,14 +4075,14 @@
     "second_name": "Lennon",
     "team": 5,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 430,
     "full_name": "aaron lennon",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 360,
-        "total_points": 11,
+        "minutes": 385,
+        "total_points": 12,
         "points_per_game": 1.0,
         "now_cost": 47,
         "gw_history": [
@@ -3946,6 +4091,7 @@
           -1,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -3994,7 +4140,8 @@
           -1,
           -2,
           -2,
-          6
+          6,
+          0
         ]
       }
     ]
@@ -4010,9 +4157,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 588,
-        "total_points": 28,
-        "points_per_game": 1.6,
+        "minutes": 603,
+        "total_points": 36,
+        "points_per_game": 2.0,
         "now_cost": 57,
         "gw_history": [
           0,
@@ -4031,7 +4178,8 @@
           0,
           0,
           0,
-          0
+          0,
+          7
         ]
       }
     ]
@@ -4047,9 +4195,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 498,
-        "total_points": 36,
-        "points_per_game": 5.1,
+        "minutes": 588,
+        "total_points": 47,
+        "points_per_game": 5.9,
         "now_cost": 60,
         "gw_history": [
           0,
@@ -4068,7 +4216,8 @@
           0,
           0,
           0,
-          0
+          0,
+          9
         ]
       }
     ]
@@ -4084,9 +4233,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 135,
-        "total_points": 3,
-        "points_per_game": 1.5,
+        "minutes": 225,
+        "total_points": 8,
+        "points_per_game": 2.7,
         "now_cost": 60,
         "gw_history": [
           0,
@@ -4105,7 +4254,8 @@
           0,
           0,
           0,
-          0
+          0,
+          3
         ]
       }
     ]
@@ -4115,15 +4265,15 @@
     "second_name": "Azpilicueta",
     "team": 6,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 105,
     "full_name": "c\u00e9sar azpilicueta",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1350,
-        "total_points": 36,
-        "points_per_game": 2.4,
+        "minutes": 1429,
+        "total_points": 42,
+        "points_per_game": 2.6,
         "now_cost": 58,
         "gw_history": [
           -2,
@@ -4142,7 +4292,8 @@
           0,
           0,
           -1,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -4176,6 +4327,7 @@
           0,
           3,
           -1,
+          0,
           0,
           0,
           0,
@@ -4216,6 +4368,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -4253,6 +4406,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -4269,9 +4423,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 42,
-        "points_per_game": 2.5,
+        "minutes": 1620,
+        "total_points": 48,
+        "points_per_game": 2.7,
         "now_cost": 55,
         "gw_history": [
           -2,
@@ -4290,7 +4444,8 @@
           1,
           0,
           0,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -4306,10 +4461,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1097,
-        "total_points": 59,
-        "points_per_game": 3.7,
-        "now_cost": 70,
+        "minutes": 1187,
+        "total_points": 75,
+        "points_per_game": 4.4,
+        "now_cost": 71,
         "gw_history": [
           0,
           0,
@@ -4327,7 +4482,8 @@
           0,
           0,
           0,
-          1
+          1,
+          14
         ]
       }
     ]
@@ -4364,6 +4520,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -4383,7 +4540,7 @@
         "minutes": 298,
         "total_points": 24,
         "points_per_game": 2.4,
-        "now_cost": 55,
+        "now_cost": 54,
         "gw_history": [
           0,
           0,
@@ -4395,6 +4552,7 @@
           3,
           7,
           -1,
+          0,
           0,
           0,
           0,
@@ -4438,6 +4596,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -4454,9 +4613,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1165,
-        "total_points": 45,
-        "points_per_game": 3.0,
+        "minutes": 1187,
+        "total_points": 46,
+        "points_per_game": 2.9,
         "now_cost": 50,
         "gw_history": [
           -1,
@@ -4475,7 +4634,8 @@
           0,
           0,
           0,
-          1
+          1,
+          0
         ]
       }
     ]
@@ -4491,8 +4651,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 764,
-        "total_points": 35,
+        "minutes": 854,
+        "total_points": 38,
         "points_per_game": 3.5,
         "now_cost": 50,
         "gw_history": [
@@ -4512,7 +4672,8 @@
           0,
           0,
           0,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -4531,7 +4692,7 @@
         "minutes": 981,
         "total_points": 66,
         "points_per_game": 4.7,
-        "now_cost": 73,
+        "now_cost": 72,
         "gw_history": [
           0,
           0,
@@ -4549,7 +4710,8 @@
           0,
           0,
           0,
-          1
+          1,
+          0
         ]
       }
     ]
@@ -4559,15 +4721,15 @@
     "second_name": "Kovacic",
     "team": 6,
     "element_type": 3,
-    "status": "a",
+    "status": "s",
     "id": 432,
     "full_name": "mateo kovacic",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1174,
-        "total_points": 41,
-        "points_per_game": 2.4,
+        "minutes": 1241,
+        "total_points": 46,
+        "points_per_game": 2.6,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -4586,7 +4748,8 @@
           0,
           -1,
           7,
-          -1
+          -1,
+          3
         ]
       }
     ]
@@ -4602,9 +4765,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1353,
-        "total_points": 28,
-        "points_per_game": 1.8,
+        "minutes": 1443,
+        "total_points": 33,
+        "points_per_game": 1.9,
         "now_cost": 47,
         "gw_history": [
           -3,
@@ -4623,7 +4786,8 @@
           0,
           0,
           -1,
-          0
+          0,
+          3
         ]
       }
     ]
@@ -4639,9 +4803,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1221,
-        "total_points": 99,
-        "points_per_game": 6.2,
+        "minutes": 1300,
+        "total_points": 101,
+        "points_per_game": 5.9,
         "now_cost": 79,
         "gw_history": [
           -1,
@@ -4660,6 +4824,7 @@
           0,
           10,
           0,
+          0,
           0
         ]
       }
@@ -4676,9 +4841,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 108,
-        "total_points": 22,
-        "points_per_game": 2.0,
+        "minutes": 118,
+        "total_points": 23,
+        "points_per_game": 1.9,
         "now_cost": 66,
         "gw_history": [
           0,
@@ -4693,6 +4858,7 @@
           0,
           0,
           3,
+          0,
           0,
           0,
           0,
@@ -4713,9 +4879,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1414,
-        "total_points": 71,
-        "points_per_game": 4.2,
+        "minutes": 1504,
+        "total_points": 74,
+        "points_per_game": 4.1,
         "now_cost": 65,
         "gw_history": [
           0,
@@ -4734,7 +4900,8 @@
           0,
           4,
           0,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -4750,9 +4917,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 411,
-        "total_points": 18,
-        "points_per_game": 2.2,
+        "minutes": 421,
+        "total_points": 19,
+        "points_per_game": 2.1,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -4771,6 +4938,7 @@
           0,
           4,
           -1,
+          0,
           0
         ]
       }
@@ -4787,9 +4955,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 990,
-        "total_points": 39,
-        "points_per_game": 3.5,
+        "minutes": 1080,
+        "total_points": 46,
+        "points_per_game": 3.8,
         "now_cost": 48,
         "gw_history": [
           0,
@@ -4808,7 +4976,8 @@
           0,
           0,
           0,
-          0
+          0,
+          5
         ]
       }
     ]
@@ -4842,6 +5011,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -4852,15 +5022,15 @@
     "second_name": "van Aanholt",
     "team": 7,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 123,
     "full_name": "patrick van aanholt",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1288,
-        "total_points": 51,
-        "points_per_game": 3.4,
+        "minutes": 1378,
+        "total_points": 53,
+        "points_per_game": 3.3,
         "now_cost": 55,
         "gw_history": [
           4,
@@ -4879,6 +5049,7 @@
           4,
           0,
           0,
+          0,
           0
         ]
       }
@@ -4895,9 +5066,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 802,
-        "total_points": 28,
-        "points_per_game": 3.1,
+        "minutes": 892,
+        "total_points": 30,
+        "points_per_game": 3.0,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -4916,7 +5087,8 @@
           6,
           4,
           3,
-          3
+          3,
+          0
         ]
       }
     ]
@@ -4926,7 +5098,7 @@
     "second_name": "Sakho",
     "team": 7,
     "element_type": 2,
-    "status": "s",
+    "status": "a",
     "id": 125,
     "full_name": "mamadou sakho",
     "seasons": [
@@ -4952,6 +5124,7 @@
           0,
           0,
           -3,
+          0,
           0,
           0
         ]
@@ -4990,6 +5163,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -5000,7 +5174,7 @@
     "second_name": "Dann",
     "team": 7,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "id": 127,
     "full_name": "scott dann",
     "seasons": [
@@ -5027,6 +5201,7 @@
           3,
           0,
           0,
+          0,
           0
         ]
       }
@@ -5043,9 +5218,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 954,
-        "total_points": 52,
-        "points_per_game": 4.3,
+        "minutes": 1044,
+        "total_points": 54,
+        "points_per_game": 4.2,
         "now_cost": 44,
         "gw_history": [
           4,
@@ -5064,6 +5239,7 @@
           4,
           4,
           6,
+          0,
           0
         ]
       }
@@ -5080,8 +5256,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 396,
-        "total_points": 15,
+        "minutes": 486,
+        "total_points": 17,
         "points_per_game": 1.1,
         "now_cost": 57,
         "gw_history": [
@@ -5101,7 +5277,8 @@
           0,
           0,
           0,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -5138,6 +5315,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -5154,9 +5332,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1350,
-        "total_points": 69,
-        "points_per_game": 4.6,
+        "minutes": 1440,
+        "total_points": 71,
+        "points_per_game": 4.4,
         "now_cost": 51,
         "gw_history": [
           4,
@@ -5175,7 +5353,8 @@
           6,
           6,
           8,
-          6
+          6,
+          0
         ]
       }
     ]
@@ -5212,6 +5391,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -5228,10 +5408,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1465,
-        "total_points": 60,
-        "points_per_game": 3.5,
-        "now_cost": 68,
+        "minutes": 1555,
+        "total_points": 62,
+        "points_per_game": 3.4,
+        "now_cost": 69,
         "gw_history": [
           0,
           0,
@@ -5249,7 +5429,8 @@
           9,
           1,
           0,
-          6
+          6,
+          0
         ]
       }
     ]
@@ -5265,8 +5446,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1425,
-        "total_points": 47,
+        "minutes": 1515,
+        "total_points": 49,
         "points_per_game": 2.9,
         "now_cost": 67,
         "gw_history": [
@@ -5286,6 +5467,7 @@
           1,
           0,
           1,
+          0,
           0
         ]
       }
@@ -5323,6 +5505,7 @@
           1,
           0,
           1,
+          0,
           0
         ]
       }
@@ -5339,11 +5522,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 194,
-        "total_points": 7,
-        "points_per_game": 1.4,
+        "minutes": 198,
+        "total_points": 8,
+        "points_per_game": 1.3,
         "now_cost": 52,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -5397,6 +5581,7 @@
           5,
           8,
           0,
+          0,
           0
         ]
       }
@@ -5413,9 +5598,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1377,
-        "total_points": 48,
-        "points_per_game": 3.0,
+        "minutes": 1462,
+        "total_points": 50,
+        "points_per_game": 2.9,
         "now_cost": 52,
         "gw_history": [
           1,
@@ -5434,6 +5619,7 @@
           1,
           3,
           1,
+          0,
           0
         ]
       }
@@ -5450,8 +5636,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1229,
-        "total_points": 38,
+        "minutes": 1319,
+        "total_points": 40,
         "points_per_game": 2.5,
         "now_cost": 49,
         "gw_history": [
@@ -5471,6 +5657,7 @@
           1,
           1,
           1,
+          0,
           0
         ]
       }
@@ -5487,9 +5674,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 257,
-        "total_points": 10,
-        "points_per_game": 0.8,
+        "minutes": 347,
+        "total_points": 12,
+        "points_per_game": 0.9,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -5508,6 +5695,7 @@
           0,
           -1,
           0,
+          0,
           0
         ]
       }
@@ -5524,9 +5712,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1302,
-        "total_points": 56,
-        "points_per_game": 3.5,
+        "minutes": 1392,
+        "total_points": 58,
+        "points_per_game": 3.4,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -5539,6 +5727,7 @@
           7,
           0,
           6,
+          0,
           0,
           0,
           0,
@@ -5582,6 +5771,7 @@
           0,
           0,
           6,
+          0,
           0
         ]
       }
@@ -5601,8 +5791,9 @@
         "minutes": 5,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 46,
+        "now_cost": 45,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -5629,7 +5820,7 @@
     "second_name": "Riedewald",
     "team": 7,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 539,
     "full_name": "jairo riedewald",
     "seasons": [
@@ -5652,6 +5843,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -5662,15 +5854,15 @@
     "second_name": "Iwobi",
     "team": 8,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 17,
     "full_name": "alex iwobi",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1029,
-        "total_points": 34,
-        "points_per_game": 2.3,
+        "minutes": 1039,
+        "total_points": 35,
+        "points_per_game": 2.2,
         "now_cost": 56,
         "gw_history": [
           0,
@@ -5689,6 +5881,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -5699,15 +5892,15 @@
     "second_name": "Digne",
     "team": 8,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 141,
     "full_name": "lucas digne",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1437,
-        "total_points": 44,
-        "points_per_game": 2.6,
+        "minutes": 1527,
+        "total_points": 53,
+        "points_per_game": 2.9,
         "now_cost": 57,
         "gw_history": [
           4,
@@ -5726,7 +5919,8 @@
           -1,
           -2,
           -1,
-          0
+          0,
+          7
         ]
       }
     ]
@@ -5742,9 +5936,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1350,
-        "total_points": 34,
-        "points_per_game": 2.3,
+        "minutes": 1440,
+        "total_points": 40,
+        "points_per_game": 2.5,
         "now_cost": 53,
         "gw_history": [
           7,
@@ -5763,7 +5957,8 @@
           -1,
           -2,
           0,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -5779,9 +5974,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1261,
-        "total_points": 41,
-        "points_per_game": 2.7,
+        "minutes": 1279,
+        "total_points": 42,
+        "points_per_game": 2.6,
         "now_cost": 53,
         "gw_history": [
           6,
@@ -5799,6 +5994,7 @@
           0,
           -1,
           4,
+          0,
           0,
           0
         ]
@@ -5834,6 +6030,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -5874,7 +6071,8 @@
           0,
           0,
           0,
-          3
+          3,
+          0
         ]
       }
     ]
@@ -5890,9 +6088,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 220,
-        "total_points": 10,
-        "points_per_game": 2.5,
+        "minutes": 288,
+        "total_points": 12,
+        "points_per_game": 2.4,
         "now_cost": 57,
         "gw_history": [
           0,
@@ -5906,6 +6104,7 @@
           0,
           0,
           4,
+          0,
           0,
           0,
           0,
@@ -5927,8 +6126,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 857,
-        "total_points": 47,
+        "minutes": 947,
+        "total_points": 49,
         "points_per_game": 3.1,
         "now_cost": 57,
         "gw_history": [
@@ -5948,6 +6147,7 @@
           0,
           0,
           10,
+          0,
           0
         ]
       }
@@ -5964,10 +6164,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 49,
-        "points_per_game": 2.9,
-        "now_cost": 54,
+        "minutes": 1620,
+        "total_points": 55,
+        "points_per_game": 3.1,
+        "now_cost": 53,
         "gw_history": [
           5,
           4,
@@ -5985,7 +6185,8 @@
           0,
           -2,
           1,
-          3
+          3,
+          4
         ]
       }
     ]
@@ -6001,10 +6202,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1457,
-        "total_points": 79,
+        "minutes": 1547,
+        "total_points": 82,
         "points_per_game": 4.6,
-        "now_cost": 79,
+        "now_cost": 80,
         "gw_history": [
           1,
           1,
@@ -6022,7 +6223,8 @@
           6,
           4,
           4,
-          -1
+          -1,
+          1
         ]
       }
     ]
@@ -6032,16 +6234,16 @@
     "second_name": "Sigurdsson",
     "team": 8,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 151,
     "full_name": "gylfi sigurdsson",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1146,
-        "total_points": 38,
+        "minutes": 1236,
+        "total_points": 40,
         "points_per_game": 2.4,
-        "now_cost": 74,
+        "now_cost": 73,
         "gw_history": [
           1,
           1,
@@ -6057,6 +6259,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0
@@ -6096,7 +6299,8 @@
           0,
           3,
           0,
-          1
+          1,
+          0
         ]
       }
     ]
@@ -6133,6 +6337,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -6149,8 +6354,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 732,
-        "total_points": 28,
+        "minutes": 822,
+        "total_points": 30,
         "points_per_game": 2.5,
         "now_cost": 53,
         "gw_history": [
@@ -6170,7 +6375,8 @@
           0,
           -1,
           3,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -6180,7 +6386,7 @@
     "second_name": "Schneiderlin",
     "team": 8,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "id": 158,
     "full_name": "morgan schneiderlin",
     "seasons": [
@@ -6207,6 +6413,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -6217,15 +6424,15 @@
     "second_name": "Delph",
     "team": 8,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 205,
     "full_name": "fabian delph",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 558,
-        "total_points": 6,
-        "points_per_game": 0.9,
+        "minutes": 629,
+        "total_points": 12,
+        "points_per_game": 1.5,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -6244,7 +6451,8 @@
           0,
           0,
           0,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -6263,11 +6471,12 @@
         "minutes": 584,
         "total_points": 13,
         "points_per_game": 1.6,
-        "now_cost": 53,
+        "now_cost": 52,
         "gw_history": [
           0,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -6297,9 +6506,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 738,
-        "total_points": 18,
-        "points_per_game": 1.8,
+        "minutes": 828,
+        "total_points": 24,
+        "points_per_game": 2.2,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -6318,7 +6527,8 @@
           -1,
           -2,
           0,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -6334,8 +6544,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 347,
-        "total_points": 17,
+        "minutes": 357,
+        "total_points": 18,
         "points_per_game": 1.4,
         "now_cost": 64,
         "gw_history": [
@@ -6343,6 +6553,7 @@
           0,
           0,
           3,
+          0,
           0,
           0,
           0,
@@ -6392,6 +6603,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -6402,15 +6614,15 @@
     "second_name": "Sidib\u00e9",
     "team": 8,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 511,
     "full_name": "djibril sidib\u00e9",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 670,
-        "total_points": 28,
-        "points_per_game": 3.1,
+        "minutes": 760,
+        "total_points": 34,
+        "points_per_game": 3.4,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -6429,7 +6641,8 @@
           2,
           -1,
           4,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -6451,6 +6664,7 @@
         "now_cost": 45,
         "gw_history": [
           0,
+          0,
           0
         ]
       }
@@ -6467,9 +6681,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 85,
-        "points_per_game": 5.0,
+        "minutes": 1620,
+        "total_points": 86,
+        "points_per_game": 4.8,
         "now_cost": 65,
         "gw_history": [
           7,
@@ -6488,7 +6702,8 @@
           5,
           5,
           -1,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -6504,9 +6719,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1249,
-        "total_points": 68,
-        "points_per_game": 4.9,
+        "minutes": 1339,
+        "total_points": 69,
+        "points_per_game": 4.6,
         "now_cost": 58,
         "gw_history": [
           4,
@@ -6525,7 +6740,8 @@
           0,
           0,
           0,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -6541,9 +6757,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1501,
-        "total_points": 77,
-        "points_per_game": 4.5,
+        "minutes": 1591,
+        "total_points": 78,
+        "points_per_game": 4.3,
         "now_cost": 52,
         "gw_history": [
           5,
@@ -6562,7 +6778,8 @@
           0,
           10,
           6,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -6599,6 +6816,7 @@
           0,
           4,
           0,
+          0,
           0
         ]
       }
@@ -6615,9 +6833,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
+        "minutes": 1620,
         "total_points": 73,
-        "points_per_game": 4.3,
+        "points_per_game": 4.1,
         "now_cost": 51,
         "gw_history": [
           4,
@@ -6636,7 +6854,8 @@
           0,
           3,
           0,
-          1
+          1,
+          -2
         ]
       }
     ]
@@ -6673,6 +6892,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -6689,9 +6909,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 133,
-        "points_per_game": 7.8,
+        "minutes": 1620,
+        "total_points": 142,
+        "points_per_game": 7.9,
         "now_cost": 101,
         "gw_history": [
           0,
@@ -6710,7 +6930,8 @@
           4,
           3,
           11,
-          3
+          3,
+          7
         ]
       }
     ]
@@ -6747,6 +6968,7 @@
           10,
           0,
           8,
+          0,
           0
         ]
       }
@@ -6763,9 +6985,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 70,
-        "points_per_game": 4.1,
+        "minutes": 1620,
+        "total_points": 75,
+        "points_per_game": 4.2,
         "now_cost": 54,
         "gw_history": [
           4,
@@ -6784,7 +7006,8 @@
           0,
           4,
           0,
-          0
+          0,
+          3
         ]
       }
     ]
@@ -6800,9 +7023,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1412,
-        "total_points": 88,
-        "points_per_game": 5.5,
+        "minutes": 1502,
+        "total_points": 90,
+        "points_per_game": 5.3,
         "now_cost": 78,
         "gw_history": [
           1,
@@ -6821,6 +7044,7 @@
           0,
           8,
           7,
+          0,
           0
         ]
       }
@@ -6831,15 +7055,15 @@
     "second_name": "Barnes",
     "team": 9,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 172,
     "full_name": "harvey barnes",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 944,
-        "total_points": 53,
-        "points_per_game": 3.3,
+        "minutes": 1007,
+        "total_points": 58,
+        "points_per_game": 3.4,
         "now_cost": 59,
         "gw_history": [
           0,
@@ -6858,7 +7082,8 @@
           0,
           1,
           0,
-          0
+          0,
+          3
         ]
       }
     ]
@@ -6874,9 +7099,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 204,
-        "total_points": 11,
-        "points_per_game": 1.4,
+        "minutes": 230,
+        "total_points": 12,
+        "points_per_game": 1.3,
         "now_cost": 52,
         "gw_history": [
           0,
@@ -6886,6 +7111,7 @@
           0,
           0,
           3,
+          0,
           0,
           0,
           0,
@@ -6911,9 +7137,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 255,
-        "total_points": 16,
-        "points_per_game": 1.6,
+        "minutes": 277,
+        "total_points": 17,
+        "points_per_game": 1.5,
         "now_cost": 51,
         "gw_history": [
           0,
@@ -6929,6 +7155,7 @@
           3,
           0,
           3,
+          0,
           0,
           0,
           0,
@@ -6948,9 +7175,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1440,
-        "total_points": 52,
-        "points_per_game": 3.2,
+        "minutes": 1530,
+        "total_points": 53,
+        "points_per_game": 3.1,
         "now_cost": 50,
         "gw_history": [
           1,
@@ -6969,7 +7196,8 @@
           0,
           0,
           0,
-          2
+          2,
+          -1
         ]
       }
     ]
@@ -6990,6 +7218,7 @@
         "points_per_game": 1.0,
         "now_cost": 43,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -7043,6 +7272,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -7059,9 +7289,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 876,
-        "total_points": 57,
-        "points_per_game": 4.1,
+        "minutes": 943,
+        "total_points": 59,
+        "points_per_game": 3.9,
         "now_cost": 61,
         "gw_history": [
           1,
@@ -7077,6 +7307,7 @@
           1,
           0,
           6,
+          0,
           0,
           0,
           0,
@@ -7117,6 +7348,7 @@
           0,
           3,
           0,
+          0,
           0
         ]
       }
@@ -7133,9 +7365,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1499,
-        "total_points": 69,
-        "points_per_game": 4.1,
+        "minutes": 1575,
+        "total_points": 71,
+        "points_per_game": 3.9,
         "now_cost": 65,
         "gw_history": [
           1,
@@ -7154,6 +7386,7 @@
           0,
           1,
           0,
+          0,
           0
         ]
       }
@@ -7170,9 +7403,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 472,
-        "total_points": 23,
-        "points_per_game": 1.9,
+        "minutes": 485,
+        "total_points": 24,
+        "points_per_game": 1.8,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -7191,6 +7424,7 @@
           0,
           0,
           3,
+          0,
           0
         ]
       }
@@ -7247,7 +7481,7 @@
         "minutes": 1482,
         "total_points": 74,
         "points_per_game": 4.4,
-        "now_cost": 73,
+        "now_cost": 72,
         "gw_history": [
           3,
           -1,
@@ -7432,7 +7666,7 @@
         "minutes": 1355,
         "total_points": 75,
         "points_per_game": 4.4,
-        "now_cost": 93,
+        "now_cost": 92,
         "gw_history": [
           3,
           6,
@@ -7608,7 +7842,7 @@
     "second_name": "Oxlade-Chamberlain",
     "team": 10,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "id": 193,
     "full_name": "alex oxlade-chamberlain",
     "seasons": [
@@ -7830,7 +8064,7 @@
     "second_name": "Wijnaldum",
     "team": 10,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 199,
     "full_name": "georginio wijnaldum",
     "seasons": [
@@ -7990,6 +8224,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -8006,9 +8241,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1177,
-        "total_points": 45,
-        "points_per_game": 3.2,
+        "minutes": 1267,
+        "total_points": 47,
+        "points_per_game": 3.1,
         "now_cost": 58,
         "gw_history": [
           6,
@@ -8027,7 +8262,8 @@
           -1,
           0,
           -2,
-          4
+          4,
+          0
         ]
       }
     ]
@@ -8043,9 +8279,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 471,
-        "total_points": 21,
-        "points_per_game": 3.5,
+        "minutes": 561,
+        "total_points": 26,
+        "points_per_game": 3.7,
         "now_cost": 55,
         "gw_history": [
           0,
@@ -8064,6 +8300,7 @@
           -1,
           0,
           0,
+          3,
           3
         ]
       }
@@ -8101,6 +8338,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -8111,7 +8349,7 @@
     "second_name": "Stones",
     "team": 11,
     "element_type": 2,
-    "status": "d",
+    "status": "i",
     "id": 207,
     "full_name": "john stones",
     "seasons": [
@@ -8138,6 +8376,7 @@
           -1,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -8154,9 +8393,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 814,
-        "total_points": 44,
-        "points_per_game": 4.0,
+        "minutes": 904,
+        "total_points": 46,
+        "points_per_game": 3.8,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -8175,7 +8414,8 @@
           0,
           0,
           6,
-          6
+          6,
+          0
         ]
       }
     ]
@@ -8185,15 +8425,15 @@
     "second_name": "Ag\u00fcero",
     "team": 11,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "id": 210,
     "full_name": "sergio ag\u00fcero",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 810,
-        "total_points": 72,
-        "points_per_game": 6.0,
+        "minutes": 811,
+        "total_points": 73,
+        "points_per_game": 5.6,
         "now_cost": 117,
         "gw_history": [
           4,
@@ -8207,6 +8447,7 @@
           0,
           0,
           4,
+          0,
           0,
           0,
           0,
@@ -8228,9 +8469,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 815,
-        "total_points": 54,
-        "points_per_game": 3.9,
+        "minutes": 905,
+        "total_points": 60,
+        "points_per_game": 4.0,
         "now_cost": 96,
         "gw_history": [
           4,
@@ -8249,7 +8490,8 @@
           0,
           11,
           0,
-          3
+          3,
+          4
         ]
       }
     ]
@@ -8265,9 +8507,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1440,
-        "total_points": 58,
-        "points_per_game": 3.6,
+        "minutes": 1530,
+        "total_points": 60,
+        "points_per_game": 3.5,
         "now_cost": 60,
         "gw_history": [
           5,
@@ -8286,7 +8528,8 @@
           -1,
           0,
           0,
-          4
+          4,
+          0
         ]
       }
     ]
@@ -8323,6 +8566,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -8339,9 +8583,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1401,
-        "total_points": 91,
-        "points_per_game": 5.7,
+        "minutes": 1489,
+        "total_points": 96,
+        "points_per_game": 5.6,
         "now_cost": 118,
         "gw_history": [
           18,
@@ -8360,7 +8604,8 @@
           5,
           1,
           0,
-          8
+          8,
+          3
         ]
       }
     ]
@@ -8376,10 +8621,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1312,
-        "total_points": 116,
-        "points_per_game": 7.2,
-        "now_cost": 103,
+        "minutes": 1402,
+        "total_points": 120,
+        "points_per_game": 7.1,
+        "now_cost": 104,
         "gw_history": [
           5,
           9,
@@ -8397,7 +8642,8 @@
           8,
           1,
           -1,
-          17
+          17,
+          2
         ]
       }
     ]
@@ -8413,9 +8659,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 678,
-        "total_points": 69,
-        "points_per_game": 5.3,
+        "minutes": 768,
+        "total_points": 77,
+        "points_per_game": 5.5,
         "now_cost": 83,
         "gw_history": [
           12,
@@ -8434,7 +8680,8 @@
           0,
           5,
           3,
-          0
+          0,
+          6
         ]
       }
     ]
@@ -8450,9 +8697,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 933,
-        "total_points": 66,
-        "points_per_game": 4.4,
+        "minutes": 1023,
+        "total_points": 68,
+        "points_per_game": 4.2,
         "now_cost": 79,
         "gw_history": [
           0,
@@ -8471,6 +8718,7 @@
           0,
           5,
           -1,
+          0,
           0
         ]
       }
@@ -8508,6 +8756,7 @@
           3,
           7,
           0,
+          0,
           0
         ]
       }
@@ -8524,9 +8773,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 139,
-        "total_points": 11,
-        "points_per_game": 1.4,
+        "minutes": 140,
+        "total_points": 12,
+        "points_per_game": 1.3,
         "now_cost": 51,
         "gw_history": [
           0,
@@ -8545,7 +8794,8 @@
           0,
           0,
           0,
-          3
+          3,
+          0
         ]
       }
     ]
@@ -8561,9 +8811,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1123,
-        "total_points": 24,
-        "points_per_game": 1.8,
+        "minutes": 1213,
+        "total_points": 26,
+        "points_per_game": 1.9,
         "now_cost": 52,
         "gw_history": [
           0,
@@ -8582,6 +8832,7 @@
           -1,
           1,
           0,
+          0,
           0
         ]
       }
@@ -8592,15 +8843,15 @@
     "second_name": "G\u00fcndogan",
     "team": 11,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 222,
     "full_name": "ilkay g\u00fcndogan",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 976,
-        "total_points": 27,
-        "points_per_game": 1.8,
+        "minutes": 1054,
+        "total_points": 35,
+        "points_per_game": 2.2,
         "now_cost": 52,
         "gw_history": [
           0,
@@ -8619,7 +8870,8 @@
           -1,
           0,
           0,
-          0
+          0,
+          6
         ]
       }
     ]
@@ -8656,6 +8908,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -8672,9 +8925,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1151,
-        "total_points": 44,
-        "points_per_game": 2.9,
+        "minutes": 1162,
+        "total_points": 45,
+        "points_per_game": 2.8,
         "now_cost": 54,
         "gw_history": [
           1,
@@ -8692,6 +8945,7 @@
           3,
           0,
           7,
+          0,
           0,
           0
         ]
@@ -8730,6 +8984,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -8762,6 +9017,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -8778,9 +9034,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1340,
-        "total_points": 35,
-        "points_per_game": 2.3,
+        "minutes": 1430,
+        "total_points": 36,
+        "points_per_game": 2.2,
         "now_cost": 53,
         "gw_history": [
           6,
@@ -8799,7 +9055,8 @@
           -1,
           0,
           1,
-          2
+          2,
+          -1
         ]
       }
     ]
@@ -8815,8 +9072,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 36,
+        "minutes": 1620,
+        "total_points": 37,
         "points_per_game": 2.1,
         "now_cost": 53,
         "gw_history": [
@@ -8836,7 +9093,8 @@
           -2,
           0,
           0,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -8873,6 +9131,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -8889,9 +9148,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1440,
-        "total_points": 40,
-        "points_per_game": 2.5,
+        "minutes": 1530,
+        "total_points": 41,
+        "points_per_game": 2.4,
         "now_cost": 53,
         "gw_history": [
           3,
@@ -8910,7 +9169,8 @@
           6,
           0,
           0,
-          -3
+          -3,
+          -1
         ]
       }
     ]
@@ -8926,9 +9186,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 405,
+        "minutes": 495,
         "total_points": 14,
-        "points_per_game": 2.0,
+        "points_per_game": 1.8,
         "now_cost": 54,
         "gw_history": [
           4,
@@ -8947,7 +9207,8 @@
           -1,
           0,
           0,
-          0
+          0,
+          -2
         ]
       }
     ]
@@ -8984,6 +9245,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -9005,6 +9267,7 @@
         "points_per_game": 1.0,
         "now_cost": 49,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -9058,6 +9321,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -9074,9 +9338,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1486,
-        "total_points": 103,
-        "points_per_game": 6.1,
+        "minutes": 1576,
+        "total_points": 105,
+        "points_per_game": 5.8,
         "now_cost": 91,
         "gw_history": [
           11,
@@ -9095,6 +9359,7 @@
           3,
           11,
           7,
+          0,
           0
         ]
       }
@@ -9111,8 +9376,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 242,
-        "total_points": 25,
+        "minutes": 274,
+        "total_points": 26,
         "points_per_game": 1.9,
         "now_cost": 43,
         "gw_history": [
@@ -9132,7 +9397,8 @@
           0,
           0,
           0,
-          7
+          7,
+          0
         ]
       }
     ]
@@ -9148,9 +9414,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 53,
-        "points_per_game": 3.1,
+        "minutes": 1620,
+        "total_points": 54,
+        "points_per_game": 3.0,
         "now_cost": 55,
         "gw_history": [
           8,
@@ -9169,7 +9435,8 @@
           -1,
           1,
           0,
-          1
+          1,
+          -1
         ]
       }
     ]
@@ -9179,19 +9446,20 @@
     "second_name": "Pogba",
     "team": 12,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 238,
     "full_name": "paul pogba",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 450,
-        "total_points": 15,
-        "points_per_game": 3.0,
+        "minutes": 476,
+        "total_points": 16,
+        "points_per_game": 2.7,
         "now_cost": 84,
         "gw_history": [
           7,
           -2,
+          0,
           0,
           0,
           0,
@@ -9222,9 +9490,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 858,
-        "total_points": 54,
-        "points_per_game": 4.9,
+        "minutes": 948,
+        "total_points": 56,
+        "points_per_game": 4.7,
         "now_cost": 77,
         "gw_history": [
           5,
@@ -9243,6 +9511,7 @@
           0,
           0,
           8,
+          0,
           0
         ]
       }
@@ -9259,8 +9528,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 695,
-        "total_points": 19,
+        "minutes": 758,
+        "total_points": 21,
         "points_per_game": 1.4,
         "now_cost": 63,
         "gw_history": [
@@ -9271,6 +9540,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -9296,9 +9566,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 376,
-        "total_points": 15,
-        "points_per_game": 1.7,
+        "minutes": 394,
+        "total_points": 16,
+        "points_per_game": 1.6,
         "now_cost": 62,
         "gw_history": [
           0,
@@ -9309,6 +9579,7 @@
           -1,
           0,
           1,
+          0,
           0,
           0,
           0,
@@ -9333,9 +9604,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1427,
-        "total_points": 64,
-        "points_per_game": 3.8,
+        "minutes": 1484,
+        "total_points": 65,
+        "points_per_game": 3.6,
         "now_cost": 62,
         "gw_history": [
           5,
@@ -9354,7 +9625,8 @@
           0,
           0,
           3,
-          3
+          3,
+          0
         ]
       }
     ]
@@ -9370,9 +9642,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 958,
-        "total_points": 20,
-        "points_per_game": 1.5,
+        "minutes": 1048,
+        "total_points": 22,
+        "points_per_game": 1.6,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -9389,6 +9661,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0
@@ -9428,6 +9701,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -9447,7 +9721,7 @@
         "minutes": 979,
         "total_points": 37,
         "points_per_game": 2.5,
-        "now_cost": 50,
+        "now_cost": 49,
         "gw_history": [
           4,
           0,
@@ -9465,6 +9739,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -9502,6 +9777,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -9518,9 +9794,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1335,
-        "total_points": 53,
-        "points_per_game": 3.5,
+        "minutes": 1406,
+        "total_points": 55,
+        "points_per_game": 3.4,
         "now_cost": 51,
         "gw_history": [
           1,
@@ -9535,6 +9811,7 @@
           6,
           0,
           3,
+          0,
           0,
           0,
           0,
@@ -9560,6 +9837,7 @@
         "points_per_game": 1.0,
         "now_cost": 43,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -9613,6 +9891,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -9634,6 +9913,7 @@
         "points_per_game": 1.4,
         "now_cost": 44,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -9681,6 +9961,7 @@
           -2,
           0,
           0,
+          0,
           0
         ]
       }
@@ -9718,6 +9999,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -9734,9 +10016,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 928,
-        "total_points": 35,
-        "points_per_game": 3.2,
+        "minutes": 1018,
+        "total_points": 40,
+        "points_per_game": 3.3,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -9755,7 +10037,8 @@
           0,
           0,
           0,
-          0
+          0,
+          3
         ]
       }
     ]
@@ -9771,9 +10054,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 556,
-        "total_points": 20,
-        "points_per_game": 2.9,
+        "minutes": 557,
+        "total_points": 21,
+        "points_per_game": 2.6,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -9789,6 +10072,7 @@
           -1,
           6,
           -1,
+          0,
           0,
           0,
           0,
@@ -9808,9 +10092,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 743,
-        "total_points": 39,
-        "points_per_game": 3.5,
+        "minutes": 833,
+        "total_points": 45,
+        "points_per_game": 3.8,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -9829,7 +10113,8 @@
           -1,
           4,
           7,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -9839,15 +10124,15 @@
     "second_name": "Dummett",
     "team": 13,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 255,
     "full_name": "paul dummett",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1125,
-        "total_points": 35,
-        "points_per_game": 2.5,
+        "minutes": 1215,
+        "total_points": 43,
+        "points_per_game": 2.9,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -9866,7 +10151,8 @@
           -1,
           4,
           0,
-          0
+          0,
+          6
         ]
       }
     ]
@@ -9882,9 +10168,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 575,
-        "total_points": 26,
-        "points_per_game": 3.2,
+        "minutes": 665,
+        "total_points": 32,
+        "points_per_game": 3.6,
         "now_cost": 43,
         "gw_history": [
           0,
@@ -9903,7 +10189,46 @@
           -2,
           10,
           0,
-          0
+          0,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "first_name": "Florian",
+    "second_name": "Lejeune",
+    "team": 13,
+    "element_type": 2,
+    "status": "a",
+    "id": 257,
+    "full_name": "florian lejeune",
+    "seasons": [
+      {
+        "season": "2019-20",
+        "minutes": 90,
+        "total_points": 6,
+        "points_per_game": 6.0,
+        "now_cost": 44,
+        "gw_history": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
         ]
       }
     ]
@@ -9935,6 +10260,7 @@
           0,
           8,
           -1,
+          0,
           0,
           0,
           0,
@@ -9977,6 +10303,7 @@
           -1,
           4,
           0,
+          0,
           0
         ]
       }
@@ -9996,8 +10323,9 @@
         "minutes": 111,
         "total_points": 6,
         "points_per_game": 1.0,
-        "now_cost": 52,
+        "now_cost": 51,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -10030,9 +10358,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 63,
-        "points_per_game": 3.7,
+        "minutes": 1620,
+        "total_points": 71,
+        "points_per_game": 3.9,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -10051,7 +10379,8 @@
           2,
           8,
           1,
-          1
+          1,
+          6
         ]
       }
     ]
@@ -10061,15 +10390,15 @@
     "second_name": "Almir\u00f3n",
     "team": 13,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 266,
     "full_name": "miguel almir\u00f3n",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1338,
-        "total_points": 38,
-        "points_per_game": 2.4,
+        "minutes": 1428,
+        "total_points": 48,
+        "points_per_game": 2.8,
         "now_cost": 58,
         "gw_history": [
           -1,
@@ -10088,7 +10417,8 @@
           3,
           1,
           0,
-          0
+          0,
+          8
         ]
       }
     ]
@@ -10123,6 +10453,7 @@
           0,
           0,
           3,
+          0,
           0,
           0,
           0
@@ -10162,6 +10493,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -10172,15 +10504,15 @@
     "second_name": "Shelvey",
     "team": 13,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 269,
     "full_name": "jonjo shelvey",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 850,
-        "total_points": 55,
-        "points_per_game": 5.0,
+        "minutes": 940,
+        "total_points": 58,
+        "points_per_game": 4.8,
         "now_cost": 51,
         "gw_history": [
           0,
@@ -10199,7 +10531,8 @@
           7,
           7,
           7,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -10215,9 +10548,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 708,
-        "total_points": 22,
-        "points_per_game": 2.2,
+        "minutes": 734,
+        "total_points": 23,
+        "points_per_game": 2.1,
         "now_cost": 50,
         "gw_history": [
           0,
@@ -10236,6 +10569,7 @@
           0,
           0,
           3,
+          0,
           0
         ]
       }
@@ -10252,8 +10586,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1212,
-        "total_points": 33,
+        "minutes": 1275,
+        "total_points": 36,
         "points_per_game": 2.4,
         "now_cost": 44,
         "gw_history": [
@@ -10273,7 +10607,8 @@
           0,
           1,
           0,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -10289,8 +10624,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1271,
-        "total_points": 38,
+        "minutes": 1347,
+        "total_points": 40,
         "points_per_game": 2.2,
         "now_cost": 56,
         "gw_history": [
@@ -10310,7 +10645,8 @@
           0,
           0,
           0,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -10320,7 +10656,7 @@
     "second_name": "Willems",
     "team": 13,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 498,
     "full_name": "jetro willems",
     "seasons": [
@@ -10346,6 +10682,7 @@
           -1,
           5,
           4,
+          0,
           0,
           0
         ]
@@ -10384,6 +10721,7 @@
           0,
           6,
           0,
+          0,
           0
         ]
       }
@@ -10421,6 +10759,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -10437,8 +10776,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 316,
-        "total_points": 17,
+        "minutes": 406,
+        "total_points": 19,
         "points_per_game": 1.7,
         "now_cost": 54,
         "gw_history": [
@@ -10458,7 +10797,8 @@
           0,
           3,
           3,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -10491,6 +10831,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -10507,11 +10848,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 64,
-        "total_points": 5,
+        "minutes": 77,
+        "total_points": 6,
         "points_per_game": 1.0,
         "now_cost": 50,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -10558,6 +10900,7 @@
           -1,
           -1,
           -1,
+          0,
           0
         ]
       }
@@ -10574,8 +10917,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1350,
-        "total_points": 21,
+        "minutes": 1440,
+        "total_points": 22,
         "points_per_game": 1.4,
         "now_cost": 44,
         "gw_history": [
@@ -10595,7 +10938,8 @@
           -1,
           -1,
           -1,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -10611,9 +10955,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 485,
-        "total_points": 14,
-        "points_per_game": 2.3,
+        "minutes": 575,
+        "total_points": 15,
+        "points_per_game": 2.1,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -10632,7 +10976,8 @@
           -1,
           -1,
           2,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -10669,6 +11014,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -10685,9 +11031,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 270,
+        "minutes": 360,
         "total_points": 1,
-        "points_per_game": 0.3,
+        "points_per_game": 0.2,
         "now_cost": 40,
         "gw_history": [
           -4,
@@ -10706,7 +11052,8 @@
           0,
           0,
           0,
-          0
+          0,
+          -2
         ]
       }
     ]
@@ -10722,9 +11069,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1515,
-        "total_points": 93,
-        "points_per_game": 5.5,
+        "minutes": 1605,
+        "total_points": 95,
+        "points_per_game": 5.3,
         "now_cost": 66,
         "gw_history": [
           5,
@@ -10743,7 +11090,8 @@
           6,
           6,
           0,
-          7
+          7,
+          0
         ]
       }
     ]
@@ -10759,9 +11107,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 37,
-        "total_points": 12,
-        "points_per_game": 1.7,
+        "minutes": 41,
+        "total_points": 13,
+        "points_per_game": 1.6,
         "now_cost": 52,
         "gw_history": [
           0,
@@ -10777,6 +11125,7 @@
           0,
           0,
           5,
+          0,
           0,
           0,
           0,
@@ -10796,9 +11145,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1350,
-        "total_points": 52,
-        "points_per_game": 3.5,
+        "minutes": 1440,
+        "total_points": 53,
+        "points_per_game": 3.3,
         "now_cost": 45,
         "gw_history": [
           -1,
@@ -10817,7 +11166,8 @@
           -1,
           0,
           -1,
-          -2
+          -2,
+          -1
         ]
       }
     ]
@@ -10854,6 +11204,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -10870,8 +11221,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 105,
-        "total_points": 5,
+        "minutes": 109,
+        "total_points": 6,
         "points_per_game": 1.0,
         "now_cost": 62,
         "gw_history": [
@@ -10887,6 +11238,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -10907,8 +11259,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1247,
-        "total_points": 49,
+        "minutes": 1337,
+        "total_points": 53,
         "points_per_game": 2.9,
         "now_cost": 60,
         "gw_history": [
@@ -10928,7 +11280,8 @@
           0,
           0,
           0,
-          3
+          3,
+          2
         ]
       }
     ]
@@ -10944,9 +11297,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 600,
-        "total_points": 25,
-        "points_per_game": 2.5,
+        "minutes": 603,
+        "total_points": 26,
+        "points_per_game": 2.4,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -10963,6 +11316,7 @@
           0,
           1,
           3,
+          0,
           0,
           0,
           0
@@ -11002,6 +11356,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11018,8 +11373,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1278,
-        "total_points": 36,
+        "minutes": 1368,
+        "total_points": 38,
         "points_per_game": 2.2,
         "now_cost": 49,
         "gw_history": [
@@ -11039,6 +11394,7 @@
           2,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11055,10 +11411,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1189,
-        "total_points": 61,
-        "points_per_game": 3.6,
-        "now_cost": 47,
+        "minutes": 1275,
+        "total_points": 71,
+        "points_per_game": 3.9,
+        "now_cost": 48,
         "gw_history": [
           0,
           8,
@@ -11076,7 +11432,8 @@
           6,
           0,
           0,
-          -1
+          -1,
+          8
         ]
       }
     ]
@@ -11113,6 +11470,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11129,8 +11487,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 773,
-        "total_points": 30,
+        "minutes": 859,
+        "total_points": 32,
         "points_per_game": 2.7,
         "now_cost": 45,
         "gw_history": [
@@ -11150,7 +11508,8 @@
           0,
           4,
           7,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -11166,8 +11525,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 848,
-        "total_points": 21,
+        "minutes": 933,
+        "total_points": 23,
         "points_per_game": 1.9,
         "now_cost": 45,
         "gw_history": [
@@ -11187,7 +11546,8 @@
           0,
           0,
           0,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -11224,6 +11584,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11245,6 +11606,7 @@
         "points_per_game": 1.0,
         "now_cost": 52,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -11298,6 +11660,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11314,9 +11677,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 636,
+        "minutes": 726,
         "total_points": 12,
-        "points_per_game": 1.3,
+        "points_per_game": 1.2,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -11335,7 +11698,8 @@
           -1,
           -2,
           -1,
-          0
+          0,
+          -2
         ]
       }
     ]
@@ -11372,6 +11736,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11388,10 +11753,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 651,
-        "total_points": 58,
-        "points_per_game": 4.1,
-        "now_cost": 51,
+        "minutes": 678,
+        "total_points": 59,
+        "points_per_game": 3.9,
+        "now_cost": 50,
         "gw_history": [
           0,
           0,
@@ -11407,6 +11772,7 @@
           0,
           5,
           7,
+          0,
           0,
           0,
           0
@@ -11425,8 +11791,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 69,
+        "minutes": 1620,
+        "total_points": 74,
         "points_per_game": 4.1,
         "now_cost": 51,
         "gw_history": [
@@ -11446,7 +11812,8 @@
           -1,
           -1,
           7,
-          4
+          4,
+          3
         ]
       }
     ]
@@ -11462,9 +11829,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 58,
-        "points_per_game": 3.4,
+        "minutes": 1620,
+        "total_points": 65,
+        "points_per_game": 3.6,
         "now_cost": 46,
         "gw_history": [
           0,
@@ -11483,7 +11850,8 @@
           -1,
           -1,
           0,
-          4
+          4,
+          5
         ]
       }
     ]
@@ -11499,10 +11867,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 77,
-        "points_per_game": 4.5,
-        "now_cost": 49,
+        "minutes": 1620,
+        "total_points": 83,
+        "points_per_game": 4.6,
+        "now_cost": 50,
         "gw_history": [
           0,
           3,
@@ -11520,6 +11888,7 @@
           2,
           -1,
           12,
+          4,
           4
         ]
       }
@@ -11536,9 +11905,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1428,
-        "total_points": 54,
-        "points_per_game": 3.4,
+        "minutes": 1518,
+        "total_points": 60,
+        "points_per_game": 3.5,
         "now_cost": 45,
         "gw_history": [
           0,
@@ -11557,6 +11926,7 @@
           -1,
           -1,
           -1,
+          4,
           4
         ]
       }
@@ -11573,9 +11943,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1498,
-        "total_points": 89,
-        "points_per_game": 5.2,
+        "minutes": 1588,
+        "total_points": 95,
+        "points_per_game": 5.3,
         "now_cost": 52,
         "gw_history": [
           1,
@@ -11594,7 +11964,8 @@
           0,
           -1,
           0,
-          9
+          9,
+          4
         ]
       }
     ]
@@ -11631,6 +12002,7 @@
           0,
           -1,
           0,
+          0,
           0
         ]
       }
@@ -11641,7 +12013,7 @@
     "second_name": "Fleck",
     "team": 15,
     "element_type": 3,
-    "status": "s",
+    "status": "a",
     "id": 301,
     "full_name": "john fleck",
     "seasons": [
@@ -11668,7 +12040,8 @@
           -1,
           0,
           0,
-          13
+          13,
+          0
         ]
       }
     ]
@@ -11684,8 +12057,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1405,
-        "total_points": 40,
+        "minutes": 1486,
+        "total_points": 43,
         "points_per_game": 2.4,
         "now_cost": 49,
         "gw_history": [
@@ -11705,7 +12078,8 @@
           1,
           0,
           -1,
-          0
+          0,
+          1
         ]
       }
     ]
@@ -11721,9 +12095,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 979,
-        "total_points": 33,
-        "points_per_game": 2.4,
+        "minutes": 1069,
+        "total_points": 34,
+        "points_per_game": 2.3,
         "now_cost": 54,
         "gw_history": [
           0,
@@ -11742,7 +12116,8 @@
           0,
           0,
           0,
-          3
+          3,
+          -1
         ]
       }
     ]
@@ -11758,9 +12133,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1470,
-        "total_points": 53,
-        "points_per_game": 3.1,
+        "minutes": 1560,
+        "total_points": 58,
+        "points_per_game": 3.2,
         "now_cost": 45,
         "gw_history": [
           0,
@@ -11779,7 +12154,8 @@
           0,
           -1,
           -1,
-          5
+          5,
+          3
         ]
       }
     ]
@@ -11789,7 +12165,7 @@
     "second_name": "Moore",
     "team": 15,
     "element_type": 1,
-    "status": "a",
+    "status": "d",
     "id": 436,
     "full_name": "simon moore",
     "seasons": [
@@ -11816,6 +12192,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11832,8 +12209,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 270,
-        "total_points": 10,
+        "minutes": 322,
+        "total_points": 11,
         "points_per_game": 1.2,
         "now_cost": 51,
         "gw_history": [
@@ -11852,6 +12229,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0
         ]
@@ -11887,6 +12265,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -11927,6 +12306,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -11964,6 +12344,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -11980,9 +12361,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1440,
-        "total_points": 64,
-        "points_per_game": 4.0,
+        "minutes": 1530,
+        "total_points": 76,
+        "points_per_game": 4.5,
         "now_cost": 48,
         "gw_history": [
           0,
@@ -12001,7 +12382,8 @@
           1,
           -1,
           1,
-          4
+          4,
+          10
         ]
       }
     ]
@@ -12017,11 +12399,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 14,
-        "total_points": 3,
+        "minutes": 51,
+        "total_points": 4,
         "points_per_game": 1.0,
         "now_cost": 47,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -12054,9 +12437,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 642,
-        "total_points": 28,
-        "points_per_game": 1.9,
+        "minutes": 704,
+        "total_points": 36,
+        "points_per_game": 2.2,
         "now_cost": 57,
         "gw_history": [
           0,
@@ -12075,7 +12458,8 @@
           0,
           0,
           0,
-          0
+          0,
+          6
         ]
       }
     ]
@@ -12091,11 +12475,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 38,
-        "total_points": 3,
+        "minutes": 46,
+        "total_points": 4,
         "points_per_game": 1.0,
         "now_cost": 44,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -12143,6 +12528,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -12180,6 +12566,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -12196,9 +12583,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 942,
-        "total_points": 15,
-        "points_per_game": 1.2,
+        "minutes": 1032,
+        "total_points": 17,
+        "points_per_game": 1.3,
         "now_cost": 48,
         "gw_history": [
           -1,
@@ -12217,6 +12604,7 @@
           0,
           6,
           -1,
+          0,
           0
         ]
       }
@@ -12254,6 +12642,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -12270,9 +12659,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1527,
-        "total_points": 28,
-        "points_per_game": 1.6,
+        "minutes": 1617,
+        "total_points": 30,
+        "points_per_game": 1.7,
         "now_cost": 44,
         "gw_history": [
           -1,
@@ -12291,6 +12680,7 @@
           0,
           0,
           -1,
+          0,
           0
         ]
       }
@@ -12307,9 +12697,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 747,
-        "total_points": 13,
-        "points_per_game": 1.4,
+        "minutes": 837,
+        "total_points": 23,
+        "points_per_game": 2.3,
         "now_cost": 43,
         "gw_history": [
           -1,
@@ -12328,7 +12718,8 @@
           0,
           0,
           2,
-          0
+          0,
+          8
         ]
       }
     ]
@@ -12365,6 +12756,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -12381,10 +12773,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1164,
-        "total_points": 86,
-        "points_per_game": 5.1,
-        "now_cost": 64,
+        "minutes": 1250,
+        "total_points": 99,
+        "points_per_game": 5.5,
+        "now_cost": 65,
         "gw_history": [
           0,
           5,
@@ -12402,7 +12794,8 @@
           7,
           7,
           6,
-          0
+          0,
+          11
         ]
       }
     ]
@@ -12418,11 +12811,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 180,
-        "total_points": 7,
-        "points_per_game": 1.2,
+        "minutes": 188,
+        "total_points": 8,
+        "points_per_game": 1.1,
         "now_cost": 49,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -12449,15 +12843,15 @@
     "second_name": "Long",
     "team": 16,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "id": 315,
     "full_name": "shane long",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 410,
-        "total_points": 16,
-        "points_per_game": 1.8,
+        "minutes": 491,
+        "total_points": 21,
+        "points_per_game": 2.1,
         "now_cost": 46,
         "gw_history": [
           0,
@@ -12476,7 +12870,8 @@
           0,
           3,
           0,
-          0
+          0,
+          3
         ]
       }
     ]
@@ -12492,9 +12887,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 630,
-        "total_points": 14,
-        "points_per_game": 2.0,
+        "minutes": 720,
+        "total_points": 17,
+        "points_per_game": 2.1,
         "now_cost": 43,
         "gw_history": [
           0,
@@ -12513,6 +12908,7 @@
           0,
           0,
           0,
+          1,
           1
         ]
       }
@@ -12550,6 +12946,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -12566,8 +12963,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1248,
-        "total_points": 35,
+        "minutes": 1338,
+        "total_points": 37,
         "points_per_game": 2.3,
         "now_cost": 62,
         "gw_history": [
@@ -12587,6 +12984,7 @@
           -1,
           0,
           0,
+          0,
           0
         ]
       }
@@ -12603,8 +13001,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 61,
+        "minutes": 1620,
+        "total_points": 65,
         "points_per_game": 3.6,
         "now_cost": 59,
         "gw_history": [
@@ -12624,7 +13022,8 @@
           7,
           3,
           -1,
-          0
+          0,
+          2
         ]
       }
     ]
@@ -12640,8 +13039,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 356,
-        "total_points": 16,
+        "minutes": 431,
+        "total_points": 18,
         "points_per_game": 1.5,
         "now_cost": 52,
         "gw_history": [
@@ -12656,6 +13055,7 @@
           0,
           0,
           3,
+          0,
           0,
           0,
           0,
@@ -12677,8 +13077,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1367,
-        "total_points": 36,
+        "minutes": 1457,
+        "total_points": 38,
         "points_per_game": 2.2,
         "now_cost": 48,
         "gw_history": [
@@ -12698,7 +13098,8 @@
           3,
           0,
           -1,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -12714,10 +13115,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1107,
-        "total_points": 26,
-        "points_per_game": 1.9,
-        "now_cost": 44,
+        "minutes": 1121,
+        "total_points": 27,
+        "points_per_game": 1.8,
+        "now_cost": 43,
         "gw_history": [
           0,
           -1,
@@ -12725,6 +13126,7 @@
           0,
           1,
           -1,
+          0,
           0,
           0,
           0,
@@ -12751,10 +13153,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 483,
-        "total_points": 21,
-        "points_per_game": 1.8,
-        "now_cost": 54,
+        "minutes": 486,
+        "total_points": 22,
+        "points_per_game": 1.7,
+        "now_cost": 53,
         "gw_history": [
           0,
           0,
@@ -12762,6 +13164,7 @@
           0,
           0,
           3,
+          0,
           0,
           0,
           0,
@@ -12809,6 +13212,7 @@
           3,
           -1,
           0,
+          0,
           0
         ]
       }
@@ -12825,8 +13229,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 746,
-        "total_points": 17,
+        "minutes": 836,
+        "total_points": 19,
         "points_per_game": 1.9,
         "now_cost": 48,
         "gw_history": [
@@ -12846,6 +13250,7 @@
           0,
           0,
           -2,
+          0,
           0
         ]
       }
@@ -12856,7 +13261,7 @@
     "second_name": "Boufal",
     "team": 16,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 508,
     "full_name": "sofiane boufal",
     "seasons": [
@@ -12879,6 +13284,7 @@
           0,
           0,
           2,
+          0,
           0,
           0,
           0,
@@ -12913,6 +13319,7 @@
           0,
           0,
           -2,
+          0,
           0,
           0,
           0,
@@ -12956,6 +13363,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -12972,9 +13380,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 900,
-        "total_points": 35,
-        "points_per_game": 3.5,
+        "minutes": 973,
+        "total_points": 36,
+        "points_per_game": 3.3,
         "now_cost": 52,
         "gw_history": [
           0,
@@ -12993,7 +13401,8 @@
           -1,
           -1,
           9,
-          8
+          8,
+          -1
         ]
       }
     ]
@@ -13009,9 +13418,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1440,
+        "minutes": 1530,
         "total_points": 38,
-        "points_per_game": 2.4,
+        "points_per_game": 2.2,
         "now_cost": 54,
         "gw_history": [
           0,
@@ -13030,7 +13439,8 @@
           2,
           -1,
           4,
-          -1
+          -1,
+          -2
         ]
       }
     ]
@@ -13046,8 +13456,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 807,
-        "total_points": 14,
+        "minutes": 823,
+        "total_points": 15,
         "points_per_game": 1.4,
         "now_cost": 53,
         "gw_history": [
@@ -13061,6 +13471,7 @@
           0,
           -1,
           -2,
+          0,
           0,
           0,
           0,
@@ -13083,8 +13494,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1125,
-        "total_points": 20,
+        "minutes": 1215,
+        "total_points": 21,
         "points_per_game": 1.5,
         "now_cost": 53,
         "gw_history": [
@@ -13104,6 +13515,7 @@
           -1,
           -1,
           4,
+          -1,
           -1
         ]
       }
@@ -13141,6 +13553,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -13157,9 +13570,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 994,
-        "total_points": 49,
-        "points_per_game": 4.1,
+        "minutes": 1084,
+        "total_points": 50,
+        "points_per_game": 3.8,
         "now_cost": 51,
         "gw_history": [
           0,
@@ -13178,7 +13591,8 @@
           -1,
           3,
           4,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -13215,6 +13629,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -13231,10 +13646,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1434,
-        "total_points": 84,
-        "points_per_game": 5.2,
-        "now_cost": 109,
+        "minutes": 1524,
+        "total_points": 86,
+        "points_per_game": 5.1,
+        "now_cost": 110,
         "gw_history": [
           11,
           0,
@@ -13252,7 +13667,8 @@
           0,
           0,
           14,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -13289,6 +13705,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -13305,9 +13722,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 982,
+        "minutes": 1072,
         "total_points": 34,
-        "points_per_game": 3.1,
+        "points_per_game": 2.8,
         "now_cost": 46,
         "gw_history": [
           0,
@@ -13326,7 +13743,8 @@
           0,
           0,
           4,
-          1
+          1,
+          -2
         ]
       }
     ]
@@ -13336,16 +13754,16 @@
     "second_name": "Son",
     "team": 17,
     "element_type": 3,
-    "status": "a",
+    "status": "s",
     "id": 342,
     "full_name": "heung-min son",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1233,
-        "total_points": 90,
-        "points_per_game": 6.0,
-        "now_cost": 101,
+        "minutes": 1294,
+        "total_points": 89,
+        "points_per_game": 5.6,
+        "now_cost": 99,
         "gw_history": [
           0,
           0,
@@ -13363,7 +13781,8 @@
           8,
           0,
           10,
-          0
+          0,
+          -3
         ]
       }
     ]
@@ -13379,9 +13798,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 730,
-        "total_points": 32,
-        "points_per_game": 2.5,
+        "minutes": 775,
+        "total_points": 33,
+        "points_per_game": 2.4,
         "now_cost": 86,
         "gw_history": [
           0,
@@ -13400,7 +13819,8 @@
           0,
           0,
           0,
-          3
+          3,
+          0
         ]
       }
     ]
@@ -13416,10 +13836,10 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 803,
-        "total_points": 62,
-        "points_per_game": 6.2,
-        "now_cost": 88,
+        "minutes": 893,
+        "total_points": 63,
+        "points_per_game": 5.7,
+        "now_cost": 89,
         "gw_history": [
           0,
           0,
@@ -13437,7 +13857,8 @@
           13,
           7,
           7,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -13453,9 +13874,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 724,
-        "total_points": 48,
-        "points_per_game": 3.2,
+        "minutes": 797,
+        "total_points": 50,
+        "points_per_game": 3.1,
         "now_cost": 71,
         "gw_history": [
           3,
@@ -13474,7 +13895,8 @@
           0,
           0,
           6,
-          6
+          6,
+          0
         ]
       }
     ]
@@ -13500,6 +13922,7 @@
           0,
           2,
           6,
+          0,
           0,
           0,
           0,
@@ -13548,6 +13971,7 @@
           0,
           -1,
           0,
+          0,
           0
         ]
       }
@@ -13585,6 +14009,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -13601,9 +14026,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1418,
-        "total_points": 46,
-        "points_per_game": 2.7,
+        "minutes": 1508,
+        "total_points": 47,
+        "points_per_game": 2.6,
         "now_cost": 49,
         "gw_history": [
           3,
@@ -13622,7 +14047,8 @@
           5,
           0,
           6,
-          0
+          0,
+          -1
         ]
       }
     ]
@@ -13638,9 +14064,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 552,
-        "total_points": 13,
-        "points_per_game": 1.9,
+        "minutes": 597,
+        "total_points": 14,
+        "points_per_game": 1.8,
         "now_cost": 49,
         "gw_history": [
           0,
@@ -13659,7 +14085,8 @@
           0,
           0,
           0,
-          2
+          2,
+          0
         ]
       }
     ]
@@ -13696,6 +14123,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -13712,9 +14140,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 667,
-        "total_points": 32,
-        "points_per_game": 2.7,
+        "minutes": 683,
+        "total_points": 33,
+        "points_per_game": 2.5,
         "now_cost": 58,
         "gw_history": [
           6,
@@ -13727,6 +14155,7 @@
           0,
           0,
           -1,
+          0,
           0,
           0,
           0,
@@ -13754,6 +14183,7 @@
         "points_per_game": 1.0,
         "now_cost": 44,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -13807,6 +14237,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -13828,6 +14259,7 @@
         "points_per_game": 1.0,
         "now_cost": 54,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -13881,6 +14313,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -13900,7 +14333,7 @@
         "minutes": 974,
         "total_points": 15,
         "points_per_game": 1.4,
-        "now_cost": 47,
+        "now_cost": 46,
         "gw_history": [
           -1,
           -1,
@@ -13916,6 +14349,7 @@
           4,
           -1,
           -1,
+          0,
           0,
           0,
           0
@@ -13934,9 +14368,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 784,
-        "total_points": 28,
-        "points_per_game": 3.1,
+        "minutes": 874,
+        "total_points": 39,
+        "points_per_game": 3.9,
         "now_cost": 43,
         "gw_history": [
           0,
@@ -13955,7 +14389,8 @@
           0,
           0,
           4,
-          -1
+          -1,
+          9
         ]
       }
     ]
@@ -13965,7 +14400,7 @@
     "second_name": "Masina",
     "team": 18,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 355,
     "full_name": "adam masina",
     "seasons": [
@@ -13992,6 +14427,7 @@
           -1,
           -2,
           4,
+          0,
           0
         ]
       }
@@ -14008,9 +14444,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 540,
-        "total_points": 4,
-        "points_per_game": 0.6,
+        "minutes": 630,
+        "total_points": 10,
+        "points_per_game": 1.2,
         "now_cost": 42,
         "gw_history": [
           0,
@@ -14029,7 +14465,8 @@
           -1,
           -1,
           0,
-          -1
+          -1,
+          4
         ]
       }
     ]
@@ -14045,9 +14482,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1015,
-        "total_points": 14,
-        "points_per_game": 1.1,
+        "minutes": 1105,
+        "total_points": 20,
+        "points_per_game": 1.4,
         "now_cost": 42,
         "gw_history": [
           -1,
@@ -14066,7 +14503,8 @@
           0,
           -1,
           3,
-          -1
+          -1,
+          4
         ]
       }
     ]
@@ -14082,9 +14520,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1279,
-        "total_points": 37,
-        "points_per_game": 2.5,
+        "minutes": 1369,
+        "total_points": 42,
+        "points_per_game": 2.6,
         "now_cost": 43,
         "gw_history": [
           -1,
@@ -14103,7 +14541,8 @@
           -1,
           -1,
           3,
-          -1
+          -1,
+          3
         ]
       }
     ]
@@ -14122,7 +14561,7 @@
         "minutes": 606,
         "total_points": 36,
         "points_per_game": 4.5,
-        "now_cost": 42,
+        "now_cost": 41,
         "gw_history": [
           0,
           0,
@@ -14136,6 +14575,7 @@
           4,
           -2,
           5,
+          0,
           0,
           0,
           0,
@@ -14177,6 +14617,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -14193,9 +14634,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 464,
-        "total_points": 11,
-        "points_per_game": 1.8,
+        "minutes": 554,
+        "total_points": 17,
+        "points_per_game": 2.4,
         "now_cost": 62,
         "gw_history": [
           0,
@@ -14214,7 +14655,8 @@
           0,
           0,
           0,
-          0
+          0,
+          4
         ]
       }
     ]
@@ -14230,8 +14672,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1193,
-        "total_points": 48,
+        "minutes": 1283,
+        "total_points": 50,
         "points_per_game": 2.8,
         "now_cost": 61,
         "gw_history": [
@@ -14247,6 +14689,7 @@
           -1,
           5,
           10,
+          0,
           0,
           0,
           0,
@@ -14288,6 +14731,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -14304,11 +14748,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 47,
-        "total_points": 3,
+        "minutes": 50,
+        "total_points": 4,
         "points_per_game": 1.0,
         "now_cost": 48,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -14341,9 +14786,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 59,
-        "points_per_game": 3.5,
+        "minutes": 1620,
+        "total_points": 70,
+        "points_per_game": 3.9,
         "now_cost": 48,
         "gw_history": [
           -1,
@@ -14362,7 +14807,8 @@
           0,
           0,
           4,
-          0
+          0,
+          9
         ]
       }
     ]
@@ -14372,14 +14818,14 @@
     "second_name": "Doucour\u00e9",
     "team": 18,
     "element_type": 3,
-    "status": "a",
+    "status": "s",
     "id": 368,
     "full_name": "abdoulaye doucour\u00e9",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1493,
-        "total_points": 39,
+        "minutes": 1561,
+        "total_points": 41,
         "points_per_game": 2.3,
         "now_cost": 56,
         "gw_history": [
@@ -14399,6 +14845,7 @@
           0,
           -1,
           0,
+          0,
           0
         ]
       }
@@ -14409,15 +14856,15 @@
     "second_name": "Pereyra",
     "team": 18,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 369,
     "full_name": "roberto pereyra",
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 813,
-        "total_points": 25,
-        "points_per_game": 2.1,
+        "minutes": 826,
+        "total_points": 26,
+        "points_per_game": 2.0,
         "now_cost": 56,
         "gw_history": [
           0,
@@ -14436,6 +14883,7 @@
           0,
           0,
           1,
+          0,
           0
         ]
       }
@@ -14452,8 +14900,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 929,
-        "total_points": 36,
+        "minutes": 1019,
+        "total_points": 39,
         "points_per_game": 2.6,
         "now_cost": 54,
         "gw_history": [
@@ -14473,7 +14921,8 @@
           1,
           0,
           0,
-          -1
+          -1,
+          1
         ]
       }
     ]
@@ -14510,6 +14959,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -14526,8 +14976,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1072,
-        "total_points": 27,
+        "minutes": 1148,
+        "total_points": 29,
         "points_per_game": 2.2,
         "now_cost": 48,
         "gw_history": [
@@ -14547,6 +14997,7 @@
           4,
           0,
           0,
+          0,
           0
         ]
       }
@@ -14563,11 +15014,12 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 259,
-        "total_points": 8,
+        "minutes": 280,
+        "total_points": 9,
         "points_per_game": 1.3,
         "now_cost": 44,
         "gw_history": [
+          0,
           0,
           0,
           0,
@@ -14621,6 +15073,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -14654,6 +15107,7 @@
           3,
           -2,
           4,
+          0,
           0,
           0,
           0,
@@ -14695,6 +15149,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -14711,9 +15166,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 549,
-        "total_points": 21,
-        "points_per_game": 2.1,
+        "minutes": 635,
+        "total_points": 34,
+        "points_per_game": 3.1,
         "now_cost": 62,
         "gw_history": [
           0,
@@ -14732,7 +15187,8 @@
           5,
           0,
           1,
-          0
+          0,
+          11
         ]
       }
     ]
@@ -14755,6 +15211,7 @@
         "gw_history": [
           0,
           -2,
+          0,
           0,
           0,
           0,
@@ -14895,7 +15352,7 @@
         "minutes": 198,
         "total_points": 6,
         "points_per_game": 1.2,
-        "now_cost": 43,
+        "now_cost": 42,
         "gw_history": [
           0,
           0,
@@ -15071,7 +15528,7 @@
     "second_name": "Fabianski",
     "team": 19,
     "element_type": 1,
-    "status": "i",
+    "status": "d",
     "id": 388,
     "full_name": "lukasz fabianski",
     "seasons": [
@@ -15145,7 +15602,7 @@
     "second_name": "Pereira Gomes",
     "team": 19,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 390,
     "full_name": "felipe anderson pereira gomes",
     "seasons": [
@@ -15154,7 +15611,7 @@
         "minutes": 1075,
         "total_points": 40,
         "points_per_game": 2.7,
-        "now_cost": 67,
+        "now_cost": 66,
         "gw_history": [
           -1,
           0,
@@ -15182,7 +15639,7 @@
     "second_name": "Lanzini",
     "team": 19,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "id": 391,
     "full_name": "manuel lanzini",
     "seasons": [
@@ -15228,7 +15685,7 @@
         "minutes": 822,
         "total_points": 49,
         "points_per_game": 3.3,
-        "now_cost": 55,
+        "now_cost": 54,
         "gw_history": [
           0,
           0,
@@ -15648,8 +16105,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1157,
-        "total_points": 60,
+        "minutes": 1247,
+        "total_points": 64,
         "points_per_game": 3.8,
         "now_cost": 61,
         "gw_history": [
@@ -15669,7 +16126,8 @@
           8,
           4,
           -1,
-          -1
+          -1,
+          2
         ]
       }
     ]
@@ -15685,9 +16143,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1359,
-        "total_points": 45,
-        "points_per_game": 2.8,
+        "minutes": 1449,
+        "total_points": 46,
+        "points_per_game": 2.7,
         "now_cost": 54,
         "gw_history": [
           3,
@@ -15706,7 +16164,8 @@
           0,
           4,
           2,
-          -2
+          -2,
+          -1
         ]
       }
     ]
@@ -15722,8 +16181,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 45,
+        "minutes": 1620,
+        "total_points": 47,
         "points_per_game": 2.6,
         "now_cost": 50,
         "gw_history": [
@@ -15743,7 +16202,8 @@
           0,
           5,
           -1,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -15772,6 +16232,7 @@
           0,
           0,
           4,
+          0,
           0,
           0,
           0,
@@ -15817,6 +16278,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -15854,6 +16316,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -15870,9 +16333,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 961,
-        "total_points": 27,
-        "points_per_game": 2.1,
+        "minutes": 1051,
+        "total_points": 34,
+        "points_per_game": 2.4,
         "now_cost": 44,
         "gw_history": [
           0,
@@ -15891,7 +16354,8 @@
           0,
           4,
           -1,
-          -2
+          -2,
+          5
         ]
       }
     ]
@@ -15928,6 +16392,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -15944,9 +16409,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1469,
-        "total_points": 85,
-        "points_per_game": 5.0,
+        "minutes": 1559,
+        "total_points": 92,
+        "points_per_game": 5.1,
         "now_cost": 75,
         "gw_history": [
           0,
@@ -15965,7 +16430,8 @@
           3,
           0,
           3,
-          3
+          3,
+          5
         ]
       }
     ]
@@ -15981,9 +16447,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1136,
-        "total_points": 46,
-        "points_per_game": 3.1,
+        "minutes": 1212,
+        "total_points": 48,
+        "points_per_game": 3.0,
         "now_cost": 61,
         "gw_history": [
           0,
@@ -16002,6 +16468,7 @@
           0,
           -1,
           11,
+          0,
           0
         ]
       }
@@ -16018,8 +16485,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1530,
-        "total_points": 64,
+        "minutes": 1620,
+        "total_points": 68,
         "points_per_game": 3.8,
         "now_cost": 52,
         "gw_history": [
@@ -16039,7 +16506,8 @@
           1,
           5,
           -1,
-          0
+          0,
+          2
         ]
       }
     ]
@@ -16055,8 +16523,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1319,
-        "total_points": 45,
+        "minutes": 1409,
+        "total_points": 47,
         "points_per_game": 2.6,
         "now_cost": 53,
         "gw_history": [
@@ -16076,6 +16544,7 @@
           0,
           1,
           0,
+          0,
           0
         ]
       }
@@ -16092,8 +16561,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1439,
-        "total_points": 59,
+        "minutes": 1529,
+        "total_points": 63,
         "points_per_game": 3.5,
         "now_cost": 54,
         "gw_history": [
@@ -16113,7 +16582,8 @@
           0,
           6,
           0,
-          -1
+          -1,
+          2
         ]
       }
     ]
@@ -16150,6 +16620,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -16166,9 +16637,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1278,
-        "total_points": 65,
-        "points_per_game": 4.1,
+        "minutes": 1368,
+        "total_points": 67,
+        "points_per_game": 3.9,
         "now_cost": 53,
         "gw_history": [
           0,
@@ -16187,7 +16658,8 @@
           0,
           1,
           0,
-          8
+          8,
+          0
         ]
       }
     ]
@@ -16203,9 +16675,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 1400,
-        "total_points": 40,
-        "points_per_game": 2.4,
+        "minutes": 1490,
+        "total_points": 42,
+        "points_per_game": 2.3,
         "now_cost": 44,
         "gw_history": [
           1,
@@ -16224,7 +16696,8 @@
           -1,
           9,
           0,
-          -1
+          -1,
+          0
         ]
       }
     ]
@@ -16261,6 +16734,7 @@
           0,
           0,
           0,
+          0,
           0
         ]
       }
@@ -16277,9 +16751,9 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 291,
-        "total_points": 22,
-        "points_per_game": 2.0,
+        "minutes": 292,
+        "total_points": 23,
+        "points_per_game": 1.9,
         "now_cost": 56,
         "gw_history": [
           0,
@@ -16298,6 +16772,7 @@
           0,
           4,
           0,
+          0,
           0
         ]
       }
@@ -16314,8 +16789,8 @@
     "seasons": [
       {
         "season": "2019-20",
-        "minutes": 173,
-        "total_points": 15,
+        "minutes": 186,
+        "total_points": 16,
         "points_per_game": 1.5,
         "now_cost": 50,
         "gw_history": [
@@ -16334,6 +16809,7 @@
           0,
           0,
           3,
+          0,
           0,
           0
         ]
