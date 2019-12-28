@@ -31,40 +31,17 @@ def get_deadline(gameweeks=gameweeks):
     Get's the next gameweek's deadline and time to notify.
     '''
 
+    now = datetime.utcnow()
     for gameweek in gameweeks:
-        if gameweek['finished'] == False:
-            next_deadline = gameweek['deadline_time']
+        next_deadline_date = datetime.strptime(gameweek['deadline_time'], '%Y-%m-%dT%H:%M:%SZ')
+        if next_deadline_date > now:
             break
 
     # parse the deadline date into string for email notification
-    deadline_date = datetime.strptime(next_deadline, '%Y-%m-%dT%H:%M:%SZ')
-    deadline_date = deadline_date + timedelta(hours=5, minutes=30)
-    deadline_date = deadline_date.isoformat()
-    deadline_date = datetime.fromisoformat(deadline_date).strftime('%d %b, %Y %H:%M')
+    next_deadline_date = next_deadline_date + timedelta(hours=5, minutes=30)
+    next_deadline_date = next_deadline_date.strftime('%d %b, %Y %H:%M')
 
-    return deadline_date
-
-
-def get_notify_time(gameweeks=gameweeks):
-    '''
-    Get's the email notification time in cron syntax.
-    '''
-    
-    for index, gameweek in enumerate(gameweeks):
-        if gameweek['finished'] == False:
-            next_deadline = gameweek['deadline_time']
-            last_deadline = gameweeks[index - 1]['deadline_time']
-            break
-    
-    last_notify_at = datetime.strptime(last_deadline, '%Y-%m-%dT%H:%M:%SZ')
-    last_notify_at = last_notify_at - timedelta(hours=variables.NOTIFY_BEFORE)
-    last_notify_at = get_cron_date(last_notify_at)
-
-    next_notify_at = datetime.strptime(next_deadline, '%Y-%m-%dT%H:%M:%SZ')
-    next_notify_at = next_notify_at - timedelta(hours=variables.NOTIFY_BEFORE)
-    next_notify_at = get_cron_date(next_notify_at)
-
-    return last_notify_at, next_notify_at
+    return next_deadline_date
 
 
 def get_gameweek(gameweeks=gameweeks):
@@ -72,10 +49,13 @@ def get_gameweek(gameweeks=gameweeks):
     Get's the next gameweek's ID.
     '''
 
+    now = datetime.utcnow()
     for gameweek in gameweeks:
-        if gameweek['finished'] == False:
-            gameweek_id = gameweek['id']
-            return gameweek_id
+        next_deadline_date = datetime.strptime(gameweek['deadline_time'], '%Y-%m-%dT%H:%M:%SZ')
+        if next_deadline_date > now:
+            break
+
+    return gameweek['id']
 
 
 def html_response(transfers):
