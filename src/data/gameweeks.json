@@ -862,7 +862,7 @@
     "deadline_time_epoch": 1577878200,
     "deadline_time_game_offset": 0,
     "highest_score": 112,
-    "is_previous": true,
+    "is_previous": false,
     "is_current": false,
     "is_next": false,
     "chip_plays": [
@@ -905,8 +905,8 @@
     "deadline_time_epoch": 1578682800,
     "deadline_time_game_offset": 0,
     "highest_score": 139,
-    "is_previous": false,
-    "is_current": true,
+    "is_previous": true,
+    "is_current": false,
     "is_next": false,
     "chip_plays": [
       {
@@ -941,24 +941,44 @@
     "id": 23,
     "name": "Gameweek 23",
     "deadline_time": "2020-01-18T11:30:00Z",
-    "average_entry_score": 0,
-    "finished": false,
-    "data_checked": false,
-    "highest_scoring_entry": null,
+    "average_entry_score": 44,
+    "finished": true,
+    "data_checked": true,
+    "highest_scoring_entry": 3957614,
     "deadline_time_epoch": 1579347000,
     "deadline_time_game_offset": 0,
-    "highest_score": null,
+    "highest_score": 119,
     "is_previous": false,
-    "is_current": false,
-    "is_next": true,
-    "chip_plays": [],
-    "most_selected": null,
-    "most_transferred_in": null,
-    "top_element": null,
-    "top_element_info": null,
-    "transfers_made": 0,
-    "most_captained": null,
-    "most_vice_captained": null
+    "is_current": true,
+    "is_next": false,
+    "chip_plays": [
+      {
+        "chip_name": "bboost",
+        "num_played": 52590
+      },
+      {
+        "chip_name": "freehit",
+        "num_played": 36077
+      },
+      {
+        "chip_name": "wildcard",
+        "num_played": 212815
+      },
+      {
+        "chip_name": "3xc",
+        "num_played": 42864
+      }
+    ],
+    "most_selected": 215,
+    "most_transferred_in": 313,
+    "top_element": 183,
+    "top_element_info": {
+      "id": 183,
+      "points": 15
+    },
+    "transfers_made": 7048347,
+    "most_captained": 215,
+    "most_vice_captained": 215
   },
   {
     "id": 24,
@@ -973,7 +993,7 @@
     "highest_score": null,
     "is_previous": false,
     "is_current": false,
-    "is_next": false,
+    "is_next": true,
     "chip_plays": [],
     "most_selected": null,
     "most_transferred_in": null,
