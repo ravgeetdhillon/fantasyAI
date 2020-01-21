@@ -11,7 +11,7 @@ on:
   - cron: '30 7 1 1 *'
   - cron: '0 15 10 1 *'
   - cron: '30 7 18 1 *'
-  - cron: '30 14 21 1 *'
+  - cron: '0 13 21 1 *'
   - cron: '0 10 1 2 *'
   - cron: '0 10 8 2 *'
   - cron: '0 10 22 2 *'
@@ -47,7 +47,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
-        python-version: 3.7.6
+        python-version: '3.7.x'
     
     - name: Install PIP packages
       run: |
