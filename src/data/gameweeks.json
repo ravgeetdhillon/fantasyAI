@@ -905,7 +905,7 @@
     "deadline_time_epoch": 1578682800,
     "deadline_time_game_offset": 0,
     "highest_score": 139,
-    "is_previous": true,
+    "is_previous": false,
     "is_current": false,
     "is_next": false,
     "chip_plays": [
@@ -948,8 +948,8 @@
     "deadline_time_epoch": 1579347000,
     "deadline_time_game_offset": 0,
     "highest_score": 119,
-    "is_previous": false,
-    "is_current": true,
+    "is_previous": true,
+    "is_current": false,
     "is_next": false,
     "chip_plays": [
       {
@@ -984,24 +984,44 @@
     "id": 24,
     "name": "Gameweek 24",
     "deadline_time": "2020-01-21T18:30:00Z",
-    "average_entry_score": 0,
-    "finished": false,
-    "data_checked": false,
-    "highest_scoring_entry": null,
+    "average_entry_score": 53,
+    "finished": true,
+    "data_checked": true,
+    "highest_scoring_entry": 6390975,
     "deadline_time_epoch": 1579631400,
     "deadline_time_game_offset": 0,
-    "highest_score": null,
+    "highest_score": 137,
     "is_previous": false,
-    "is_current": false,
-    "is_next": true,
-    "chip_plays": [],
-    "most_selected": null,
-    "most_transferred_in": null,
-    "top_element": null,
-    "top_element_info": null,
-    "transfers_made": 0,
-    "most_captained": null,
-    "most_vice_captained": null
+    "is_current": true,
+    "is_next": false,
+    "chip_plays": [
+      {
+        "chip_name": "bboost",
+        "num_played": 49840
+      },
+      {
+        "chip_name": "freehit",
+        "num_played": 118123
+      },
+      {
+        "chip_name": "wildcard",
+        "num_played": 232975
+      },
+      {
+        "chip_name": "3xc",
+        "num_played": 625930
+      }
+    ],
+    "most_selected": 215,
+    "most_transferred_in": 187,
+    "top_element": 198,
+    "top_element_info": {
+      "id": 198,
+      "points": 16
+    },
+    "transfers_made": 7299180,
+    "most_captained": 192,
+    "most_vice_captained": 215
   },
   {
     "id": 25,
@@ -1016,8 +1036,25 @@
     "highest_score": null,
     "is_previous": false,
     "is_current": false,
-    "is_next": false,
-    "chip_plays": [],
+    "is_next": true,
+    "chip_plays": [
+      {
+        "chip_name": "bboost",
+        "num_played": 4278
+      },
+      {
+        "chip_name": "freehit",
+        "num_played": 2009
+      },
+      {
+        "chip_name": "wildcard",
+        "num_played": 13528
+      },
+      {
+        "chip_name": "3xc",
+        "num_played": 3800
+      }
+    ],
     "most_selected": null,
     "most_transferred_in": null,
     "top_element": null,
@@ -1098,12 +1135,12 @@
   {
     "id": 29,
     "name": "Gameweek 29",
-    "deadline_time": "2020-03-07T14:00:00Z",
+    "deadline_time": "2020-03-07T11:30:00Z",
     "average_entry_score": 0,
     "finished": false,
     "data_checked": false,
     "highest_scoring_entry": null,
-    "deadline_time_epoch": 1583589600,
+    "deadline_time_epoch": 1583580600,
     "deadline_time_game_offset": 0,
     "highest_score": null,
     "is_previous": false,
@@ -1121,12 +1158,12 @@
   {
     "id": 30,
     "name": "Gameweek 30",
-    "deadline_time": "2020-03-14T14:00:00Z",
+    "deadline_time": "2020-03-14T11:30:00Z",
     "average_entry_score": 0,
     "finished": false,
     "data_checked": false,
     "highest_scoring_entry": null,
-    "deadline_time_epoch": 1584194400,
+    "deadline_time_epoch": 1584185400,
     "deadline_time_game_offset": 0,
     "highest_score": null,
     "is_previous": false,
@@ -1144,12 +1181,12 @@
   {
     "id": 31,
     "name": "Gameweek 31",
-    "deadline_time": "2020-03-21T14:00:00Z",
+    "deadline_time": "2020-03-20T19:00:00Z",
     "average_entry_score": 0,
     "finished": false,
     "data_checked": false,
     "highest_scoring_entry": null,
-    "deadline_time_epoch": 1584799200,
+    "deadline_time_epoch": 1584730800,
     "deadline_time_game_offset": 0,
     "highest_score": null,
     "is_previous": false,
