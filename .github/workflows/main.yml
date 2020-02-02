@@ -2,18 +2,7 @@ name: Run AI and Notify
 
 on:
   schedule:
-  - cron: '30 15 3 12 *'
-  - cron: '30 8 7 12 *'
-  - cron: '30 7 14 12 *'
-  - cron: '30 7 21 12 *'
-  - cron: '30 7 26 12 *'
-  - cron: '30 9 28 12 *'
-  - cron: '30 7 1 1 *'
-  - cron: '0 15 10 1 *'
-  - cron: '30 7 18 1 *'
-  - cron: '0 13 21 1 *'
-  - cron: '0 9 1 2 *'
-  - cron: '30 7 8 2 *'
+  - cron: '30 11 7 2 *'
   - cron: '30 7 22 2 *'
   - cron: '0 10 29 2 *'
   - cron: '0 10 7 3 *'
