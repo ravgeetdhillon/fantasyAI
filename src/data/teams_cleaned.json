@@ -1,7 +1,7 @@
 [
   {
-    "id": 10,
-    "name": "Liverpool",
+    "id": 16,
+    "name": "Southampton",
     "fer": [
       0.8,
       0.8,
@@ -9,7 +9,67 @@
       0.8,
       0.8
     ],
-    "fer_points": 1.144
+    "fer_points": 1.148
+  },
+  {
+    "id": 1,
+    "name": "Arsenal",
+    "fer": [
+      0.8,
+      0.8,
+      0.8,
+      0.7,
+      0.8
+    ],
+    "fer_points": 1.118
+  },
+  {
+    "id": 10,
+    "name": "Liverpool",
+    "fer": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.7
+    ],
+    "fer_points": 1.118
+  },
+  {
+    "id": 7,
+    "name": "Crystal Palace",
+    "fer": [
+      0.7,
+      0.8,
+      0.7,
+      0.8,
+      0.7
+    ],
+    "fer_points": 1.059
+  },
+  {
+    "id": 9,
+    "name": "Leicester",
+    "fer": [
+      0.7,
+      0.6,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "fer_points": 1.055
+  },
+  {
+    "id": 13,
+    "name": "Newcastle",
+    "fer": [
+      0.6,
+      0.8,
+      0.8,
+      0.8,
+      0.7
+    ],
+    "fer_points": 1.055
   },
   {
     "id": 15,
@@ -18,178 +78,34 @@
       0.8,
       0.8,
       0.8,
-      0.8,
-      0.7
-    ],
-    "fer_points": 1.113
-  },
-  {
-    "id": 1,
-    "name": "Arsenal",
-    "fer": [
-      0.7,
-      0.8,
-      0.8,
-      0.8,
-      0.7
-    ],
-    "fer_points": 1.084
-  },
-  {
-    "id": 13,
-    "name": "Newcastle",
-    "fer": [
-      0.8,
-      0.6,
-      0.8,
-      0.8,
-      0.8
-    ],
-    "fer_points": 1.08
-  },
-  {
-    "id": 4,
-    "name": "Brighton",
-    "fer": [
-      0.8,
-      0.8,
-      0.7,
-      0.7,
-      0.7
-    ],
-    "fer_points": 1.056
-  },
-  {
-    "id": 7,
-    "name": "Crystal Palace",
-    "fer": [
-      0.7,
-      0.7,
-      0.8,
-      0.7,
-      0.8
-    ],
-    "fer_points": 1.056
-  },
-  {
-    "id": 16,
-    "name": "Southampton",
-    "fer": [
-      0.5,
-      0.8,
-      0.8,
-      0.8,
-      0.8
-    ],
-    "fer_points": 1.043
-  },
-  {
-    "id": 5,
-    "name": "Burnley",
-    "fer": [
-      0.6,
-      0.8,
-      0.8,
       0.7,
       0.6
     ],
-    "fer_points": 0.993
-  },
-  {
-    "id": 9,
-    "name": "Leicester",
-    "fer": [
-      0.6,
-      0.7,
-      0.6,
-      0.8,
-      0.8
-    ],
-    "fer_points": 0.993
-  },
-  {
-    "id": 18,
-    "name": "Watford",
-    "fer": [
-      0.8,
-      0.7,
-      0.6,
-      0.6,
-      0.8
-    ],
-    "fer_points": 0.993
-  },
-  {
-    "id": 12,
-    "name": "Man Utd",
-    "fer": [
-      0.7,
-      0.6,
-      0.8,
-      0.7,
-      0.6
-    ],
-    "fer_points": 0.967
-  },
-  {
-    "id": 17,
-    "name": "Spurs",
-    "fer": [
-      0.6,
-      0.8,
-      0.6,
-      0.7,
-      0.7
-    ],
-    "fer_points": 0.967
-  },
-  {
-    "id": 11,
-    "name": "Man City",
-    "fer": [
-      0.6,
-      0.8,
-      0.6,
-      0.6,
-      0.8
-    ],
-    "fer_points": 0.963
+    "fer_points": 1.055
   },
   {
     "id": 20,
     "name": "Wolves",
     "fer": [
       0.6,
-      0.6,
       0.8,
       0.6,
+      0.8,
       0.8
     ],
-    "fer_points": 0.963
+    "fer_points": 1.023
   },
   {
-    "id": 14,
-    "name": "Norwich",
+    "id": 4,
+    "name": "Brighton",
     "fer": [
-      0.7,
-      0.6,
-      0.7,
-      0.6,
-      0.7
-    ],
-    "fer_points": 0.941
-  },
-  {
-    "id": 2,
-    "name": "Aston Villa",
-    "fer": [
-      0.7,
-      0.6,
       0.8,
-      0.6,
+      0.7,
+      0.7,
+      0.7,
       0.6
     ],
-    "fer_points": 0.938
+    "fer_points": 1.001
   },
   {
     "id": 6,
@@ -197,46 +113,130 @@
     "fer": [
       0.6,
       0.6,
+      0.7,
+      0.8,
+      0.8
+    ],
+    "fer_points": 0.997
+  },
+  {
+    "id": 14,
+    "name": "Norwich",
+    "fer": [
+      0.6,
+      0.7,
       0.6,
       0.7,
       0.8
     ],
-    "fer_points": 0.938
+    "fer_points": 0.97
   },
   {
-    "id": 8,
-    "name": "Everton",
+    "id": 17,
+    "name": "Spurs",
     "fer": [
+      0.8,
+      0.6,
+      0.7,
+      0.7,
+      0.6
+    ],
+    "fer_points": 0.97
+  },
+  {
+    "id": 11,
+    "name": "Man City",
+    "fer": [
+      0.8,
+      0.6,
+      0.6,
+      0.8,
+      0.6
+    ],
+    "fer_points": 0.966
+  },
+  {
+    "id": 5,
+    "name": "Burnley",
+    "fer": [
+      0.8,
       0.8,
       0.7,
       0.6,
+      0.5
+    ],
+    "fer_points": 0.963
+  },
+  {
+    "id": 2,
+    "name": "Aston Villa",
+    "fer": [
+      0.6,
+      0.8,
+      0.6,
+      0.6,
+      0.7
+    ],
+    "fer_points": 0.941
+  },
+  {
+    "id": 12,
+    "name": "Man Utd",
+    "fer": [
+      0.6,
+      0.8,
+      0.7,
       0.6,
       0.6
     ],
-    "fer_points": 0.938
+    "fer_points": 0.941
+  },
+  {
+    "id": 18,
+    "name": "Watford",
+    "fer": [
+      0.7,
+      0.6,
+      0.6,
+      0.8,
+      0.6
+    ],
+    "fer_points": 0.941
   },
   {
     "id": 3,
     "name": "Bournemouth",
     "fer": [
-      0.8,
       0.7,
       0.7,
       0.6,
-      0.5
+      0.5,
+      0.7
     ],
-    "fer_points": 0.934
+    "fer_points": 0.913
+  },
+  {
+    "id": 8,
+    "name": "Everton",
+    "fer": [
+      0.7,
+      0.6,
+      0.6,
+      0.6,
+      0.6
+    ],
+    "fer_points": 0.888
   },
   {
     "id": 19,
     "name": "West Ham",
     "fer": [
-      0.8,
       0.5,
       0.5,
       0.8,
-      0.6
+      0.6,
+      0.7
     ],
-    "fer_points": 0.898
+    "fer_points": 0.878
   }
 ]
