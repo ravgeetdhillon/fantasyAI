@@ -80,6 +80,14 @@
     "team_h_difficulty": 2
   },
   {
+    "event": 29.0,
+    "finished": false,
+    "team_a": 1,
+    "team_a_difficulty": 5,
+    "team_h": 11,
+    "team_h_difficulty": 4
+  },
+  {
     "event": 30.0,
     "finished": false,
     "team_a": 9,
@@ -170,49 +178,9 @@
   {
     "event": 31.0,
     "finished": false,
-    "team_a": 11,
-    "team_a_difficulty": 4,
-    "team_h": 6,
-    "team_h_difficulty": 4
-  },
-  {
-    "event": 31.0,
-    "finished": false,
     "team_a": 18,
     "team_a_difficulty": 3,
     "team_h": 5,
-    "team_h_difficulty": 2
-  },
-  {
-    "event": 31.0,
-    "finished": false,
-    "team_a": 15,
-    "team_a_difficulty": 4,
-    "team_h": 12,
-    "team_h_difficulty": 3
-  },
-  {
-    "event": 31.0,
-    "finished": false,
-    "team_a": 2,
-    "team_a_difficulty": 3,
-    "team_h": 13,
-    "team_h_difficulty": 2
-  },
-  {
-    "event": 31.0,
-    "finished": false,
-    "team_a": 8,
-    "team_a_difficulty": 2,
-    "team_h": 14,
-    "team_h_difficulty": 2
-  },
-  {
-    "event": 31.0,
-    "finished": false,
-    "team_a": 3,
-    "team_a_difficulty": 3,
-    "team_h": 20,
     "team_h_difficulty": 2
   },
   {
@@ -226,18 +194,10 @@
   {
     "event": 31.0,
     "finished": false,
-    "team_a": 4,
-    "team_a_difficulty": 4,
-    "team_h": 9,
+    "team_a": 3,
+    "team_a_difficulty": 3,
+    "team_h": 20,
     "team_h_difficulty": 2
-  },
-  {
-    "event": 31.0,
-    "finished": false,
-    "team_a": 1,
-    "team_a_difficulty": 2,
-    "team_h": 16,
-    "team_h_difficulty": 4
   },
   {
     "event": 32.0,
