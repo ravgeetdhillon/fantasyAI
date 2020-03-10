@@ -1,6 +1,6 @@
 # Fantasy AI
 
-[![Workflow Status](https://github.com/ravgeetdhillon/fantasyAI/workflows/Run%20AI%20and%20Notify/badge.svg)](https://github.com/ravgeetdhillon/fantasyAI/actions)
+[![Workflow Status](https://github.com/ravgeetdhillon/fantasyAI/workflows/Notifications/badge.svg)](https://github.com/ravgeetdhillon/fantasyAI/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ravgeetdhillon/fantasyAI/blob/master/LICENSE)
 
 AI for [my Fantasy Premier League team](https://fantasy.premierleague.com/entry/4914864/history).

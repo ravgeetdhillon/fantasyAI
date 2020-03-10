@@ -1,4 +1,4 @@
-name: Run AI and Notify
+name: Notifications
 
 on:
   schedule:
@@ -43,27 +43,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Fetch and organize data
-      run: |
-        cd src/scraping
-        python global_scraper.py
-        python teams_scraper.py ${TEAM_ID}
-        cd ..
-        rm -rf raw_data/2019-20/players
-        mv scraping/data/2019-20/players raw_data/2019-20/ -f
-        mv scraping/data/2019-20/players_raw.csv raw_data/2019-20/ -f
-        mv scraping/data/2019-20/fixtures.csv raw_data/ -f
-        mv scraping/data/team_data/my_team.json raw_data/ -f
-        mv scraping/data/gameweeks.json raw_data/ -f
-        rm -rf scraping/data
-        python data_cleaner.py
-        python data_maker.py
-    
-    - name: Run the AI
+    - name: Run the App
       run: |
         cd src
+        python scraper.py ${TEAM_ID}
+        python data_cleaner.py
+        python data_maker.py
         python ai.py
-        
+
     - name: Configure Git
       run: |
         git config --global user.email ${GITHUB_ACTOR}@gmail.com
