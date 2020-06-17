@@ -4,7 +4,7 @@
     "second_name": "Mustafi",
     "team": 1,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 1,
     "full_name": "shkodran mustafi",
     "seasons": [
@@ -61,7 +61,7 @@
         "minutes": 623,
         "total_points": 25,
         "points_per_game": 3.1,
-        "now_cost": 54,
+        "now_cost": 55,
         "gw_history": [
           0,
           0,
@@ -100,7 +100,7 @@
     "second_name": "Kolasinac",
     "team": 1,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 3,
     "full_name": "sead kolasinac",
     "seasons": [
@@ -301,7 +301,7 @@
         "minutes": 85,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 45,
+        "now_cost": 44,
         "gw_history": [
           0,
           0,
@@ -397,7 +397,7 @@
         "minutes": 1311,
         "total_points": 78,
         "points_per_game": 3.9,
-        "now_cost": 93,
+        "now_cost": 94,
         "gw_history": [
           0,
           6,
@@ -445,7 +445,7 @@
         "minutes": 249,
         "total_points": 12,
         "points_per_game": 2.4,
-        "now_cost": 43,
+        "now_cost": 44,
         "gw_history": [
           0,
           0,
@@ -541,7 +541,7 @@
         "minutes": 1439,
         "total_points": 53,
         "points_per_game": 2.9,
-        "now_cost": 72,
+        "now_cost": 73,
         "gw_history": [
           0,
           0,
@@ -589,7 +589,7 @@
         "minutes": 110,
         "total_points": 4,
         "points_per_game": 1.3,
-        "now_cost": 68,
+        "now_cost": 67,
         "gw_history": [
           0,
           0,
@@ -676,7 +676,7 @@
     "second_name": "Torreira",
     "team": 1,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 19,
     "full_name": "lucas torreira",
     "seasons": [
@@ -733,7 +733,7 @@
         "minutes": 1588,
         "total_points": 44,
         "points_per_game": 2.0,
-        "now_cost": 43,
+        "now_cost": 42,
         "gw_history": [
           1,
           0,
@@ -916,7 +916,7 @@
     "second_name": "Soares",
     "team": 1,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 486,
     "full_name": "c\u00e9dric soares",
     "seasons": [
@@ -974,7 +974,7 @@
         "minutes": 1587,
         "total_points": 88,
         "points_per_game": 3.7,
-        "now_cost": 92,
+        "now_cost": 93,
         "gw_history": [
           0,
           0,
@@ -1118,7 +1118,7 @@
         "minutes": 656,
         "total_points": 39,
         "points_per_game": 2.8,
-        "now_cost": 45,
+        "now_cost": 44,
         "gw_history": [
           0,
           0,
@@ -1157,7 +1157,7 @@
     "second_name": "Tierney",
     "team": 1,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 515,
     "full_name": "kieran tierney",
     "seasons": [
@@ -1214,7 +1214,7 @@
         "minutes": 1172,
         "total_points": 43,
         "points_per_game": 2.4,
-        "now_cost": 46,
+        "now_cost": 47,
         "gw_history": [
           0,
           0,
@@ -1314,7 +1314,7 @@
         "minutes": 763,
         "total_points": 20,
         "points_per_game": 1.7,
-        "now_cost": 42,
+        "now_cost": 41,
         "gw_history": [
           -1,
           2,
@@ -1362,7 +1362,7 @@
         "minutes": 793,
         "total_points": 17,
         "points_per_game": 1.7,
-        "now_cost": 43,
+        "now_cost": 42,
         "gw_history": [
           -1,
           -1,
@@ -1602,7 +1602,7 @@
         "minutes": 2333,
         "total_points": 118,
         "points_per_game": 4.5,
-        "now_cost": 65,
+        "now_cost": 64,
         "gw_history": [
           0,
           4,
@@ -1689,7 +1689,7 @@
     "second_name": "McGinn",
     "team": 2,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 31,
     "full_name": "john mcginn",
     "seasons": [
@@ -1929,7 +1929,7 @@
     "second_name": "Drinkwater",
     "team": 2,
     "element_type": 3,
-    "status": "n",
+    "status": "a",
     "id": 120,
     "full_name": "daniel drinkwater",
     "seasons": [
@@ -2034,7 +2034,7 @@
         "minutes": 1782,
         "total_points": 67,
         "points_per_game": 3.2,
-        "now_cost": 55,
+        "now_cost": 54,
         "gw_history": [
           0,
           0,
@@ -2073,7 +2073,7 @@
     "second_name": "Steer",
     "team": 2,
     "element_type": 1,
-    "status": "i",
+    "status": "a",
     "id": 429,
     "full_name": "jed steer",
     "seasons": [
@@ -2130,7 +2130,7 @@
         "minutes": 2002,
         "total_points": 56,
         "points_per_game": 2.4,
-        "now_cost": 45,
+        "now_cost": 44,
         "gw_history": [
           4,
           -1,
@@ -2226,7 +2226,7 @@
         "minutes": 1446,
         "total_points": 42,
         "points_per_game": 2.5,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           -1,
           -1,
@@ -2519,7 +2519,7 @@
         "minutes": 352,
         "total_points": 14,
         "points_per_game": 3.5,
-        "now_cost": 59,
+        "now_cost": 58,
         "gw_history": [
           6,
           0,
@@ -2557,7 +2557,7 @@
     "second_name": "Cook",
     "team": 3,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 58,
     "full_name": "steve cook",
     "seasons": [
@@ -2704,7 +2704,7 @@
     "second_name": "Mepham",
     "team": 3,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 61,
     "full_name": "chris mepham",
     "seasons": [
@@ -2753,7 +2753,7 @@
     "second_name": "Francis",
     "team": 3,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 62,
     "full_name": "simon francis",
     "seasons": [
@@ -2909,7 +2909,7 @@
         "minutes": 238,
         "total_points": 4,
         "points_per_game": 1.0,
-        "now_cost": 40,
+        "now_cost": 39,
         "gw_history": [
           0,
           0,
@@ -2998,7 +2998,7 @@
     "second_name": "King",
     "team": 3,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "id": 68,
     "full_name": "joshua king",
     "seasons": [
@@ -3056,7 +3056,7 @@
         "minutes": 1176,
         "total_points": 41,
         "points_per_game": 1.7,
-        "now_cost": 52,
+        "now_cost": 51,
         "gw_history": [
           0,
           0,
@@ -3635,7 +3635,7 @@
     "second_name": "Danjuma Groeneveld",
     "team": 3,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 492,
     "full_name": "arnaut danjuma groeneveld",
     "seasons": [
@@ -3693,7 +3693,7 @@
         "minutes": 2520,
         "total_points": 96,
         "points_per_game": 3.4,
-        "now_cost": 46,
+        "now_cost": 45,
         "gw_history": [
           0,
           2,
@@ -3987,7 +3987,7 @@
         "minutes": 2430,
         "total_points": 90,
         "points_per_game": 3.3,
-        "now_cost": 48,
+        "now_cost": 47,
         "gw_history": [
           9,
           1,
@@ -4183,7 +4183,7 @@
         "minutes": 2610,
         "total_points": 102,
         "points_per_game": 3.5,
-        "now_cost": 48,
+        "now_cost": 47,
         "gw_history": [
           7,
           0,
@@ -4232,7 +4232,7 @@
         "minutes": 1485,
         "total_points": 69,
         "points_per_game": 3.0,
-        "now_cost": 63,
+        "now_cost": 62,
         "gw_history": [
           4,
           1,
@@ -4624,7 +4624,7 @@
         "minutes": 2015,
         "total_points": 69,
         "points_per_game": 3.0,
-        "now_cost": 44,
+        "now_cost": 45,
         "gw_history": [
           0,
           0,
@@ -4771,7 +4771,7 @@
         "minutes": 827,
         "total_points": 41,
         "points_per_game": 2.4,
-        "now_cost": 43,
+        "now_cost": 42,
         "gw_history": [
           0,
           0,
@@ -5007,7 +5007,7 @@
         "minutes": 2610,
         "total_points": 101,
         "points_per_game": 3.5,
-        "now_cost": 51,
+        "now_cost": 52,
         "gw_history": [
           4,
           -1,
@@ -5047,7 +5047,7 @@
     "second_name": "Lowton",
     "team": 5,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 85,
     "full_name": "matthew lowton",
     "seasons": [
@@ -5243,7 +5243,7 @@
     "second_name": "Barnes",
     "team": 5,
     "element_type": 4,
-    "status": "i",
+    "status": "d",
     "id": 90,
     "full_name": "ashley barnes",
     "seasons": [
@@ -5292,7 +5292,7 @@
     "second_name": "Wood",
     "team": 5,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "id": 91,
     "full_name": "chris wood",
     "seasons": [
@@ -5439,7 +5439,7 @@
     "second_name": "Gudmundsson",
     "team": 5,
     "element_type": 3,
-    "status": "i",
+    "status": "d",
     "id": 96,
     "full_name": "johann berg gudmundsson",
     "seasons": [
@@ -5497,7 +5497,7 @@
         "minutes": 2529,
         "total_points": 99,
         "points_per_game": 3.4,
-        "now_cost": 60,
+        "now_cost": 61,
         "gw_history": [
           1,
           3,
@@ -5644,7 +5644,7 @@
         "minutes": 2340,
         "total_points": 91,
         "points_per_game": 3.5,
-        "now_cost": 54,
+        "now_cost": 55,
         "gw_history": [
           1,
           0,
@@ -5831,7 +5831,7 @@
     "second_name": "Rodriguez",
     "team": 5,
     "element_type": 4,
-    "status": "i",
+    "status": "a",
     "id": 451,
     "full_name": "jay rodriguez",
     "seasons": [
@@ -5914,7 +5914,7 @@
         "minutes": 858,
         "total_points": 77,
         "points_per_game": 7.0,
-        "now_cost": 61,
+        "now_cost": 62,
         "gw_history": [
           0,
           0,
@@ -6012,7 +6012,7 @@
         "minutes": 2419,
         "total_points": 88,
         "points_per_game": 3.3,
-        "now_cost": 58,
+        "now_cost": 59,
         "gw_history": [
           -2,
           0,
@@ -6110,7 +6110,7 @@
         "minutes": 1256,
         "total_points": 22,
         "points_per_game": 1.5,
-        "now_cost": 49,
+        "now_cost": 48,
         "gw_history": [
           -2,
           0,
@@ -6306,7 +6306,7 @@
         "minutes": 1923,
         "total_points": 113,
         "points_per_game": 4.0,
-        "now_cost": 69,
+        "now_cost": 70,
         "gw_history": [
           0,
           0,
@@ -6395,7 +6395,7 @@
     "second_name": "Hudson-Odoi",
     "team": 6,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 116,
     "full_name": "callum hudson-odoi",
     "seasons": [
@@ -6404,7 +6404,7 @@
         "minutes": 768,
         "total_points": 45,
         "points_per_game": 2.6,
-        "now_cost": 53,
+        "now_cost": 52,
         "gw_history": [
           0,
           0,
@@ -6453,7 +6453,7 @@
         "minutes": 670,
         "total_points": 37,
         "points_per_game": 2.8,
-        "now_cost": 56,
+        "now_cost": 57,
         "gw_history": [
           0,
           0,
@@ -6542,7 +6542,7 @@
     "second_name": "Kant\u00e9",
     "team": 6,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 119,
     "full_name": "n'golo kant\u00e9",
     "seasons": [
@@ -6591,7 +6591,7 @@
     "second_name": "Pulisic",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 431,
     "full_name": "christian pulisic",
     "seasons": [
@@ -6640,7 +6640,7 @@
     "second_name": "Kovacic",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 432,
     "full_name": "mateo kovacic",
     "seasons": [
@@ -6738,7 +6738,7 @@
     "second_name": "Abraham",
     "team": 6,
     "element_type": 4,
-    "status": "i",
+    "status": "a",
     "id": 460,
     "full_name": "tammy abraham",
     "seasons": [
@@ -6836,7 +6836,7 @@
     "second_name": "Mount",
     "team": 6,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 463,
     "full_name": "mason mount",
     "seasons": [
@@ -6845,7 +6845,7 @@
         "minutes": 2296,
         "total_points": 111,
         "points_per_game": 3.8,
-        "now_cost": 61,
+        "now_cost": 62,
         "gw_history": [
           0,
           8,
@@ -6894,7 +6894,7 @@
         "minutes": 1065,
         "total_points": 45,
         "points_per_game": 2.6,
-        "now_cost": 50,
+        "now_cost": 51,
         "gw_history": [
           0,
           0,
@@ -6943,7 +6943,7 @@
         "minutes": 1291,
         "total_points": 48,
         "points_per_game": 3.2,
-        "now_cost": 43,
+        "now_cost": 42,
         "gw_history": [
           0,
           0,
@@ -7120,7 +7120,7 @@
     "second_name": "Tomkins",
     "team": 7,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 124,
     "full_name": "james tomkins",
     "seasons": [
@@ -7325,7 +7325,7 @@
         "minutes": 1547,
         "total_points": 64,
         "points_per_game": 3.4,
-        "now_cost": 42,
+        "now_cost": 41,
         "gw_history": [
           4,
           0,
@@ -7423,7 +7423,7 @@
         "minutes": 90,
         "total_points": 15,
         "points_per_game": 2.5,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           0,
           0,
@@ -7472,7 +7472,7 @@
         "minutes": 2430,
         "total_points": 116,
         "points_per_game": 4.3,
-        "now_cost": 51,
+        "now_cost": 50,
         "gw_history": [
           4,
           0,
@@ -7570,7 +7570,7 @@
         "minutes": 2545,
         "total_points": 95,
         "points_per_game": 3.3,
-        "now_cost": 68,
+        "now_cost": 67,
         "gw_history": [
           0,
           0,
@@ -8011,7 +8011,7 @@
         "minutes": 2382,
         "total_points": 108,
         "points_per_game": 3.9,
-        "now_cost": 51,
+        "now_cost": 52,
         "gw_history": [
           0,
           0,
@@ -8324,7 +8324,7 @@
     "second_name": "Mina",
     "team": 8,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 142,
     "full_name": "yerry mina",
     "seasons": [
@@ -8422,7 +8422,7 @@
     "second_name": "Coleman",
     "team": 8,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 144,
     "full_name": "seamus coleman",
     "seasons": [
@@ -8529,7 +8529,7 @@
         "minutes": 1904,
         "total_points": 111,
         "points_per_game": 4.1,
-        "now_cost": 64,
+        "now_cost": 65,
         "gw_history": [
           0,
           0,
@@ -8578,7 +8578,7 @@
         "minutes": 2610,
         "total_points": 84,
         "points_per_game": 2.9,
-        "now_cost": 53,
+        "now_cost": 52,
         "gw_history": [
           5,
           4,
@@ -8716,7 +8716,7 @@
     "second_name": "An\u00edcio Caldeira Duarte",
     "team": 8,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 152,
     "full_name": "bernard an\u00edcio caldeira duarte",
     "seasons": [
@@ -8765,7 +8765,7 @@
     "second_name": "Walcott",
     "team": 8,
     "element_type": 3,
-    "status": "a",
+    "status": "i",
     "id": 153,
     "full_name": "theo walcott",
     "seasons": [
@@ -8912,7 +8912,7 @@
     "second_name": "Delph",
     "team": 8,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 205,
     "full_name": "fabian delph",
     "seasons": [
@@ -9068,7 +9068,7 @@
         "minutes": 670,
         "total_points": 40,
         "points_per_game": 1.8,
-        "now_cost": 64,
+        "now_cost": 63,
         "gw_history": [
           0,
           0,
@@ -9166,7 +9166,7 @@
         "minutes": 1638,
         "total_points": 64,
         "points_per_game": 3.0,
-        "now_cost": 51,
+        "now_cost": 50,
         "gw_history": [
           0,
           0,
@@ -9336,7 +9336,7 @@
         "minutes": 2059,
         "total_points": 94,
         "points_per_game": 4.1,
-        "now_cost": 56,
+        "now_cost": 55,
         "gw_history": [
           4,
           0,
@@ -9385,7 +9385,7 @@
         "minutes": 2574,
         "total_points": 108,
         "points_per_game": 3.7,
-        "now_cost": 52,
+        "now_cost": 53,
         "gw_history": [
           5,
           1,
@@ -9483,7 +9483,7 @@
         "minutes": 2520,
         "total_points": 103,
         "points_per_game": 3.7,
-        "now_cost": 50,
+        "now_cost": 49,
         "gw_history": [
           4,
           0,
@@ -9572,7 +9572,7 @@
     "second_name": "Vardy",
     "team": 9,
     "element_type": 4,
-    "status": "d",
+    "status": "a",
     "id": 166,
     "full_name": "jamie vardy",
     "seasons": [
@@ -9581,7 +9581,7 @@
         "minutes": 2222,
         "total_points": 167,
         "points_per_game": 6.4,
-        "now_cost": 96,
+        "now_cost": 97,
         "gw_history": [
           0,
           0,
@@ -9679,7 +9679,7 @@
         "minutes": 2610,
         "total_points": 119,
         "points_per_game": 4.1,
-        "now_cost": 53,
+        "now_cost": 54,
         "gw_history": [
           4,
           1,
@@ -9719,7 +9719,7 @@
     "second_name": "Maddison",
     "team": 9,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 171,
     "full_name": "james maddison",
     "seasons": [
@@ -9777,7 +9777,7 @@
         "minutes": 1705,
         "total_points": 112,
         "points_per_game": 4.1,
-        "now_cost": 61,
+        "now_cost": 62,
         "gw_history": [
           0,
           0,
@@ -9875,7 +9875,7 @@
         "minutes": 409,
         "total_points": 24,
         "points_per_game": 1.7,
-        "now_cost": 51,
+        "now_cost": 50,
         "gw_history": [
           0,
           0,
@@ -10111,7 +10111,7 @@
     "second_name": "P\u00e9rez",
     "team": 9,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 265,
     "full_name": "ayoze p\u00e9rez",
     "seasons": [
@@ -10160,7 +10160,7 @@
     "second_name": "Bennett",
     "team": 9,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 404,
     "full_name": "ryan bennett",
     "seasons": [
@@ -10267,7 +10267,7 @@
         "minutes": 2148,
         "total_points": 95,
         "points_per_game": 3.4,
-        "now_cost": 62,
+        "now_cost": 61,
         "gw_history": [
           1,
           0,
@@ -10463,7 +10463,7 @@
         "minutes": 2610,
         "total_points": 141,
         "points_per_game": 4.9,
-        "now_cost": 66,
+        "now_cost": 65,
         "gw_history": [
           6,
           0,
@@ -10748,7 +10748,7 @@
     "second_name": "Ramses Becker",
     "team": 10,
     "element_type": 1,
-    "status": "i",
+    "status": "a",
     "id": 189,
     "full_name": "alisson ramses becker",
     "seasons": [
@@ -10855,7 +10855,7 @@
         "minutes": 2077,
         "total_points": 175,
         "points_per_game": 6.7,
-        "now_cost": 124,
+        "now_cost": 125,
         "gw_history": [
           0,
           11,
@@ -11421,7 +11421,7 @@
         "minutes": 77,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 61,
+        "now_cost": 60,
         "gw_history": [
           0,
           0,
@@ -11441,7 +11441,7 @@
     "second_name": "Laporte",
     "team": 11,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 202,
     "full_name": "aymeric laporte",
     "seasons": [
@@ -11498,7 +11498,7 @@
         "minutes": 1807,
         "total_points": 73,
         "points_per_game": 3.5,
-        "now_cost": 57,
+        "now_cost": 56,
         "gw_history": [
           6,
           -1,
@@ -11537,7 +11537,7 @@
     "second_name": "Mendy",
     "team": 11,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 204,
     "full_name": "benjamin mendy",
     "seasons": [
@@ -11690,7 +11690,7 @@
         "minutes": 1413,
         "total_points": 66,
         "points_per_game": 3.5,
-        "now_cost": 50,
+        "now_cost": 49,
         "gw_history": [
           0,
           -1,
@@ -11738,7 +11738,7 @@
         "minutes": 1394,
         "total_points": 124,
         "points_per_game": 5.6,
-        "now_cost": 119,
+        "now_cost": 118,
         "gw_history": [
           4,
           4,
@@ -11786,7 +11786,7 @@
         "minutes": 1333,
         "total_points": 97,
         "points_per_game": 4.0,
-        "now_cost": 95,
+        "now_cost": 96,
         "gw_history": [
           4,
           0,
@@ -11969,7 +11969,7 @@
     "second_name": "De Bruyne",
     "team": 11,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 215,
     "full_name": "kevin de bruyne",
     "seasons": [
@@ -12026,7 +12026,7 @@
         "minutes": 1382,
         "total_points": 121,
         "points_per_game": 5.3,
-        "now_cost": 84,
+        "now_cost": 85,
         "gw_history": [
           12,
           0,
@@ -12074,7 +12074,7 @@
         "minutes": 1492,
         "total_points": 86,
         "points_per_game": 3.6,
-        "now_cost": 78,
+        "now_cost": 77,
         "gw_history": [
           0,
           0,
@@ -12218,7 +12218,7 @@
         "minutes": 1995,
         "total_points": 44,
         "points_per_game": 1.9,
-        "now_cost": 52,
+        "now_cost": 51,
         "gw_history": [
           0,
           0,
@@ -12314,7 +12314,7 @@
         "minutes": 422,
         "total_points": 11,
         "points_per_game": 1.8,
-        "now_cost": 47,
+        "now_cost": 46,
         "gw_history": [
           0,
           0,
@@ -12362,7 +12362,7 @@
         "minutes": 1953,
         "total_points": 73,
         "points_per_game": 2.8,
-        "now_cost": 54,
+        "now_cost": 55,
         "gw_history": [
           1,
           0,
@@ -12410,7 +12410,7 @@
         "minutes": 783,
         "total_points": 25,
         "points_per_game": 2.3,
-        "now_cost": 52,
+        "now_cost": 51,
         "gw_history": [
           0,
           0,
@@ -12884,7 +12884,7 @@
     "second_name": "Jones",
     "team": 12,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 231,
     "full_name": "phil jones",
     "seasons": [
@@ -12893,7 +12893,7 @@
         "minutes": 135,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 48,
+        "now_cost": 47,
         "gw_history": [
           0,
           0,
@@ -12933,7 +12933,7 @@
     "second_name": "Rashford",
     "team": 12,
     "element_type": 4,
-    "status": "i",
+    "status": "a",
     "id": 233,
     "full_name": "marcus rashford",
     "seasons": [
@@ -12942,7 +12942,7 @@
         "minutes": 1876,
         "total_points": 134,
         "points_per_game": 6.1,
-        "now_cost": 89,
+        "now_cost": 88,
         "gw_history": [
           11,
           4,
@@ -13040,7 +13040,7 @@
         "minutes": 2610,
         "total_points": 103,
         "points_per_game": 3.6,
-        "now_cost": 54,
+        "now_cost": 53,
         "gw_history": [
           8,
           0,
@@ -13080,7 +13080,7 @@
     "second_name": "Pogba",
     "team": 12,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 238,
     "full_name": "paul pogba",
     "seasons": [
@@ -13129,7 +13129,7 @@
     "second_name": "Martial",
     "team": 12,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 239,
     "full_name": "anthony martial",
     "seasons": [
@@ -13138,7 +13138,7 @@
         "minutes": 1875,
         "total_points": 122,
         "points_per_game": 5.3,
-        "now_cost": 79,
+        "now_cost": 80,
         "gw_history": [
           5,
           5,
@@ -13236,7 +13236,7 @@
         "minutes": 727,
         "total_points": 36,
         "points_per_game": 2.1,
-        "now_cost": 62,
+        "now_cost": 61,
         "gw_history": [
           0,
           0,
@@ -13383,7 +13383,7 @@
         "minutes": 19,
         "total_points": 2,
         "points_per_game": 1.0,
-        "now_cost": 48,
+        "now_cost": 47,
         "gw_history": [
           0,
           0,
@@ -13726,7 +13726,7 @@
         "minutes": 758,
         "total_points": 39,
         "points_per_game": 3.2,
-        "now_cost": 41,
+        "now_cost": 42,
         "gw_history": [
           0,
           0,
@@ -13769,7 +13769,7 @@
         "minutes": 447,
         "total_points": 38,
         "points_per_game": 7.6,
-        "now_cost": 85,
+        "now_cost": 86,
         "gw_history": [
           0,
           4,
@@ -13965,7 +13965,7 @@
         "minutes": 1807,
         "total_points": 85,
         "points_per_game": 3.7,
-        "now_cost": 45,
+        "now_cost": 46,
         "gw_history": [
           0,
           0,
@@ -14005,7 +14005,7 @@
     "second_name": "Dummett",
     "team": 13,
     "element_type": 2,
-    "status": "i",
+    "status": "n",
     "id": 255,
     "full_name": "paul dummett",
     "seasons": [
@@ -14014,7 +14014,7 @@
         "minutes": 1227,
         "total_points": 44,
         "points_per_game": 2.8,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           0,
           -2,
@@ -14201,7 +14201,7 @@
     "second_name": "Clark",
     "team": 13,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 259,
     "full_name": "ciaran clark",
     "seasons": [
@@ -14299,7 +14299,7 @@
     "second_name": "Dubravka",
     "team": 13,
     "element_type": 1,
-    "status": "i",
+    "status": "a",
     "id": 262,
     "full_name": "martin dubravka",
     "seasons": [
@@ -14308,7 +14308,7 @@
         "minutes": 2610,
         "total_points": 118,
         "points_per_game": 4.1,
-        "now_cost": 50,
+        "now_cost": 51,
         "gw_history": [
           0,
           0,
@@ -14544,7 +14544,7 @@
     "second_name": "Longstaff",
     "team": 13,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 270,
     "full_name": "sean longstaff",
     "seasons": [
@@ -14602,7 +14602,7 @@
         "minutes": 1965,
         "total_points": 61,
         "points_per_game": 2.5,
-        "now_cost": 43,
+        "now_cost": 44,
         "gw_history": [
           0,
           0,
@@ -14749,7 +14749,7 @@
         "minutes": 1492,
         "total_points": 64,
         "points_per_game": 3.4,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           0,
           0,
@@ -14838,7 +14838,7 @@
     "second_name": "Krafth",
     "team": 13,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 519,
     "full_name": "emil krafth",
     "seasons": [
@@ -14887,7 +14887,7 @@
     "second_name": "Carroll",
     "team": 13,
     "element_type": 4,
-    "status": "i",
+    "status": "a",
     "id": 520,
     "full_name": "andy carroll",
     "seasons": [
@@ -14936,7 +14936,7 @@
     "second_name": "Longstaff",
     "team": 13,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 540,
     "full_name": "matthew longstaff",
     "seasons": [
@@ -15269,7 +15269,7 @@
     "second_name": "Hanley",
     "team": 14,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 277,
     "full_name": "grant hanley",
     "seasons": [
@@ -15278,7 +15278,7 @@
         "minutes": 1261,
         "total_points": 23,
         "points_per_game": 1.5,
-        "now_cost": 40,
+        "now_cost": 41,
         "gw_history": [
           -4,
           0,
@@ -15425,7 +15425,7 @@
         "minutes": 2430,
         "total_points": 91,
         "points_per_game": 3.4,
-        "now_cost": 45,
+        "now_cost": 46,
         "gw_history": [
           -1,
           0,
@@ -15474,7 +15474,7 @@
         "minutes": 158,
         "total_points": 11,
         "points_per_game": 5.5,
-        "now_cost": 40,
+        "now_cost": 41,
         "gw_history": [
           0,
           0,
@@ -15612,7 +15612,7 @@
     "second_name": "Hern\u00e1ndez",
     "team": 14,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 284,
     "full_name": "onel hern\u00e1ndez",
     "seasons": [
@@ -15670,7 +15670,7 @@
         "minutes": 928,
         "total_points": 26,
         "points_per_game": 1.4,
-        "now_cost": 51,
+        "now_cost": 50,
         "gw_history": [
           0,
           1,
@@ -15768,7 +15768,7 @@
         "minutes": 2067,
         "total_points": 100,
         "points_per_game": 3.4,
-        "now_cost": 48,
+        "now_cost": 47,
         "gw_history": [
           0,
           8,
@@ -15915,7 +15915,7 @@
         "minutes": 1022,
         "total_points": 25,
         "points_per_game": 1.8,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           0,
           1,
@@ -16013,7 +16013,7 @@
         "minutes": 24,
         "total_points": 3,
         "points_per_game": 1.0,
-        "now_cost": 51,
+        "now_cost": 50,
         "gw_history": [
           0,
           0,
@@ -16102,7 +16102,7 @@
     "second_name": "Byram",
     "team": 14,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 454,
     "full_name": "sam byram",
     "seasons": [
@@ -16111,7 +16111,7 @@
         "minutes": 1292,
         "total_points": 32,
         "points_per_game": 1.9,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           0,
           0,
@@ -16254,7 +16254,7 @@
         "minutes": 577,
         "total_points": 19,
         "points_per_game": 2.7,
-        "now_cost": 48,
+        "now_cost": 47,
         "gw_history": [
           4,
           0,
@@ -16347,7 +16347,7 @@
     "second_name": "Stevens",
     "team": 15,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 291,
     "full_name": "enda stevens",
     "seasons": [
@@ -16356,7 +16356,7 @@
         "minutes": 2445,
         "total_points": 110,
         "points_per_game": 3.9,
-        "now_cost": 51,
+        "now_cost": 52,
         "gw_history": [
           0,
           5,
@@ -16395,7 +16395,7 @@
     "second_name": "O'Connell",
     "team": 15,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 293,
     "full_name": "jack o'connell",
     "seasons": [
@@ -16548,7 +16548,7 @@
         "minutes": 2065,
         "total_points": 128,
         "points_per_game": 4.7,
-        "now_cost": 48,
+        "now_cost": 49,
         "gw_history": [
           1,
           12,
@@ -16635,7 +16635,7 @@
     "second_name": "Fleck",
     "team": 15,
     "element_type": 3,
-    "status": "a",
+    "status": "d",
     "id": 301,
     "full_name": "john fleck",
     "seasons": [
@@ -16788,7 +16788,7 @@
         "minutes": 2432,
         "total_points": 90,
         "points_per_game": 3.2,
-        "now_cost": 45,
+        "now_cost": 46,
         "gw_history": [
           0,
           4,
@@ -16884,7 +16884,7 @@
         "minutes": 322,
         "total_points": 11,
         "points_per_game": 1.2,
-        "now_cost": 51,
+        "now_cost": 50,
         "gw_history": [
           0,
           0,
@@ -16932,7 +16932,7 @@
         "minutes": 128,
         "total_points": 4,
         "points_per_game": 1.0,
-        "now_cost": 42,
+        "now_cost": 41,
         "gw_history": [
           0,
           0,
@@ -16980,7 +16980,7 @@
         "minutes": 669,
         "total_points": 33,
         "points_per_game": 2.1,
-        "now_cost": 50,
+        "now_cost": 49,
         "gw_history": [
           0,
           0,
@@ -17028,7 +17028,7 @@
         "minutes": 12,
         "total_points": 1,
         "points_per_game": 1.0,
-        "now_cost": 46,
+        "now_cost": 45,
         "gw_history": [
           0,
           0,
@@ -17076,7 +17076,7 @@
         "minutes": 2430,
         "total_points": 122,
         "points_per_game": 4.5,
-        "now_cost": 52,
+        "now_cost": 53,
         "gw_history": [
           0,
           7,
@@ -17220,7 +17220,7 @@
         "minutes": 243,
         "total_points": 9,
         "points_per_game": 1.0,
-        "now_cost": 44,
+        "now_cost": 43,
         "gw_history": [
           0,
           0,
@@ -17310,7 +17310,7 @@
         "minutes": 208,
         "total_points": 8,
         "points_per_game": 2.0,
-        "now_cost": 49,
+        "now_cost": 48,
         "gw_history": [
           1,
           0,
@@ -17334,7 +17334,7 @@
         "minutes": 1135,
         "total_points": 39,
         "points_per_game": 2.8,
-        "now_cost": 46,
+        "now_cost": 45,
         "gw_history": [
           -1,
           -1,
@@ -17530,7 +17530,7 @@
         "minutes": 1827,
         "total_points": 64,
         "points_per_game": 3.0,
-        "now_cost": 45,
+        "now_cost": 44,
         "gw_history": [
           -1,
           0,
@@ -17579,7 +17579,7 @@
         "minutes": 558,
         "total_points": 10,
         "points_per_game": 1.2,
-        "now_cost": 42,
+        "now_cost": 41,
         "gw_history": [
           0,
           -1,
@@ -17717,7 +17717,7 @@
     "second_name": "Long",
     "team": 16,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "id": 315,
     "full_name": "shane long",
     "seasons": [
@@ -17726,7 +17726,7 @@
         "minutes": 1131,
         "total_points": 53,
         "points_per_game": 2.8,
-        "now_cost": 46,
+        "now_cost": 47,
         "gw_history": [
           0,
           0,
@@ -17864,7 +17864,7 @@
     "second_name": "Redmond",
     "team": 16,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 320,
     "full_name": "nathan redmond",
     "seasons": [
@@ -17962,7 +17962,7 @@
     "second_name": "Armstrong",
     "team": 16,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 323,
     "full_name": "stuart armstrong",
     "seasons": [
@@ -18353,7 +18353,7 @@
     "second_name": "Smallbone",
     "team": 16,
     "element_type": 3,
-    "status": "d",
+    "status": "a",
     "id": 584,
     "full_name": "william smallbone",
     "seasons": [
@@ -18383,7 +18383,7 @@
     "second_name": "Davies",
     "team": 17,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 329,
     "full_name": "ben davies",
     "seasons": [
@@ -18530,7 +18530,7 @@
     "second_name": "S\u00e1nchez",
     "team": 17,
     "element_type": 2,
-    "status": "d",
+    "status": "a",
     "id": 333,
     "full_name": "davinson s\u00e1nchez",
     "seasons": [
@@ -18637,7 +18637,7 @@
         "minutes": 1909,
         "total_points": 85,
         "points_per_game": 3.5,
-        "now_cost": 50,
+        "now_cost": 49,
         "gw_history": [
           0,
           0,
@@ -18677,7 +18677,7 @@
     "second_name": "Kane",
     "team": 17,
     "element_type": 4,
-    "status": "i",
+    "status": "a",
     "id": 338,
     "full_name": "harry kane",
     "seasons": [
@@ -18824,7 +18824,7 @@
     "second_name": "Son",
     "team": 17,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 342,
     "full_name": "heung-min son",
     "seasons": [
@@ -18833,7 +18833,7 @@
         "minutes": 1744,
         "total_points": 122,
         "points_per_game": 5.8,
-        "now_cost": 98,
+        "now_cost": 97,
         "gw_history": [
           0,
           0,
@@ -18922,7 +18922,7 @@
     "second_name": "Alli",
     "team": 17,
     "element_type": 3,
-    "status": "a",
+    "status": "s",
     "id": 344,
     "full_name": "bamidele alli",
     "seasons": [
@@ -19167,7 +19167,7 @@
     "second_name": "Sissoko",
     "team": 17,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 349,
     "full_name": "moussa sissoko",
     "seasons": [
@@ -19363,7 +19363,7 @@
     "second_name": "Parrott",
     "team": 17,
     "element_type": 4,
-    "status": "a",
+    "status": "d",
     "id": 509,
     "full_name": "troy parrott",
     "seasons": [
@@ -19559,7 +19559,7 @@
     "second_name": "Tanganga",
     "team": 17,
     "element_type": 2,
-    "status": "a",
+    "status": "d",
     "id": 583,
     "full_name": "japhet tanganga",
     "seasons": [
@@ -19617,7 +19617,7 @@
     "second_name": "Bergwijn",
     "team": 17,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 615,
     "full_name": "steven bergwijn",
     "seasons": [
@@ -20729,7 +20729,7 @@
         "minutes": 1221,
         "total_points": 78,
         "points_per_game": 4.1,
-        "now_cost": 63,
+        "now_cost": 64,
         "gw_history": [
           0,
           0,
@@ -20778,7 +20778,7 @@
         "minutes": 57,
         "total_points": 1,
         "points_per_game": 0.3,
-        "now_cost": 40,
+        "now_cost": 39,
         "gw_history": [
           0,
           -2,
@@ -20850,7 +20850,7 @@
         "minutes": 2023,
         "total_points": 63,
         "points_per_game": 2.7,
-        "now_cost": 46,
+        "now_cost": 45,
         "gw_history": [
           -2,
           0,
@@ -20948,7 +20948,7 @@
         "minutes": 908,
         "total_points": 25,
         "points_per_game": 1.7,
-        "now_cost": 42,
+        "now_cost": 41,
         "gw_history": [
           0,
           -1,
@@ -20997,7 +20997,7 @@
         "minutes": 588,
         "total_points": 10,
         "points_per_game": 1.0,
-        "now_cost": 42,
+        "now_cost": 41,
         "gw_history": [
           0,
           0,
@@ -21037,7 +21037,7 @@
     "second_name": "Fredericks",
     "team": 19,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 380,
     "full_name": "ryan fredericks",
     "seasons": [
@@ -21389,7 +21389,7 @@
         "minutes": 1182,
         "total_points": 45,
         "points_per_game": 2.4,
-        "now_cost": 62,
+        "now_cost": 61,
         "gw_history": [
           0,
           6,
@@ -21429,7 +21429,7 @@
     "second_name": "Yarmolenko",
     "team": 19,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 392,
     "full_name": "andriy yarmolenko",
     "seasons": [
@@ -21487,7 +21487,7 @@
         "minutes": 1504,
         "total_points": 87,
         "points_per_game": 3.6,
-        "now_cost": 53,
+        "now_cost": 52,
         "gw_history": [
           0,
           0,
@@ -21527,7 +21527,7 @@
     "second_name": "Wilshere",
     "team": 19,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 394,
     "full_name": "jack wilshere",
     "seasons": [
@@ -21536,7 +21536,7 @@
         "minutes": 174,
         "total_points": 6,
         "points_per_game": 1.0,
-        "now_cost": 47,
+        "now_cost": 46,
         "gw_history": [
           0,
           0,
@@ -21879,7 +21879,7 @@
         "minutes": 128,
         "total_points": 8,
         "points_per_game": 1.0,
-        "now_cost": 57,
+        "now_cost": 56,
         "gw_history": [
           0,
           0,
@@ -21928,7 +21928,7 @@
         "minutes": 435,
         "total_points": 20,
         "points_per_game": 4.0,
-        "now_cost": 40,
+        "now_cost": 39,
         "gw_history": [
           0,
           0,
@@ -21961,7 +21961,7 @@
     "second_name": "Holland",
     "team": 19,
     "element_type": 3,
-    "status": "n",
+    "status": "a",
     "id": 568,
     "full_name": "nathan holland",
     "seasons": [
@@ -22034,7 +22034,7 @@
         "minutes": 180,
         "total_points": 3,
         "points_per_game": 1.5,
-        "now_cost": 41,
+        "now_cost": 40,
         "gw_history": [
           0,
           -1,
@@ -22151,7 +22151,7 @@
     "second_name": "Castro Otto",
     "team": 20,
     "element_type": 2,
-    "status": "i",
+    "status": "a",
     "id": 402,
     "full_name": "jonathan castro otto",
     "seasons": [
@@ -22209,7 +22209,7 @@
         "minutes": 2610,
         "total_points": 83,
         "points_per_game": 2.9,
-        "now_cost": 50,
+        "now_cost": 51,
         "gw_history": [
           4,
           0,
@@ -22405,7 +22405,7 @@
         "minutes": 184,
         "total_points": 5,
         "points_per_game": 1.7,
-        "now_cost": 40,
+        "now_cost": 39,
         "gw_history": [
           0,
           0,
@@ -22552,7 +22552,7 @@
         "minutes": 2610,
         "total_points": 116,
         "points_per_game": 4.0,
-        "now_cost": 51,
+        "now_cost": 52,
         "gw_history": [
           4,
           7,
@@ -22690,7 +22690,7 @@
     "second_name": "Gibbs-White",
     "team": 20,
     "element_type": 3,
-    "status": "i",
+    "status": "a",
     "id": 416,
     "full_name": "morgan gibbs-white",
     "seasons": [
@@ -22748,7 +22748,7 @@
         "minutes": 2068,
         "total_points": 108,
         "points_per_game": 3.9,
-        "now_cost": 58,
+        "now_cost": 57,
         "gw_history": [
           0,
           0,
@@ -22895,7 +22895,7 @@
         "minutes": 292,
         "total_points": 23,
         "points_per_game": 1.9,
-        "now_cost": 55,
+        "now_cost": 54,
         "gw_history": [
           0,
           0,
