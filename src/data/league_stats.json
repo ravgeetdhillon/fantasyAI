@@ -1,9 +1,9 @@
 {
   "2019-20": {
-    "all_players_effective_total_points": 11477,
-    "all_players_minutes": 689960,
-    "total_players": 505,
-    "avg_effective_total_points_per_player": 22.72673267326733,
-    "avg_minutes_per_player": 31.05130513051305
+    "all_players_effective_total_points": 11764,
+    "all_players_minutes": 709747,
+    "total_players": 510,
+    "avg_effective_total_points_per_player": 23.066666666666666,
+    "avg_minutes_per_player": 30.925795206971678
   }
 }
