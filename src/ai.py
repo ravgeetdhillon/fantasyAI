@@ -1,101 +1,103 @@
+from helpers import load_data, get_next_gameweek_id
+from notify import send_email, html_response
 from random import shuffle
 from time import time
-from notify import send_email, html_response
 import json
 import variables
 import numpy as np
 
 
 # initialize the global variables
-next_event = variables.NEXT_EVENT
+next_event = get_next_gameweek_id()
 
 
 def display_team(team):
-    '''
+    """
     Writes the team onto a file or command line.
-    '''
+    """
 
     composition = {
-        'Goalkeeper': [],
-        'Defender': [],
-        'Midfielder': [],
-        'Forward': []
+        "Goalkeeper": [],
+        "Defender": [],
+        "Midfielder": [],
+        "Forward": []
     }
 
     for player in team:
-        composition[player['position']].append([player["full_name"], player['seasons'][0]['now_cost']])
+        composition[player["position"]].append([player["full_name"], player["seasons"][0]["now_cost"]])
     
-    result = ''
+    result = ""
     for position in composition:
-        result += f'\n{position}: '
+        result += f"\n{position}: "
         result += str(composition[position])
     
-    return result
+    print(result)
+    return None
 
 
 def get_estimated_points(team):
-    '''
+    """
     Gets estimated total points based on the previous history of players.
-    '''
+    """
 
     points = 0
     for player in team:
-        points += player['seasons'][0]['total_points']
+        points += player["seasons"][0]["total_points"]
     
     return variables.CURRENT_POINTS + round(points * (38 - (next_event-1)) / (next_event-1))
 
 
 def get_team_cost(team):
-    '''
-    Gets the team's cost.
-    '''
+    """
+    Gets the team"s cost.
+    """
 
     cost = 0
     for player in team:
-        cost += player['seasons'][0]['now_cost']
+        cost += player["seasons"][0]["now_cost"]
     
     return round(cost, 2)
 
 
 def get_formation(team):
-    '''
+    """
     Gets the formation of the team.
-    '''
+    """
 
     formation = [0, 0, 0]
     for player in team:
-        if player['position'] == 'Defender':
+        if player["position"] == "Defender":
             formation[0] += 1
-        elif player['position'] == 'Midfielder':
+        elif player["position"] == "Midfielder":
             formation[1] += 1
-        elif player['position'] == 'Forward':
+        elif player["position"] == "Forward":
             formation[2] += 1
     
     formation = [str(x) for x in formation]
     
-    return '-'.join(formation)
+    return "-".join(formation)
 
 
 def value_in_range(player1, player2):
-    '''
+    """
     Compares the `final_value` of two players and returns True if they are within a calculated range.
-    '''
+    """
 
-    a = max(player1['final_value'], player2['final_value'])
-    b = min(player1['final_value'], player2['final_value'])
+    a = max(player1["final_value"], player2["final_value"])
+    b = min(player1["final_value"], player2["final_value"])
     
     ans = (a - b) * 100 / a
     
-    if ans <= limit['final_value_limit']:
-        return [True, player1 if max(player1['final_value'], player2['final_value']) == player1['final_value'] else player2]
+    if ans <= limit["final_value_limit"]:
+        return [True, player1 if max(player1["final_value"], player2["final_value"]) == player1["final_value"] else player2]
     else:
-        return [False, player1 if max(player1['final_value'], player2['final_value']) == player1['final_value'] else player2]
+        return [False, player1 if max(player1["final_value"], player2["final_value"]) == player1["final_value"] else player2]
 
 
 def budget_in_range(amount1, amount2):
-    '''
+    """
     Checks whether the player is in budget and returns True if so.
-    '''
+    """
 
     if amount2 < 0:
         return False
@@ -103,7 +105,7 @@ def budget_in_range(amount1, amount2):
         a = max(amount1, amount2)
         b = min(amount1, amount2)
         ans = (a - b) * 100 / a
-        if ans <= limit['cost_limit']:
+        if ans <= limit["cost_limit"]:
             return True
         else:
             return False
@@ -112,95 +114,95 @@ def budget_in_range(amount1, amount2):
     
 
 def value_points_in_range(player1, player2):
-    '''
+    """
     Compares the `value_points` of two players and returns True if they are within a calculated range.
-    '''
+    """
     
-    a = max(player1['value_points'], player2['value_points'])
-    b = min(player1['value_points'], player2['value_points'])
+    a = max(player1["value_points"], player2["value_points"])
+    b = min(player1["value_points"], player2["value_points"])
     
     ans = (a - b) * 100 / a
     
-    if ans <= limit['value_points_limit']:
-        return [True, player1 if max(player1['value_points'], player2['value_points']) == player1['value_points'] else player2]
+    if ans <= limit["value_points_limit"]:
+        return [True, player1 if max(player1["value_points"], player2["value_points"]) == player1["value_points"] else player2]
     else:
-        return [False, player1 if max(player1['value_points'], player2['value_points']) == player1['value_points'] else player2]
+        return [False, player1 if max(player1["value_points"], player2["value_points"]) == player1["value_points"] else player2]
 
 
 def consistency_in_range(player1, player2):
-    '''
+    """
     Compares the `consistency` of two players and returns True if they are within a calculated range.
-    '''
+    """
 
-    a = max(player1['consistency_overall'], player2['consistency_overall'])
-    b = min(player1['consistency_overall'], player2['consistency_overall'])
+    a = max(player1["consistency_overall"], player2["consistency_overall"])
+    b = min(player1["consistency_overall"], player2["consistency_overall"])
     
     ans = (a - b) * 100 / a
     
-    if ans <= limit['consistency_limit']:
-        return [True, player1 if max(player1['consistency_overall'], player2['consistency_overall']) == player1['consistency_overall'] else player2]
+    if ans <= limit["consistency_limit"]:
+        return [True, player1 if max(player1["consistency_overall"], player2["consistency_overall"]) == player1["consistency_overall"] else player2]
     else:
-        return [False, player1 if max(player1['consistency_overall'], player2['consistency_overall']) == player1['consistency_overall'] else player2]
+        return [False, player1 if max(player1["consistency_overall"], player2["consistency_overall"]) == player1["consistency_overall"] else player2]
 
 
 def player_with_easy_fixtures(player1, player2):
-    '''
+    """
     Gets the player with easier upcoming fixtures.
-    '''
+    """
 
-    if player1['fer'] >= player2['fer']:
+    if player1["fer"] >= player2["fer"]:
         return player1
     else:
         return player2
 
 
-def get_cover(player_type, final_team, configuration, new_player=''):
-    '''
+def get_cover(player_type, final_team, configuration, new_player=""):
+    """
     Checks whether a whole team can be bought in the budget if a buy is made that is bit costly but valuable to the team.
-    '''
+    """
 
-    forward_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Forward' and player not in final_team])
-    midfielder_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Midfielder' and player not in final_team])
-    defender_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Defender' and player not in final_team])
-    goalkeeper_cost = np.mean([player['seasons'][0]['now_cost'] for player in players if player['position'] == 'Goalkeeper' and player not in final_team])
+    forward_cost = np.mean([player["seasons"][0]["now_cost"] for player in players if player["position"] == "Forward" and player not in final_team])
+    midfielder_cost = np.mean([player["seasons"][0]["now_cost"] for player in players if player["position"] == "Midfielder" and player not in final_team])
+    defender_cost = np.mean([player["seasons"][0]["now_cost"] for player in players if player["position"] == "Defender" and player not in final_team])
+    goalkeeper_cost = np.mean([player["seasons"][0]["now_cost"] for player in players if player["position"] == "Goalkeeper" and player not in final_team])
 
     cover = 0
     for position in configuration:
-        if position == 'Goalkeeper':
-            cover += configuration[position]['left'] * goalkeeper_cost
-        elif position == 'Defender':
-            cover += configuration[position]['left'] * defender_cost
-        elif position == 'Midfielder':
-            cover += configuration[position]['left'] * midfielder_cost
-        elif position == 'Forward':
-            cover += configuration[position]['left'] * forward_cost
+        if position == "Goalkeeper":
+            cover += configuration[position]["left"] * goalkeeper_cost
+        elif position == "Defender":
+            cover += configuration[position]["left"] * defender_cost
+        elif position == "Midfielder":
+            cover += configuration[position]["left"] * midfielder_cost
+        elif position == "Forward":
+            cover += configuration[position]["left"] * forward_cost
     
-    if player_type == 'Goalkeeper':
+    if player_type == "Goalkeeper":
         cover -= goalkeeper_cost
-    elif player_type == 'Defender':
+    elif player_type == "Defender":
         cover -= defender_cost
-    elif player_type == 'Midfielder':
+    elif player_type == "Midfielder":
         cover -= midfielder_cost
-    elif player_type == 'Forward':
+    elif player_type == "Forward":
         cover -= forward_cost
     return cover
 
 
 def select_player_from(position, final_team, configuration, budget, team_players_selected, donot_consider, picks=0):
-    '''
+    """
     Selects the players from a given lot based on the `final_value`.
-    '''
+    """
 
-    if position == 'Goalkeeper':
+    if position == "Goalkeeper":
         global goalkeepers
         position = goalkeepers
-    if position == 'Defender':
+    if position == "Defender":
         global defenders
         position = defenders
-    if position == 'Midfielder':
+    if position == "Midfielder":
         global midfielders
         position = midfielders
-    if position == 'Forward':
+    if position == "Forward":
         global forwards
         position = forwards
 
@@ -211,11 +213,11 @@ def select_player_from(position, final_team, configuration, budget, team_players
         i = 0
         while len(selected_players) < 2 and i < len(position):
         
-            cover = get_cover(position[0]['position'], final_team, configuration)
-            b = budget - position[i]['seasons'][0]['now_cost']
+            cover = get_cover(position[0]["position"], final_team, configuration)
+            b = budget - position[i]["seasons"][0]["now_cost"]
 
-            if budget_in_range(cover, budget - position[i]['seasons'][0]['now_cost']):
-                if position[i] not in final_team and budget > position[i]['seasons'][0]['now_cost'] and configuration[position[i]['position']]['left'] > 0 and team_players_selected[position[i]['team_name']] < 3 and position[i]['status'] == 'a' and position[i] not in donot_consider and position[i] not in selected_players:
+            if budget_in_range(cover, budget - position[i]["seasons"][0]["now_cost"]):
+                if position[i] not in final_team and budget > position[i]["seasons"][0]["now_cost"] and configuration[position[i]["position"]]["left"] > 0 and team_players_selected[position[i]["team_name"]] < 3 and position[i]["status"] == "a" and position[i] not in donot_consider and position[i] not in selected_players:
             
                     selected_players.append(position[i])
             
@@ -255,33 +257,32 @@ def select_player_from(position, final_team, configuration, budget, team_players
 
 
 # load the all the players for team selection
-with open(f'data/final_players_sorted.json', 'r') as f:
-    players = json.load(f)
+players = load_data("final_players_sorted.json", "data")
 
 
 # get range limits for each kind of variable
 limit = {
-    'cost_limit': np.var([player['seasons'][0]['now_cost'] for player in players]),
-    'consistency_limit': np.var([player['consistency_overall'] for player in players]) * 100,
-    'final_value_limit': np.var([player['final_value'] for player in players]) / 1000,
-    'value_points_limit': np.var([player['value_points'] for player in players]) * 100,
-    'variance_points_limit': np.var([player['fer'] for player in players]) * 100,
+    "cost_limit": np.var([player["seasons"][0]["now_cost"] for player in players]),
+    "consistency_limit": np.var([player["consistency_overall"] for player in players]) * 100,
+    "final_value_limit": np.var([player["final_value"] for player in players]) / 1000,
+    "value_points_limit": np.var([player["value_points"] for player in players]) * 100,
+    "variance_points_limit": np.var([player["fer"] for player in players]) * 100,
 }
 
 
 # select players according to their playing positions
-goalkeepers = [player for player in players if player['position'] == 'Goalkeeper']
-forwards = [player for player in players if player['position'] == 'Forward']
-midfielders = [player for player in players if player['position'] == 'Midfielder']
-defenders = [player for player in players if player['position'] == 'Defender']
+goalkeepers = [player for player in players if player["position"] == "Goalkeeper"]
+forwards = [player for player in players if player["position"] == "Forward"]
+midfielders = [player for player in players if player["position"] == "Midfielder"]
+defenders = [player for player in players if player["position"] == "Defender"]
 
 
 def get_best_playing_11_points(final_team):
-    '''
+    """
     Select the best playing eleven with the most suitable formation and returns the estimated points of the team at the end of the season.
-    '''
+    """
 
-    final_team = sorted(final_team, key=lambda k: k['final_value'], reverse=True)
+    final_team = sorted(final_team, key=lambda k: k["final_value"], reverse=True)
     formations = variables.formations()
 
     max_points = 0
@@ -292,9 +293,9 @@ def get_best_playing_11_points(final_team):
         playing_team = []
         for player in final_team:
             
-            if formation[player['position']] > 0:
+            if formation[player["position"]] > 0:
                 playing_team.append(player)
-                formation[player['position']] -= 1
+                formation[player["position"]] -= 1
 
         points = get_estimated_points(playing_team)
 
@@ -304,49 +305,32 @@ def get_best_playing_11_points(final_team):
     return max_points
 
 
-def save(final_team, max_points):
-    '''
-    Write the final results onto a file.
-    '''
-    
-    with open('final_results.txt', 'w', encoding='UTF-8') as f:
-        f.write(f'Team\'s Budget:\n{variables.BUDGET}\n\n')
-        f.write(f'Team\'s Cost:\n{get_team_cost(final_team)}\n\n')
-        f.write(f'Cost in Hand:\n{round(variables.BUDGET - get_team_cost(final_team),1)}\n\n')
-        f.write(f'Team\'s Strength:\n{len(final_team)}\n\n')
-        f.write(f'Estimated Points:\n{max_points}\n\n')
-        f.write('Final Team:')
-        f.write(f'{display_team(final_team)}')
-
-
 def get_player_cost(player_name):
-    '''
-    Gets the player's cost.
-    '''
+    """
+    Gets the player"s cost.
+    """
 
     for player in players:
-        if player['full_name'] == player_name:
-            return player['seasons'][0]['now_cost']
+        if player["full_name"] == player_name:
+            return player["seasons"][0]["now_cost"]
     return 0
 
 
 def create_team(omit_player=None, iterations = variables.ITERATIONS, display=True):
-    '''
+    """
     Creates the final squad of 15 players and gives an estimated points at the end of the season.
-    '''
+    """
     
-    positions = ['Forward']*3 + ['Midfielder']*5 + ['Defender']*5 + ['Goalkeeper']*2
+    positions = ["Forward"]*3 + ["Midfielder"]*5 + ["Defender"]*5 + ["Goalkeeper"]*2
     
     main_players = variables.main_players()
-
+    
     for player in players:
-        if player['full_name'] in main_players and player['full_name'] != omit_player:
-            positions.remove(player['position'])
+        if player["full_name"] in main_players and player["full_name"] != omit_player:
+            positions.remove(player["position"])
 
     best_team = []
     max_points = -1
-    
-    last = time()
 
     for x in range(iterations):
         
@@ -356,28 +340,28 @@ def create_team(omit_player=None, iterations = variables.ITERATIONS, display=Tru
         final_team = []
         donot_consider = []
 
-        # add players to the final_team that are user's favorite
+        # add players to the final_team that are user"s favorite
         main_players = variables.main_players()
         for player in players:
-            if player['full_name'] in main_players and player['full_name'] != omit_player:
-                budget -= player['seasons'][0]['now_cost']
-                configuration[player['position']]['left'] -= 1
-                team_players_selected[player['team_name']] += 1
+            if player["full_name"] in main_players and player["full_name"] != omit_player:
+                budget -= player["seasons"][0]["now_cost"]
+                configuration[player["position"]]["left"] -= 1
+                team_players_selected[player["team_name"]] += 1
                 final_team.append(player)
 
         # add players, which user is not interesed in, to donot consider
         not_interested = variables.not_interested()
         for player in players:
-            if player['full_name'] in not_interested:
+            if player["full_name"] in not_interested:
                 donot_consider.append(player)
 
         shuffle(positions)
 
         for p in positions:
             player = select_player_from(p, final_team, configuration, budget, team_players_selected, donot_consider, 1)
-            budget -= player['seasons'][0]['now_cost']
-            configuration[player['position']]['left'] -= 1
-            team_players_selected[player['team_name']] += 1
+            budget -= player["seasons"][0]["now_cost"]
+            configuration[player["position"]]["left"] -= 1
+            team_players_selected[player["team_name"]] += 1
             final_team.append(player)
 
         points = get_best_playing_11_points(final_team)
@@ -390,9 +374,9 @@ def create_team(omit_player=None, iterations = variables.ITERATIONS, display=Tru
 
 
 def get_transfers():
-    '''
-    Get's the best single transfer.
-    '''
+    """
+    Get"s the best single transfer.
+    """
 
     current_team_expected_points = create_team(iterations=1)[1]
     main_players = variables.main_players()
@@ -408,44 +392,50 @@ def get_transfers():
             max_points = points
 
         for player in best_team:
-            if player['full_name'] not in main_players:
+            if player["full_name"] not in main_players:
                 best_transfers.append(
                     {
-                        'out': {
-                            'name': omit_player,
-                            'cost': get_player_cost(omit_player),
+                        "out": {
+                            "name": omit_player,
+                            "cost": get_player_cost(omit_player),
                         },
-                        'in': {
-                            'name': player['full_name'],
-                            'cost': get_player_cost(player['full_name']),
+                        "in": {
+                            "name": player["full_name"],
+                            "cost": get_player_cost(player["full_name"]),
                         },
-                        'points': points,
-                        'g/l': points - current_team_expected_points, 
+                        "points": points,
+                        "g/l": points - current_team_expected_points, 
                     }
                 )
                 break
     
-    best_transfers = sorted(best_transfers, key=lambda k: (-k['points']))
-
+    best_transfers = sorted(best_transfers, key=lambda k: (-k["points"]))
     return best_transfers
 
 
 def main():
-    '''
+    """
     Main function of ai.py
-    '''
-    
+    """
+
     # get transfers
     transfers = get_transfers()
-    print(f'Evaluated {len(transfers)} transfers.')
+    print(f"Evaluated {len(transfers)} transfers.\n")
+    
+    # write a CLI response
+    for transfer in transfers:
+        print(transfer['out']['name'], transfer['out']['cost'])
+        print(transfer['in']['name'], transfer['in']['cost'])
+        print(transfer['g/l'])
+        print('-------')
     
     # generate response to be sent
     response = html_response(transfers)
 
     # send email
-    send_email(response)
-    print(f'Email sent.')
+    # send_email(response)
+    # print(f"Email sent.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

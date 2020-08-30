@@ -1,3 +1,4 @@
+from helpers import save_data, load_data, get_next_gameweek_id
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
@@ -8,8 +9,9 @@ import os
 import json
 
 
-with open(f'data/gameweeks.json', 'r') as f:
-    gameweeks = json.load(f)
+gameweeks = load_data("gameweeks.json", "data/original")
+# with open(f'data/gameweeks.json', 'r') as f:
+#     gameweeks = json.load(f)
 
 
 def get_cron_date(date):
