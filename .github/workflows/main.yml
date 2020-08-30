@@ -2,19 +2,15 @@ name: Notifications
 
 on:
   schedule:
-  - cron: '30 11 7 2 *'
-  - cron: '30 7 22 2 *'
-  - cron: '0 10 29 2 *'
-  - cron: '0 11 6 3 *'
-  - cron: '0 10 14 3 *'
-  - cron: '0 10 21 3 *'
-  - cron: '0 9 4 4 *'
-  - cron: '0 9 11 4 *'
-  - cron: '0 9 18 4 *'
-  - cron: '0 9 25 4 *'
-  - cron: '0 9 2 5 *'
-  - cron: '0 9 9 5 *'
-  - cron: '0 9 17 5 *'
+  - cron: '0 15 17 6 *'
+  - cron: '0 15 23 6 *'
+  - cron: '0 7 4 7 *'
+  - cron: '0 12 7 7 *'
+  - cron: '0 7 11 7 *'
+  - cron: '0 13 14 7 *'
+  - cron: '0 9 18 7 *'
+  - cron: '0 9 26 7 *'
+
 
 jobs:
   fetchDataAndRunAI:
