@@ -4,36 +4,6 @@ import json
 import os
 
 
-def progress():
-    """
-    Track progress for data visualisation.
-    """
-
-    gameweek = [f"gw{i}" for i in range(1, NEXT_EVENT)]
-    return [
-        {
-            "type": "Mine",
-            "points": [63, 95, 149, 199, 242, 308, 363, 405, 438, 475, 545, 614],
-            "gameweek": gameweek
-        },
-        {
-            "type": "FantasyAI",
-            "points": [65, 106, 171, 240, 301, 393, 455, 504, 542, 580, 670, 745],
-            "gameweek": gameweek
-        },
-        {
-            "type": "Highest",
-            "points": [142, 224, 286, 358, 421, 489, 530, 587, 633, 699, 775, 851],
-            "gameweek": gameweek
-        },
-        {
-            "type": "Average",
-            "points": [65, 106, 150, 207, 259, 311, 362, 398, 435, 484, 537, 585],
-            "gameweek": gameweek
-        },
-    ]
-
-
 def positions():
     """
     Returns the mapping for positions.

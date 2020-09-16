@@ -2,61 +2,37 @@ name: Notifications
 
 on:
   schedule:
-  - cron: '0 15 17 6 *'
-  - cron: '0 15 23 6 *'
-  - cron: '0 7 4 7 *'
-  - cron: '0 12 7 7 *'
-  - cron: '0 7 11 7 *'
-  - cron: '0 13 14 7 *'
-  - cron: '0 9 18 7 *'
-  - cron: '0 9 26 7 *'
-
+    - cron: '0 12 * * *'
 
 jobs:
   fetchDataAndRunAI:
-    
     env:
-      TEAM_ID: 4914864
+      TEAM_ID: 2087820
       REMOTE_BRANCH: master
       GMAIL_SENDER: ${{ secrets.GMAIL_SENDER }}
       GMAIL_RECEIVER: ${{ secrets.GMAIL_RECEIVER }}
       GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
 
     runs-on: ubuntu-latest
-    
+
     steps:
-    
-    - name: Checkout Repository
-      uses: actions/checkout@v1
-    
-    - name: Set up Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: '3.7.x'
-    
-    - name: Install PIP packages
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      - name: Checkout Repository
+        uses: actions/checkout@v1
 
-    - name: Run the App
-      run: |
-        cd src
-        python scraper.py ${TEAM_ID}
-        python data_cleaner.py
-        python data_maker.py
-        python ai.py
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.7.x'
 
-    - name: Configure Git
-      run: |
-        git config --global user.email ${GITHUB_ACTOR}@gmail.com
-        git config --global user.name ${GITHUB_ACTOR}
-    
-    - name: Commit and Push
-      run: |
-        cd src
-        gameweek_id=`python notify.py`
-        cd ..
-        git add .
-        git commit -m "gh-actions added gw${gameweek_id} data"
-        git push --force https://${GITHUB_ACTOR}:${{secrets.GITHUB_TOKEN}}@github.com/${GITHUB_REPOSITORY}.git HEAD:${REMOTE_BRANCH}
+      - name: Install PIP packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run the App
+        run: |
+          cd src
+          python scraper.py ${TEAM_ID}
+          python data_cleaner.py
+          python data_maker.py
+          python ai.py
