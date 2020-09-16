@@ -1,14 +1,9 @@
 # Fantasy AI
 
-<<<<<<< HEAD
 [![Workflow Status](https://github.com/ravgeetdhillon/fantasyAI/workflows/Notifications/badge.svg)](https://github.com/ravgeetdhillon/fantasyAI/actions)
-=======
-[![Workflow Status](https://github.com/ravgeetdhillon/fantasyAI/workflows/Run%20AI%20and%20Notify/badge.svg)](https://github.com/ravgeetdhillon/fantasyAI/actions)
-[![Workflow Status](https://github.com/ravgeetdhillon/fantasyAI/workflows/Test/badge.svg)](https://github.com/ravgeetdhillon/fantasyAI/actions)
->>>>>>> d6d3a9857f9452307ac988e8fe44b0a5f79a9e2b
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ravgeetdhillon/fantasyAI/blob/master/LICENSE)
 
-AI for [my Fantasy Premier League team](https://fantasy.premierleague.com/entry/4914864/history).
+AI for [my Fantasy Premier League team](https://fantasy.premierleague.com/entry/2087820/history).
 
 ![Fantasy AI Art Cover by Ravgeet Dhillon](assets/fantasy-ai.png)
 

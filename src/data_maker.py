@@ -18,7 +18,7 @@ for season in all_seasons:
         "all_players_effective_total_points": 0,
         "all_players_minutes": 0
     }
-    
+
 
 # read files for getting the data about players, teams and fixtures
 teams = load_data("filtered_teams.json", "data")
@@ -39,7 +39,7 @@ for team in teams:
             fer.append(1 - 0.1 * fixture["team_h_difficulty"])
         if len(fer) == 5:
             break
-    
+
     team["fer"] = fer
     team["fer_points"] = np.mean(fer) * (1 - np.var(fer))
     avg_fer_points += team["fer_points"]
@@ -55,12 +55,12 @@ save_data(teams, "teams_cleaned.json", "data")
 
 
 # generate the desired data for each player for each season.
-max_consistency= {}
+max_consistency = {}
 for season in all_seasons:
     max_consistency[season] = 0
 
 
-for player in players:    
+for player in players:
     # get player's position
     player["position"] = positions[player["element_type"]]
     player["value_points"] = 0
@@ -133,8 +133,10 @@ for player in players:
 
 # calculate all the required season stats for player comparison
 for season in all_seasons:
-    league_data[season]["avg_effective_total_points_per_player"] = league_data[season]["all_players_effective_total_points"] / league_data[season]["total_players"]
-    league_data[season]["avg_minutes_per_player"] = league_data[season]["all_players_minutes"] / league_data[season]["total_players"]
+    league_data[season]["avg_effective_total_points_per_player"] = league_data[season]["all_players_effective_total_points"] / \
+        league_data[season]["total_players"]
+    league_data[season]["avg_minutes_per_player"] = league_data[season]["all_players_minutes"] / \
+        league_data[season]["total_players"]
     if season == variables.CURRENT_SEASON:
         league_data[season]["avg_minutes_per_player"] /= (next_event - 1)
     else:
@@ -170,10 +172,12 @@ for player in players:
 for player in players:
     value = 0
     for season in player["seasons"]:
-        season["value"] = season["effective_total_points"] / league_data[season["season"]]["avg_effective_total_points_per_player"]
+        season["value"] = season["effective_total_points"] / \
+            league_data[season["season"]]["avg_effective_total_points_per_player"]
         value += season["value"] * season["season_factor"]
 
-    player["final_value"] = 53 * value + 27 * player["fer"] + 13.5 * player["consistency_overall"] + 9.5 * player["value_points"]
+    player["final_value"] = 53 * value + 27 * player["fer"] + 13.5 * \
+        player["consistency_overall"] + 9.5 * player["value_points"]
     player["final_value_per_cost"] = player["final_value"] / player["seasons"][0]["now_cost"]
 
 # sort the players according to their value

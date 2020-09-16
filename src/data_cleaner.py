@@ -38,15 +38,15 @@ def clean_players_data():
         # divide stats according to the season
         stats_headers = ["minutes", "total_points",
                          "points_per_game", "now_cost", "history"]
-        
+
         for season in all_seasons:
             player_season_stats = {"season": season}
             for header in stats_headers:
                 player_season_stats[header] = player[header]
                 del player[header]
-            
+
         player["seasons"] = [player_season_stats]
-        
+
         # calculate the net points only, remove the playing points
         for season in player["seasons"]:
             player_gw_history = []
@@ -59,14 +59,15 @@ def clean_players_data():
                     else:
                         net_points = gw["total_points"]
                     player_gw_history.append(net_points)
-        
+
         season["gw_history"] = player_gw_history
         del season["history"]
 
         filtered_players.append(player)
 
     # only retain the players who have played atleast one minute in the season
-    filtered_players = [player for player in filtered_players if (player["seasons"][0]["minutes"] > 0 and player["seasons"][0]["total_points"] > 0 and len(player["seasons"][0]["gw_history"]) != 0)]
+    filtered_players = [player for player in filtered_players if (
+        player["seasons"][0]["minutes"] > 0 and player["seasons"][0]["total_points"] > 0 and len(player["seasons"][0]["gw_history"]) != 0)]
 
     # save the data in a JSON file
     save_data(filtered_players, "filtered_players.json", "data")

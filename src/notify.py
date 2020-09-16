@@ -4,7 +4,8 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import fileinput
 import variables
-import smtplib, ssl
+import smtplib
+import ssl
 import os
 import json
 
@@ -110,7 +111,7 @@ def html_response(transfers):
                 <td>{transfer['g/l']}</td>
             </tr>
         '''
-    
+
     response = f'''
         <!DOCTYPE html>
         <html>
@@ -133,10 +134,6 @@ def html_response(transfers):
             <br>
             <h3>Important Stats</h3>
             <p>Next <b>deadline</b> is <b>{get_deadline()}</b></p>
-            <p>Your <b>team value</b> is <b>£{variables.BUDGET}m</b></p>
-            <p>You have <b>£{variables.BANK}m</b> in your <b>bank</b></p>
-            <p>Your overall <b>rank</b> is <b>{variables.RANK}</b></p>
-            <p>Your current <b>points</b> are <b>{variables.CURRENT_POINTS}</b></p>
             <br>
             <a href="https://fantasy.premierleague.com/entry/{variables.TEAM_ID}/event/{get_gameweek()-1}" class="btn">Manage your team</a>
         </body>
@@ -159,7 +156,7 @@ def send_email(content):
     message['Subject'] = f'Fantasy AI - Gameweek {get_gameweek()}'
     message['From'] = sender_email
     message['To'] = receiver_email
-    
+
     # turn these into html MIMEText objects
     part = MIMEText(content, 'html')
 

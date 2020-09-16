@@ -9,6 +9,36 @@ import numpy as np
 
 # initialize the global variables
 next_event = get_next_gameweek_id()
+team = load_data("user_team.json", "data/original")
+players = load_data("filtered_players.json", "data")
+INTERESTED = []
+for pick in team['picks']:
+    for player in players:
+        if pick['element'] == player['id']:
+            INTERESTED.append(player['full_name'])
+            break
+
+NOT_INTERESTED = []
+BANK = team['entry_history']['bank'] / 10
+RANK = team['entry_history']['overall_rank']
+BUDGET = team['entry_history']['value'] / 10
+CURRENT_POINTS = team['entry_history']['total_points']
+
+
+def get_main_players():
+    """
+    Returns the players that a manager is interested in.
+    """
+
+    return INTERESTED
+
+
+def get_not_interested():
+    """
+    Returns the players that a manager is not interested in.
+    """
+
+    return NOT_INTERESTED
 
 
 def display_team(team):
@@ -45,7 +75,7 @@ def get_estimated_points(team):
     for player in team:
         points += player["seasons"][0]["total_points"]
 
-    return variables.CURRENT_POINTS + round(points * (38 - (next_event-1)) / (next_event-1))
+    return CURRENT_POINTS + round(points * (38 - (next_event-1)) / (next_event-1))
 
 
 def get_team_cost(team):
@@ -334,7 +364,7 @@ def create_team(omit_player=None, iterations=variables.ITERATIONS, display=True)
     positions = ["Forward"]*3 + ["Midfielder"] * \
         5 + ["Defender"]*5 + ["Goalkeeper"]*2
 
-    main_players = variables.main_players()
+    main_players = get_main_players()
 
     for player in players:
         if player["full_name"] in main_players and player["full_name"] != omit_player:
@@ -346,13 +376,13 @@ def create_team(omit_player=None, iterations=variables.ITERATIONS, display=True)
     for x in range(iterations):
 
         configuration = variables.configuration()
-        budget = variables.BUDGET
+        budget = BUDGET
         team_players_selected = variables.team_players_selected()
         final_team = []
         donot_consider = []
 
         # add players to the final_team that are user"s favorite
-        main_players = variables.main_players()
+        main_players = get_main_players()
         for player in players:
             if player["full_name"] in main_players and player["full_name"] != omit_player:
                 budget -= player["seasons"][0]["now_cost"]
@@ -361,7 +391,7 @@ def create_team(omit_player=None, iterations=variables.ITERATIONS, display=True)
                 final_team.append(player)
 
         # add players, which user is not interesed in, to donot consider
-        not_interested = variables.not_interested()
+        not_interested = get_not_interested()
         for player in players:
             if player["full_name"] in not_interested:
                 donot_consider.append(player)
@@ -391,12 +421,12 @@ def get_transfers():
     """
 
     current_team_expected_points = create_team(iterations=1)[1]
-    main_players = variables.main_players()
+    main_players = get_main_players()
 
     max_points = -1
     best_transfers = []
 
-    for y in range(15):
+    for y in range(len(main_players)):
         omit_player = main_players[y]
         best_team, points = create_team(
             omit_player, iterations=1, display=False)
@@ -446,8 +476,8 @@ def main():
     response = html_response(transfers)
 
     # send email
-    # send_email(response)
-    # print(f"Email sent.")
+    send_email(response)
+    print(f"Email sent.")
 
 
 if __name__ == "__main__":

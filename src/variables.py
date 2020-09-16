@@ -11,43 +11,27 @@ def progress():
 
     gameweek = [f"gw{i}" for i in range(1, NEXT_EVENT)]
     return [
-        {    
+        {
             "type": "Mine",
-            "points": [63,95,149,199,242,308,363,405,438,475,545,614],
+            "points": [63, 95, 149, 199, 242, 308, 363, 405, 438, 475, 545, 614],
             "gameweek": gameweek
         },
-        {    
+        {
             "type": "FantasyAI",
-            "points": [65,106,171,240,301,393,455,504,542,580,670,745],
+            "points": [65, 106, 171, 240, 301, 393, 455, 504, 542, 580, 670, 745],
             "gameweek": gameweek
         },
         {
             "type": "Highest",
-            "points" : [142,224,286,358,421,489,530,587,633,699,775,851],
+            "points": [142, 224, 286, 358, 421, 489, 530, 587, 633, 699, 775, 851],
             "gameweek": gameweek
         },
-        {    
+        {
             "type": "Average",
-            "points": [65,106,150,207,259,311,362,398,435,484,537,585],
+            "points": [65, 106, 150, 207, 259, 311, 362, 398, 435, 484, 537, 585],
             "gameweek": gameweek
         },
     ]
-
-
-def main_players():
-    """
-    Returns the players that a manager is interested in.
-    """
-
-    return INTERESTED
-
-
-def not_interested():
-    """
-    Returns the players that a manager is not interested in.
-    """
-
-    return NOT_INTERESTED
 
 
 def positions():
@@ -114,12 +98,11 @@ def formations():
     ]
 
 
-
 def configuration():
     """
     Returns the maximum allowed players for a particular position.
     """
-    
+
     return {
         "Goalkeeper": {
             "left": 2
@@ -148,15 +131,15 @@ def team_players_selected():
 
     for team in teams:
         team_players_selected[team["name"]] = 0
-    
+
     return team_players_selected
 
 
 # seasons to consider for data collection
-ALL_SEASONS = ["2019-20"]
+ALL_SEASONS = ["2020-21"]
 
 # ongoing season
-CURRENT_SEASON = "2019-20"
+CURRENT_SEASON = "2020-21"
 
 # number of random teams to search
 ITERATIONS = 1
@@ -170,19 +153,4 @@ PASSWORD = os.environ.get("GMAIL_PASS")
 NOTIFY_BEFORE = 4
 
 # user's team id
-TEAM_ID = 4914864
-
-team = load_data("user_team.json", "data/original")
-players = load_data("filtered_players.json", "data")
-INTERESTED = []
-for pick in team['picks']:
-    for player in players:
-        if pick['element'] == player['id']:
-            INTERESTED.append(player['full_name'])
-            break
-
-NOT_INTERESTED = []
-BANK = team['entry_history']['bank'] / 10
-RANK = team['entry_history']['overall_rank']
-BUDGET = team['entry_history']['value'] / 10
-CURRENT_POINTS = team['entry_history']['total_points']
+TEAM_ID = 2087820

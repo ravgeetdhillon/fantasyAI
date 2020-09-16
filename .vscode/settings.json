@@ -1,0 +1,7 @@
+{
+  "python.pythonPath": "/home/ravgeetdhillon/Documents/github/fantasyAi/venv/bin/python3",
+  "python.linting.pylintArgs": ["--max-line-length=120"],
+  "python.formatting.autopep8Args": ["--max-line-length=120"],
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
+}
