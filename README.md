@@ -20,7 +20,3 @@ I'm not so sure about the performance of the AI and don't want to be over ambiti
 Checkout my [first 10 gameweeks progress](https://ravgeetdhillon.github.io/blog/fantasy-premier-league-with-data-science-and-ai-first-ten-gameweeks-review/) on my blog.
 
 You can follow me on [Twitter](https://twitter.com/ravgeetdhillon) for more updates about my progress. I tweet about my team selection and result every single gameweek.
-
-## Links
-
-For scraping the data from Fantasy Premier League website, this repository uses [https://github.com/vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League) by [https://github.com/vaastav](https://github.com/vaastav).
