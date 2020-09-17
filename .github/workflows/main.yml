@@ -2,7 +2,7 @@ name: Notifications
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '30 7 * * *'
 
 jobs:
   fetchDataAndRunAI:
